@@ -7,6 +7,7 @@ module.exports = {
         Main: "#3f76b1",
         MainLight: "#62B0E8",
         MainDark: "#102A43",
+        Sub: "#FCE588",
         // Palette 2
         // Primary
         "blue-050": "#DCEEFB",
