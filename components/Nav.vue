@@ -187,7 +187,7 @@ const user = {
 };
 const navigation = [
   { name: "Forside", href: "#", current: true },
-  { name: "Team", href: "#", current: false },
+  { name: "Om os", href: "#", current: false },
   { name: "Projects", href: "#", current: false },
   { name: "Calendar", href: "#", current: false },
 ];
