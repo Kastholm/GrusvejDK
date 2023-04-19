@@ -19,8 +19,10 @@
               We’re a passionate group of people working from around the world
               to build the future of ecommerce.
             </h1>
-            <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p class="text-lg leading-8 text-gray-600">
+            <div
+              class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 bg-MainLight"
+            >
+              <p class="text-lg leading-8 text-gray-600 bg-Main">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
