@@ -12,7 +12,8 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "endWin": "node commands/commit-and-push.js"
+    "commit": "node commands/auto-push-commit.js",
+    "endWin": "node commands/end-push-commit.js"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.6",
