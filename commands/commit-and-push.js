@@ -12,7 +12,7 @@ rl.question("Enter the commit message: ", (commitMessage) => {
     "git add .",
     `git commit -m "${commitMessage}"`,
     "git push",
-    "rmdir /s /q node_modules",
+    "rmdir /s /q ../node_modules",
     "taskkill /F /IM code.exe",
   ];
 
