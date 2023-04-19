@@ -11,7 +11,7 @@
 <style>
 @import url("https://use.typekit.net/rwl1ktr.css");
 /* Styling af Scrollbar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   @apply w-2;
 }
 ::-webkit-scrollbar-track {
@@ -19,7 +19,7 @@
 }
 ::-webkit-scrollbar-thumb {
   @apply bg-cyangreen;
-}
+} */
 /* Responsive tags der ændrer størrelse udfra skørmstørrelse */
 /* 640px smaller */
 @media screen and (max-width: 31em) {

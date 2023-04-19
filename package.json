@@ -2,23 +2,27 @@
   "name": "nuxt-app",
   "private": true,
   "scripts": {
+    "default": "npm i dotenv && npm i --save-dev @nuxtjs/tailwindcss && npm i @headlessui/vue && npm i @heroicons/vue && npm i @nuxtjs/composition-api ",
     "preinit": "node preinit.js",
     "init": "git init && git add . && git commit -m 'Initialising' && git branch -M main",
     "postinit": "git remote add origin https://github.com/Kastholm/GrusvejDK.git && git push --set-upstream origin main",
     "build": "nuxt build",
     "predev": "git pull && npm i && npm cache verify",
     "dev": "nuxt dev",
-    "postdev": "echo 'Nuxt dev server started'",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "endWin": "git add . && git commit -m 'optimizing' && git push && rmdir /s /q node_modules && taskkill /F /IM code.exe"
+    "endWin": "node commit-and-push.js"
   },
   "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
     "nuxt": "^3.4.1"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.13",
+    "@heroicons/vue": "^2.0.17",
+    "@nuxtjs/composition-api": "^0.33.1",
     "dotenv": "^16.0.3"
   }
 }
