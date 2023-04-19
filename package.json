@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "preinit": "node preinit.js",
+    "init": "git init && git add . && git commit -m 'Initialising' && git branch -M main",
+    "postinit": "git remote add origin https://github.com/Kastholm/GrusvejDK.git && git push --set-upstream origin main",
+    "build": "nuxt build",
+    "predev": "git pull && npm i && npm cache verify",
+    "dev": "nuxt dev",
+    "postdev": "echo 'Nuxt dev server started'",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "endWin": "git add . && git commit -m 'optimizing' && git push && rmdir /s /q node_modules && taskkill /F /IM code.exe"
+  },
+  "devDependencies": {
+    "@types/node": "^18",
+    "nuxt": "^3.4.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3"
+  }
+}
