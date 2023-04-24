@@ -183,9 +183,10 @@ const user = {
 };
 const navigation = [
   { name: "Forside", href: "/", current: true },
-  { name: "Om os", href: "/about", current: false },
-  { name: "Projects", href: "/page", current: false },
-  { name: "Calendar", href: "/page", current: false },
+  { name: "Dustex", href: "/about", current: false },
+  { name: "Stenknuser", href: "/page", current: false },
+  { name: "profil stamper", href: "/page", current: false },
+  { name: "maskine 4", href: "/page", current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },
