@@ -40,17 +40,17 @@
         />
       </div>
 
-      <!-- Timeline section -->
+      <!-- arbejdssteps section -->
       <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
         <center><p class="mb-5 font-bold text-3xl font-serif"> Hvad kan du forvente når du bestiller os til opgaven? </p></center>
         <div
           class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4 mt-10"
         >
         
-          <div v-for="item in timeline" :key="item.name">
+          <div v-for="item in arbejdssteps" :key="item.name">
             <time
               :datetime="item.dateTime"
-              class="flex items-center text-sm font-semibold leading-6 text-indigo-600"
+              class="flex items-center text-sm font-semibold leading-6 text-indigo-600 font-serif"
             >
               <svg
                 viewBox="0 0 4 4"
@@ -92,45 +92,7 @@
             occaecat labore proident cillum in nisi adipisicing officia
             excepteur tempor deserunt.
           </p>
-          <div
-            class="mx-auto mt-20 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-12 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 sm:gap-y-14 lg:max-w-4xl lg:grid-cols-5"
-          >
-            <img
-              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/transistor-logo-white.svg"
-              alt="Transistor"
-              width="158"
-              height="48"
-            />
-            <img
-              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/reform-logo-white.svg"
-              alt="Reform"
-              width="158"
-              height="48"
-            />
-            <img
-              class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/tuple-logo-white.svg"
-              alt="Tuple"
-              width="158"
-              height="48"
-            />
-            <img
-              class="col-span-2 max-h-12 w-full object-contain sm:col-start-2 lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/savvycal-logo-white.svg"
-              alt="SavvyCal"
-              width="158"
-              height="48"
-            />
-            <img
-              class="col-span-2 col-start-2 max-h-12 w-full object-contain sm:col-start-auto lg:col-span-1"
-              src="https://tailwindui.com/img/logos/158x48/statamic-logo-white.svg"
-              alt="Statamic"
-              width="158"
-              height="48"
-            />
-          </div>
+          
           <div
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
             aria-hidden="true"
@@ -263,7 +225,7 @@
               <p class="text-lg font-semibold tracking-tight text-gray-900">
                 Users on the platform
               </p>
-              <p class="mt-2 text-base leading-7 text-gray-600">
+              <p class="mt-2 text-base leading-7 text-gray-900">
                 Vel labore deleniti veniam consequuntur sunt nobis.
               </p>
             </div>
@@ -273,7 +235,7 @@
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
-              90.000 km grusvej er lagt forkert i Danmark
+              90.000 km grusvej er anlagt forkert i Danmark
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
               <p class="text-lg font-semibold tracking-tight text-white">
@@ -287,16 +249,16 @@
           </div>
           <!-- card 3 -->
           <div
-            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-minOrange p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
-            <p class="flex-none text-3xl font-bold tracking-tight text-white">
+            <p class="flex-none text-3xl font-bold tracking-tight text-gray-900">
               Vores grusvej holder i +5 år uden dannelse af huller mm.
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-white">
+              <p class="text-lg font-semibold tracking-tight text-gray-900">
                 Transactions this year
               </p>
-              <p class="mt-2 text-base leading-7 text-indigo-200">
+              <p class="mt-2 text-base leading-7 text-gray-900">
                 Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu
                 duis porta aliquam ornare.
               </p>
@@ -388,7 +350,7 @@ import { defineComponent, h, ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
-const timeline = [
+const arbejdssteps = [
   {
     name: "Step 1 af arbejdet",
     description:
