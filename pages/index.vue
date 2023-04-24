@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-white">
+  <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
       <div
@@ -16,8 +16,7 @@
             <h1
               class="max-w-2xl text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl lg:col-span-2 xl:col-auto bg-Sub"
             >
-              We’re a passionate group of people working from around the world
-              to build the future of ecommerce.
+              Den her farve dur virkelig ikke Marc - den er super grim
             </h1>
             <div
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 bg-MainLight"
@@ -43,9 +42,11 @@
 
       <!-- Timeline section -->
       <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
+        <center><p class="mb-5 font-bold text-3xl font-serif"> Hvad kan du forvente når du bestiller os til opgaven? </p></center>
         <div
-          class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4"
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4 mt-10"
         >
+        
           <div v-for="item in timeline" :key="item.name">
             <time
               :datetime="item.dateTime"
@@ -84,7 +85,7 @@
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
           >
-            Our customers love us
+            Se hvad der gør vores grusvej speciel sektion (noget grafik af lagene i vejen)
           </h2>
           <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
             Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit
@@ -171,7 +172,7 @@
               <h2
                 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
-                Our people
+                Stenknuser gør det nemt med gamle veje sektion (bæredygtigt)
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
                 Quasi est quaerat. Sit molestiae et. Provident ad dolorem
@@ -238,8 +239,7 @@
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
-            We approach the workplace as something that adds to our lives and
-            adds value to world.
+            Storytelling om generelle misforståelse ang. lægning af grusveje sektion (+90.000 km grusvej er forkert lagt i danmark...)
           </h2>
           <p class="mt-6 text-base leading-7 text-gray-600">
             Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est
@@ -247,16 +247,17 @@
             eu in id. Integer vel nibh.
           </p>
         </div>
+        <!-- card 1 -->
         <div
           class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
         >
           <div
-            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-50 p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start"
+            class=" bg-minOrange flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start "
           >
             <p
               class="flex-none text-3xl font-bold tracking-tight text-gray-900"
             >
-              250k
+              Minimum vedligeholdelse
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
               <p class="text-lg font-semibold tracking-tight text-gray-900">
@@ -267,11 +268,12 @@
               </p>
             </div>
           </div>
+          <!-- card 2 -->
           <div
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
-              $8.9 billion
+              90.000 km grusvej er lagt forkert i Danmark
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
               <p class="text-lg font-semibold tracking-tight text-white">
@@ -283,11 +285,12 @@
               </p>
             </div>
           </div>
+          <!-- card 3 -->
           <div
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-indigo-600 p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
-              401,093
+              Vores grusvej holder i +5 år uden dannelse af huller mm.
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
               <p class="text-lg font-semibold tracking-tight text-white">
@@ -301,7 +304,7 @@
           </div>
         </div>
       </div>
-
+<!-- cards slut -->
       <!-- Content section -->
       <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div
@@ -311,7 +314,7 @@
             <h2
               class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             >
-              We’re always looking for awesome people to join us
+              Hos Grusvej.dk kan du få helårligt abonnement til din grusvej - slip for skader på bil mm. og tænk aldrig på vedligeholdelsen igen
             </h2>
             <p class="mt-6 text-xl leading-8 text-gray-600">
               Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est
@@ -326,7 +329,7 @@
           </div>
           <div class="w-full lg:max-w-xl lg:flex-auto">
             <h3 class="sr-only">Job openings</h3>
-            <ul class="-my-8 divide-y divide-gray-100">
+            <ul class="-my-28 divide-y divide-gray-100">
               <li v-for="opening in jobOpenings" :key="opening.id" class="py-8">
                 <dl class="relative flex flex-wrap gap-x-3">
                   <dt class="sr-only">Role</dt>
@@ -369,8 +372,8 @@
             <div class="mt-8 flex border-t border-gray-100 pt-8">
               <a
                 href="#"
-                class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
-                >View all openings <span aria-hidden="true">&rarr;</span></a
+                class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500 pt-3"
+                >Se mere om vores abonnementer her  <span aria-hidden="true">&rarr;</span></a
               >
             </div>
           </div>
@@ -387,61 +390,59 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
 const timeline = [
   {
-    name: "Founded company",
+    name: "Step 1 af arbejdet",
     description:
       "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.",
-    date: "Aug 2021",
+    date: "step 1",
     dateTime: "2021-08",
   },
   {
-    name: "Secured $65m in funding",
+    name: "Step 2 af arbejdet",
     description:
       "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.",
-    date: "Dec 2021",
+    date: "step 2",
     dateTime: "2021-12",
   },
   {
-    name: "Released beta",
+    name: "Step 3 af arbejdet",
     description:
       "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-    date: "Feb 2022",
+    date: "step 3",
     dateTime: "2022-02",
   },
   {
-    name: "Global launch of product",
+    name: "Step 4 af arbejdet",
     description:
       "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
-    date: "Dec 2022",
+    date: "step 4",
     dateTime: "2022-12",
   },
 ];
 const jobOpenings = [
   {
     id: 1,
-    role: "Full-time designer",
+    role: "abonnement 1",
     href: "#",
     description:
       "Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.",
-    salary: "$75,000 USD",
-    location: "San Francisco, CA",
+    salary: "$$$ årligt",
+    
   },
   {
     id: 2,
-    role: "Laravel developer",
+    role: "abonnement 2",
     href: "#",
     description:
       "Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.",
-    salary: "$125,000 USD",
-    location: "San Francisco, CA",
+    salary: "$$$ årligt",
   },
   {
     id: 3,
-    role: "React Native developer",
+    role: "abonnement 3",
     href: "#",
     description:
       "Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.",
-    salary: "$105,000 USD",
-    location: "San Francisco, CA",
+    salary: "$$$ årligt",
   },
 ];
 

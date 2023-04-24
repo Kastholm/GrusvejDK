@@ -6,11 +6,7 @@
       <div class="relative flex h-16 justify-between">
         <div class="relative z-10 flex px-2 lg:px-0">
           <div class="flex flex-shrink-0 items-center">
-            <img
-              class="block h-8 w-auto"
-              src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-              alt="Your Company"
-            />
+            <!-- indsæt logo her -->
           </div>
         </div>
         <!-- <div
@@ -47,15 +43,6 @@
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
-        <div class="hidden lg:relative lg:z-10 lg:ml-4 lg:flex lg:items-center">
-          <button
-            type="button"
-            class="flex-shrink-0 rounded-full bg-white p-1 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-          >
-            <span class="sr-only">View notifications</span>
-            <BellIcon class="h-6 w-6" aria-hidden="true" />
-          </button>
-
           <!-- Profile dropdown -->
           <Menu as="div" class="relative ml-4 flex-shrink-0">
             <div>
@@ -63,7 +50,6 @@
                 class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
               >
                 <span class="sr-only">Open user menu</span>
-                <img class="h-8 w-8 rounded-full" :src="user.imageUrl" alt="" />
               </MenuButton>
             </div>
             <transition
@@ -88,7 +74,6 @@
               </MenuItems>
             </transition>
           </Menu>
-        </div>
       </div>
       <nav class="hidden lg:flex lg:space-x-8 lg:py-2" aria-label="Global">
         <NuxtLink
@@ -187,6 +172,8 @@ const navigation = [
   { name: "Stenknuser", href: "/page", current: false },
   { name: "profil stamper", href: "/page", current: false },
   { name: "maskine 4", href: "/page", current: false },
+  { name: "Abonnementer", href: "/page", current: false },
+  
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },

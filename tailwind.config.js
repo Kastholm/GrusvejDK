@@ -8,6 +8,7 @@ module.exports = {
         MainLight: "#62B0E8",
         MainDark: "#102A43",
         Sub: "#FCE588",
+        
         // Palette 2
         // Primary
         "blue-050": "#DCEEFB",
@@ -66,8 +67,19 @@ module.exports = {
         "red-700": "#911111",
         "red-800": "#780A0A",
         "red-900": "#610404",
+
+        // Logo farver
+        "orange": "#f9b039",
+        
       },
     },
   },
   plugins: [],
+};
+module.exports = {
+  theme: {
+    fontFamily: {
+      sans: ['sans-serif']
+    }
+  }
 };
