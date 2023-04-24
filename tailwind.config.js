@@ -69,17 +69,10 @@ module.exports = {
         "red-900": "#610404",
 
         // Logo farver
-        "orange": "#f9b039",
+        "minOrange": "#f9b039",
         
       },
     },
   },
   plugins: [],
-};
-module.exports = {
-  theme: {
-    fontFamily: {
-      sans: ['sans-serif']
-    }
-  }
 };
