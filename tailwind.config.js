@@ -6,9 +6,9 @@ module.exports = {
       colors: {
         // Grusvej.dk farver
         // Main farve - pt blå
-        MainColor: "#3f76b1",
+        MainColor: "#FFF3C4",
         // Lyseblå
-        MainColorLight: "#62B0E8",
+        MainColorLight: "#FFF3C4",
         MainColorDark: "#102A43",
         //Logo Orange
         SubColor: "#ebb541",

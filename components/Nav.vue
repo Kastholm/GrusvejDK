@@ -7,7 +7,11 @@
         <div class="relative z-10 flex px-2 lg:px-0">
           <div class="flex flex-shrink-0 items-center">
             <!-- indsæt logo her -->
-            <img src="https://i.ibb.co/0KdRF98/Grusvej-logo-150x71px-1.png" alt="Grusvej-logo-150x71px-1" border="0">
+            <img
+              src="https://i.ibb.co/0KdRF98/Grusvej-logo-150x71px-1.png"
+              alt="Grusvej-logo-150x71px-1"
+              border="0"
+            />
           </div>
         </div>
         <!-- <div
@@ -44,37 +48,37 @@
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
-          <!-- Profile dropdown -->
-          <Menu as="div" class="relative ml-4 flex-shrink-0">
-            <div>
-              <MenuButton
-                class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-              >
-                <span class="sr-only">Open user menu</span>
-              </MenuButton>
-            </div>
-            <transition
-              enter-active-class="transition ease-out duration-100"
-              enter-from-class="transform opacity-0 scale-95"
-              enter-to-class="transform opacity-100 scale-100"
-              leave-active-class="transition ease-in duration-75"
-              leave-from-class="transform opacity-100 scale-100"
-              leave-to-class="transform opacity-0 scale-95"
+        <!-- Profile dropdown -->
+        <Menu as="div" class="relative ml-4 flex-shrink-0">
+          <div>
+            <MenuButton
+              class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
-              <MenuItems
-                class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-              >
-                <MenuItem v-for="item in userNavigation" :key="item.name">
-                  <NuxtLink
-                    :to="item.href"
-                    :class="['block px-4 py-2 text-sm text-gray-700']"
-                    >{{ item.name }}</NuxtLink
-                  >
-                  <p>da</p>
-                </MenuItem>
-              </MenuItems>
-            </transition>
-          </Menu>
+              <span class="sr-only">Open user menu</span>
+            </MenuButton>
+          </div>
+          <transition
+            enter-active-class="transition ease-out duration-100"
+            enter-from-class="transform opacity-0 scale-95"
+            enter-to-class="transform opacity-100 scale-100"
+            leave-active-class="transition ease-in duration-75"
+            leave-from-class="transform opacity-100 scale-100"
+            leave-to-class="transform opacity-0 scale-95"
+          >
+            <MenuItems
+              class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
+            >
+              <MenuItem v-for="item in userNavigation" :key="item.name">
+                <NuxtLink
+                  :to="item.href"
+                  :class="['block px-4 py-2 text-sm text-gray-700']"
+                  >{{ item.name }}</NuxtLink
+                >
+                <p>da</p>
+              </MenuItem>
+            </MenuItems>
+          </transition>
+        </Menu>
       </div>
       <nav class="hidden lg:flex lg:space-x-8 lg:py-2" aria-label="Global">
         <NuxtLink
@@ -88,7 +92,6 @@
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
         >
-        
       </nav>
     </div>
 
@@ -169,12 +172,11 @@ const user = {
 };
 const navigation = [
   { name: "Forside", href: "/", current: true },
-  { name: "Dustex", href: "/about", current: false },
-  { name: "Stenknuser", href: "/page", current: false },
-  { name: "profil stamper", href: "/page", current: false },
-  { name: "maskine 4", href: "/page", current: false },
-  { name: "Abonnementer", href: "/page", current: false },
-  
+  { name: "Dustex", href: "/dustex", current: false },
+  { name: "Stenknuser", href: "/stenknuser", current: false },
+  { name: "profil stamper", href: "/profilstamper", current: false },
+  { name: "maskine 4", href: "/maskine4", current: false },
+  { name: "Abonnementer", href: "/abonnementer", current: false },
 ];
 const userNavigation = [
   { name: "Your Profile", href: "#" },
