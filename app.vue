@@ -8,8 +8,6 @@
 import { defineComponent } from "@vue/composition-api";
 import dotenv from "dotenv";
 </script>
-<<<<<<< HEAD
-=======
 
 <style>
 /* Henter fonts fra Adobe Typekit (https://fonts.adobe.com/fonts/futura-pt-condensed) og Open Sans (https://fonts.adobe.com/fonts/open-sans)  */
@@ -49,4 +47,3 @@ a {
 .TextHeader {
 }
 </style>
->>>>>>> cda12e7a74d35c8db8fb081ef1a0f81eac8da8dc

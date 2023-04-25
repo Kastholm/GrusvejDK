@@ -2,6 +2,7 @@
   <div class="bg-white">
     <main class="isolate">
       <!-- Hero section -->
+      <VideoPlayer />
       <div class="relative isolate -z-10">
         <svg
           class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
