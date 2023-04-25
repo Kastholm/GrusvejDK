@@ -13,7 +13,7 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "commit": "node commands/auto-push-commit.js",
-    "endWin": "node commands/end-push-commit.js"
+    "endWin": "node commands/end-push-commit.js && netlify build"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.6.6",
