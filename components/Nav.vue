@@ -88,7 +88,7 @@
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
         >
-        <p>dadad</p>
+        
       </nav>
     </div>
 
@@ -160,11 +160,11 @@ const user = {
 };
 const navigation = [
   { name: "Forside", href: "/", current: true },
-  { name: "Dustex", href: "/about", current: false },
-  { name: "Stenknuser", href: "/page", current: false },
-  { name: "profil stamper", href: "/page", current: false },
-  { name: "maskine 4", href: "/page", current: false },
-  { name: "Abonnementer", href: "/page", current: false },
+  { name: "Dustex", href: "/dustex", current: false },
+  { name: "Stenknuser", href: "/stenknuser", current: false },
+  { name: "profil stamper", href: "/profilstamper", current: false },
+  { name: "maskine 4", href: "/maskine4", current: false },
+  { name: "Abonnementer", href: "/abonnementer", current: false },
   
 ];
 const userNavigation = [

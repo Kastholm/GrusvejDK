@@ -4,12 +4,27 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+<<<<<<< HEAD
         Main: "#3f76b1",
         MainLight: "#62B0E8",
         MainDark: "#102A43",
         Sub: "#FCE588",
         
         // Palette 2
+=======
+        // Grusvej.dk farver
+        // Main farve - pt blå
+        MainColor: "#FFF3C4",
+        // Lyseblå
+        MainColorLight: "#FFF3C4",
+        MainColorDark: "#102A43",
+        //Logo Orange
+        SubColor: "#ebb541",
+        //Logo Grøn
+        SubColor2: "#3a7336",
+
+        // Palette 13
+>>>>>>> cda12e7a74d35c8db8fb081ef1a0f81eac8da8dc
         // Primary
         "blue-050": "#DCEEFB",
         "blue-100": "#B6E0FE",

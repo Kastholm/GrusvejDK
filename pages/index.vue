@@ -78,7 +78,14 @@
       </div>
 
       <!-- Logo cloud -->
-      <div class="mx-auto mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8">
+      <div
+        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all"
+      >
+        <img
+          src="https://media.istockphoto.com/photos/top-view-of-asphalt-road-picture-id837114590?k=6&m=837114590&s=612x612&w=0&h=UVVgXrIasctecS2NFH5qHI78iyppQik2Z7F8qU83dWQ="
+          class="hoverRoad absolute bottom-0 right-0 left-0 -z-10 w-full h-[20em]"
+          alt=""
+        />
         <div
           class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
@@ -344,6 +351,18 @@
     </main>
   </div>
 </template>
+
+<style scoped>
+.hoverRoadBody .hoverRoad {
+  @apply transition-all;
+}
+.hoverRoadBody:hover {
+  @apply pt-12 transition-all;
+}
+.hoverRoadBody:hover .hoverRoad {
+  @apply bottom-[15em] transition-all;
+}
+</style>
 
 <script setup>
 import { defineComponent, h, ref } from "vue";
