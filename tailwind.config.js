@@ -4,24 +4,19 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        Main: "#3f76b1",
-        MainLight: "#62B0E8",
-        MainDark: "#102A43",
-        Sub: "#FCE588",
-        
-        // Palette 2
-        // Primary
-        "blue-050": "#DCEEFB",
-        "blue-100": "#B6E0FE",
-        "blue-200": "#84C5F4",
-        "blue-300": "#62B0E8",
-        "blue-400": "#4098D7",
-        "blue-500": "#2680C2",
-        "blue-600": "#186FAF",
-        "blue-700": "#0F609B",
-        "blue-800": "#0A558C",
-        "blue-900": "#003E6B",
+        // Grusvej.dk farver
+        // Main farve - pt blå
+        MainColor: "#3f76b1",
+        // Lyseblå
+        MainColorLight: "#62B0E8",
+        MainColorDark: "#102A43",
+        //Logo Orange
+        SubColor: "#ebb541",
+        //Logo Grøn
+        SubColor2: "#3a7336",
 
+        // Palette 13
+        // Primary
         "yellow-vivid-050": "#FFFBEA",
         "yellow-vivid-100": "#FFF3C4",
         "yellow-vivid-200": "#FCE588",
@@ -33,44 +28,51 @@ module.exports = {
         "yellow-vivid-800": "#B44D12",
         "yellow-vivid-900": "#8D2B0B",
 
+        "light-blue-vivid-050": "#E3F8FF",
+        "light-blue-vivid-100": "#B3ECFF",
+        "light-blue-vivid-200": "#81DEFD",
+        "light-blue-vivid-300": "#5ED0FA",
+        "light-blue-vivid-400": "#40C3F7",
+        "light-blue-vivid-500": "#2BB0ED",
+        "light-blue-vivid-600": "#1992D4",
+        "light-blue-vivid-700": "#127FBF",
+        "light-blue-vivid-800": "#0B69A3",
+        "light-blue-vivid-900": "#035388",
+
         // Neutrals
-        "blue-grey-050": "#F0F4F8",
-        "blue-grey-100": "#D9E2EC",
-        "blue-grey-200": "#BCCCDC",
-        "blue-grey-300": "#9FB3C8",
-        "blue-grey-400": "#829AB1",
-        "blue-grey-500": "#627D98",
-        "blue-grey-600": "#486581",
-        "blue-grey-700": "#334E68",
-        "blue-grey-800": "#243B53",
-        "blue-grey-900": "#102A43",
+        "grey-050": "#F7F7F7",
+        "grey-100": "#E1E1E1",
+        "grey-200": "#CFCFCF",
+        "grey-300": "#B1B1B1",
+        "grey-400": "#9E9E9E",
+        "grey-500": "#7E7E7E",
+        "grey-600": "#626262",
+        "grey-700": "#515151",
+        "grey-800": "#3B3B3B",
+        "grey-900": "#222222",
 
         // Supporting
-        "cyan-050": "#E0FCFF",
-        "cyan-100": "#BEF8FD",
-        "cyan-200": "#87EAF2",
-        "cyan-300": "#54D1DB",
-        "cyan-400": "#38BEC9",
-        "cyan-500": "#2CB1BC",
-        "cyan-600": "#14919B",
-        "cyan-700": "#0E7C86",
-        "cyan-800": "#0A6C74",
-        "cyan-900": "#044E54",
+        "red-vivid-050": "#FFE3E3",
+        "red-vivid-100": "#FFBDBD",
+        "red-vivid-200": "#FF9B9B",
+        "red-vivid-300": "#F86A6A",
+        "red-vivid-400": "#EF4E4E",
+        "red-vivid-500": "#E12D39",
+        "red-vivid-600": "#CF1124",
+        "red-vivid-700": "#AB091E",
+        "red-vivid-800": "#8A041A",
+        "red-vivid-900": "#610316",
 
-        "red-050": "#FFEEEE",
-        "red-100": "#FACDCD",
-        "red-200": "#F29B9B",
-        "red-300": "#E66A6A",
-        "red-400": "#D64545",
-        "red-500": "#BA2525",
-        "red-600": "#A61B1B",
-        "red-700": "#911111",
-        "red-800": "#780A0A",
-        "red-900": "#610404",
-
-        // Logo farver
-        "minOrange": "#f9b039",
-        
+        "teal-050": "#EFFCF6",
+        "teal-100": "#C6F7E2",
+        "teal-200": "#8EEDC7",
+        "teal-300": "#65D6AD",
+        "teal-400": "#3EBD93",
+        "teal-500": "#27AB83",
+        "teal-600": "#199473",
+        "teal-700": "#147D64",
+        "teal-800": "#0C6B58",
+        "teal-900": "#014D40",
       },
     },
   },
