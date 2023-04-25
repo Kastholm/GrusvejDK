@@ -88,6 +88,7 @@
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
         >
+        <p>dadad</p>
       </nav>
     </div>
 
