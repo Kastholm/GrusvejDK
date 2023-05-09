@@ -1,13 +1,17 @@
 <template>
-  <Disclosure as="header" class="bg-white shadow" v-slot="{ open }">
+  <Disclosure as="header" class="bg-white shadow mt-3" v-slot="{ open }">
     <div
       class="mx-auto max-w-7xl px-2 sm:px-4 lg:divide-y lg:divide-gray-200 lg:px-8"
     >
       <div class="relative flex h-16 justify-between">
         <div class="relative z-10 flex px-2 lg:px-0">
-          <div class="flex flex-shrink-0 items-center">
+          <div class="flex flex-shrink-0 items-center mb-2">
             <!-- indsæt logo her -->
-            <img src="https://i.ibb.co/0KdRF98/Grusvej-logo-150x71px-1.png" alt="Grusvej-logo-150x71px-1" border="0">
+            <img
+              src="https://i.ibb.co/0KdRF98/Grusvej-logo-150x71px-1.png"
+              alt="Grusvej-logo-150x71px-1"
+              border="0"
+            />
           </div>
         </div>
         <!-- <div
@@ -160,11 +164,13 @@ const user = {
 };
 const navigation = [
   { name: "Forside", href: "/", current: true },
-  { name: "Dustex", href: "/dustex", current: false },
-  { name: "Stenknuser", href: "/stenknuser", current: false },
-  { name: "profil stamper", href: "/profilstamper", current: false },
-  { name: "maskine 4", href: "/maskine4", current: false },
-  { name: "Abonnementer", href: "/abonnementer", current: false },
+  { name: "Grusveje", href: "/grusveje", current: false },
+  { name: "Støvbekæmpelse", href: "/stoevbekaempelse", current: false },
+  { name: "Maskineriet", href: "/maskineriet", current: false },
+  { name: "Serviceaftale", href: "/serviceaftale", current: false },
+  { name: "Vil du vide mere ➥", href: "/vilduvidemere", current: false },
+  { name: "Kontakt", href: "/kontakt", current: false },
+  { name: "test", href: "/test", current: false },
   
 ];
 const userNavigation = [
