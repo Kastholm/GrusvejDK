@@ -23,6 +23,7 @@
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               stroke-width="0"
+              class=" fill-SubColor"
             />
           </svg>
           <rect

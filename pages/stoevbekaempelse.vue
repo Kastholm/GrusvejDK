@@ -3,7 +3,7 @@
     <main class="isolate">
       <!-- Hero section -->
       <div class="">
-      <UspHero />
+      <StoevUspHero />
        </div>
       <div class="relative isolate -z-10">
         <svg
@@ -40,7 +40,7 @@
           aria-hidden="true"
         >
           <div
-            class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#137733] to-[#137733] opacity-30"
+            class="aspect-[801/1036] w-[50.0625rem] bg-gradient-to-tr from-[#f9b039] to-[#137733] opacity-40"
             style="
               clip-path: polygon(
                 63.1% 29.5%,
@@ -109,16 +109,18 @@
                 <div
                   v-for="stat in stats"
                   :key="stat.label"
-                  class="flex flex-col-reverse gap-y-4 "
+                  class="flex flex-col-reverse gap-y-4 border-8 border-[#f9b039] text-center rounded-lg p-3 font-semibold"
                 >
-                  <dt class="text-base leading-7 text-gray-600">
+                  <dt class="text-base leading-7 text-black ">
                     {{ stat.label }}
                   </dt>
+                  <center>
                   <dd
-                    class="text-5xl font-semibold tracking-tight text-gray-900"
+                    class="text-4xl font-semibold tracking-tight text-black"
                   >
                     {{ stat.value }}
                   </dd>
+                  </center>
                 </div>
               </dl>
             </div>
@@ -137,15 +139,15 @@
           >
             <span class="sm:text-8xl"> Dustex </span>- et miljøvenligt produkt
           </h2>
-          <p class="mt-6 text-lg leading-8 text-black text-xl">
+          <p class="mt-6 text-lg leading-8 text-black">
             Du får mange fordele ved at vælge Dustex til behandling af din grusvej eller grusarealer. 
           </p>
         </div>
         <dl
           class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
         >
-          <div v-for="value in values" :key="value.name">
-            <dt class="font-semibold text-xl text-gray-900">{{ value.name }}</dt>
+          <div v-for="value in values" :key="value.name" >
+            <dt class="font-semibold text-xl text-gray-900 ">{{ value.name }}</dt>
             <dd class="mt-1 text-gray-600">{{ value.description }}</dd>
           </div>
         </dl>
@@ -173,7 +175,7 @@ const navigation = [
 const stats = [
   { label: "Dustex holder støvpartiklerne bundet i op til 1 år efter behandling af din grusvej.", value: "Op til 1 års holdbarhed" },
   { label: "Efter aftale ankommer vi på adressen og udfører arbejdet samme dag.", value: "Hurtig påføring" },
-  { label: "Kroppen tager skade af kontinuerlig indånding af støvpartikler fra grusarealer. ", value: "Et sundt helbred" },
+  { label: "Kroppen tager skade af kontinuerlig indånding af støvpartikler fra grusarealer. ", value: "Et bedre helbred" },
 ];
 const values = [
   {
