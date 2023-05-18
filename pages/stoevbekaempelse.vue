@@ -63,13 +63,33 @@
             "
           />
         </div>
-        
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14">
+        <div class="mx-auto max-w-2xl lg:mx-0 inline">
+          <h2
+            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+          >
+            <span class="sm:text-8xl border-4 border-black rounded"> Dustex </span>- et <span class="text-[#199d43]"> miljøvenligt </span> produkt
+          </h2>
+          <p class="mt-6 text-lg leading-8 text-black">
+            Du får mange fordele ved at vælge Dustex til behandling af din grusvej eller grusarealer. 
+          </p>
+        </div>
+        <dl
+          class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+        >
+          <div v-for="value in values" :key="value.name" >
+            <dt class="font-semibold text-xl text-gray-900 ">{{ value.name }}</dt>
+            <dd class="mt-1 text-gray-600">{{ value.description }}</dd>
+          </div>
+        </dl>
+      </div>
       </div>
 <!-- old Image section -->
       <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <VideoPlayerDustex class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
+        <VideoPlayerDustex class="aspect-[5/3] w-full object-cover xl:rounded-3xl">
         </VideoPlayerDustex>
       </div>
+      
       <!-- Content section -->
       <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
@@ -131,27 +151,7 @@
       <!-- old Image section -->
      
 
-      <!-- Values section -->
-      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14">
-        <div class="mx-auto max-w-2xl lg:mx-0 inline">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl"
-          >
-            <span class="sm:text-8xl"> Dustex </span>- et miljøvenligt produkt
-          </h2>
-          <p class="mt-6 text-lg leading-8 text-black">
-            Du får mange fordele ved at vælge Dustex til behandling af din grusvej eller grusarealer. 
-          </p>
-        </div>
-        <dl
-          class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-        >
-          <div v-for="value in values" :key="value.name" >
-            <dt class="font-semibold text-xl text-gray-900 ">{{ value.name }}</dt>
-            <dd class="mt-1 text-gray-600">{{ value.description }}</dd>
-          </div>
-        </dl>
-      </div>
+      
 
       
 

@@ -72,7 +72,7 @@
                 <h1 class="Header MainHeader">
                   We’re changing the way people connect. lorem ipsum lalala
                 </h1>
-                <p class="Text TextReadable sm:max-w-md lg:max-w-none">
+                <p class="Text TextReadable sm:max-w-md lg:max-w-none mt-10">
                   Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
                   quis cupidatat mollit aute velit. Et labore commodo nulla
                   aliqua proident mollit ullamco exercitation tempor. Sint

@@ -47,45 +47,29 @@
       <!-- arbejdssteps section -->
       <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
         <center>
-          <h2 class="mb-5 Header TestHeader">
-            Hvad kan du forvente når du bestiller os til opgaven?(Normal)
+          
+          <h2 class="mb-5 Header text-7xl cursor-vertical-text">
+            NY GRUSVEJ ELLER REPARERET EKSISTERENDE?
           </h2>
-          <h2 class="mb-5 Header SubHeader">
-            Hvad kan du forvente når du bestiller os til opgaven?(Bold)
-          </h2>
+          <p class="font-semibold text-2xl">
+            <span class="text-[#137733]"> Grusvej.dk </span> viser dig præcis hvad du kan forvente - når du bestiller os til opgaven
+            </p>
+
         </center>
-        <div
-          class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4 mt-10"
-        >
-          <div v-for="item in arbejdssteps" :key="item.name">
-            <time
-              :datetime="item.dateTime"
-              class="flex items-center text-sm font-semibold leading-6 text-indigo-600"
-            >
-              <svg
-                viewBox="0 0 4 4"
-                class="mr-4 h-1 w-1 flex-none"
-                aria-hidden="true"
-              >
-                <circle cx="2" cy="2" r="2" fill="currentColor" />
-              </svg>
-              {{ item.date }}
-              <div
-                class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0"
-                aria-hidden="true"
-              />
-            </time>
-            <p
-              class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900"
-            >
-              {{ item.name }}
-            </p>
-            <p class="mt-1 text-base leading-7 text-gray-600">
-              {{ item.description }}
-            </p>
-          </div>
-        </div>
+        
       </div>
+
+     <!-- Indsæt CTA her-->
+     <center>
+      <a href="/grusveje">
+     <div class="border w-80 h-20 bg-[#137733] rounded opacity-90 animate-ping-3 mt-14">
+       <button class="font-bold text-2xl font-serif mt-6 text-white">
+        Se hele Processen
+      </button>
+      </div>
+      </a>
+      </center>
+      <!-- CTA slut-->
 
       <!-- Logo cloud -->
       <div
@@ -233,7 +217,7 @@
           class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
         >
           <div
-            class="bg-minOrange flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start"
+            class="bg-[#f9b039] flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start"
           >
             <p
               class="flex-none text-3xl font-bold tracking-tight text-gray-900"
@@ -251,7 +235,8 @@
           </div>
           <!-- card 2 -->
           <div
-            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44"
+            class=" flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44"
+          style="background-image: url('https://i.ibb.co/FJGrLgy/Frontal.jpg'); background-size: cover; background-position: center;"
           >
             <p class="flex-none text-3xl font-bold tracking-tight text-white">
               90.000 km grusvej er anlagt forkert i Danmark
@@ -268,7 +253,7 @@
           </div>
           <!-- card 3 -->
           <div
-            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-SubColor p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
+            class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-[#137733] p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p
               class="flex-none text-3xl font-bold tracking-tight text-gray-900"
@@ -378,6 +363,7 @@
 .hoverRoadBody:hover .hoverRoad {
   @apply bottom-[15em] transition-all;
 }
+
 </style>
 
 <script setup>
@@ -385,36 +371,7 @@ import { defineComponent, h, ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
-const arbejdssteps = [
-  {
-    name: "Step 1 af arbejdet",
-    description:
-      "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.",
-    date: "step 1",
-    dateTime: "2021-08",
-  },
-  {
-    name: "Step 2 af arbejdet",
-    description:
-      "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.",
-    date: "step 2",
-    dateTime: "2021-12",
-  },
-  {
-    name: "Step 3 af arbejdet",
-    description:
-      "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
-    date: "step 3",
-    dateTime: "2022-02",
-  },
-  {
-    name: "Step 4 af arbejdet",
-    description:
-      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
-    date: "step 4",
-    dateTime: "2022-12",
-  },
-];
+
 const jobOpenings = [
   {
     id: 1,
