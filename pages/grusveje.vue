@@ -59,98 +59,17 @@
 
 
       <!-- Content section -->
-      <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none mt-16">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            Our mission
-          </h2>
-          <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
-            <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
-              <p class="text-xl leading-8 text-gray-600">
-                Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                scelerisque eget. Eleifend egestas fringilla sapien.
-              </p>
-              <div class="mt-10 max-w-xl text-base leading-7 text-gray-700">
-                <p>
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
-                </p>
-                <p class="mt-10">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
-                </p>
-              </div>
-            </div>
-            <div class="lg:flex lg:flex-auto lg:justify-center">
-              <dl class="w-64 space-y-8 xl:w-80">
-                <div
-                  v-for="stat in stats"
-                  :key="stat.label"
-                  class="flex flex-col-reverse gap-y-4"
-                >
-                  <dt class="text-base leading-7 text-gray-600">
-                    {{ stat.label }}
-                  </dt>
-                  <dd
-                    class="text-5xl font-semibold tracking-tight text-gray-900"
-                  >
-                    {{ stat.value }}
-                  </dd>
-                </div>
-              </dl>
-            </div>
-          </div>
-        </div>
-      </div>
+      <Grusvejinfo>
+        </Grusvejinfo>
 
       <!-- Image section -->
-      <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+      <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-36">
         <img
           src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
           alt=""
           class="aspect-[5/2] w-full object-cover xl:rounded-3xl"
         />
       </div>
-
-      <!-- Values section -->
-      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
-        <div class="mx-auto max-w-2xl lg:mx-0">
-          <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
-          >
-            Our values
-          </h2>
-          <p class="mt-6 text-lg leading-8 text-gray-600">
-            Lorem ipsum dolor sit amet consect adipisicing elit. Possimus magnam
-            voluptatum cupiditate veritatis in accusamus quisquam.
-          </p>
-        </div>
-        <dl
-          class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
-        >
-          <div v-for="value in values" :key="value.name">
-            <dt class="font-semibold text-gray-900">{{ value.name }}</dt>
-            <dd class="mt-1 text-gray-600">{{ value.description }}</dd>
-          </div>
-        </dl>
-      </div>
-
-      
-
-      
-
-     
     </main>
   </div>
 </template>
@@ -164,7 +83,7 @@ const arbejdssteps = [
   {
     name: "Step 1 af arbejdet",
     description:
-      "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate repudiandae.",
+      "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate.",
     date: "step 1",
     dateTime: "2021-08",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
@@ -172,7 +91,7 @@ const arbejdssteps = [
   {
     name: "Step 2 af arbejdet",
     description:
-      "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente a architecto nihil.",
+      "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente autopas.",
     date: "step 2",
     dateTime: "2021-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
@@ -180,7 +99,7 @@ const arbejdssteps = [
   {
     name: "Step 3 af arbejdet",
     description:
-      "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti dolorem quia et.",
+      "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti.",
     date: "step 3",
     dateTime: "2022-02",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
@@ -188,7 +107,7 @@ const arbejdssteps = [
   {
     name: "Step 4 af arbejdet",
     description:
-      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
+      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit unde ed ",
     date: "step 4",
     dateTime: "2022-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
@@ -196,7 +115,7 @@ const arbejdssteps = [
   {
     name: "Step 5 af arbejdet",
     description:
-      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit.",
+      "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit passern.",
     date: "step 5",
     dateTime: "2022-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",

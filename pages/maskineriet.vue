@@ -272,7 +272,7 @@
         
 <div class="relative">
   <h2 class="w-full mt-14 text-8xl font-bold ml-auto fontfam">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
-  <p class="mt-6 font-semibold text-3xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+  <p class="mt-6 font-semibold text-2xl sm:text-3xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
   </div>
   </center>
      

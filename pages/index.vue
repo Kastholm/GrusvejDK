@@ -63,11 +63,13 @@
      <center>
       <a href="/grusveje">
      <div class="border w-80 h-20 bg-[#137733] rounded opacity-90 animate-ping-3 mt-14">
-       <button class="font-bold text-2xl font-serif mt-6 text-white">
+       <button class="font-bold text-2xl font-serif mt-6 text-white shadow-3xl">
         Se hele Processen
       </button>
       </div>
       </a>
+      <br>
+      <div class="border-t-2 my-4 border-[#2a8447]"></div>
       </center>
       <!-- CTA slut-->
 
@@ -156,7 +158,7 @@
                 class="w-0 flex-auto lg:ml-auto lg:w-auto lg:flex-none lg:self-end"
               >
                 <img
-                  src="https://images.unsplash.com/photo-1670272502246-768d249768ca?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&q=80"
+                  src="https://i.ibb.co/SsDXCKL/Findelt.jpg"
                   alt=""
                   class="aspect-[7/5] w-[37rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                 />
@@ -168,7 +170,7 @@
                   class="order-first flex w-64 flex-none justify-end self-end lg:w-auto"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1605656816944-971cd5c1407f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                    src="https://i.ibb.co/JtVdYB6/pexels-agnieszka-palmowska-103312.jpg"
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -177,7 +179,7 @@
                   class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1568992687947-868a62a9f521?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1152&h=842&q=80"
+                    src="https://i.ibb.co/qBTrPY9/knuser.jpg"
                     alt=""
                     class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -186,7 +188,7 @@
                   class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=768&h=604&q=80"
+                    src="https://i.ibb.co/mz5KVns/pexels-athena-1914815.jpg"
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -214,41 +216,37 @@
         </div>
         <!-- card 1 -->
         <div
-          class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end"
+          class="mx-auto mt-16 flex max-w-2xl flex-col gap-8 lg:mx-0 lg:mt-20 lg:max-w-none lg:flex-row lg:items-end text-center"
         >
           <div
             class="bg-[#f9b039] flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start"
           >
             <p
-              class="flex-none text-3xl font-bold tracking-tight text-gray-900"
+              class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff]"
             >
               Minimum vedligeholdelse
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-gray-900">
+              <p class="text-lg font-semibold tracking-tight text-[#fcf2ff]">
                 Users on the platform
               </p>
-              <p class="mt-2 text-base leading-7 text-gray-900">
+              <p class="mt-2 text-base leading-7 text-[#fcf2ff]">
                 Vel labore deleniti veniam consequuntur sunt nobis.
               </p>
             </div>
           </div>
           <!-- card 2 -->
           <div
-            class=" flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-sm lg:flex-auto lg:flex-col lg:items-start lg:gap-y-44"
+            class=" flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-2xl lg:flex-auto lg:flex-col lg:items-start lg:gap-y-80"
           style="background-image: url('https://i.ibb.co/FJGrLgy/Frontal.jpg'); background-size: cover; background-position: center;"
           >
-            <p class="flex-none text-3xl font-bold tracking-tight text-white">
-              90.000 km grusvej er anlagt forkert i Danmark
+            <p class="">
+              
             </p>
-            <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-white">
-                We’re proud that our customers have made over $8 billion in
-                total revenue.
-              </p>
-              <p class="mt-2 text-base leading-7 text-gray-400">
-                Eu duis porta aliquam ornare. Elementum eget magna egestas.
-              </p>
+            <div class="">
+              
+            <br><br><br><br>
+              
             </div>
           </div>
           <!-- card 3 -->
@@ -256,15 +254,15 @@
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-[#137733] p-8 sm:w-11/12 sm:max-w-xl sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-none lg:flex-auto lg:flex-col lg:items-start lg:gap-y-28"
           >
             <p
-              class="flex-none text-3xl font-bold tracking-tight text-gray-900"
+              class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff]"
             >
-              Vores grusvej holder i +5 år uden dannelse af huller mm.
+              Vores grusvej holder i +2 år uden dannelse af huller.
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-gray-900">
+              <p class="text-lg font-semibold tracking-tight text-[#fcf2ff]">
                 Transactions this year
               </p>
-              <p class="mt-2 text-base leading-7 text-gray-900">
+              <p class="mt-2 text-base leading-7 text-[#fcf2ff]">
                 Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu
                 duis porta aliquam ornare.
               </p>
@@ -273,6 +271,7 @@
         </div>
       </div>
       <!-- cards slut -->
+      
       <!-- Content section -->
       <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div
@@ -291,58 +290,47 @@
               sit eu in id.
             </p>
             <img
-              src="https://images.unsplash.com/photo-1606857521015-7f9fcf423740?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1344&h=1104&q=80"
+              src="https://i.ibb.co/FJGrLgy/Frontal.jpg"
               alt=""
               class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
             />
           </div>
           <div class="w-full lg:max-w-xl lg:flex-auto">
-            <h3 class="sr-only">Job openings</h3>
+            
             <ul class="-my-28 divide-y divide-gray-100">
-              <li v-for="opening in jobOpenings" :key="opening.id" class="py-8">
-                <dl class="relative flex flex-wrap gap-x-3">
-                  <dt class="sr-only">Role</dt>
+              <li v-for="opening in jobOpenings" :key="opening.id" class="py-8 translate-y-20">
+                <dl class="relative flex flex-wrap gap-x-3 gap-y-1 ">
+                  
                   <dd
                     class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900"
                   >
-                    <a :href="opening.href">
+                    <a :href="opening.href" class="text-4xl font-semibold fontfam text-[#262626]">
                       {{ opening.role }}
                       <span class="absolute inset-0" aria-hidden="true" />
                     </a>
                   </dd>
-                  <dt class="sr-only">Description</dt>
+                  
                   <dd
-                    class="mt-2 w-full flex-none text-base leading-7 text-gray-600"
+                    class="mt-2 w-full flex-none text-lg font-medium tracking-normal leading-7 text-gray-600"
                   >
                     {{ opening.description }}
                   </dd>
-                  <dt class="sr-only">Salary</dt>
+                  
                   <dd
                     class="mt-4 text-base font-semibold leading-7 text-gray-900"
                   >
                     {{ opening.salary }}
                   </dd>
-                  <dt class="sr-only">Location</dt>
-                  <dd
-                    class="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500"
-                  >
-                    <svg
-                      viewBox="0 0 2 2"
-                      class="h-0.5 w-0.5 flex-none fill-gray-300"
-                      aria-hidden="true"
-                    >
-                      <circle cx="1" cy="1" r="1" />
-                    </svg>
-                    {{ opening.location }}
-                  </dd>
+
+
                 </dl>
               </li>
             </ul>
-            <div class="mt-8 flex border-t border-gray-100 pt-8">
+            <div class="mt-8 flex pt-8">
               <a
                 href="#"
-                class="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500 pt-3"
-                >Se mere om vores abonnementer her
+                class="text-sm font-semibold leading-6 text-[#137733] hover:text-[#f9b039] pt-5 translate-y-24 underline underline-offset-4"
+                >Se mere om vores årlige løsninger
                 <span aria-hidden="true">&rarr;</span></a
               >
             </div>
@@ -363,7 +351,9 @@
 .hoverRoadBody:hover .hoverRoad {
   @apply bottom-[15em] transition-all;
 }
-
+.fontfam {
+    font-family: "futura-pt-condensed", sans-serif;
+}
 </style>
 
 <script setup>
@@ -375,27 +365,27 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 const jobOpenings = [
   {
     id: 1,
-    role: "abonnement 1",
+    role: "Løsning 1 - Den lille Grusvej",
     href: "#",
     description:
       "Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.",
-    salary: "$$$ årligt",
+    salary: "4.999.- /årligt",
   },
   {
     id: 2,
-    role: "abonnement 2",
+    role: "Løsning 2 - Den lille Grusvej m. Dustex",
     href: "#",
     description:
       "Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.",
-    salary: "$$$ årligt",
+    salary: "7.999.- /årligt",
   },
   {
     id: 3,
-    role: "abonnement 3",
+    role: "Løsning 3 - Det større grusareal",
     href: "#",
     description:
-      "Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.",
-    salary: "$$$ årligt",
+      "Har du et større grusareal tæt på hjemmet? Få styr på støvgener og ujævnheder i vejen med et årligt service fra Grusvej.dk.",
+    salary: "Aftalt pris efter areal /årligt",
   },
 ];
 

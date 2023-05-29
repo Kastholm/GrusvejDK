@@ -68,7 +68,7 @@
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl"
           >
-            <span class="sm:text-8xl border-4 border-black rounded"> Dustex </span>- et <span class="text-[#199d43]"> miljøvenligt </span> produkt
+            <span class="sm:text-8xl text-5xl border-4 border-black rounded"> Dustex </span>- et <span class="text-[#199d43]"> miljøvenligt </span> produkt
           </h2>
           <p class="mt-6 text-lg leading-8 text-black">
             Du får mange fordele ved at vælge Dustex til behandling af din grusvej eller grusarealer. 
@@ -86,17 +86,17 @@
       </div>
 <!-- old Image section -->
       <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <VideoPlayerDustex class="aspect-[5/3] w-full object-cover xl:rounded-3xl">
+        <VideoPlayerDustex class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
         </VideoPlayerDustex>
       </div>
       
       <!-- Content section -->
-      <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
+      <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl ml-3 pb-3"
           >
-            SLIP FOR <span class="sm:text-8xl"> STØVGENER</span> <span class="block mt-1"> I ALT VIND & VEJR </span>
+            SLIP FOR <span class="sm:text-8xl text-5xl"> STØVGENER</span> <span class="block mt-1"> I ALT VIND & VEJR </span>
           </h2>
           <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
             <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
@@ -124,12 +124,12 @@
                 </p>
               </div>
             </div>
-            <div class="lg:flex lg:flex-auto lg:justify-center">
-              <dl class="w-64 space-y-8 xl:w-80">
+            <div class="lg:flex lg:flex-auto lg:justify-center flex-rows-reverse">
+              <dl class="w-64 space-y-8 xl:w-80 inline lg:block">
                 <div
                   v-for="stat in stats"
                   :key="stat.label"
-                  class="flex flex-col-reverse gap-y-4 border-8 border-[#f9b039] text-center rounded-lg p-3 font-semibold"
+                  class="flex flex-col-reverse gap-y-4 border-8 border-[#f9b039] text-center rounded-lg p-3 font-semibold "
                 >
                   <dt class="text-base leading-7 text-black ">
                     {{ stat.label }}
