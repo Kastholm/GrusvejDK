@@ -13,17 +13,28 @@
           <div
             class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8"
           >
+          
             <h1 class="Header MainHeader">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit,
               deleniti.
             </h1>
-            <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-              <p class="Text TextReadable text-gray-600">
+            <div class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6">
+              <a href="/serviceaftale" class="text-white font-bold text-sm md:text-xl">
+               <div class="h-11 w-fit rounded p-2 bg-[#2a8447] md:hover:scale-110 text-center -translate-y-4 border shadow-2xl ">
+                <button class="translate-y-1 sm:translate-y-0 text-base">
+                  Få din serviceaftale hos Grusvej.dk
+                </button>
+                </div>
+                </a>
+            
+              <p class="Text TextReadable text-gray-600 pt-2">
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
                 fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
                 sunt. Qui irure qui lorem cupidatat commodo.
               </p>
+              
+               
             </div>
             <!-- <img
               src="https://images.unsplash.com/photo-1567532900872-f4e906cbf06a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1280&q=80"
@@ -31,10 +42,10 @@
               class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
             /> -->
             <iframe
-              class="mt-10 aspect-[6/5] w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
+              class="mt-10 aspect-[6/5] h-72 w-full max-w-lg rounded-2xl object-cover sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 xl:mt-36"
               width="420"
               height="315"
-              src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1"
+              src="https://player.vimeo.com/video/832545609?h=5242311a97&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
             >
             </iframe>
           </div>
@@ -60,22 +71,12 @@
       </div>
 
      <!-- Indsæt CTA her-->
-     <center>
-      <a href="/grusveje">
-     <div class="border w-80 h-20 bg-[#137733] rounded opacity-90 animate-ping-3 mt-14">
-       <button class="font-bold text-2xl font-serif mt-6 text-white shadow-3xl">
-        Se hele Processen
-      </button>
-      </div>
-      </a>
-      <br>
-      <div class="border-t-2 my-4 border-[#2a8447]"></div>
-      </center>
+     
       <!-- CTA slut-->
 
       <!-- Logo cloud -->
       <div
-        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all"
+        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20"
       >
         <img
           src="https://media.istockphoto.com/photos/top-view-of-asphalt-road-picture-id837114590?k=6&m=837114590&s=612x612&w=0&h=UVVgXrIasctecS2NFH5qHI78iyppQik2Z7F8qU83dWQ="
@@ -96,7 +97,19 @@
             occaecat labore proident cillum in nisi adipisicing officia
             excepteur tempor deserunt.
           </p>
-
+<center>
+      <a href="/grusveje" class="">
+     <div class="border w-64 h-18 bg-[#137733] rounded opacity-96 animate-ping-3 mt-14 md:hover:scale-110 ">
+       <button class="sm:text-2xl p-4 text-white shadow-3xl text-center">
+        <p class="m-auto text-2xl font-bold">
+        Se hele Processen
+        </p>
+      </button>
+      </div>
+      </a>
+      
+      <div class="relative border-t-2 my-4 border-[#2a8447] translate-y-4"></div>
+      </center>
           <div
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
             aria-hidden="true"
@@ -138,7 +151,7 @@
               <h2
                 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
               >
-                Stenknuser gør det nemt med gamle veje sektion (bæredygtigt)
+                Stenknuser gør det nemt med gamle bulede grusveje (bæredygtigt)
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
                 Quasi est quaerat. Sit molestiae et. Provident ad dolorem
@@ -270,10 +283,329 @@
           </div>
         </div>
       </div>
+      <section class=" overflow-hidden bg-white">
+    <div class="pt-7 pb-7">     
+      
+      <img
+            class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8 "
+            src="https://i.ibb.co/gtZq30x/Untitled-design.png"
+            alt="Image Description"
+          />
+          <img
+            class=" opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+            src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
+            alt="Image Description"
+          />
+      <center>
+      <div class=" mx-auto max-w-full px-4 sm:px-6 lg:px-8">
+        <div class="sm:max-w-full">
+          <!-- skal gøres til H1-->
+          <h2 class="relative Header fontfam-NO-W sm:text-7xl text-5xl text-center">
+            Årlig service <br> - tænk aldrig på din grusvej igen
+          </h2>
+          <!-- skal gøres til H1-->
+        </div>
+      </div>
+      </center>
+    </div>
+  </section>
+
+  <section class="bg-white dark:bg-gray-800">
+    <div class="relative container px-6 py-8 mx-auto">
+      
+      <div
+        class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
+      >
+        <div
+          class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
+        >
+          <p class="text-lg font-medium text-gray-800 dark:text-gray-100">
+            Den lille Grusvej
+          </p>
+          <h4
+            class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100"
+          >
+            2999.-
+            <span class="text-base font-normal text-gray-600 dark:text-gray-400"
+              >/ Årligt</span
+            >
+          </h4>
+          <p class="mt-4 text-gray-500 dark:text-gray-300">
+            Til den almene grusvej - op til 100
+             m2.
+          </p>
+
+          <div class="mt-8 space-y-8">
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Nyt grus pålægges</span
+              >
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Vejen stampes</span
+              >
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Vejprofil finpudses</span
+              >
+            </div>
+
+           <div class="flex items-center sm:pb-11">
+           </div>
+            
+
+            
+          </div>
+
+          <button
+            class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+          >
+            Vælg
+          </button>
+        </div>
+
+        <div
+          class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
+        >
+          <p class="text-lg font-medium text-gray-800 dark:text-gray-100">
+            Den lille Grusvej m. Dustex
+          </p>
+          <h4
+            class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100"
+          >
+            3999.-
+            <span class="text-base font-normal text-gray-600 dark:text-gray-400"
+              >/ Årligt</span
+            >
+          </h4>
+          <p class="mt-4 text-gray-500 dark:text-gray-300">
+            Til den almene grusvej - op til 100 m2. <br> (Slip for støvgener)
+          </p>
+
+          <div class="mt-8 space-y-8">
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Nyt grus pålægges</span
+              >
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Vejen stampes</span
+              >
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Vejprofil finpudses</span
+              >
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
+                >Dustex påføres</span
+              >
+            </div>
+          </div>
+
+          <button
+            class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+          >
+            Vælg
+          </button>
+        </div>
+
+        <div
+          class="px-6 py-4 transition-colors duration-200 transform bg-gray-700 rounded-lg dark:bg-gray-600"
+        >
+          <p class="text-lg font-medium text-gray-100">Den store grusvej / areal</p>
+          <h4 class="mt-2 text-4xl font-semibold text-gray-100">
+            Aftale på areal <span class="text-base font-normal text-gray-400">/ Årligt</span>
+          </h4>
+          <p class="mt-4 text-gray-300">
+            Har du en større grusvej/grusareal? <br> Vi finder den rigtige pris til dig! 
+          </p>
+
+          <div class="mt-8 space-y-8">
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-300">Nyt grus pålægges</span>
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-300">Arealet stampes</span>
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-300">Vandafledning finpudses</span>
+            </div>
+
+            <div class="flex items-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="w-5 h-5 text-blue-500"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fill-rule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+                  clip-rule="evenodd"
+                />
+              </svg>
+
+              <span class="mx-4 text-gray-300">Dustex påføres - VALGFRIT</span>
+            </div>
+          </div>
+
+          <button
+            class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-blue-500 rounded-md hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+          >
+            Vælg
+          </button>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
       <!-- cards slut -->
       
       <!-- Content section -->
-      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <!-- <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
         <div
           class="mx-auto flex max-w-2xl flex-col items-end justify-between gap-16 lg:mx-0 lg:max-w-none lg:flex-row"
         >
@@ -295,7 +627,7 @@
               class="mt-16 aspect-[6/5] w-full rounded-2xl bg-gray-50 object-cover lg:aspect-auto lg:h-[34.5rem]"
             />
           </div>
-          <div class="w-full lg:max-w-xl lg:flex-auto">
+           <div class="w-full lg:max-w-xl lg:flex-auto">
             
             <ul class="-my-28 divide-y divide-gray-100">
               <li v-for="opening in jobOpenings" :key="opening.id" class="py-8 translate-y-20">
@@ -304,7 +636,7 @@
                   <dd
                     class="w-full flex-none text-lg font-semibold tracking-tight text-gray-900"
                   >
-                    <a :href="opening.href" class="text-4xl font-semibold fontfam text-[#262626]">
+                    <a :href="opening.href" class="text-2xl font-semibold text-[#262626]">
                       {{ opening.role }}
                       <span class="absolute inset-0" aria-hidden="true" />
                     </a>
@@ -334,9 +666,9 @@
                 <span aria-hidden="true">&rarr;</span></a
               >
             </div>
-          </div>
+          </div> 
         </div>
-      </div>
+      </div> -->
     </main>
   </div>
 </template>
@@ -360,6 +692,7 @@
 import { defineComponent, h, ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+
 
 
 const jobOpenings = [
@@ -390,4 +723,5 @@ const jobOpenings = [
 ];
 
 const mobileMenuOpen = ref(false);
+
 </script>

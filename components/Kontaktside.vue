@@ -52,22 +52,28 @@
           />
 
         <div class="lg:pr-8 lg:pt-4 -translate-y-8">
-          <div class="lg:max-w-lg">
-            <h2 class="text-xl sm:text-2xl font-semibold leading-7 text-gray-900">
-              Kontakt os idag &
+          <div class="lg:max-w-lg text-center">
+            <h2 class="text-5
+            xl font-bold leading-12 text-gray-900 Header sm:text-7xl">
+              Kontakt Grusvej idag
             </h2>
             <p
-              class="mt-1 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header"
             >
-              Lad os få en god dialog
+             & <br> Lad os få en god dialog
             </p>
+            
             <p class="mt-6 text-lg leading-8 text-gray-900">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
               impedit perferendis suscipit eaque, iste dolor cupiditate
               blanditiis ratione.
             </p>
-
-            <div class="translate-y-10 -translate-x-10 sm:-translate-x-0 gap-6 grid grid-rows-2 w-fit">
+            <p
+              class="mt-1 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl translate-y-4"
+            >
+              Kontakt os alle hverdage / kl 08:00 - 16:00
+            </p>
+           <div class="translate-y-10 sm:-translate-x-0 gap-6 grid grid-rows-2 w-fit m-auto">
 
               <a class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6" href="tel:+45 28 56 08 05">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 inline mr-2 ">
@@ -77,7 +83,7 @@
               </a>
               
               <a class="text-2xl sm:text-4xl text-center font-semibold border-b fontfam tracking-wide border-r-4 border-t-2 shadow-[#137733] shadow-sm shadow-b rounded p-4 border-[#137733] ml-6 whitespace-nowrap" href="mailto:Kontakt@grusvej.dk">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 inline mr-3">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 inline mr-3 translate-x-2">
   <path fill-rule="evenodd" d="M2.106 6.447A2 2 0 001 8.237V16a2 2 0 002 2h14a2 2 0 002-2V8.236a2 2 0 00-1.106-1.789l-7-3.5a2 2 0 00-1.788 0l-7 3.5zm1.48 4.007a.75.75 0 00-.671 1.342l5.855 2.928a2.75 2.75 0 002.46 0l5.852-2.926a.75.75 0 10-.67-1.342l-5.853 2.926a1.25 1.25 0 01-1.118 0l-5.856-2.928z" clip-rule="evenodd" />
 </svg>
 
@@ -92,16 +98,12 @@
               impedit perferendis suscipit eaque, iste dolor cupiditate
               blanditiis ratione.
             </p>
-            <p
-              class="mt-1 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl translate-y-4"
-            >
-              Kontakt os alle hverdage / kl 08:00 - 16:00
-            </p>
+            
             </div>
           </div>
         </div>
         <img
-          src="https://i.ibb.co/SsDXCKL/Findelt.jpg"
+          src="https://i.ibb.co/Z1g07V3/Skilt.jpg"
           alt="Product screenshot"
           class="relative w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-6 hidden md:block"
           width="2432"
@@ -113,32 +115,7 @@
 </template>
 
 <script setup>
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/vue/20/solid";
 
-const features = [
-  {
-    name: "Push to deploy.",
-    description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
-    icon: CloudArrowUpIcon,
-  },
-  {
-    name: "SSL certificates.",
-    description:
-      "Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.",
-    icon: LockClosedIcon,
-  },
-  {
-    name: "Database backups.",
-    description:
-      "Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus. Et magna sit morbi lobortis.",
-    icon: ServerIcon,
-  },
-];
 </script>
 
 <style scoped>

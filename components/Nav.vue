@@ -165,7 +165,7 @@ const user = {
 const navigation = [
   { name: "Forside", href: "/", current: true },
   { name: "Grusveje", href: "/grusveje", current: false },
-  { name: "Støvbekæmpelse", href: "/stoevbekaempelse", current: false },
+  { name: "Støv & Stabilisering", href: "/stoevogstabilisering", current: false },
   { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
   { name: "Vil du vide mere ➥", href: "/vilduvidemere", current: false },

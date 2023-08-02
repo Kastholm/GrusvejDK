@@ -14,11 +14,12 @@
             alt="Image Description"
           />
           <div>
-            <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative">Specialudstyr der sikrer Danmarks bedste grusveje</h2>
+            <h1 class="tracking-tight text-gray-900 mb-16 MainHeader Header relative">Specialudstyr der sikrer grusveje af højeste kvalitet</h1>
+            <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative"></h2>
             <p class="mt-4 text-black relative text-xl">At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring about that. Our new strategy is to write a bunch of things that look really good in the headlines, then clarify in the small print but hope people don't actually read it.</p>
           </div>
           <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative">
-            <img src="https://tailwindui.com/img/ecommerce-images/incentives-07-hero.jpg" alt="" class="object-cover object-center aspect-[3/2]" />
+            <img src="https://i.ibb.co/qBTrPY9/knuser.jpg" alt="" class="object-cover object-center aspect-[3/2]" />
           </div>
         </div>
         

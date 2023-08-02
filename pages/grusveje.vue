@@ -65,7 +65,7 @@
       <!-- Image section -->
       <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-36">
         <img
-          src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80"
+          src="https://i.ibb.co/m9Jn4QY/grusvej-bredformat.jpg "
           alt=""
           class="aspect-[5/2] w-full object-cover xl:rounded-3xl"
         />
@@ -84,15 +84,15 @@ const arbejdssteps = [
     name: "Step 1 af arbejdet",
     description:
       "Nihil aut nam. Dignissimos a pariatur et quos omnis. Aspernatur asperiores et dolorem dolorem optio voluptate.",
-    date: "step 1",
+    date: "Trin 1",
     dateTime: "2021-08",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
   {
     name: "Step 2 af arbejdet",
     description:
-      "Provident quia ut esse. Vero vel eos repudiandae aspernatur. Cumque minima impedit sapiente autopas.",
-    date: "step 2",
+      "Provident quia ut esse. Vero vel eos dadundrant repudiandae aspernatur. Cumque minima impedit sapiente autopas.",
+    date: "Trin 2",
     dateTime: "2021-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
@@ -100,7 +100,7 @@ const arbejdssteps = [
     name: "Step 3 af arbejdet",
     description:
       "Sunt perspiciatis incidunt. Non necessitatibus aliquid. Consequatur ut officiis earum eum quia facilis. Hic deleniti.",
-    date: "step 3",
+    date: "Trin 3",
     dateTime: "2022-02",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
@@ -108,7 +108,7 @@ const arbejdssteps = [
     name: "Step 4 af arbejdet",
     description:
       "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit unde ed ",
-    date: "step 4",
+    date: "Trin 4",
     dateTime: "2022-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
@@ -116,7 +116,7 @@ const arbejdssteps = [
     name: "Step 5 af arbejdet",
     description:
       "Ut ipsa sint distinctio quod itaque nam qui. Possimus aut unde id architecto voluptatem hic aut pariatur velit passern.",
-    date: "step 5",
+    date: "Trin 5",
     dateTime: "2022-12",
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },

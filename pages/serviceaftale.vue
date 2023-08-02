@@ -1,12 +1,25 @@
 <template>
-  <section class="relative overflow-hidden bg-white">
-    <div class="pt-7 g:pb-48">
+  <section class=" overflow-hidden bg-white">
+    <div class="pt-7 pb-7">     
+      
+      <img
+            class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8 "
+            src="https://i.ibb.co/gtZq30x/Untitled-design.png"
+            alt="Image Description"
+          />
+          <img
+            class=" opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+            src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
+            alt="Image Description"
+          />
       <center>
-      <div class="relative mx-auto max-w-full px-4 sm:static sm:px-6 lg:px-8">
+      <div class=" mx-auto max-w-full px-4 sm:px-6 lg:px-8">
         <div class="sm:max-w-full">
-          <h1 class="Header MainHeader sm:text-6xl text-center">
+          <!-- skal gøres til H1-->
+          <h2 class="relative Header fontfam-NO-W sm:text-7xl text-5xl text-center">
             Årlig service <br> - tænk aldrig på din grusvej igen
-          </h1>
+          </h2>
+          <!-- skal gøres til H1-->
         </div>
       </div>
       </center>
@@ -14,7 +27,7 @@
   </section>
 
   <section class="bg-white dark:bg-gray-800">
-    <div class="container px-6 py-8 mx-auto">
+    <div class="relative container px-6 py-8 mx-auto">
       
       <div
         class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3"
@@ -307,4 +320,24 @@
   </section>
 </template>
 
-<style></style>
+<style>
+.fontfam-NO-W {
+    font-family: "futura-pt-condensed", sans-serif;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    --tw-text-opacity: 1;
+    color: rgb(17 24 39 / 1);
+    color: rgb(17 24 39 / var(--tw-text-opacity));
+    
+}
+
+.clippath1 {
+clip-path: polygon(82% 0, 83% 0, 100% 89%, 100% 94%);
+
+}
+.clippath2 {
+clip-path: polygon(85% 0, 84% 0, 100% 85%, 100% 80%);
+
+}
+</style>
