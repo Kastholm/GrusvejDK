@@ -7,7 +7,7 @@
     "init": "git init && git add . && git commit -m 'Initialising' && git branch -M main",
     "postinit": "git remote add origin https://github.com/Kastholm/GrusvejDK.git && git push --set-upstream origin main",
     "build": "nuxt build",
-    "predev": "git pull && npm i && npm cache verify",
+    "predev": "npm i && npm cache verify",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
