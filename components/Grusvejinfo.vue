@@ -1,9 +1,5 @@
 <template>
-<<<<<<< HEAD
   <div class="bg-white py-24 sm:py-32 -translate-y-24">
-=======
-  <div class="bg-white py-24 pb-2 sm:py-32 -translate-y-10">
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
     <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-16">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
