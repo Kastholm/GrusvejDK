@@ -2,18 +2,18 @@
   <div class="bg-white">
     <main class="isolate">
       <!-- Hero section -->
-          
-          <img
-            class="-z-10 opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8 "
-            src="https://i.ibb.co/gtZq30x/Untitled-design.png"
-            alt="Image Description"
-          />
-          <img
-            class="-z-10 opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
-            src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
-            alt="Image Description"
-          />
-          <div class="relative isolate -z-10">
+
+      <img
+        class="-z-10 opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+        src="https://i.ibb.co/gtZq30x/Untitled-design.png"
+        alt="Image Description"
+      />
+      <img
+        class="-z-10 opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+        src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
+        alt="Image Description"
+      />
+      <div class="relative isolate -z-10">
         <svg
           class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
@@ -34,7 +34,7 @@
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               stroke-width="0"
-              class=" fill-SubColor2"
+              class="fill-SubColor2"
             />
           </svg>
           <rect
@@ -42,10 +42,9 @@
             height="100%"
             stroke-width="0"
             fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
-            
           />
         </svg>
-        
+
         <div
           class="absolute left-1/2 right-0 top-0 -z-10 -ml-24 transform-gpu overflow-hidden blur-3xl lg:ml-24 xl:ml-48"
           aria-hidden="true"
@@ -94,11 +93,11 @@
                   aliqua.
                 </p>
               </div>
-               <div
+              <div
                 class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
               >
                 <div
-                  class=" ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
+                  class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
                 >
                   <div class="relative -translate-y-20">
                     <img
@@ -118,7 +117,7 @@
                     <img
                       src="https://i.ibb.co/6ZhgNbr/Frontal.jpg"
                       alt=""
-                      class=" aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                      class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
                     <div
                       class="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10"
@@ -142,12 +141,13 @@
       </div>
 
       <!-- Content section -->
-      <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
+      <!-- <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
             class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
           >
-           IMAGE SEKTION MED DE FORSKELLIGE MASKINER (alla Musikmekanikeren service/skoleservice gsap)
+            IMAGE SEKTION MED DE FORSKELLIGE MASKINER (alla Musikmekanikeren
+            service/skoleservice gsap)
           </h2>
           <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
             <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
@@ -195,8 +195,37 @@
             </div>
           </div>
         </div>
+      </div> -->
+
+      <div class="tabBody">
+        <div class="tabs">
+          <button
+            v-for="tab in tabs"
+            :key="tab.id"
+            :class="{ active: currentTab.id === tab.id }"
+            @click="changeTab(tab)"
+          >
+            {{ tab.name }}
+          </button>
+        </div>
+        <transition name="fade" mode="out-in">
+          <div class="tab-content" :key="currentTab.id">
+            <div class="px-2">
+              <h2>{{ currentTab.name }}</h2>
+              <h3>{{ currentTab.manchet }}</h3>
+              <p>{{ currentTab.text }}</p>
+              <br />
+              <p>{{ currentTab.text }}</p>
+            </div>
+            <div
+              class="img-div"
+              :style="{ backgroundImage: 'url(' + currentTab.imgSrc + ')' }"
+            ></div>
+          </div>
+        </transition>
       </div>
-<!-- Logo cloud -->
+
+      <!-- Logo cloud -->
       <div class="relative isolate -z-10 mt-40 sm:mt-48">
         <div
           class="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]"
@@ -231,14 +260,13 @@
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
             />
           </svg>
-          
         </div>
-        </div>
-        <center class="-translate-y-20">
+      </div>
+      <center class="-translate-y-20">
         <!-- pattern start -->
         <div class="mt-4">
-         <svg
-            class="absolute h-[40rem] w-[80rem] flex-none stroke-gray-200  [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+          <svg
+            class="absolute h-[40rem] w-[80rem] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -258,7 +286,7 @@
               <path
                 d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
                 stroke-width="0"
-                class=" fill-SubColor2"
+                class="fill-SubColor2"
               />
             </svg>
             <rect
@@ -268,6 +296,7 @@
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
             />
           </svg>
+<<<<<<< HEAD
           </div>
           <!-- pattern slut -->
           <div class="relative">
@@ -281,8 +310,32 @@
           src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
           alt=""
           class="aspect-[4/2] w-full object-cover xl:rounded-3xl"/>       
+=======
+>>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
         </div>
-        </center>
+        <!-- pattern slut -->
+        <div class="relative">
+          <h2 class="w-full mt-14 text-8xl font-bold ml-auto fontfam">
+            EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span>
+          </h2>
+          <p
+            class="mt-6 font-semibold text-2xl sm:text-3xl text-center leading-relaxed"
+          >
+            Vores stenknuser er en af de eneste i Danmark - en maskine der er
+            kritisk for det perfekte resultat hver gang der skal lægges nye
+            grusveje med grove baser af større sten og cementstumper.
+          </p>
+        </div>
+
+        <!-- Image section -->
+        <div class="relative mt-30 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+          <img
+            src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
+            alt=""
+            class="aspect-[4/2] w-full object-cover xl:rounded-3xl"
+          />
+        </div>
+      </center>
     </main>
   </div>
 </template>
@@ -297,11 +350,146 @@ const stats = [
 ];
 
 const mobileMenuOpen = ref(false);
+
+const tabs = [
+  {
+    id: 1,
+    name: "Maskine 1",
+    imgSrc:
+      "https://images.pexels.com/photos/12495785/pexels-photo-12495785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
+  },
+  {
+    id: 2,
+    name: "Maskine 2",
+    imgSrc:
+      "https://images.pexels.com/photos/4372184/pexels-photo-4372184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
+  },
+  {
+    id: 3,
+    name: "Maskine 3",
+    imgSrc:
+      "https://images.pexels.com/photos/8938485/pexels-photo-8938485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
+  },
+  {
+    id: 4,
+    name: "Maskine 4",
+    imgSrc:
+      "https://images.pexels.com/photos/12932782/pexels-photo-12932782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
+  },
+  {
+    id: 5,
+    name: "Maskine 5",
+    imgSrc:
+      "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
+  },
+];
+
+const currentTab = ref(tabs[0]); // start with the first tab
+
+function changeTab(tab) {
+  currentTab.value = tab;
+}
 </script>
 
-<style>
-.fontfam {
-    font-family: "futura-pt-condensed", sans-serif;
-    }
-    
+<style scoped>
+.tabs {
+  @apply bg-opacity-60;
+  margin-bottom: auto;
+  display: grid;
+  gap: 2em;
+  padding: 2em 0 2em 0;
+  height: 100%;
+  box-shadow: 0 0 20px rgba(0.2, 0, 0, 0.2);
+  background: #f9f9f9;
+}
+@media (max-width: 1150px) {
+  .tabs {
+    display: flex;
+    justify-content: start;
+    overflow-x: scroll;
+    width: 100%;
+  }
+}
+.tabs button {
+  @apply bg-white bg-opacity-70;
+  margin: 0 1em 0 1em;
+  height: fit-content;
+  padding: 1em;
+  width: 10em;
+  min-width: 8em;
+  border-radius: 20px;
+}
+
+.tabs .active {
+  /* Vue green */
+  color: black;
+  background: #99e1c1;
+  @apply bg-[#199d43] bg-opacity-70;
+  /* @apply bg-yellow-vivid-200; */
+}
+
+.tabBody {
+  display: grid;
+  grid-template-columns: auto auto;
+  overflow: hidden;
+  background: linear-gradient(to right, white 0%, white 20%, #199d4371 70%);
+  border-radius: 20px;
+}
+@media (max-width: 1150px) {
+  .tabBody {
+    grid-template-columns: 1fr;
+    overflow: visible;
+  }
+}
+
+.tabBody .img-div {
+  height: 35em;
+  background-position: center;
+  border-radius: 20px;
+}
+
+.tabBody h2 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+.tabBody h3 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: left;
+}
+.tabBody p {
+  font-size: 1.1rem;
+}
+
+.tab-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2em;
+}
+@media (max-width: 950px) {
+  .tab-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.2s;
+}
+
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
 </style>

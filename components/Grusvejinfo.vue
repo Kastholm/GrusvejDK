@@ -1,15 +1,19 @@
 <template>
+<<<<<<< HEAD
   <div class="bg-white py-24 sm:py-32 -translate-y-24">
+=======
+  <div class="bg-white py-24 pb-2 sm:py-32 -translate-y-10">
+>>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
     <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-16">
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2 "
+        class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <div class="lg:pr-4 -translate-y-20 sm:-translate-y-0">
           <div
             class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 translate-y-32"
           >
             <img
-              class="absolute inset-0 h-full w-full object-cover "
+              class="absolute inset-0 h-full w-full object-cover"
               src="https://i.ibb.co/SsDXCKL/Findelt.jpg"
               alt=""
             />
@@ -43,7 +47,6 @@
               />
             </div>
             <figure class="relative isolate h-10 sm:h-full">
-              
               <img
                 src="https://i.ibb.co/w4wfqxs/Grusvej-logo-200x95px.png"
                 alt=""
@@ -52,19 +55,17 @@
               <blockquote
                 class="mt-6 text-xl font-semibold leading-8 text-white bg-[#646065] rounded-xl p-4 bg-opacity-60 text-center"
               >
-                <p class="tracking-wide text-4xl fontfam ">
+                <p class="tracking-wide text-4xl fontfam">
                   “Amet amet eget scelerisque tellus sit neque faucibus non
                   eleifend. Integer eu praesent at a. Ornare arcu gravida
                   natoque erat et cursus.”
                 </p>
               </blockquote>
-              
             </figure>
           </div>
         </div>
         <div>
           <div class="leading-7 text-gray-700 lg:max-w-lg sm:-translate-y-5">
-           
             <h1
               class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam"
             >
@@ -99,7 +100,9 @@
             class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14"
           >
             <div v-for="(stat, statIdx) in stats" :key="statIdx">
-              <dt class="text-4xl font-semibold leading-8 text-gray-900 fontfam tracking-wider p-4 text-center"> 
+              <dt
+                class="text-4xl font-semibold leading-8 text-gray-900 fontfam tracking-wider p-4 text-center"
+              >
                 {{ stat.label }}
               </dt>
               <dd
@@ -109,7 +112,6 @@
               </dd>
             </div>
           </dl>
-          
         </div>
       </div>
     </div>
@@ -120,12 +122,11 @@
 const stats = [
   { value: "+4000 km anlagt" },
   { label: "FOR PRIVATE OG VIRKSOMHEDER", value: "+250 Glade kunder" },
-  
 ];
 </script>
 
 <style>
 .fontfam {
-    font-family: "futura-pt-condensed", sans-serif;
-  }
+  font-family: "futura-pt-condensed", sans-serif;
+}
 </style>
