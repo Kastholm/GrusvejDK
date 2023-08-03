@@ -147,7 +147,7 @@
         class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20 h-fit max-h-[51em] overflow-hidden"
       >
         <div
-          class="relative isolate overflow-hidden bg-[#137733a0] px-6 py-14 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+          class="relative isolate overflow-hidden bg-[#137733ca] px-6 py-14 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
             class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
