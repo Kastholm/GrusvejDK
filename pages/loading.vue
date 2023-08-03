@@ -1,6 +1,6 @@
 <template>
   <div class="loading-screen">
-     <img src="/img/Grusvej-logo-stor.png" alt="Logo" class="logo">
+     <img src="/img/Grusvej-logo-stor.png.png" alt="Logo" class="logo">
     <video src="/video/Final-loading-_screen-Grusvej.dk.mp4" autoplay loop muted class="video"></video>
   </div>
 </template>
