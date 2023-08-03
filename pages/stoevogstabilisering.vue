@@ -63,7 +63,7 @@
             "
           />
         </div>
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14">
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 -translate-y-">
         <div class="mx-auto max-w-2xl lg:mx-0 inline">
           <h2
             class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
@@ -118,7 +118,7 @@
       </div> -->
 
 
-      <div class="relative w-full rounded-md">
+      <div class="relative w-full rounded-md pt-24">
         <div
           ref="playerContainer"
           id="vimeo-player"
@@ -127,7 +127,7 @@
         >
           <button
             @click="toggleVideo"
-            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 -translate-y-1/2 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 translate-y-10 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
           >
             <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
             <PauseIcon v-if="isPlaying" class="h-12 w-12" />
@@ -139,7 +139,7 @@
       <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 Header text-center"
+            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 pt-28 Header text-center"
           >
             SLIP FOR STØVGENER I ALT VIND & VEJR 
           </h2>

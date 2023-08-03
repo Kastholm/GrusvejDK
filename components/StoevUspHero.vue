@@ -1,6 +1,6 @@
 <template>
   <div class="bg-gray-50 ">
-    <div class="mx-auto max-w-7xl py-24 sm:px-2 sm:py-32 lg:px-4">
+    <div class="mx-auto max-w-7xl pt-24 sm:px-2 sm:pt-32 lg:px-4">
       <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
         <div class="grid grid-cols-1 items-center gap-x-12 gap-y-10 lg:grid-cols-2">
           <img

@@ -9,16 +9,7 @@
       <!-- Content section -->
       <Grusvejinfo> </Grusvejinfo>
 
-      <!-- Image section -->
-      <div class=" xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-44">
-        <img
-          src="https://i.ibb.co/m9Jn4QY/grusvej-bredformat.jpg "
-          alt=""
-          class="aspect-[5/2] w-full object-cover xl:rounded-3xl"
-        />
-      </div>
-
-      <div class="relative w-full rounded-md">
+      <div class="relative w-full rounded-md -translate-y-14">
         <div
           ref="playerContainer"
           id="vimeo-player"

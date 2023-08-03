@@ -255,7 +255,7 @@
       </div>
 
       <!-- Stats -->
-      <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-40 lg:px-8">
+      <div class="mx-auto mt-14 max-w-7xl px-6  lg:px-8">
         <div class="mx-auto lg:mx-0 max-w-full">
           <h2
             class="text-3xl font-bold tracking-tight Header text-gray-900 sm:text-6xl text-center uppercase"

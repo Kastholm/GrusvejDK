@@ -197,7 +197,7 @@
         </div>
       </div> -->
 
-      <div class="tabBody">
+      <div class="tabBody -translate-y-20">
         <div class="tabs">
           <button
             v-for="tab in tabs"
@@ -226,43 +226,8 @@
       </div>
 
       <!-- Logo cloud -->
-      <div class="relative isolate -z-10 mt-40 sm:mt-48">
-        <div
-          class="absolute inset-x-0 top-1/2 -z-10 flex -translate-y-1/2 justify-center overflow-hidden [mask-image:radial-gradient(50%_45%_at_50%_55%,white,transparent)]"
-        >
-          <svg
-            class="h-[40rem] w-[80rem] flex-none stroke-gray-200 mt-92"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-                width="200"
-                height="200"
-                x="50%"
-                y="50%"
-                patternUnits="userSpaceOnUse"
-                patternTransform="translate(-100 0)"
-              >
-                <path d="M.5 200V.5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg x="50%" y="50%" class="overflow-visible fill-gray-50">
-              <path
-                d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
-                stroke-width="0"
-              />
-            </svg>
-            <rect
-              width="100%"
-              height="100%"
-              stroke-width="0"
-              fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
-            />
-          </svg>
-        </div>
-      </div>
-      <center class="-translate-y-20">
+      
+      <center class="">
         <!-- pattern start -->
         <div class="mt-4">
           <svg
@@ -299,39 +264,18 @@
           </div>
           <!-- pattern slut -->
           <div class="relative">
-            <h2 class="w-full mt-14 text-7xl font-bold ml-auto fontfam">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
-            <p class="mt-6 font-semibold text-2xl sm:text-2xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+            <h2 class="w-full  text-8xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
+            <p class="mt-6 font-medium text-2xl sm:text-2xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
         
        <!-- Image section -->
-        <div class=" relative mt-30 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8 ">
+        <div class=" relative mt-20 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8 ">
          <img
           src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
           alt=""
           class="aspect-[4/2] w-full object-cover xl:rounded-3xl"/>       
         </div>
-        <!-- pattern slut -->
-        <div class="relative">
-          <h2 class="w-full mt-14 text-8xl font-bold ml-auto fontfam">
-            EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span>
-          </h2>
-          <p
-            class="mt-6 font-semibold text-2xl sm:text-3xl text-center leading-relaxed"
-          >
-            Vores stenknuser er en af de eneste i Danmark - en maskine der er
-            kritisk for det perfekte resultat hver gang der skal lægges nye
-            grusveje med grove baser af større sten og cementstumper.
-          </p>
-        </div>
-
-        <!-- Image section -->
-        <div class="relative mt-30 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-          <img
-            src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
-            alt=""
-            class="aspect-[4/2] w-full object-cover xl:rounded-3xl"
-          />
-        </div>
+        
       </center>
     </main>
   </div>

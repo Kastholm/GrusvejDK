@@ -1,6 +1,16 @@
 <template>
   <div class="">
-    <Serviceaftaler />
+    <Serviceaftaler class="relative"/>
+    <img
+        class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+        src="https://i.ibb.co/gtZq30x/Untitled-design.png"
+        alt="Image Description"
+      />
+      <img
+        class=" opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+        src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
+        alt="Image Description"
+      />
   </div>
 </template>
 

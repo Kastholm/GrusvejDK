@@ -1,6 +1,6 @@
 <template>
   <section class="overflow-hidden bg-white">
-    <div class="pt-7 pb-7">
+    <div class="pt-16 pb-7">
       <center>
         <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
           <div class="sm:max-w-full">

@@ -168,9 +168,8 @@ const navigation = [
   { name: "Støv & Stabilisering", href: "/stoevogstabilisering", current: false },
   { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
-  { name: "Vil du vide mere ➥", href: "/vilduvidemere", current: false },
   { name: "Kontakt", href: "/kontakt", current: false },
-  { name: "test", href: "/test", current: false },
+  
   
 ];
 const userNavigation = [
