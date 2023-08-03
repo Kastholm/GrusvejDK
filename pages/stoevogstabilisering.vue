@@ -97,11 +97,7 @@
       </div>
 
       <!--Stabilisering billeder-->
-<<<<<<< HEAD
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
-=======
-   <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-10 mb-24">
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
       <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Vejen behandles med Dustex</div>
@@ -143,11 +139,7 @@
       <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-<<<<<<< HEAD
             class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 Header text-center"
-=======
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl ml-3 pb-3  mt-24"
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
           >
             SLIP FOR STØVGENER I ALT VIND & VEJR 
           </h2>

@@ -296,7 +296,6 @@
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
             />
           </svg>
-<<<<<<< HEAD
           </div>
           <!-- pattern slut -->
           <div class="relative">
@@ -310,8 +309,6 @@
           src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
           alt=""
           class="aspect-[4/2] w-full object-cover xl:rounded-3xl"/>       
-=======
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
         </div>
         <!-- pattern slut -->
         <div class="relative">
