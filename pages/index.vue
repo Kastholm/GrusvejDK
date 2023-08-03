@@ -50,16 +50,59 @@
             </iframe>
           </div>
         </div>
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-20">
+        <center>
+    
+          <h2 class="mb-5 Header SubHeader pb-10">
+            Hvad kan du forvente når du bestiller os til opgaven?
+          </h2>
+        </center>
+        <!-- arbejdssteps start -->
+        <div
+          class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-5"
+        >
+          <div v-for="item in arbejdssteps" :key="item.name">
+            <time
+              :datetime="item.dateTime"
+              class="flex items-center text-base font-bold font-serif leading-6 text-[#137733]"
+            >
+              <svg
+                viewBox="0 0 4 4"
+                class="mr-4 h-1 w-1 flex-none"
+                aria-hidden="true"
+              >
+                <circle cx="2" cy="2" r="2" fill="currentColor" />
+              </svg>
+              {{ item.date }}
+              <div
+                class="absolute -ml-2 h-px w-screen -translate-x-full bg-gray-900/10 sm:-ml-4 lg:static lg:-mr-6 lg:ml-8 lg:w-auto lg:flex-auto lg:translate-x-0"
+                aria-hidden="true"
+              />
+            </time>
+            <p
+              class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900"
+            >
+              {{ item.name }}
+            </p>
+            <p class="mt-1 text-base leading-7 text-gray-600 font-semibold">
+              {{ item.description }}            
+            </p>
+            <img :src="item.image" alt="Step Image" class="mt-4 rounded border shadow-1xl">
+          </div>
+          
+        </div>
+        
+      </div>
+      <!-- arbejdsteps slut -->
         <div
           class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"
         />
       </div>
 
-      <!-- arbejdssteps section -->
       <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
         <center>
           
-          <h2 class="mb-5 Header text-7xl cursor-vertical-text">
+          <h2 class="mb-5 Header text-7xl cursor-vertical-text pt-10">
             NY GRUSVEJ ELLER REPARERET EKSISTERENDE?
           </h2>
           <p class="font-semibold text-2xl">
@@ -142,7 +185,7 @@
       </div>
 
       <!-- Content section -->
-      <div class="mt-32 overflow-hidden sm:mt-40">
+      <div class="mt-32 overflow-hidden sm:mt-40 -translate-y-20">
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div
             class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
@@ -285,17 +328,6 @@
       </div>
       <section class=" overflow-hidden bg-white">
     <div class="pt-7 pb-7">     
-      
-      <img
-            class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8 "
-            src="https://i.ibb.co/gtZq30x/Untitled-design.png"
-            alt="Image Description"
-          />
-          <img
-            class=" opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
-            src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
-            alt="Image Description"
-          />
       <center>
       <div class=" mx-auto max-w-full px-4 sm:px-6 lg:px-8">
         <div class="sm:max-w-full">
@@ -693,34 +725,50 @@ import { defineComponent, h, ref } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
 import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
 
-
-
-const jobOpenings = [
+const arbejdssteps = [
   {
-    id: 1,
-    role: "Løsning 1 - Den lille Grusvej",
-    href: "#",
+    name: "Klargøring af underlag",
     description:
-      "Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.",
-    salary: "4.999.- /årligt",
+      "Fjernelse af jord, grene og blade inden arbejdet igangsættes. Det sikrer at gruset ikke blandes med materialer som suger regnvandet til sig.",
+    date: "Trin 1",
+    dateTime: "2021-08",
+    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
   {
-    id: 2,
-    role: "Løsning 2 - Den lille Grusvej m. Dustex",
-    href: "#",
+    name: "Vinkling af grusvejen",
     description:
-      "Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.",
-    salary: "7.999.- /årligt",
+      "Der laves en let buet facon på vejen så den får en hældning ud imod grøften, hvilket leder regnvand væk fra grusvejen.",
+    date: "Trin 2",
+    dateTime: "2021-12",
+    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
   {
-    id: 3,
-    role: "Løsning 3 - Det større grusareal",
-    href: "#",
+    name: "Komprimering",
     description:
-      "Har du et større grusareal tæt på hjemmet? Få styr på støvgener og ujævnheder i vejen med et årligt service fra Grusvej.dk.",
-    salary: "Aftalt pris efter areal /årligt",
+      "Vejen komprimeres for at trykke underlaget fast og jævnt. Denne proces hjælper til at forhindre fremtidige huller i vejen.",
+    date: "Trin 3",
+    dateTime: "2022-02",
+    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+  },
+  {
+    name: "Toplaget",
+    description:
+      "Efter vejen er komprimeret, køres lergrus på i 3-4 cm tykkelse. Den hårde overflade på lergruset leder regnvandet væk.",
+    date: "Trin 4",
+    dateTime: "2022-12",
+    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+  },
+  {
+    name: "Vandafledning",
+    description:
+      "Mangel på sivegrøfter / nedsivningsarealer skaber huller i grusveje. Vi sørger for at grave alle nødvendige grøfter og sivearealer.",
+    date: "Trin 5",
+    dateTime: "2022-12",
+    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
 ];
+
+
 
 const mobileMenuOpen = ref(false);
 

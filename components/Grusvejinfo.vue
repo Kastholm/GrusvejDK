@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-white py-24 sm:py-32">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8">
+  <div class="bg-white py-24 sm:py-32 -translate-y-10">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-16">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2 "
       >
@@ -42,7 +42,7 @@
                 "
               />
             </div>
-            <figure class="relative isolate h-10 sm:h-full ">
+            <figure class="relative isolate h-10 sm:h-full">
               
               <img
                 src="https://i.ibb.co/w4wfqxs/Grusvej-logo-200x95px.png"

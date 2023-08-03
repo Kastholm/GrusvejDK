@@ -24,17 +24,6 @@
             <img src="https://i.ibb.co/C2hSj70/bil-paa-grusvej.jpg" alt="" class="object-cover object-center aspect-[3/2]" />
           </div>
         </div>
-        <div class="mt-16 grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
-          <div v-for="incentive in incentives" :key="incentive.name" class="sm:flex lg:block">
-            <div class="sm:flex-shrink-0">
-              <img class="h-16 w-16" :src="incentive.imageSrc" alt="" />
-            </div>
-            <div class="mt-4 sm:ml-6 sm:mt-0 lg:ml-0 lg:mt-6">
-              <h3 class="text-sm font-medium text-gray-900">{{ incentive.name }}</h3>
-              <p class="mt-2 text-sm text-gray-500">{{ incentive.description }}</p>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -42,24 +31,7 @@
 
 
 <script setup>
-const incentives = [
-  {
-    name: 'Kommer til anviste adresse',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-shipping-simple.svg',
-    description: "It's not actually free we just price it into the products. Someone's paying for it, and it's not us.",
-  },
-  {
-    name: 'Lang holdbarhed',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-warranty-simple.svg',
-    description: "If it breaks in the first 10 years we'll replace it. After that you're on your own though.",
-  },
-  {
-    name: '100% tilfredshedsgaranti',
-    imageSrc: 'https://tailwindui.com/img/ecommerce/icons/icon-exchange-simple.svg',
-    description:
-      "If you don't like it, trade it to one of your friends for something of theirs. Don't send it here though.",
-  },
-]
+
 </script>
 
 <style>
