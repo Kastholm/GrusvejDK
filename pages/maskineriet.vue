@@ -212,6 +212,7 @@
           <div class="tab-content" :key="currentTab.id">
             <div class="px-2">
               <h2>{{ currentTab.name }}</h2>
+              <h3>{{ currentTab.manchet }}</h3>
               <p>{{ currentTab.text }}</p>
               <br />
               <p>{{ currentTab.text }}</p>
@@ -341,6 +342,7 @@ const tabs = [
     imgSrc:
       "https://images.pexels.com/photos/12495785/pexels-photo-12495785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
   },
   {
     id: 2,
@@ -348,6 +350,7 @@ const tabs = [
     imgSrc:
       "https://images.pexels.com/photos/4372184/pexels-photo-4372184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
   },
   {
     id: 3,
@@ -355,6 +358,7 @@ const tabs = [
     imgSrc:
       "https://images.pexels.com/photos/8938485/pexels-photo-8938485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
   },
   {
     id: 4,
@@ -362,6 +366,7 @@ const tabs = [
     imgSrc:
       "https://images.pexels.com/photos/12932782/pexels-photo-12932782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
   },
   {
     id: 5,
@@ -369,6 +374,7 @@ const tabs = [
     imgSrc:
       "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
     text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
+    manchet: "manchet",
   },
 ];
 
@@ -412,14 +418,15 @@ function changeTab(tab) {
   /* Vue green */
   color: black;
   background: #99e1c1;
-  @apply bg-yellow-vivid-200;
+  @apply bg-[#199d43] bg-opacity-70;
+  /* @apply bg-yellow-vivid-200; */
 }
 
 .tabBody {
   display: grid;
   grid-template-columns: auto auto;
   overflow: hidden;
-  background: linear-gradient(to right, white 0%, white 20%, #3a733653 70%);
+  background: linear-gradient(to right, white 0%, white 20%, #199d4371 70%);
   border-radius: 20px;
 }
 @media (max-width: 1150px) {
@@ -437,6 +444,13 @@ function changeTab(tab) {
 
 .tabBody h2 {
   font-size: 4rem;
+  line-height: 4rem;
+}
+.tabBody h3 {
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 1em;
+  text-align: left;
 }
 .tabBody p {
   font-size: 1.1rem;

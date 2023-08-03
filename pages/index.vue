@@ -90,7 +90,9 @@
               >
                 {{ item.name }}
               </p>
-              <p class="mt-1 text-base leading-7 text-gray-600 font-semibold">
+              <p
+                class="mt-1 text-base leading-7 text-gray-600 font-semibold min-h-[11em]"
+              >
                 {{ item.description }}
               </p>
               <img
@@ -116,36 +118,6 @@
             <span class="text-[#137733]"> Grusvej.dk </span> viser dig præcis
             hvad du kan forvente - når du bestiller os til opgaven
           </p>
-        </center>
-      </div>
-
-      <!-- Indsæt CTA her-->
-
-      <!-- CTA slut-->
-
-      <!-- Logo cloud -->
-      <div
-        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20"
-      >
-        <img
-          src="https://media.istockphoto.com/photos/top-view-of-asphalt-road-picture-id837114590?k=6&m=837114590&s=612x612&w=0&h=UVVgXrIasctecS2NFH5qHI78iyppQik2Z7F8qU83dWQ="
-          class="hoverRoad absolute bottom-0 right-0 left-0 -z-10 w-full h-[20em]"
-          alt=""
-        />
-        <div
-          class="relative isolate overflow-hidden bg-gray-900 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16"
-        >
-          <h2
-            class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
-          >
-            Se hvad der gør vores grusvej speciel sektion (noget grafik af
-            lagene i vejen)
-          </h2>
-          <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
-            Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit
-            occaecat labore proident cillum in nisi adipisicing officia
-            excepteur tempor deserunt.
-          </p>
           <center>
             <a href="/grusveje" class="">
               <div
@@ -163,6 +135,54 @@
               class="relative border-t-2 my-4 border-[#2a8447] translate-y-4"
             ></div>
           </center>
+        </center>
+      </div>
+
+      <!-- Indsæt CTA her-->
+
+      <!-- CTA slut-->
+
+      <!-- Logo cloud -->
+      <div
+        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20 h-fit max-h-[51em] overflow-hidden"
+      >
+        <div
+          class="relative isolate overflow-hidden bg-[#137733a0] px-6 py-14 text-center shadow-2xl sm:rounded-3xl sm:px-16"
+        >
+          <h2
+            class="mx-auto max-w-2xl text-3xl font-bold tracking-tight text-white sm:text-4xl"
+          >
+            Se hvad der gør vores grusvej speciel
+          </h2>
+
+          <!-- <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">
+            Aliquip reprehenderit incididunt amet quis fugiat ut velit. Sit
+            occaecat labore proident cillum in nisi adipisicing officia
+            excepteur tempor deserunt.
+          </p> -->
+          <button
+            @click="setOldImg"
+            :class="{ active: activeButton === 'new' }"
+            class="px-8 py-5 mt-12 mx-4"
+          >
+            Vores Grusvej
+          </button>
+          <button
+            @click="setNewImg"
+            :class="{ active: activeButton === 'old' }"
+            class="bg-white bg-opacity-30 px-8 py-5 mt-12 mx-4"
+          >
+            Standard Grusvej
+          </button>
+          <transition name="fade">
+            <img
+              :src="imgSrc"
+              :key="imgSrc"
+              class="hoverRoad w-[70em] m-auto"
+              alt=""
+            />
+          </transition>
+
           <div
             class="absolute -top-24 right-0 -z-10 transform-gpu blur-3xl"
             aria-hidden="true"
@@ -193,7 +213,6 @@
           </div>
         </div>
       </div>
-
       <!-- Content section -->
       <div class="mt-32 overflow-hidden sm:mt-40 -translate-y-20">
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -722,17 +741,20 @@
 </template>
 
 <style scoped>
-.hoverRoadBody .hoverRoad {
-  @apply transition-all;
-}
-.hoverRoadBody:hover {
-  @apply pt-12 transition-all;
-}
-.hoverRoadBody:hover .hoverRoad {
-  @apply bottom-[15em] transition-all;
-}
 .fontfam {
   font-family: "futura-pt-condensed", sans-serif;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+.active {
+  @apply bg-yellow-vivid-200 text-black scale-110;
 }
 </style>
 
@@ -807,6 +829,27 @@ const arbejdssteps = [
     image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
   },
 ];
+
+// Declare your image sources
+const oldImg = "/img/nyGrusvej.png";
+const newImg = "/img/gammelGrusvej.png";
+
+// Set the initial image source
+let imgSrc = ref(oldImg);
+
+// Track the currently active button
+let activeButton = ref("new");
+
+// Create functions to set the image source and active button
+const setNewImg = () => {
+  imgSrc.value = newImg;
+  activeButton.value = "old";
+};
+
+const setOldImg = () => {
+  imgSrc.value = oldImg;
+  activeButton.value = "new";
+};
 
 const mobileMenuOpen = ref(false);
 </script>

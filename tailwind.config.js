@@ -13,7 +13,7 @@ module.exports = {
         //Logo Orange
         SubColor: "#ebb541",
         //Logo Grøn
-        SubColor2: "#3a7336",
+        SubColor2: "#137733",
 
         // Palette 13
         // Primary
