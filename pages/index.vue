@@ -111,12 +111,12 @@
 
       <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8">
         <center>
-          <h2 class="mb-5 Header text-7xl cursor-vertical-text pt-10">
-            NY GRUSVEJ ELLER REPARERET EKSISTERENDE?
+          <h2 class="mb-5 Header text-6xl cursor-vertical-text pt-10">
+            NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
           </h2>
-          <p class="font-semibold text-2xl">
+          <p class="font-semibold text-3xl">
             <span class="text-[#137733]"> Grusvej.dk </span> viser dig præcis
-            hvad du kan forvente - når du bestiller os til opgaven
+            hvad du kan forvente
           </p>
           <center>
             <a href="/grusveje" class="">

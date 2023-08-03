@@ -1,23 +1,25 @@
 <template>
- <section class=" overflow-hidden bg-white">
-    <div class="pt-7 pb-7">     
+  <section class="overflow-hidden bg-white">
+    <div class="pt-7 pb-7">
       <center>
-      <div class=" mx-auto max-w-full px-4 sm:px-6 lg:px-8">
-        <div class="sm:max-w-full">
-          <!-- skal gøres til H1-->
-          <h1 class="relative Header fontfam-NO-W sm:text-7xl text-5xl text-center max-w-full pb-6 pt-10">
-            Årlig service <br> - tænk aldrig på din grusvej igen
-          </h1>
-          <!-- skal gøres til H1-->
+        <div class="mx-auto max-w-full px-4 sm:px-6 lg:px-8">
+          <div class="sm:max-w-full">
+            <!-- skal gøres til H1-->
+            <h1
+              class="relative Header fontfam-NO-W sm:text-7xl text-5xl text-center max-w-full pb-6 pt-10"
+            >
+              Årlig service <br />
+              - tænk aldrig på din grusvej igen
+            </h1>
+            <!-- skal gøres til H1-->
+          </div>
         </div>
-      </div>
       </center>
     </div>
   </section>
   <!-- serviceaftaler start -->
   <section class="bg-white dark:bg-gray-800">
     <div class="relative container px-6 py-8 mx-auto">
-      
       <div
         class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8"
       >
@@ -36,8 +38,7 @@
             >
           </h4>
           <p class="mt-4 text-gray-500 dark:text-gray-300">
-            Til den almene grusvej - op til 100
-             m2.
+            Til den almene grusvej - op til 100 m2.
           </p>
 
           <div class="mt-8 space-y-8">
@@ -98,11 +99,7 @@
               >
             </div>
 
-           <div class="flex items-center sm:pb-11">
-           </div>
-            
-
-            
+            <div class="flex items-center sm:pb-11"></div>
           </div>
 
           <button
@@ -127,7 +124,8 @@
             >
           </h4>
           <p class="mt-4 text-gray-500 dark:text-gray-300">
-            Til den almene grusvej - op til 100 m2. <br> (Slip for støvgener)
+            Til den almene grusvej - op til 100 m2. <br />
+            (Slip for støvgener)
           </p>
 
           <div class="mt-8 space-y-8">
@@ -218,12 +216,16 @@
         <div
           class="px-6 py-4 transition-colors duration-200 transform bg-gray-700 rounded-lg dark:bg-gray-600"
         >
-          <p class="text-lg font-medium text-gray-100">Den store grusvej / areal</p>
+          <p class="text-lg font-medium text-gray-100">
+            Den store grusvej / areal
+          </p>
           <h4 class="mt-2 text-4xl font-semibold text-gray-100">
-            Aftale på areal <span class="text-base font-normal text-gray-400">/ Årligt</span>
+            Aftale på areal
+            <span class="text-base font-normal text-gray-400">/ Årligt</span>
           </h4>
           <p class="mt-4 text-gray-300">
-            Har du en større grusvej/grusareal? <br> Vi finder den rigtige pris til dig! 
+            Har du en større grusvej/grusareal? <br />
+            Vi finder den rigtige pris til dig!
           </p>
 
           <div class="mt-8 space-y-8">
@@ -302,8 +304,6 @@
             Vælg
           </button>
         </div>
-
-        
       </div>
     </div>
   </section>
@@ -311,29 +311,24 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
 <style>
 .fontfam-NO-W {
-    font-family: "futura-pt-condensed", sans-serif;
-    line-height: 1;
-    font-weight: 700;
-    text-transform: uppercase;
-    --tw-text-opacity: 1;
-    color: rgb(17 24 39 / 1);
-    color: rgb(17 24 39 / var(--tw-text-opacity));
-    
+  font-family: "futura-pt-condensed", sans-serif;
+  line-height: 1;
+  font-weight: 700;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / 1);
+  color: rgb(17 24 39 / var(--tw-text-opacity));
 }
 
 .clippath1 {
-clip-path: polygon(82% 0, 83% 0, 100% 89%, 100% 94%);
-
+  clip-path: polygon(82% 0, 83% 0, 100% 89%, 100% 94%);
 }
 .clippath2 {
-clip-path: polygon(85% 0, 84% 0, 100% 85%, 100% 80%);
-
+  clip-path: polygon(85% 0, 84% 0, 100% 85%, 100% 80%);
 }
 </style>
