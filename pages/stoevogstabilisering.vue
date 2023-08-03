@@ -97,7 +97,11 @@
       </div>
 
       <!--Stabilisering billeder-->
+<<<<<<< HEAD
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
+=======
+   <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-10 mb-24">
+>>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
       <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Vejen behandles med Dustex</div>
@@ -112,16 +116,38 @@
     
    
 <!-- old Image section -->
-      <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+      <!-- <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
         <VideoPlayerDustex class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
         </VideoPlayerDustex>
+      </div> -->
+
+
+      <div class="relative w-full rounded-md">
+        <div
+          ref="playerContainer"
+          id="vimeo-player"
+          class="mt-10 aspect-[6/5] h-72 w-screen rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 p-12 grid place-content-center overflow-hidden"
+          style="height: 515px; width: 100vw"
+        >
+          <button
+            @click="toggleVideo"
+            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 -translate-y-1/2 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+          >
+            <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
+            <PauseIcon v-if="isPlaying" class="h-12 w-12" />
+          </button>
+        </div>
       </div>
       
       <!-- Content section -->
-      <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8 translate-y-10 sm:-translate-y-10 ">
+      <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
+<<<<<<< HEAD
             class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 Header text-center"
+=======
+            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl ml-3 pb-3  mt-24"
+>>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
           >
             SLIP FOR STØVGENER I ALT VIND & VEJR 
           </h2>
@@ -189,9 +215,45 @@
 </template>
 
 <script setup>
-import { defineComponent, h, ref } from "vue";
+import { defineComponent, h, ref, onMounted, onUnmounted } from "vue";
 import { Dialog, DialogPanel } from "@headlessui/vue";
-import { Bars3Icon, XMarkIcon } from "@heroicons/vue/24/outline";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  PlayIcon,
+  PauseIcon,
+} from "@heroicons/vue/24/outline";
+import Player from "@vimeo/player";
+let player = null;
+let isPlaying = ref(false);
+let playerContainer = ref(null);
+onMounted(async () => {
+  player = new Player("vimeo-player", {
+    id: 832545609,
+    width: playerContainer.value.offsetWidth * 0.8,
+    controls: false,
+  });
+  await player.setVolume(0.5);
+
+  // Resize the player when the window is resized
+  const resizeHandler = () => {
+    player.setSize(playerContainer.value.offsetWidth);
+  };
+
+  window.addEventListener("resize", resizeHandler);
+
+  // Remove the event listener when the component is unmounted
+  onUnmounted(() => {
+    window.removeEventListener("resize", resizeHandler);
+  });
+});
+
+const toggleVideo = () => {
+  if (player) {
+    isPlaying.value ? player.pause() : player.play();
+    isPlaying.value = !isPlaying.value;
+  }
+};
 
 const navigation = [
   { name: "Product", href: "#" },
