@@ -80,11 +80,17 @@
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
-              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 -translate-y-16">
+              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
                 <h1 class="Header MainHeader">
                   UDSTYR DER SIKRER DANMARKS BEDSTE GRUSVEJE
                 </h1>
-                <p class="Text TextReadable sm:max-w-md lg:max-w-none mt-10">
+                <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20">
+                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
+                  quis cupidatat mollit aute velit. Et labore commodo nulla
+                  aliqua proident mollit ullamco exercitation tempor. Sint
+                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
+                  Eu voluptate tempor esse minim amet fugiat veniam occaecat
+                  aliqua.<br><br>
                   Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
                   quis cupidatat mollit aute velit. Et labore commodo nulla
                   aliqua proident mollit ullamco exercitation tempor. Sint
@@ -263,17 +269,17 @@
           </svg>
           </div>
           <!-- pattern slut -->
-          <div class="relative">
+          <div class="relative translate-y-7">
             <h2 class="w-full  text-8xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
             <p class="mt-6 font-medium text-2xl sm:text-2xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
         
        <!-- Image section -->
-        <div class=" relative mt-20 sm:mt-20 xl:mx-auto xl:max-w-7xl xl:px-8 ">
+        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-16">
          <img
           src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
           alt=""
-          class="aspect-[4/2] w-full object-cover xl:rounded-3xl"/>       
+          class="max-h-[500px] w-full object-cover xl:rounded-3xl"/>       
         </div>
         
       </center>

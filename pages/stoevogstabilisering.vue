@@ -100,12 +100,12 @@
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Vejen behandles med Dustex</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Vejen behandles med Dustex</div>
       <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Hårdhed efter 14 dage</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Hårdhed efter 14 dage</div>
       <img class="rounded-lg" src="https://i.ibb.co/vd7FRhw/vej-efter-14-dage.jpg" alt="Image 2">
     </div>
   </div> 

@@ -448,7 +448,7 @@ const arbejdssteps = [
       "Fjernelse af jord, grene og blade inden arbejdet igangsættes. Det sikrer at gruset ikke blandes med materialer som suger regnvandet til sig.",
     date: "Trin 1",
     dateTime: "2021-08",
-    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+    image: "https://i.ibb.co/WfqTBNC/IMG-0032.jpg",
   },
   {
     name: "Vinkling af grusvejen",
@@ -456,7 +456,7 @@ const arbejdssteps = [
       "Der laves en let buet facon på vejen så den får en hældning ud imod grøften, hvilket leder regnvand væk fra grusvejen.",
     date: "Trin 2",
     dateTime: "2021-12",
-    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+    image: "https://i.ibb.co/TgK3rPY/IMG-0020.jpg",
   },
   {
     name: "Komprimering",
@@ -464,7 +464,7 @@ const arbejdssteps = [
       "Vejen komprimeres for at trykke underlaget fast og jævnt. Denne proces hjælper til at forhindre fremtidige huller i vejen.",
     date: "Trin 3",
     dateTime: "2022-02",
-    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+    image: "https://i.ibb.co/0XDX3nK/IMG-0058.jpg",
   },
   {
     name: "Toplaget",
@@ -472,7 +472,7 @@ const arbejdssteps = [
       "Efter vejen er komprimeret, køres lergrus på i 3-4 cm tykkelse. Den hårde overflade på lergruset leder regnvandet væk.",
     date: "Trin 4",
     dateTime: "2022-12",
-    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+    image: "https://i.ibb.co/KGZZTKv/vej-efter-14-dage.jpg",
   },
   {
     name: "Vandafledning",
@@ -480,7 +480,7 @@ const arbejdssteps = [
       "Mangel på sivegrøfter / nedsivningsarealer skaber huller i grusveje. Vi sørger for at grave alle nødvendige grøfter og sivearealer.",
     date: "Trin 5",
     dateTime: "2022-12",
-    image: "https://i.ibb.co/FJGrLgy/Frontal.jpg",
+    image: "https://i.ibb.co/4tXvDBD/grusvej-bredformat.jpg",
   },
 ];
 

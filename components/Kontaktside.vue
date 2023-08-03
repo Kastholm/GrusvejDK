@@ -57,15 +57,14 @@
               Kontakt Grusvej idag
             </h2>
             <p
-              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header uppercase"
+              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header uppercase mb-14"
             >
-             & <br> Lad os få en god dialog
+             & <br>  få en god dialog
             </p>
             
             <p class="mt-6 text-lg leading-8 text-gray-900">
               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-              impedit perferendis suscipit eaque, iste dolor cupiditate
-              blanditiis ratione.
+              impedit perferendis suscipit eaque, iste dolor.
             </p>
             <p
               class="mt-1 text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl translate-y-4"
