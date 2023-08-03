@@ -71,7 +71,6 @@
           </div>
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-20">
-<<<<<<< HEAD
         <div class="mx-auto -mt-8 max-w-7xl px-6 lg:px-8 pb-10">
         <center>
           
@@ -97,21 +96,6 @@
                 viewBox="0 0 4 4"
                 class="mr-4 h-1 w-1 flex-none"
                 aria-hidden="true"
-=======
-          <center>
-            <h2 class="mb-5 Header SubHeader pb-10">
-              Hvad kan du forvente når du bestiller os til opgaven?
-            </h2>
-          </center>
-          <!-- arbejdssteps start -->
-          <div
-            class="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-5"
-          >
-            <div v-for="item in arbejdssteps" :key="item.name">
-              <time
-                :datetime="item.dateTime"
-                class="flex items-center text-base font-bold font-serif leading-6 text-[#137733]"
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
               >
                 <svg
                   viewBox="0 0 4 4"
@@ -141,8 +125,7 @@
                 alt="Step Image"
                 class="mt-4 rounded border shadow-1xl"
               />
-<<<<<<< HEAD
-            </time>
+            
             <p
               class="mt-6 text-lg font-semibold leading-8 tracking-tight text-gray-900"
             >
@@ -152,9 +135,6 @@
               {{ item.description }}            
             </p>
             <img :src="item.image" alt="Step Image" class="mt-4 rounded border shadow-1xl">
-=======
-            </div>
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
           </div>
         </div>
         <!-- arbejdsteps slut -->
