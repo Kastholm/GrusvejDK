@@ -10,13 +10,7 @@
       <Grusvejinfo> </Grusvejinfo>
 
       <!-- Image section -->
-<<<<<<< HEAD
       <div class=" xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-44">
-=======
-      <div
-        class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-36"
-      >
->>>>>>> 597dcad3c83c1a7484be9acfdd68c1d0c1ff3887
         <img
           src="https://i.ibb.co/m9Jn4QY/grusvej-bredformat.jpg "
           alt=""
