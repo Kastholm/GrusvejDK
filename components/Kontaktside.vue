@@ -53,12 +53,11 @@
 
         <div class="lg:pr-8 lg:pt-4 -translate-y-8">
           <div class="lg:max-w-lg text-center">
-            <h2 class="text-5
-            xl font-bold leading-12 text-gray-900 Header sm:text-7xl">
+            <h2 class="text-4xl font-bold leading-12 text-gray-900 Header sm:text-6xl uppercase">
               Kontakt Grusvej idag
             </h2>
             <p
-              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header"
+              class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header uppercase"
             >
              & <br> Lad os få en god dialog
             </p>

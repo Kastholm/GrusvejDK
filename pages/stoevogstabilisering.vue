@@ -66,11 +66,11 @@
         <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14">
         <div class="mx-auto max-w-2xl lg:mx-0 inline">
           <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl"
+            class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
           >
-            <span class="sm:text-8xl text-5xl border-4 border-black rounded"> Dustex </span>- et <span class="text-[#199d43]"> miljøvenligt </span> produkt
+            <span class="sm:text-9xl text-7xl rounded uppercase"> Dustex </span>- <span class=" uppercase text-[#199d43]"> miljøvenligt </span> PRODUKT
           </h2>
-          <p class="mt-6 text-lg leading-8 text-black">
+          <p class="mt-6 text-lg leading-8 font-semibold text-black text-center">
             Du får mange fordele ved at vælge Dustex til behandling af din grusvej eller grusarealer. 
           </p>
         </div>
@@ -84,8 +84,8 @@
         </dl>
       </div>
       </div>
-      <div class="w-full">
-        <h2 class="w-full pt-20 Header MainHeader lg:m-auto text-center">Stabilisering af vejen</h2>
+      <div class="w-full pt-10">
+        <h2 class="w-full pt-20 Header lg:m-auto text-7xl text-center uppercase text-gray-900">Stabilisering af vejen</h2>
         <p class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider">Når en grus- eller asfaltvej har en dårlig bærevne, kan Dustex med stor fordel også benyttes her, da det er en både effektiv og økonomisk ideel måde at opnå en stærk og blivende vejoverflade.
 
           Man kan iblande Dustex i gruset, eller endnu bedre, fræse Dustex ned i underlagets øverste lag. <br> <br> Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så der sammen med Dustex, dannes en solid ny ”asfalt” der omdannes til en stærk ”plade” på vejens overflade.
@@ -97,15 +97,15 @@
       </div>
 
       <!--Stabilisering billeder-->
-   <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-10">
+   <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold">Vejen behandles med Dustex</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Vejen behandles med Dustex</div>
       <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold">Hårdhed efter 14 dage</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-4xl font-bold pb-4">Hårdhed efter 14 dage</div>
       <img class="rounded-lg" src="https://i.ibb.co/vd7FRhw/vej-efter-14-dage.jpg" alt="Image 2">
     </div>
   </div> 
@@ -121,9 +121,9 @@
       <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-            class="text-3xl font-bold tracking-tight text-gray-900 sm:text-6xl ml-3 pb-3"
+            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 Header text-center"
           >
-            SLIP FOR <span class="sm:text-8xl text-5xl"> STØVGENER</span> <span class="block mt-1"> I ALT VIND & VEJR </span>
+            SLIP FOR STØVGENER I ALT VIND & VEJR 
           </h2>
           <div class="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
             <div class="lg:w-full lg:max-w-2xl lg:flex-auto">
@@ -156,7 +156,7 @@
                 <div
                   v-for="stat in stats"
                   :key="stat.label"
-                  class="flex flex-col-reverse gap-y-4 border-8 border-[#f9b039] text-center rounded-lg p-1 font-semibold "
+                  class="flex flex-col-reverse gap-y-4 border-4 border-[#f9b039] text-center rounded-lg p-1 font-semibold "
                 >
                   <dt class="text-base leading-1 text-black -translate-y-2">
                     {{ stat.label }}

@@ -67,7 +67,7 @@
         </div>
         <div class="mt-10 xl:mt-0">
           <h6 class="text-xl font-semibold leading-6 text-gray-900">
-            Skal vi tage kontakt til dig?
+            Skal vi kontakte dig?
           </h6>
           <p class="mt-2 text-sm leading-6 text-gray-600">
             Indtast email her - vi vender tilbage indenfor 24 timer alle hverdage.
@@ -138,7 +138,7 @@ const navigation = {
   ],
   company: [
     { name: "Kontakt Grusvej.dk", href: "#" },
-    { name: "Om virksomheden Grsuvej.dk", href: "#" },
+    { name: "Om virksomheden Grusvej.dk", href: "#" },
     
   ],
   legal: [

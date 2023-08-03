@@ -13,14 +13,14 @@
             src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
             alt="Image Description"
           />
-          <div class="w-full">
-            <h1 class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-6xl">
-            Stabiliser vejen og slip for støvgener med <br>
+          <div class="w-full -translate-y-20">
+            <h1 class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-7xl ">
+            Stabiliser og slip for støvgener med <br>
             <span class="text-8xl text-[#199d43]">Dustex</span>
             </h1>
             <p class="mt-4 text-black relative text-xl">At the beginning at least, but then we realized we could make a lot more money if we kinda stopped caring about that. Our new strategy is to write a bunch of things that look really good in the headlines, then clarify in the small print but hope people don't actually read it.</p>
           </div>
-          <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative">
+          <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-20">
             <img src="https://i.ibb.co/C2hSj70/bil-paa-grusvej.jpg" alt="" class="object-cover object-center aspect-[3/2]" />
           </div>
         </div>

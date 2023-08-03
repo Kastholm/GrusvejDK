@@ -1,8 +1,8 @@
 <template>
   <div class="bg-white">
-    <main class="isolate -translate-y-">
+    <main class="isolate">
       <!-- Hero section -->
-      <div class="isolate -z-10 -translate-y-">
+      <div class="isolate -z-10">
         <GrusvejeUspHero />
       </div>
 
@@ -11,7 +11,7 @@
         </Grusvejinfo>
 
       <!-- Image section -->
-      <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-36">
+      <div class=" xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-44">
         <img
           src="https://i.ibb.co/m9Jn4QY/grusvej-bredformat.jpg "
           alt=""

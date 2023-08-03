@@ -81,7 +81,7 @@
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
-              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72">
+              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 -translate-y-16">
                 <h1 class="Header MainHeader">
                   UDSTYR DER SIKRER DANMARKS BEDSTE GRUSVEJE
                 </h1>
@@ -271,8 +271,8 @@
           </div>
           <!-- pattern slut -->
           <div class="relative">
-            <h2 class="w-full mt-14 text-8xl font-bold ml-auto fontfam">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
-            <p class="mt-6 font-semibold text-2xl sm:text-3xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+            <h2 class="w-full mt-14 text-7xl font-bold ml-auto fontfam">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
+            <p class="mt-6 font-semibold text-2xl sm:text-2xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
         
        <!-- Image section -->
