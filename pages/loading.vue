@@ -1,7 +1,7 @@
 <template>
   <div class="loading-screen">
-    <img src="/Grusvej-logo-stor.png" alt="Logo" class="logo">
-    <video src="/Final-loading-_screen-Grusvej.dk.mp4" autoplay loop muted class="video"></video>
+   <!--  <img src="/Grusvej-logo-stor.png" alt="Logo" class="logo">
+    <video src="/Final-loading-_screen-Grusvej.dk.mp4" autoplay loop muted class="video"></video> -->
   </div>
 </template>
 
