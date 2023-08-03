@@ -8,7 +8,9 @@
         <div
           class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
           aria-hidden="true"
-        />
+        > 
+        </div>
+      </div>
         <div class="mx-auto max-w-7xl px-6 pb-32 pt-12 sm:pb-40 lg:px-8">
           <div
             class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none md:grid-cols-1 lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8"
@@ -76,7 +78,7 @@
                 viewBox="0 0 4 4"
                 class="mr-4 h-1 w-1 flex-none"
                 aria-hidden="true"
-              >
+              />
                 <svg
                   viewBox="0 0 4 4"
                   class="mr-4 h-1 w-1 flex-none"
@@ -122,6 +124,7 @@
           class="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-white sm:h-32"
         />
       </div>
+      
       <!-- Logo cloud -->
       <div
         class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20 h-fit max-h-[51em] overflow-hidden"
@@ -193,6 +196,7 @@
           </div>
         </div>
       </div>
+      
       <!-- Content section -->
       <div class="mt-32 overflow-hidden sm:mt-40">
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
@@ -326,6 +330,7 @@
               </p>
               <p class="mt-2 text-base leading-7 text-[#fcf2ff]">
                 Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu
+
                 duis porta aliquam ornare.
               </p>
             </div>
@@ -334,7 +339,6 @@
       </div>
 
       <Serviceaftaler/>
-
     </main>
   </div>
 </template>
