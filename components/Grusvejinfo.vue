@@ -4,7 +4,7 @@
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
-        <div class="lg:pr-4 -translate-y-20 sm:-translate-y-0">
+        <div class="lg:pr-4 -translate-y-20 sm:-translate-y-32">
           <div
             class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 translate-y-32"
           >
@@ -83,13 +83,7 @@
                 et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
                 et ut. Ac lorem vel integer orci.
               </p>
-              <p class="mt-4">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
-              </p>
+              
             </div>
           </div>
           <dl

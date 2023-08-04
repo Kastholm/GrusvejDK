@@ -94,7 +94,7 @@
                 {{ item.name }}
               </p>
               <p
-                class="mt-1 text-base leading-7 text-gray-600 font-semibold min-h-[11em]"
+                class="mt-1 text-base leading-7 text-gray-600  min-h-[11em]"
               >
                 {{ item.description }}
               </p>
@@ -193,7 +193,7 @@
               <h2
                 class="text-5xl font-bold tracking-tight Header text-gray-900 sm:text-6xl uppercase"
               >
-                Stenknuser gør det nemt med gamle bulede grusveje
+                Stenknuser gør det nemt med gamle og "bulede" grusveje
               </h2>
               <p class="mt-6 text-xl leading-8 text-gray-600">
                 Quasi est quaerat. Sit molestiae et. Provident ad dolorem

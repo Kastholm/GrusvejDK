@@ -14,9 +14,9 @@
             alt="Image Description"
           />
           <div class="-translate-y-10 lg:-translate-y-20">
-            <h1 class="tracking-tight text-gray-900 mb-16 MainHeader Header relative">Specialudstyr der sikrer grusveje af højeste kvalitet</h1>
+            <h1 class="tracking-tight text-gray-900 mb-16 MainHeader Header relative">Specialudstyr sikrer grusveje af højeste kvalitet</h1>
             <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative"></h2>
-            <p class="mt-4 text-black relative text-xl">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
+            <p class="mt-4 text-black relative leading-8 text-xl -translate-y-10">Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo.</p>
           </div>
           <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-10 lg:-translate-y-20">
             <img src="https://i.ibb.co/qBTrPY9/knuser.jpg" alt="" class="object-cover object-center aspect-[3/2]" />
