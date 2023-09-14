@@ -142,10 +142,10 @@
                 </div>
               </div>
             </div>
-        <Naturstiinfo> </Naturstiinfo>
           </div>
         </div>
       </div>
+        <Naturstiinfo> </Naturstiinfo>
 
       <!-- Content section -->
       <!-- <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
