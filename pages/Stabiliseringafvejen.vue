@@ -1,7 +1,7 @@
 <template>
   <StabiliseringHero />
-<div
-    class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 -z-10"
+  <div
+    class="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 z-1"
   >
     <div
       class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10"
@@ -9,9 +9,8 @@
       <div
         class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
       >
-        <div class="lg:pr-4">
+        <div class="lg:pr-4 z-10">
           <div class="lg:max-w-lg">
-            
             <h1
               class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
             >
@@ -55,8 +54,8 @@
                 />
                 <span
                   ><strong class="font-semibold text-gray-900"
-                    >Trin 1 - </strong
-                  >
+                    >Trin 1 -
+                  </strong>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                   Maiores impedit perferendis suscipit eaque, iste dolor
                   cupiditate blanditiis ratione.</span
@@ -68,9 +67,7 @@
                   aria-hidden="true"
                 />
                 <span
-                  ><strong class="font-semibold text-gray-900"
-                    >Trin 2 -</strong
-                  >
+                  ><strong class="font-semibold text-gray-900">Trin 2 -</strong>
                   Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
                   qui lorem cupidatat commodo.</span
                 >
@@ -81,9 +78,7 @@
                   aria-hidden="true"
                 />
                 <span
-                  ><strong class="font-semibold text-gray-900"
-                    >Trin 3 -</strong
-                  >
+                  ><strong class="font-semibold text-gray-900">Trin 3 -</strong>
                   Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
                   Et magna sit morbi lobortis.</span
                 >
@@ -114,16 +109,33 @@
   </div>
   <!-- Stabilisering af vejen start-->
   <div class="w-full pt-10 relative -translate-y-32">
-        <h2 class="w-full pt-20 Header lg:m-auto text-7xl text-center uppercase text-gray-900">Stabilisering af vejen</h2>
-        <p class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider">Når en grus- eller asfaltvej har en dårlig bærevne, kan Dustex med stor fordel også benyttes her, da det er en både effektiv og økonomisk ideel måde at opnå en stærk og blivende vejoverflade.
-
-          Man kan iblande Dustex i gruset, eller endnu bedre, fræse Dustex ned i underlagets øverste lag. <br> <br> Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så der sammen med Dustex, dannes en solid ny ”asfalt” der omdannes til en stærk ”plade” på vejens overflade.
-
-          Denne metode er stærkt resursebesparende og økonomisk fordelagtig. På mindre befærdede veje kan man beholde vejen som den er uden at foretage sig yderligere, mens man på mere trafikerede vejstrækninger med fordel kan lægge et lag ny asfalt på toppen. Dette kan ske allerede 4 – 8 uger efter Dustex-behandlingen.
-          <br><br>Beslutningen om at lægge asfalt kan faktisk vente endnu længere, da vejoverfladen med sin nygenerede Dustex-blanding sagtens kan holde nogle år.
-
-          Dustex er et organisk træcellulose restprodukt der hverken skader miljø, mennesker eller dyr.</p>
-        </div>
+    <h2
+      class="w-full pt-20 Header lg:m-auto text-7xl text-center uppercase text-gray-900"
+    >
+      Stabilisering af vejen
+    </h2>
+    <p
+      class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider"
+    >
+      Når en grus- eller asfaltvej har en dårlig bærevne, kan Dustex med stor
+      fordel også benyttes her, da det er en både effektiv og økonomisk ideel
+      måde at opnå en stærk og blivende vejoverflade. Man kan iblande Dustex i
+      gruset, eller endnu bedre, fræse Dustex ned i underlagets øverste lag.
+      <br />
+      <br />
+      Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så
+      der sammen med Dustex, dannes en solid ny ”asfalt” der omdannes til en
+      stærk ”plade” på vejens overflade. Denne metode er stærkt
+      resursebesparende og økonomisk fordelagtig. På mindre befærdede veje kan
+      man beholde vejen som den er uden at foretage sig yderligere, mens man på
+      mere trafikerede vejstrækninger med fordel kan lægge et lag ny asfalt på
+      toppen. Dette kan ske allerede 4 – 8 uger efter Dustex-behandlingen.
+      <br /><br />Beslutningen om at lægge asfalt kan faktisk vente endnu
+      længere, da vejoverfladen med sin nygenerede Dustex-blanding sagtens kan
+      holde nogle år. Dustex er et organisk træcellulose restprodukt der hverken
+      skader miljø, mennesker eller dyr.
+    </p>
+  </div>
   <!-- stabilisering af vejen slut-->
 </template>
 
@@ -135,6 +147,4 @@ import {
 } from "@heroicons/vue/20/solid";
 </script>
 
-<style>
-
-</style>
+<style></style>
