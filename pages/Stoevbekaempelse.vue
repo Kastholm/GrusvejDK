@@ -101,12 +101,6 @@
   </div> 
     
    
-<!-- old Image section -->
-      <!-- <div class="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
-        <VideoPlayerDustex class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
-        </VideoPlayerDustex>
-      </div> -->
-<!-- Content section -->
 <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
