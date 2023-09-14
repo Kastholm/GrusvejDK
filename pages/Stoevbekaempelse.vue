@@ -84,17 +84,7 @@
         </dl>
       </div>
       </div>
-      <div class="w-full pt-10">
-        <h2 class="w-full pt-20 Header lg:m-auto text-7xl text-center uppercase text-gray-900">Stabilisering af vejen</h2>
-        <p class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider">Når en grus- eller asfaltvej har en dårlig bærevne, kan Dustex med stor fordel også benyttes her, da det er en både effektiv og økonomisk ideel måde at opnå en stærk og blivende vejoverflade.
-
-          Man kan iblande Dustex i gruset, eller endnu bedre, fræse Dustex ned i underlagets øverste lag. <br> <br> Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så der sammen med Dustex, dannes en solid ny ”asfalt” der omdannes til en stærk ”plade” på vejens overflade.
-
-          Denne metode er stærkt resursebesparende og økonomisk fordelagtig. På mindre befærdede veje kan man beholde vejen som den er uden at foretage sig yderligere, mens man på mere trafikerede vejstrækninger med fordel kan lægge et lag ny asfalt på toppen. Dette kan ske allerede 4 – 8 uger efter Dustex-behandlingen.
-          <br><br>Beslutningen om at lægge asfalt kan faktisk vente endnu længere, da vejoverfladen med sin nygenerede Dustex-blanding sagtens kan holde nogle år.
-
-          Dustex er et organisk træcellulose restprodukt der hverken skader miljø, mennesker eller dyr.</p>
-      </div>
+      
 
       <!--Stabilisering billeder-->
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
@@ -116,27 +106,8 @@
         <VideoPlayerDustex class="aspect-[5/2] w-full object-cover xl:rounded-3xl">
         </VideoPlayerDustex>
       </div> -->
-
-
-      <div class="relative w-full rounded-md pt-24">
-        <div
-          ref="playerContainer"
-          id="vimeo-player"
-          class="mt-10 aspect-[6/5] h-72 w-screen rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 p-12 grid place-content-center overflow-hidden"
-          style="height: 515px; width: 100vw"
-        >
-          <button
-            @click="toggleVideo"
-            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 translate-y-10 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
-          >
-            <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
-            <PauseIcon v-if="isPlaying" class="h-12 w-12" />
-          </button>
-        </div>
-      </div>
-      
-      <!-- Content section -->
-      <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
+<!-- Content section -->
+<div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
             class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 pt-28 Header text-center"
@@ -192,6 +163,25 @@
           </div>
         </div>
       </div>
+
+      <div class="relative w-full rounded-md pt-24">
+        <div
+          ref="playerContainer"
+          id="vimeo-player"
+          class="mt-10 aspect-[6/5] h-72 w-screen rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 p-12 grid place-content-center overflow-hidden"
+          style="height: 515px; width: 100vw"
+        >
+          <button
+            @click="toggleVideo"
+            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 translate-y-10 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+          >
+            <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
+            <PauseIcon v-if="isPlaying" class="h-12 w-12" />
+          </button>
+        </div>
+      </div>
+      
+      
 
       <!-- old Image section -->
      
