@@ -11,7 +11,7 @@ rl.question("Enter the commit message: ", (commitMessage) => {
   const commands = [
     "git add .",
     `git commit -m "${commitMessage}"`,
-    "git push",
+    "git push origin HEAD",
   ];
 
   const runCommand = (index) => {
