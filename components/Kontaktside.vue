@@ -101,7 +101,7 @@
           </div>
         </div>
         <img
-          src="https://i.ibb.co/Z1g07V3/Skilt.jpg"
+          src="https://i.ibb.co/DQvWVbV/Skilt.webp"
           alt="Product screenshot"
           class="relative w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-6 hidden md:block"
           width="2432"

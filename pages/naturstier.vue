@@ -107,7 +107,7 @@
                 >
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/qBTrPY9/knuser.jpg"
+                      src="https://i.ibb.co/PjXcGn6/Naturstier1-Grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -121,7 +121,7 @@
                 >
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/6ZhgNbr/Frontal.jpg"
+                      src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -131,7 +131,7 @@
                   </div>
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/GF77X45/IMG-0020.jpg"
+                      src="https://i.ibb.co/vZYpFRn/Naturstier3-Grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -245,16 +245,16 @@
           
           </div>
           <!-- pattern slut -->
-          <div class="relative translate-y-7">
-            <h2 class="w-full  text-7xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
+          <div class="relative translate-y-16">
+            <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
             <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
 
         
        <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-16">
+        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-24 mb-16">
          <img
-          src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
+          src="https://i.ibb.co/bLBhZ9t/Naturstier-grusvej.webp"
           alt=""
           class="max-h-[500px] w-full object-cover xl:rounded-3xl"/>       
         </div>

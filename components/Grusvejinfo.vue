@@ -10,7 +10,7 @@
           >
             <img
               class="absolute inset-0 h-full w-full object-cover"
-              src="https://i.ibb.co/SsDXCKL/Findelt.jpg"
+              src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
               alt=""
             />
             <div class="absolute inset-0 mix-blend-multiply" />
@@ -52,9 +52,7 @@
                 class="mt-6 text-xl font-semibold leading-8 text-white bg-[#646065] rounded-xl p-4 bg-opacity-60 text-center"
               >
                 <p class="tracking-wide text-4xl fontfam">
-                  “Amet amet eget scelerisque tellus sit neque faucibus non
-                  eleifend. Integer eu praesent at a. Ornare arcu gravida
-                  natoque erat et cursus.”
+                 "Vi håndterer alle typer grusveje - uanset type & størrelse"
                 </p>
               </blockquote>
             </figure>

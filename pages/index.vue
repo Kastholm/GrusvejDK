@@ -225,7 +225,7 @@
                   class="order-first flex w-64 flex-none justify-end self-end lg:w-auto"
                 >
                   <img
-                    src="https://i.ibb.co/JtVdYB6/pexels-agnieszka-palmowska-103312.jpg"
+                    src="https://i.ibb.co/WskRfTK/Maskiner-Grusvej.webp"
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -243,7 +243,7 @@
                   class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://i.ibb.co/mz5KVns/pexels-athena-1914815.jpg"
+                    src="https://i.ibb.co/x5SH8rk/Grusvej-grus.webp"
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -293,7 +293,7 @@
           <div
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-2xl lg:flex-auto lg:flex-col lg:items-start lg:gap-y-80"
             style="
-              background-image: url('https://i.ibb.co/FJGrLgy/Frontal.jpg');
+              background-image: url('https://i.ibb.co/0ZwLm1f/Stabilisering-grusvej-cropped.webp');
               background-size: cover;
               background-position: center;
             "
@@ -426,7 +426,7 @@ let player = null;
 let isPlaying = ref(false);
 onMounted(async () => {
   player = new Player("vimeo-player", {
-    id: 832545609, // Video ID
+    id: 864808340, // Video ID
     width: 720,
     height: 515,
     controls: false,

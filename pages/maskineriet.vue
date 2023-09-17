@@ -107,7 +107,7 @@
                 >
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/qBTrPY9/knuser.jpg"
+                      src="https://i.ibb.co/Qp58hws/Maskiner-stenknuser-Grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -121,7 +121,7 @@
                 >
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/6ZhgNbr/Frontal.jpg"
+                      src="https://i.ibb.co/v3LD7qK/Maskine-stabilisering-grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -131,7 +131,7 @@
                   </div>
                   <div class="relative -translate-y-20">
                     <img
-                      src="https://i.ibb.co/GF77X45/IMG-0020.jpg"
+                      src="https://i.ibb.co/0QpjWh4/Afvikling-grusvej.webp"
                       alt=""
                       class="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                     />
@@ -277,7 +277,7 @@
        <!-- Image section -->
         <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-16">
          <img
-          src="https://i.ibb.co/fGdY5jt/Henrik-Lund-og-Christopher.jpg"
+          src="https://i.ibb.co/NVpxQ3z/Stenknuser-f-rste-i-Danmark-v3-1.webp"
           alt=""
           class="max-h-[500px] w-full object-cover xl:rounded-3xl"/>       
         </div>

@@ -10,7 +10,7 @@
           >
             <img
               class="absolute inset-0 h-full w-full object-cover"
-              src="https://i.ibb.co/SsDXCKL/Findelt.jpg"
+              src="https://i.ibb.co/MNmNDRC/Naturstier-grusvej.webp"
               alt=""
             />
             <div class="absolute inset-0 mix-blend-multiply" />
@@ -52,9 +52,8 @@
                 class="mt-6 text-xl font-semibold leading-8 text-white bg-[#646065] rounded-xl p-4 bg-opacity-60 text-center"
               >
                 <p class="tracking-wide text-4xl fontfam">
-                  “Amet amet eget scelerisque tellus sit neque faucibus non
-                  eleifend. Integer eu praesent at a. Ornare arcu gravida
-                  natoque erat et cursus.”
+                  “Grusvej ApS har 5 års ekspertise i naturstier & garanterer dig en solid natursti til både fodgængere & bilister
+                  som holder i adskillige år.”
                 </p>
               </blockquote>
             </figure>
@@ -85,22 +84,6 @@
               </p>
             </div>
           </div>
-          <dl
-            class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14"
-          >
-            <div v-for="(stat, statIdx) in stats" :key="statIdx">
-              <dt
-                class="text-4xl font-semibold leading-8 text-gray-900 fontfam tracking-wider p-4 text-center"
-              >
-                {{ stat.label }}
-              </dt>
-              <dd
-                class="mt-3 text-6xl font-bold leading-12 sm:leading-10 tracking-tight text-gray-900 fontfam text-center border-l-2 border-b-2 border-[#f9b039] p-3"
-              >
-                {{ stat.value }}
-              </dd>
-            </div>
-          </dl>
         </div>
       </div>
     </div>
@@ -108,10 +91,7 @@
 </template>
 
 <script setup>
-const stats = [
-  { value: "+4000 km anlagt" },
-  { label: "FOR PRIVATE OG VIRKSOMHEDER", value: "+250 Glade kunder" },
-];
+
 </script>
 
 <style>
