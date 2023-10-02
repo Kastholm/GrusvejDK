@@ -91,12 +91,12 @@
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
       <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Vejen behandles med Dustex</div>
-      <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
+      <img class="rounded-lg" src="https://i.ibb.co/Gt0C0k9/Dustex-spredning-Grusvej.webp" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
     <div class="flex flex-col items-center">
       <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Hårdhed efter 14 dage</div>
-      <img class="rounded-lg" src="https://i.ibb.co/vd7FRhw/vej-efter-14-dage.jpg" alt="Image 2">
+      <img class="rounded-lg" src="https://i.ibb.co/Vxk4FPC/Dustex-ha-rdhed-Grusvej.webp" alt="Image 2">
     </div>
   </div> 
     
@@ -158,7 +158,7 @@
         </div>
       </div>
 
-      <div class="relative w-full rounded-md pt-24">
+      <div class="relative w-full rounded-md pt-24 -translate-y-10">
         <div
           ref="playerContainer"
           id="vimeo-player"
@@ -205,8 +205,8 @@ let isPlaying = ref(false);
 let playerContainer = ref(null);
 onMounted(async () => {
   player = new Player("vimeo-player", {
-    id: 832545609,
-    width: playerContainer.value.offsetWidth * 0.8,
+    id: 864870126,
+    width: playerContainer.value.offsetWidth * 0.6,
     controls: false,
   });
   await player.setVolume(0.5);

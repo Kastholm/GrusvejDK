@@ -38,7 +38,7 @@
           <!-- pattern slut -->
       
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="mx-auto  grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
       <img
             class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
@@ -101,7 +101,7 @@
           </div>
         </div>
         <img
-          src="https://i.ibb.co/Z1g07V3/Skilt.jpg"
+          src="https://i.ibb.co/DQvWVbV/Skilt.webp"
           alt="Product screenshot"
           class="relative w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-6 hidden md:block"
           width="2432"

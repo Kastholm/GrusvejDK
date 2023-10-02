@@ -66,7 +66,7 @@
             class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-20"
           >
             <img
-              src="https://i.ibb.co/C2hSj70/bil-paa-grusvej.jpg"
+              src="https://i.ibb.co/mDX8BS5/Stabilisering-header-grusvej.webp"
               alt=""
               class="object-cover object-center aspect-[3/2]"
             />
