@@ -1,15 +1,15 @@
 <template>
-  <div class="bg-white py-24 sm:py-18">
-    <div class="mx-auto max-w-7xl px-6 lg:px-8 ">
+  <div class="bg-white py-24 sm:py-18 ">
+    <div class="mx-auto max-w-7xl px-6 lg:px-8">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
-        <div class="lg:pr-4 -translate-y-20 sm:-translate-y-32">
+        <div class="lg:pr-4 -translate-y-48 sm:-translate-y-36 lg:order-none order-last">
           <div
-            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 translate-y-32"
+            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 translate-y-36"
           >
             <img
-              class="absolute inset-0 h-full w-full object-cover"
+              class="absolute inset-0 h-full w-full object-cover "
               src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
               alt=""
             />
@@ -59,13 +59,14 @@
           </div>
         </div>
         <div>
-          <div class="leading-7 text-gray-700 lg:max-w-lg sm:-translate-y-5">
+          <div class="leading-7 text-gray-700 lg:max-w-lg">
             <h1
-              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam"
+              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam "
             >
               Grusvej.dk giver din grusvej plejen den fortjener
             </h1>
-            <div class="max-w-xl">
+            
+            <div class="max-w-xl lg:order-none">
               <p class="mt-6">
                 Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
                 risus enim. Mattis mauris semper sed amet vitae sed turpis id.
@@ -85,7 +86,7 @@
             </div>
           </div>
           <dl
-            class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14"
+            class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4"
           >
             <div v-for="(stat, statIdx) in stats" :key="statIdx">
               <dt

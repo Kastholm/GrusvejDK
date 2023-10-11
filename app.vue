@@ -10,6 +10,7 @@ import dotenv from "dotenv";
 </script>
 
 <style>
+
 /* Henter fonts fra Adobe Typekit (https://fonts.adobe.com/fonts/futura-pt-condensed) og Open Sans (https://fonts.adobe.com/fonts/open-sans)  */
 @import url("https://use.typekit.net/rbp7ctt.css");
 /* Generel Header styling */
@@ -39,6 +40,9 @@ a {
   font-family: "open-sans", sans-serif;
   font-weight: 400;
   font-style: normal;
+}
+html{
+  overflow-x: hidden;
 }
 /* Læsbar skrift der skal læses af brugeren */
 .TextReadable {

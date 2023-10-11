@@ -1,12 +1,12 @@
 <template>
   <div class="bg-white">
-    <div class="mx-auto max-w-7xl pt-12 px-6 lg:px-8">
+    <div class="mx-auto max-w-7xl pt-12 px-6 lg:px-8 -translate-y-36">
       <div
         class="mx-auto grid max-w-2xl grid-cols-1 items-start gap-x-8 gap-y-16 sm:gap-y-24 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
-        <div class="lg:pr-4 -translate-y-20 sm:-translate-y-32">
+        <div class="lg:pr-4 -translate-y-20 sm:-translate-y-32 lg:order-none order-last">
           <div
-            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 translate-y-32"
+            class="relative overflow-hidden rounded-3xl bg-gray-900 px-6 pb-9 pt-64 sm:px-12 lg:max-w-lg lg:px-8 lg:pb-8 xl:px-10 xl:pb-10 "
           >
             <img
               class="absolute inset-0 h-full w-full object-cover"
@@ -60,9 +60,9 @@
           </div>
         </div>
         <div>
-          <div class="leading-7 text-gray-700 lg:max-w-lg sm:-translate-y-5">
+          <div class="leading-7 text-gray-700 lg:max-w-lg sm:-translate-y-5 -translate-y-28">
             <h1
-              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam"
+              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam "
             >
               Grusvej.dk giver din grusvej plejen den fortjener
             </h1>

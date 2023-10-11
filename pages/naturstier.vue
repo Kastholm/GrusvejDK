@@ -100,7 +100,7 @@
                 </p>
               </div>
               <div
-                class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
+                class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 lg:-translate-y-0 -translate-y-24"
               >
                 <div
                   class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
@@ -117,9 +117,9 @@
                   </div>
                 </div>
                 <div
-                  class="mr-auto w-60 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36"
+                  class="mr-auto w-60 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36 lg:-translate-y-0 -translate-y-20"
                 >
-                  <div class="relative -translate-y-20">
+                  <div class="relative  -translate-y-20">
                     <img
                       src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
                       alt=""
@@ -245,14 +245,14 @@
           
           </div>
           <!-- pattern slut -->
-          <div class="relative translate-y-16">
+          <div class="relative lg:-translate-y-0 -translate-y-32">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
             <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
 
         
        <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-24 mb-16">
+        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 lg:translate-y-24 -translate-y-20 mb-16">
          <img
           src="https://i.ibb.co/bLBhZ9t/Naturstier-grusvej.webp"
           alt=""
