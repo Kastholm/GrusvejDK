@@ -82,21 +82,11 @@
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
                 <h1 class="Header MainHeader">
-                  UDSTYR SIKRER DANMARKS BEDSTE GRUSVEJE
+                  SPECIALMASKINERI DER SIKRER DANMARKS BEDSTE GRUSVEJE
                 </h1>
                 <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                  quis cupidatat mollit aute velit. Et labore commodo nulla
-                  aliqua proident mollit ullamco exercitation tempor. Sint
-                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
-                  Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                  aliqua.<br><br>
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                  quis cupidatat mollit aute velit. Et labore commodo nulla
-                  aliqua proident mollit ullamco exercitation tempor. Sint
-                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
-                  Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                  aliqua.
+                  STEHR er Tysk specialmaskineri af højeste kvalitet. Fra alpelandets skærvebelagte bjergveje til danske fladlands grusveje knuser, opretter og stabiliserer det tunge grej vores grusveje. <br><br> Hurtigt og effektivt med en stor grad af genbrug i processen.
+                  Vi genbruger den gamle vejs eksisterende materialer til at skabe en ny og velanlagt kørebane, som holder i mange år med det rette vedligeholdelsesprogram. Det er omkostningsbevidst – både for økonomi og miljø.
                 </p>
               </div>
               <div
@@ -203,7 +193,7 @@
         </div>
       </div> -->
 
-      <div class="tabBody -translate-y-20">
+      <div class="tabBody -mt-36 mb-16">
         <div class="tabs">
           <button
             v-for="tab in tabs"
@@ -215,16 +205,15 @@
           </button>
         </div>
         <transition name="fade" mode="out-in">
-          <div class="tab-content" :key="currentTab.id">
+          <div class="tab-content sm:ml-16" :key="currentTab.id">
             <div class="px-2">
-              <h2>{{ currentTab.name }}</h2>
-              <h3>{{ currentTab.manchet }}</h3>
-              <p>{{ currentTab.text }}</p>
-              <br />
-              <p>{{ currentTab.text }}</p>
+              <h2 class="font-bold">{{ currentTab.name }}</h2>
+              <h3 class="translate-y-4">{{ currentTab.manchet }}</h3>
+              <p class="translate-y-10 max-w-[80%]">{{ currentTab.text }}</p>
+              
             </div>
             <div
-              class="img-div"
+              class="img-div mt-16 max-h-[500px] max-w-[1000px] "
               :style="{ backgroundImage: 'url(' + currentTab.imgSrc + ')' }"
             ></div>
           </div>
@@ -271,11 +260,11 @@
           <!-- pattern slut -->
           <div class="relative translate-y-7">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed max-w-[80%]">Vores STEHR maskineri er unikke og nogle af de eneste i Danmark, hvor det først er i de senere år, at vi er blevet opmærksomme på fordelene ved en god grusvej.  </p>
           </div>
         
        <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-16">
+        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-24">
          <img
           src="https://i.ibb.co/NVpxQ3z/Stenknuser-f-rste-i-Danmark-v3-1.webp"
           alt=""
@@ -301,43 +290,58 @@ const mobileMenuOpen = ref(false);
 const tabs = [
   {
     id: 1,
-    name: "Maskine 1",
+    name: "Trykanlæg",
     imgSrc:
       "https://images.pexels.com/photos/12495785/pexels-photo-12495785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "Til håndtering og udlægning af lignin (Dustex) har vi diverse stationære trykanlæg opbygget på trailere med tankanlæg og pumper.",
+    manchet: "Styr på støvet med Dustex",
   },
   {
     id: 2,
-    name: "Maskine 2",
+    name: "Stehr Grader sug35",
     imgSrc:
       "https://images.pexels.com/photos/4372184/pexels-photo-4372184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "STEHR bagmonteret grader fjerner overskudsjord, gammelt materiale og sten fra vejen. Et nødvendigt trin i processen for et solidt fundament til den nye grusvej. ",
+    manchet: "Oprivning & sammentrækning af vejen",
   },
   {
     id: 3,
-    name: "Maskine 3",
+    name: "Stehr SBV 80 HC3",
     imgSrc:
       "https://images.pexels.com/photos/8938485/pexels-photo-8938485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "STEHR formonteret komprimeringsværktøj stabilisere jordlaget i den rette vinkel, så vejen ender med en profil der leder vandet væk. ",
+    manchet: "Komprimering af vejen",
   },
   {
     id: 4,
-    name: "Maskine 4",
+    name: "Stehr Steinbrecher 240 ",
     imgSrc:
       "https://images.pexels.com/photos/12932782/pexels-photo-12932782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "Som en direkte forlængelse af vores bæredygtige tanker, kan stenbrækkeren knuse og neddele gamle veje, indbygningsegnet materialer fra nedrivning, belægninger m.m i en arbejdsgang. Det gøres med en Stehr Steinbrecher SSB 240 monteret på en af vores traktorer.",
+    manchet: "Stenknuser",
   },
   {
     id: 5,
-    name: "Maskine 5",
+    name: "Stehr SBF 24-6 ",
     imgSrc:
       "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "Til neddeling af kalk og cement benytter vi en Stehr SBF 24-6 støvfri stabilisator og en traditionel kalkstabilisator med frontank.",
+    manchet: "Kalk og cement",
+  },
+  {
+    id: 6,
+    name: "Stehr SBF 24",
+    imgSrc:
+      "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: " Til lignin (Dustex) stabilisering benytter vi en SBF 24 med frontmonteret tank med trykanlæg som effektivt kan behandle store arealer.",
+    manchet: "Dustex stabilisering",
+  },{
+    id: 7,
+    name: "Gravemaskiner & Gummiged",
+    imgSrc:
+      "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "Hos os er valget ikke tilfældigt, når vi indleder et samarbejde med en leverandør. Leverandøren er nøje valgt ud fra betragtninger om lang holdbarhed, serviceniveau og leverandørens stillingtagen til belastningen af vores miljø og totale økonomi, både den kontante og den grønne.",
+    manchet: "Flere typer der rangere fra 1 til 10 tons ",
   },
 ];
 
@@ -420,8 +424,8 @@ function changeTab(tab) {
 }
 
 .tab-content {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  
+  
   padding: 2em;
 }
 @media (max-width: 950px) {

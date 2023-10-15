@@ -15,7 +15,7 @@
             />
             <div class="absolute inset-0 mix-blend-multiply" />
             <div
-              class="absolute left-1/2 top-1/2 -ml-16 -translate-x-1/2 -translate-y-1/2 transform-gpu blur-3xl"
+              class="absolute left-1/2 top-1/2 -ml-16 transform-gpu"
               aria-hidden="true"
             >
               <div
@@ -46,7 +46,7 @@
               <img
                 src="https://i.ibb.co/w4wfqxs/Grusvej-logo-200x95px.png"
                 alt=""
-                class="sm:h-16 w-auto"
+                class="sm:h-16 w-auto sm:-translate-y-0 -translate-y-10"
               />
               <blockquote
                 class="mt-6 text-xl font-semibold leading-8 text-white bg-[#646065] rounded-xl p-4 bg-opacity-60 text-center"
@@ -59,34 +59,30 @@
           </div>
         </div>
         <div>
-          <div class="leading-7 text-gray-700 lg:max-w-lg">
+          <div class="leading-7 text-gray-700 lg:max-w-lg -translate-y-4">
             <h1
-              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam "
+              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam"
             >
-              Grusvej.dk giver din grusvej plejen den fortjener
+            GRUSVEJ.DK GIVER DIN GRUSVEJ DEN RETTE FORM – OG PLEJE
             </h1>
             
             <div class="max-w-xl lg:order-none">
-              <p class="mt-6">
-                Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                Id dolor praesent donec est. Odio penatibus risus viverra tellus
-                varius sit neque erat velit. Faucibus commodo massa rhoncus,
-                volutpat. Dignissim sed eget risus enim. Mattis mauris semper
-                sed amet vitae sed turpis id.
+              <p class="mt-6 Text TextReadable">
+                En korrekt anlagt grusvej holder i mange år. Med den rette pleje i endnu flere. I Danmark er det regnvandet som udfordrer de fleste grusveje.
+                I kombination med forkert funderede underlag resulterer det i årlige ærgrelser med tilbagevendende huller og skred i vejprofilen.
+                For ikke at tale om de omkostninger og slitage på køretøjer en dårlig grusvej afstedkommer. <br><br>
+                Grusvej.dk har gennem mange år etableret og vedligeholdt grusveje i Danmark. Vores specialmaskiner har lagt bund for mange hundrede kilometer grusveje gennem årene. Med serviceaftaler forlænger vi levetiden på vejen, ligesom vi højner glæden ved at have en god og støvfri grusvej at færdes på.
+
               </p>
-              <p class="mt-4">
-                Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-                odio id et. Id blandit molestie auctor fermentum dignissim.
-                Lacus diam tincidunt ac cursus in vel. Mauris varius vulputate
-                et ultrices hac adipiscing egestas. Iaculis convallis ac tempor
-                et ut. Ac lorem vel integer orci.
-              </p>
-              
+              <div class="max-w-[334px]">
+            <h3 class="text-center font-bold text-4xl text-grey-900 uppercase Header w-full -translate-x-2">Garanti på din grusvej</h3>
+          </div>
+            <p class="Text TextReadable text-grey-900">Når bærelaget har den tilstrækkelige bæreevne, vejprofilen får den rigtige facon og vandet kan afledes til rabat og nedsivningsarealet, så kan du få garanti på din grusvej ved indgåelse af en serviceaftale. <br><br>Vores service aftaler indgås individuelt, og tilbydes i forbindelse med, at vi fremsender tilbuddet på udbedring af din vej. <br><br> Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde. <br>(link til oversigtstabel)</p>
+          
             </div>
           </div>
           <dl
-            class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4"
+            class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4 trans-0 mb-20"
           >
             <div v-for="(stat, statIdx) in stats" :key="statIdx">
               <dt
@@ -117,5 +113,11 @@ const stats = [
 <style>
 .fontfam {
   font-family: "futura-pt-condensed", sans-serif;
+}
+
+.trans-0 {
+
+  transform: translateY(0) !important;
+  transform: translateX(0) !important;
 }
 </style>

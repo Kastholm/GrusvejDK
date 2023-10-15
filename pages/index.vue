@@ -17,27 +17,27 @@
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
               <h1 class="Header mb-12">
-                SPECIALISTER I VEDLIGEHOLDELSE OG ETABLERING AF GRUSVEJE
+                VI ER SPECIALISTER I VEDLIGEHOLD OG ETABLERING AF GRUSVEJE
               </h1>
+              
+
+              <p class="Text TextReadable text-gray-600 pt-2">
+                En grusvej er ikke bare en grusvej. Er grusvejen fra starten konstrueret korrekt og rigtigt vedligeholdt kan den holde i mange år.
+                 Så enkelt er det – og vi er specialister i grusveje med det rigtige udstyr og viden på plads. 
+              </p>
+              <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
+                >
               <a
                 href="/serviceaftale"
                 class="text-white font-bold text-sm md:text-xl"
               >
-                <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] md:hover:scale-110 text-center -translate-y-4 border shadow-2xl"
-                >
-                  <button class="translate-y-1 sm:translate-y-0 text-base">
-                    Få din serviceaftale hos Grusvej.dk
+       
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Få en serviceaftale hos Grusvej.dk
                   </button>
-                </div>
               </a>
-
-              <p class="Text TextReadable text-gray-600 pt-2">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat aliqua. Anim aute id magna aliqua ad ad non deserunt
-                sunt. Qui irure qui lorem cupidatat commodo.
-              </p>
+            </div>
             </div>
             <div class="relative overflow-hidden">
               <div
@@ -62,7 +62,7 @@
             NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
           </h2>
           <p class="font-semibold text-3xl pb-10">
-            <span class="text-[#137733]"> Grusvej.dk </span> viser dig præcis
+            <span class="text-[#137733]"> Grusvej.dk </span> viser præcist
             hvad du kan forvente
           </p>
           </center>
@@ -193,17 +193,15 @@
               <h2
                 class="text-5xl font-bold tracking-tight Header text-gray-900 sm:text-6xl uppercase"
               >
-                Stenknuser gør det nemt med gamle og "bulede" grusveje
+              Stenknuseren retter op på gamle og bulede grusveje
               </h2>
-              <p class="mt-6 text-xl leading-8 text-gray-600">
-                Quasi est quaerat. Sit molestiae et. Provident ad dolorem
-                occaecati eos iste. Soluta rerum quidem minus ut molestiae velit
-                error quod. Excepturi quidem expedita molestias quas.
+              <p class="mt-6 Text Textreadable text-base leading-8 text-gray-600">
+                Tidligere brugte man gammelt byggeaffald, beton- og
+                 teglbrokker til at understøtte grusveje. Disse løst nedgravede fraktioner skader efter mange års slid nu mere end de gavner. 
               </p>
-              <p class="mt-6 text-base leading-7 text-gray-600">
-                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
-                lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat
-                fugiat. Quasi aperiam sit non sit neque reprehenderit.
+              <p class="mt-6 Text Textreadable text-base leading-7 text-gray-600">
+                I stedet for at fjerne dem i en tung og dyr proces, nedknuser vi materialerne så de virker som almindeligt stabilgrus.
+                 Det sparer tid, indkøb af ny stabilunderlag, er miljørigtigt, hurtigt og effektivt.
               </p>
             </div>
             <div
@@ -260,13 +258,11 @@
           <h2
             class="text-3xl font-bold tracking-tight Header text-gray-900 sm:text-6xl text-center uppercase"
           >
-            (+90.000 km grusvej er forkert lagt i danmark...)
+            +90.000 km grusvej er forkert lagt i danmark
           </h2>
-          <p class="mt-6 text-base leading-7 text-gray-600">
-            Diam nunc lacus lacus aliquam turpis enim. Eget hac velit est
-            euismod lacus. Est non placerat nam arcu. Cras purus nibh cursus sit
-            eu in id. Integer vel nibh.
-          </p>
+          <p class="mt-6 text-base leading-7 text-gray-600 max-w-[80%] text-center m-auto ">
+            Marker, skovarealer, sommerhusområder, naturarealer, stier og veje.
+            Der er masser af grusveje i Danmark som trænger til en kærlig hånd – og effektivt maskineri.</p>
         </div>
         <!-- card 1 -->
         <div
@@ -281,11 +277,9 @@
               Minimum vedligeholdelse
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-[#fcf2ff]">
-                Users on the platform
-              </p>
-              <p class="mt-2 text-base leading-7 text-[#fcf2ff]">
-                Vel labore deleniti veniam consequuntur sunt nobis.
+              
+              <p class="mt-2 text-base leading-7 text-[#fcf2ff] Text Textreadable">
+                En korrekt grusvej er en investering der rækker mange år frem. Med en Grusvej.dk serviceaftale nærmest evigt.
               </p>
             </div>
           </div>
@@ -308,15 +302,12 @@
             <p
               class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff]"
             >
-              Vores grusvej holder i +2 år uden dannelse af huller.
+              Vores grusvej holder i +2 år uden dannelse af huller
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              <p class="text-lg font-semibold tracking-tight text-[#fcf2ff]">
-                Transactions this year
-              </p>
-              <p class="mt-2 text-base leading-7 text-[#fcf2ff]">
-                Eu duis porta aliquam ornare. Elementum eget magna egestas. Eu
-                duis porta aliquam ornare.
+              
+              <p class="mt-2 text-base leading-7 text-[#fcf2ff] max-w-[90%] m-auto">
+                Uden løbende vedligehold holder vores grusveje i mere end 2 år uden at vandet danner nye huller. Med årlig service forlænges dette faktum.
               </p>
             </div>
           </div>
@@ -443,41 +434,41 @@ const toggleVideo = () => {
 
 const arbejdssteps = [
   {
-    name: "Klargøring af underlag",
+    name: "Vandafledning",
     description:
-      "Fjernelse af jord, grene og blade inden arbejdet igangsættes. Det sikrer at gruset ikke blandes med materialer som suger regnvandet til sig.",
+      "Vi graver eventuelt nye grøfter, så vandet kan ledes tilfredsstillende fra vejen ligesom vi sikrer, at der er tilstrækkelige sivearealer til det afledte vand.",
     date: "Trin 1",
     dateTime: "2021-08",
     image: "https://i.ibb.co/WfqTBNC/IMG-0032.jpg",
   },
   {
-    name: "Vinkling af grusvejen",
+    name: "Klargøring",
     description:
-      "Der laves en let buet facon på vejen så den får en hældning ud imod grøften, hvilket leder regnvand væk fra grusvejen.",
+      "Hvis det er nødvendigt fræser vi den gamle vej op med stenknuseren i ned til 20cm dybde. Alle materialer knuses og genanvendes som stabiliserende lag. ",
     date: "Trin 2",
     dateTime: "2021-12",
     image: "https://i.ibb.co/TgK3rPY/IMG-0020.jpg",
   },
   {
-    name: "Komprimering",
+    name: "Vinkling af grusvejen",
     description:
-      "Vejen komprimeres for at trykke underlaget fast og jævnt. Denne proces hjælper til at forhindre fremtidige huller i vejen.",
+      "Der trækkes en let buet profil over grusvejen med hældning mod begge grøfter, så vandet kan ledes korrekt væk.",
     date: "Trin 3",
     dateTime: "2022-02",
     image: "https://i.ibb.co/0XDX3nK/IMG-0058.jpg",
   },
   {
-    name: "Toplaget",
+    name: "Komprimering",
     description:
-      "Efter vejen er komprimeret, køres lergrus på i 3-4 cm tykkelse. Den hårde overflade på lergruset leder regnvandet væk.",
+      "Med 85 Newtonmeter komprimeres vejen så underlag ligger fast og forhindrer desuden huller i at opstå i lang tid. Den hårde overflade leder vandet væk.",
     date: "Trin 4",
     dateTime: "2022-12",
     image: "https://i.ibb.co/KGZZTKv/vej-efter-14-dage.jpg",
   },
   {
-    name: "Vandafledning",
+    name: "Toplaget",
     description:
-      "Mangel på sivegrøfter / nedsivningsarealer skaber huller i grusveje. Vi sørger for at grave alle nødvendige grøfter og sivearealer.",
+      "Om nødvendigt tilføres et tyndt lag grus som toplag. Eventuelt iblandet det organiske materiale Dustex, der forhindrer støvgener.",
     date: "Trin 5",
     dateTime: "2022-12",
     image: "https://i.ibb.co/4tXvDBD/grusvej-bredformat.jpg",

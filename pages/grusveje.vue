@@ -5,9 +5,13 @@
       <div class="isolate -z-10">
         <GrusvejeUspHero />
       </div>
-
       <!-- Content section -->
       <Grusvejinfo> </Grusvejinfo>
+
+    <div class=" -translate-y-16">
+     <h3 class="mt-2 text-5xl w-[43%] font-bold tracking-wide text-gray-900 sm:text-6xl fontfam">DE <span class=" text-SubColor2 sm:text-8xl">5</span> BUD <br> <span class="sm:text-5xl">- PÅ EN PERFEKT GRUSVEJ</span></h3>
+     
+    </div>
 
       <div class="tabBody -translate-y-20">
         <div class="tabs">
@@ -17,20 +21,19 @@
             :class="{ active: currentTab.id === tab.id }"
             @click="changeTab(tab)"
           >
-            {{ tab.name }}
+            {{ tab.manchet }}
           </button>
         </div>
         <transition name="fade" mode="out-in">
           <div class="tab-content" :key="currentTab.id">
             <div class="px-2">
-              <h2>{{ currentTab.name }}</h2>
-              <h3>{{ currentTab.manchet }}</h3>
-              <p>{{ currentTab.text }}</p>
-              <br />
-              <p>{{ currentTab.text }}</p>
+              <h2 class="font-bold -translate-y-4 sm:-translate-y-0">{{ currentTab.name }}</h2>
+              <h3 class="translate-x-1 translate-y-2 font-bold">{{ currentTab.manchet }}</h3>
+              <p class="translate-y-0 sm:translate-y-10">{{ currentTab.text }}</p>
+              <p class="translate-y-0 sm:translate-y-16">{{ currentTab.text2 }}</p>
             </div>
             <div
-              class="img-div"
+              class="img-div max-h-64 translate-y-4 sm:translate-y-0 sm:max-h-96"
               :style="{ backgroundImage: 'url(' + currentTab.imgSrc + ')' }"
             ></div>
           </div>
@@ -88,43 +91,46 @@ const mobileMenuOpen = ref(false);
 const tabs = [
   {
     id: 1,
-    name: "Maskine 1",
+    name: "Vandet",
     imgSrc:
       "https://images.pexels.com/photos/12495785/pexels-photo-12495785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale yderligere og større huller begynder at danne sig. ",
+    text2: "Slid på biler og dæk er også forbundet med vand, da vandet på ubehandlet veje vender småsten med den skarpe side op der resulterer i svær slid af bla. dæk på køretøjer.",
+    manchet: "Bud 1",
   },
   {
     id: 2,
-    name: "Maskine 2",
+    name: "Grøften & nedsivnings arealet",
     imgSrc:
       "https://images.pexels.com/photos/4372184/pexels-photo-4372184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "For at vejen kan holde i flere år skal der altid være afledning væk fra vejen. Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1. ",
+    manchet: "Bud 2",
   },
   {
     id: 3,
-    name: "Maskine 3",
+    name: "Bærelaget i grusvejen",
     imgSrc:
       "https://images.pexels.com/photos/8938485/pexels-photo-8938485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Hvilket kun vil øges fremover, så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
+    manchet: "Bud 3",
   },
   {
     id: 4,
-    name: "Maskine 4",
+    name: "Vejens profil",
     imgSrc:
       "https://images.pexels.com/photos/12932782/pexels-photo-12932782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille. ",
+    text2: "Det rette tempo på afledning af vandet er en vigtig faktor for, at vejen mister minimalt af grus og materiale over tid.",
+    manchet: "Bud 4",
   },
   {
     id: 5,
-    name: "Maskine 5",
+    name: "Vejens slidlag",
     imgSrc:
       "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eaque iste porro expedita pariatur? Consectetur accusamus doloribus soluta dicta! Labore suscipit quis facere aut dignissimos asperiores officia eaque excepturi magni saepe, dolores non eos ipsum",
-    manchet: "manchet",
+    text: "For at vejen opnår den bedst mulige holdbarhed skal slidlaget være vejgrus. ",
+    text2: "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
+    manchet: "Bud 5",
   },
 ];
 

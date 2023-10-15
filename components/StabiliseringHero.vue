@@ -52,14 +52,11 @@
             <h1
               class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-7xl"
             >
-              Stabiliser vejen med en professionel maskinpark <br />
+            Jordstabilisering <br />
             </h1>
             <p class="mt-4 text-black relative text-xl -translate-y-10">
-              At the beginning at least, but then we realized we could make a
-              lot more money if we kinda stopped caring about that. Our new
-              strategy is to write a bunch of things that look really good in
-              the headlines, then clarify in the small print but hope people
-              don't actually read it.
+              Hos Grusvej.dk har vi i dag muligheden for støvfrit at stabilisere med kalk og cement. Vi kan derfor flytte stabilisering ind i områder, hvor vi tidligere ikke har kunne stabilisere pga. støvgener i byer, industriområder, langs veje og jernbaner.
+              <br><br>Stabilisering af bærelag på vores veje skal anvendes i meget større omfang end det vi har gjort hidtil. I alle processer skal vi vurdere vores CO2 forbrug, og det er uomgængeligt, at vi kommer til at finde nye og utraditionelle metoder. 
             </p>
           </div>
           <div

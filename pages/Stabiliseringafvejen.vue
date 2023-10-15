@@ -12,14 +12,12 @@
         <div class="lg:pr-4 z-10">
           <div class="lg:max-w-lg">
             <h1
-              class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+              class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-7xl Header uppercase"
             >
-              Stabiliserings-process
+              DUSTEX
             </h1>
             <p class="mt-6 text-xl leading-8 text-gray-700">
-              Aliquet nec orci mattis amet quisque ullamcorper neque, nibh sem.
-              At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque id at
-              vitae feugiat egestas.
+              Grusvej.dk kan i dag stabilisere med Dustex, et gammelkendt produkt, som både kan anvendes traditionelt og på alternative måder - og i materialer som traditionelt ikke har været stabiliseret, Med Dustex kan man tillige opnå en CO2 neutral stabilisering.
             </p>
           </div>
         </div>
@@ -37,70 +35,24 @@
         class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
       >
         <div class="lg:pr-4">
-          <div class="max-w-xl text-base leading-7 text-gray-700 lg:max-w-lg">
+          <div class="max-w-xl text-base leading-7 text-gray-900 lg:max-w-lg">
             <p>
-              Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget risus
-              enim. Mattis mauris semper sed amet vitae sed turpis id. Id dolor
-              praesent donec est. Odio penatibus risus viverra tellus varius sit
-              neque erat velit. Faucibus commodo massa rhoncus, volutpat.
-              Dignissim sed eget risus enim. Mattis mauris semper sed amet vitae
-              sed turpis id.
+              Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt og indblanding i bærelaget
+              og efterfølgende indblanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
             </p>
-            <ul role="list" class="mt-8 space-y-8 text-gray-600">
-              <li class="flex gap-x-3">
-                <CloudArrowUpIcon
-                  class="mt-1 h-5 w-5 flex-none text-indigo-600"
-                  aria-hidden="true"
-                />
-                <span
-                  ><strong class="font-semibold text-gray-900"
-                    >Trin 1 -
-                  </strong>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                  Maiores impedit perferendis suscipit eaque, iste dolor
-                  cupiditate blanditiis ratione.</span
-                >
-              </li>
-              <li class="flex gap-x-3">
-                <LockClosedIcon
-                  class="mt-1 h-5 w-5 flex-none text-indigo-600"
-                  aria-hidden="true"
-                />
-                <span
-                  ><strong class="font-semibold text-gray-900">Trin 2 -</strong>
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo.</span
-                >
-              </li>
-              <li class="flex gap-x-3">
-                <ServerIcon
-                  class="mt-1 h-5 w-5 flex-none text-indigo-600"
-                  aria-hidden="true"
-                />
-                <span
-                  ><strong class="font-semibold text-gray-900">Trin 3 -</strong>
-                  Ac tincidunt sapien vehicula erat auctor pellentesque rhoncus.
-                  Et magna sit morbi lobortis.</span
-                >
-              </li>
-            </ul>
+            
             <p class="mt-8">
-              Et vitae blandit facilisi magna lacus commodo. Vitae sapien duis
-              odio id et. Id blandit molestie auctor fermentum dignissim. Lacus
-              diam tincidunt ac cursus in vel. Mauris varius vulputate et
-              ultrices hac adipiscing egestas. Iaculis convallis ac tempor et
-              ut. Ac lorem vel integer orci.
+              Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt
+              og indblanding i bærelaget og efterfølgende indblanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
             </p>
-            <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-              Topmoderne maskinpark
+            <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 -translate-y-6">
+              Grønt fokus
             </h2>
-            <p class="mt-6">
-              Id orci tellus laoreet id ac. Dolor, aenean leo, ac etiam
-              consequat in. Convallis arcu ipsum urna nibh. Pharetra, euismod
-              vitae interdum mauris enim, consequat vulputate nibh. Maecenas
-              pellentesque id sed tellus mauris, ultrices mauris. Tincidunt enim
-              cursus ridiculus mi. Pellentesque nam sed nullam sed diam turpis
-              ipsum eu a sed convallis diam.
+            <p class="mt-6 -translate-y-6">
+              Hos Grusvej.dk har vi et grønt miljøfokus og ønsker at bidrage med bæredygtighed for genanvendelse af eksisterende vejopbygninger. Det gør vi med princippet om at anvende vejens egne materialer og stabilisere uden at tilføre nye materialer.
+              I enkelte tilfælde kan det dog være påkrævet at supplere med ekstra materialer.
+              Anvendelse af denne metode er særlig egnet til mindre private veje og fælles veje, hvor økonomien og bæredygtigheden har stor betydning.
+
             </p>
           </div>
         </div>
@@ -112,15 +64,15 @@
     <h2
       class="w-full pt-20 Header lg:m-auto text-7xl text-center uppercase text-gray-900"
     >
-      Stabilisering af vejen
+    Vildere vejr stiller nye krav
     </h2>
     <p
-      class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider"
+      class="leading-8 text-lg text-center pt-5 text-gray-600 font-[5] w-[90%] m-auto tracking-wider max-w-[80%]"
     >
-      Når en grus- eller asfaltvej har en dårlig bærevne, kan Dustex med stor
-      fordel også benyttes her, da det er en både effektiv og økonomisk ideel
-      måde at opnå en stærk og blivende vejoverflade. Man kan iblande Dustex i
-      gruset, eller endnu bedre, fræse Dustex ned i underlagets øverste lag.
+    Vores veje og vejrabatter skal i fremtiden kunne modstå større mængder og kraftigere regnbyger.
+I 2015 arbejdede man på Teknologisk Institut med 5 og 10 års hændelser i bestemt definerede områder – i disse områder har der i 2023 flere gange været 100 års hændelser. Et fingerpeg om at vi i fremtiden vil opleve større og kraftigere nedbørsmængder, hvilket vil belaste vores veje og stier yderligere.
+Det er derfor vigtigt at indgå i en dialog om sikring af grusveje og stianlæg.
+
       <br />
       <br />
       Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så

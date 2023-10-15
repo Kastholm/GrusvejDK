@@ -13,7 +13,7 @@
         src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
         alt="Image Description"
       />
-      <div class="relative isolate -z-10">
+      <div class="relative isolate -z-10 ">
         <svg
           class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
@@ -82,28 +82,23 @@
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
                 <h1 class="Header MainHeader">
-                  UDSTYR SIKRER DANMARKS BEDSTE GRUSVEJE
+                  PROFESSIONEL ANLÆGGELSE AF NATURSTIER
                 </h1>
                 <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                  quis cupidatat mollit aute velit. Et labore commodo nulla
-                  aliqua proident mollit ullamco exercitation tempor. Sint
-                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
-                  Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                  aliqua.<br><br>
-                  Cupidatat minim id magna ipsum sint dolor qui. Sunt sit in
-                  quis cupidatat mollit aute velit. Et labore commodo nulla
-                  aliqua proident mollit ullamco exercitation tempor. Sint
-                  aliqua anim nulla sunt mollit id pariatur in voluptate cillum.
-                  Eu voluptate tempor esse minim amet fugiat veniam occaecat
-                  aliqua.
+                  I fremtiden skal vi udlede meget mindre CO2 og derfor er vi nødt til at tænke nyt. I 2030 skal vi være i mål med de klimamål verdenssamfundet har sat op. 
+                  Hos Grusvej.dk har vi udviklet en unik metode til etablering og vedligehold af naturstier som med et minimalt CO2 forbrug giver en natursti med høj bæreevne og langtidsholdbarhed. <br><br>
+                  Generelt anlægger vi i dag naturstier og småveje gennem terrænet, så vi kan færdes sikkert ude i de rekreative områder, der i de fleste kommuner udlægges i forbindelse med den almindelige arealudnyttelse. 
+                  Det være sig i naturområder, genoprettede grusgravsområder, nyanlagte skovområder. Områder med mangfoldighed, biodiversitet og plads til udeaktiviteter, vandre- og cykelruter, shelterpladser med overnatningsmuligheder. <br><br>
+                  Det er typisk kommuner, store virksomheder og kapitalfonde der står for gennemførelsen af disse naturprojekter, som viser at menneskelig aktivitet kan forenes med bæredygtighed og biodiversitet. De store arealer der udlægges i disse år, er samtidigt med til at minimere CO2-udledningerne, da ”vilde” naturområder opsuger CO2. For at kunne færdes i disse områder, skal der etableres stier og mindre veje som kan bære færdsel af mindre køretøjer.
+
+
                 </p>
               </div>
               <div
-                class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 lg:-translate-y-0 -translate-y-24"
+                class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 lg:-translate-y-32 -translate-y-0"
               >
                 <div
-                  class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
+                  class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80 "
                 >
                   <div class="relative -translate-y-20">
                     <img
@@ -229,6 +224,7 @@
               </pattern>
             </defs>
             <svg x="50%" y="50%" class="overflow-visible fill-gray-50">
+              
               <path
                 d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
                 stroke-width="0"
@@ -245,14 +241,14 @@
           
           </div>
           <!-- pattern slut -->
-          <div class="relative lg:-translate-y-0 -translate-y-32">
+          <div class="relative lg:-translate-y-44 -translate-y-32 ">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%] ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
           </div>
 
         
        <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 lg:translate-y-24 -translate-y-20 mb-16">
+        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-28 ">
          <img
           src="https://i.ibb.co/bLBhZ9t/Naturstier-grusvej.webp"
           alt=""
