@@ -81,11 +81,11 @@
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
-                <h1 class="Header MainHeader">
+                <h1 class="Header ">
                   SPECIALMASKINERI DER SIKRER DANMARKS BEDSTE GRUSVEJE
                 </h1>
                 <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  STEHR er Tysk specialmaskineri af højeste kvalitet. Fra alpelandets skærvebelagte bjergveje til danske fladlands grusveje knuser, opretter og stabiliserer det tunge grej vores grusveje. <br><br> Hurtigt og effektivt med en stor grad af genbrug i processen.
+                  STEHR er Tysk specialmaskineri af højeste kvalitet. <br>Hurtigt og effektivt med en stor grad af genbrug i processen.
                   Vi genbruger den gamle vejs eksisterende materialer til at skabe en ny og velanlagt kørebane, som holder i mange år med det rette vedligeholdelsesprogram. Det er omkostningsbevidst – både for økonomi og miljø.
                 </p>
               </div>

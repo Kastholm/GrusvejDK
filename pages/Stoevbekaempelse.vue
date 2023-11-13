@@ -248,7 +248,7 @@ const values = [
   {
     name: "Biologisk nedbrydeligt",
     description:
-      "Dustex nedbrydes organisk fordi det stammer fra grantræer. Nedbrydningen er helt uskadelig – også for vandmiljøet.",
+      "Dustex nedbrydes organisk fordi det stammer fra grantræer. Nedbrydningen er helt uskadelig for naturen.",
   },
   {
     name: "Ingen rustpåvirkning af biler & maskiner",
@@ -263,7 +263,7 @@ const values = [
   {
     name: "Lugtfrit naturprodukt",
     description:
-      "Dustex er baseret på naturens eget bindemiddel, ligning. Til forskel fra harpiks er det helt lugtfrit.",
+      "Dustex er baseret på naturens eget bindemiddel, ligning. Til forskel fra harpiks, er Dustex næsten lugtfri.",
   },
 ];
 

@@ -89,7 +89,7 @@
                   Hos Grusvej.dk har vi udviklet en unik metode til etablering og vedligehold af naturstier som med et minimalt CO2 forbrug giver en natursti med høj bæreevne og langtidsholdbarhed. <br><br>
                   Generelt anlægger vi i dag naturstier og småveje gennem terrænet, så vi kan færdes sikkert ude i de rekreative områder, der i de fleste kommuner udlægges i forbindelse med den almindelige arealudnyttelse. 
                   Det være sig i naturområder, genoprettede grusgravsområder, nyanlagte skovområder. Områder med mangfoldighed, biodiversitet og plads til udeaktiviteter, vandre- og cykelruter, shelterpladser med overnatningsmuligheder. <br><br>
-                  Det er typisk kommuner, store virksomheder og kapitalfonde der står for gennemførelsen af disse naturprojekter, som viser at menneskelig aktivitet kan forenes med bæredygtighed og biodiversitet. De store arealer der udlægges i disse år, er samtidigt med til at minimere CO2-udledningerne, da ”vilde” naturområder opsuger CO2. For at kunne færdes i disse områder, skal der etableres stier og mindre veje som kan bære færdsel af mindre køretøjer.
+                  Det er typisk kommuner, store virksomheder og kapitalfonde der står for gennemførelsen af disse naturprojekter, som viser at menneskelig aktivitet kan forenes med bæredygtighed og biodiversitet. De store arealer der udlægges i disse år, er samtidigt med til at minimere CO2-udledningerne, da vores skove opsuger CO2. For at kunne færdes i disse områder, skal der etableres stier og mindre veje som kan bære færdsel af mindre køretøjer.
 
 
                 </p>
@@ -243,7 +243,7 @@
           <!-- pattern slut -->
           <div class="relative lg:-translate-y-44 -translate-y-32 ">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%] ">Vores stenknuser er en af de eneste i Danmark - en maskine der er kritisk for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og cementstumper. </p>
+            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%] ">Vores stenknuser er en af de eneste i Danmark - en maskine der er unik for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og betonstumper. </p>
           </div>
 
         
