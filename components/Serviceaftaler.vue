@@ -18,7 +18,7 @@
     </div>
   </section>
   <!-- serviceaftaler start -->
-  <section class="bg-white dark:bg-gray-800">
+  <section class="bg-white pt-12 dark:bg-gray-800">
     <div class="relative container px-6 py-8 mx-auto ">
       <div
         class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8 "
@@ -65,7 +65,7 @@
             <div class="flex items-center sm:pb-11"></div>
           </div>
 
-          <button
+          <button @click="selectServiceOption('Basis')"
             class="translate-y-[96px] w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-blue-600"
           >
             Vælg
@@ -134,7 +134,7 @@
 
           </div>
 
-          <button
+          <button @click="selectServiceOption('Medium')"
             class=" translate-y-28 w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:[#137733]"
           >
             Vælg
@@ -225,7 +225,7 @@
             </div>
           </div>
 
-          <button
+          <button @click="selectServiceOption('Super')"
             class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-[#137733]"
           >
             Vælg
@@ -235,11 +235,21 @@
     </div>
   </section>
   <!-- serviceaftaler slut -->
-  <GrusvejForm> </GrusvejForm>
+  <GrusvejForm v-if="isFormVisible" :selectedService="selectedOption" @close="isFormVisible = false"> </GrusvejForm>
 </template>
 
-<script>
-export default {};
+<script setup>
+
+const isFormVisible = ref(false); 
+
+const selectedOption = ref("");
+
+function selectServiceOption(option) {
+
+  selectedOption.value = option;
+  isFormVisible.value = true;
+  console.log(selectedOption)
+}
 </script>
 
 <style>

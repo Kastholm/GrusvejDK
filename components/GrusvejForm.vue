@@ -10,7 +10,7 @@ const schema = yup.object({
   service: yup.string().required(),
 });
 
-const selectedOption = ref("");
+const selectedOption = ref(props.selectedService);
 
 async function onSubmit(values) {
   console.log(values);
@@ -32,32 +32,46 @@ async function onSubmit(values) {
     });
 
     if (response.ok) {
-      alert("E-mail sendt!");
+      notificationMessage.value = "E-mail sendt!";
+      isNotificationVisible.value = true;
     } else {
-      alert("There was an error sending the e-mail.");
+      notificationMessage.value = "Fejl ved afsendelse af e-mail.";
+      isNotificationVisible.value = true;
     }
   } catch (error) {
     console.error("There was an error sending the e-mail:", error);
   }
 }
 
-const isFormVisible = ref(true); // En ny ref til at kontrollere formularens synlighed
+import { defineProps } from "vue";
+
+const props = defineProps({
+  selectedService: String,
+});
+
+const emit = defineEmits(["close"]);
 
 function closeForm() {
-  isFormVisible.value = false; // Skjuler formularen
+  emit("close");
 }
+
+const isNotificationVisible = ref(false);
+const notificationMessage = ref("");
 </script>
 
 <template >
-  <Form v-if="isFormVisible" :validation-schema="schema" @submit="onSubmit">
-    <section 
+  <Form :validation-schema="schema" @submit="onSubmit">
+    <section
       class="bg-gray-300 bg-opacity-60 grid py-20 lg:py-[120px] fixed right-0 left-0 top-0 bottom-0 z-50"
     >
       <div class="container m-auto">
         <div class="">
           <div class="w-full m-auto lg:w-1/2 xl:w-5/12 px-4">
             <div class="bg-white relative rounded-lg p-8 sm:p-12 shadow-lg">
-              <button @click="closeForm" class="absolute bg-red-400 px-2 rounded-full top-3 right-3 text-2xl">
+              <button
+                @click="closeForm"
+                class="absolute bg-red-400 px-2 rounded-full top-3 right-3 text-2xl"
+              >
                 X
               </button>
               <div class="mb-6">
@@ -68,13 +82,9 @@ function closeForm() {
                   class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
                 >
                   <option value="" disabled>Vælg en mulighed</option>
-                  <option value="Den lille Grusvej">Den lille Grusvej</option>
-                  <option value="Den lille Grusvej m. Dustex">
-                    Den lille Grusvej m. Dustex
-                  </option>
-                  <option value="Den store grusvej / areal">
-                    Den store grusvej / areal
-                  </option>
+                  <option value="Basis">Basis</option>
+                  <option value="Medium">Medium</option>
+                  <option value="Super">Super</option>
                 </Field>
                 <ErrorMessage name="grusvej" />
               </div>
@@ -129,6 +139,29 @@ function closeForm() {
       </div>
     </section>
   </Form>
+  <div v-if="isNotificationVisible" class="notification-modal grid">
+    <p>{{ notificationMessage }}</p>
+    <button
+      class="bg-SubColor2 p-2 text-lg rounded-lg mt-4 m-auto text-gray-100"
+      @click="closeForm"
+    >
+      Luk Formen
+    </button>
+  </div>
 </template>
 
 
+<style>
+.notification-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 40px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+  z-index: 100;
+}
+</style>
