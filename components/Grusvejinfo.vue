@@ -61,7 +61,7 @@
         <div>
           <div class="leading-7 text-gray-700 lg:max-w-lg -translate-y-4">
             <h1
-              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam"
+              class="mt-2 text-4xl font-bold tracking-wide text-gray-900 sm:text-[3.60rem] sm:leading-[1] fontfam"
             >
             GRUSVEJ.DK GIVER DIN GRUSVEJ DEN RETTE FORM – OG PLEJE
             </h1>
@@ -75,7 +75,7 @@
 
               </p>
               <div class="max-w-[334px]">
-            <h3 class="text-center font-bold text-4xl text-grey-900 uppercase Header w-full -translate-x-2">Garanti på din grusvej</h3>
+            <h3 class="text-center font-bold text-4xl text-grey-900 uppercase Header w-full -translate-x-2 leading-[1]">Garanti på din grusvej</h3>
           </div>
             <p class="Text TextReadable text-grey-900">Når bærelaget har den tilstrækkelige bæreevne, vejprofilen får den rigtige facon og vandet kan afledes til rabat og nedsivningsarealet, så kan du få garanti på din grusvej ved indgåelse af en serviceaftale. <br><br>Vores service aftaler indgås individuelt, og tilbydes i forbindelse med, at vi fremsender tilbuddet på udbedring af din vej. <br><br> Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde. <br>(link til oversigtstabel)</p>
           

@@ -18,7 +18,7 @@
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
               <h1 class="Header mb-12">
-                VI ER SPECIALISTER I VEDLIGEHOLD OG ETABLERING AF GRUSVEJE
+                Etablering - vedligehold og draft af grusveje
               </h1>
               
 
@@ -27,7 +27,7 @@
                  Så enkelt er det – og vi er specialister i grusveje med det rigtige udstyr og viden på plads. 
               </p>
               <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
                 >
               <a
                 href="/serviceaftale"
@@ -59,12 +59,11 @@
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-20">
           <center>
-          <h2 class="mb-5 Header text-6xl cursor-vertical-text pt-10">
+          <h2 class="mb-5 Header cursor-vertical-text pt-10">
             NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
           </h2>
           <p class="font-semibold text-3xl pb-10">
-            <span class="text-[#137733]"> Grusvej.dk </span> viser præcist
-            hvad du kan forvente
+            <span class="text-[#137733]"> Grusvej.dk </span> Giver dig 5 bud på en stærk grusvej
           </p>
           </center>
           <!-- arbejdssteps start -->
@@ -204,6 +203,19 @@
                 I stedet for at fjerne dem i en tung og dyr proces, nedknuser vi materialerne så de virker som almindeligt stabilgrus.
                  Det sparer tid, indkøb af ny stabilunderlag, er miljørigtigt, hurtigt og effektivt.
               </p>
+              <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
+                >
+              <a
+                href="/serviceaftale"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+       
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Få en serviceaftale hos Grusvej.dk
+                  </button>
+              </a>
+            </div>
             </div>
             <div
               class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"
@@ -303,12 +315,12 @@
             <p
               class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff]"
             >
-              Vores grusvej holder i +2 år uden dannelse af huller
+              Vores grusvej holder i +1 år uden dannelse af huller
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
               
               <p class="mt-2 text-base leading-7 text-[#fcf2ff] max-w-[90%] m-auto">
-                Uden løbende vedligehold holder vores grusveje i mere end 2 år uden at vandet danner nye huller. Med årlig service forlænges dette faktum.
+                Uden løbende vedligehold holder vores grusveje i mere end 1 år uden at vandet danner nye huller. Med årlig service forlænges dette faktum.
               </p>
             </div>
           </div>
@@ -454,40 +466,40 @@ const arbejdssteps = [
   {
     name: "Vandafledning",
     description:
-      "Vi graver eventuelt nye grøfter, så vandet kan ledes tilfredsstillende fra vejen ligesom vi sikrer, at der er tilstrækkelige sivearealer til det afledte vand.",
-    date: "Trin 1",
+      "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale og større huller begynder at danne sig. ",
+    date: "Bud 1",
     dateTime: "2021-08",
     image: "https://i.ibb.co/WfqTBNC/IMG-0032.jpg",
   },
   {
-    name: "Klargøring",
+    name: "Nedsivnings arealet",
     description:
-      "Hvis det er nødvendigt fræser vi den gamle vej op med stenknuseren i ned til 20cm dybde. Alle materialer knuses og genanvendes som stabiliserende lag. ",
-    date: "Trin 2",
+      "Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1.",
+    date: "Bud 2",
     dateTime: "2021-12",
     image: "https://i.ibb.co/TgK3rPY/IMG-0020.jpg",
   },
   {
-    name: "Vinkling af grusvejen",
+    name: "Bærelaget i grusvejen",
     description:
-      "Der trækkes en let buet profil over grusvejen med hældning mod begge grøfter, så vandet kan ledes korrekt væk.",
-    date: "Trin 3",
+      "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
+    date: "Bud 3",
     dateTime: "2022-02",
     image: "https://i.ibb.co/0XDX3nK/IMG-0058.jpg",
   },
   {
-    name: "Komprimering",
+    name: "Vandafledning",
     description:
-      "Med 85 Newtonmeter komprimeres vejen så underlag ligger fast og forhindrer desuden huller i at opstå i lang tid. Den hårde overflade leder vandet væk.",
-    date: "Trin 4",
+      "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille.",
+    date: "Bud 4",
     dateTime: "2022-12",
     image: "https://i.ibb.co/KGZZTKv/vej-efter-14-dage.jpg",
   },
   {
-    name: "Toplaget",
+    name: "Vejens slidlag",
     description:
-      "Om nødvendigt tilføres et tyndt lag grus som toplag. Eventuelt iblandet det organiske materiale Dustex, der forhindrer støvgener.",
-    date: "Trin 5",
+      "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
+    date: "Bud 5",
     dateTime: "2022-12",
     image: "https://i.ibb.co/4tXvDBD/grusvej-bredformat.jpg",
   },

@@ -41,10 +41,6 @@
               og efterfølgende indblanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
             </p>
             
-            <p class="mt-8">
-              Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt
-              og indblanding i bærelaget og efterfølgende indblanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
-            </p>
             <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 -translate-y-6">
               Grønt fokus
             </h2>
@@ -76,7 +72,7 @@ Det er derfor vigtigt at indgå i en dialog om sikring af grusveje og stianlæg.
       <br />
       <br />
       Ved at benytte en vejfræser knuses sten og asfalt til små fraktioner, så
-      der sammen med Dustex, dannes en solid ny ”asfalt” der omdannes til en
+      der sammen med Dustex, dannes et solidt bærelag der omdannes til en
       stærk ”plade” på vejens overflade. Denne metode er stærkt
       resursebesparende og økonomisk fordelagtig. På mindre befærdede veje kan
       man beholde vejen som den er uden at foretage sig yderligere, mens man på

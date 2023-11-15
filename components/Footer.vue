@@ -2,62 +2,48 @@
   <footer class="bg-white text-center" aria-labelledby="footer-heading">
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-16 lg:px-8 lg:pt-16">
-      <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+      <div class="xl:grid xl:grid-cols-3 xl:gap-0">
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
-          <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div class="md:grid md:grid-cols-2 md:gap-8 lg:translate-x-16">
             <div>
-              <h6 class="text-sm font-semibold leading-6 text-gray-900">
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 Oversigt
               </h6>
-              <ul role="list" class="mt-6 space-y-4">
+              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                    class="text-base font-normal leading-6 text-gray-500 hover:text-[#2a8447]"
                     >{{ item.name }}</a
                   >
                 </li>
               </ul>
             </div>
             <div class="mt-10 md:mt-0">
-              <h6 class="text-sm font-semibold leading-6 text-gray-900">
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 FAQ
               </h6>
-              <ul role="list" class="mt-6 space-y-4">
+              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
                 <li v-for="item in navigation.support" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                    class="text-base font-normal leading-6 text-gray-500 hover:text-[#2a8447]"
                     >{{ item.name }}</a
                   >
                 </li>
               </ul>
             </div>
           </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8">
+          <div class="md:grid md:grid-cols-2 md:gap-8 lg:translate-x-16">
             <div>
-              <h6 class="text-sm font-semibold leading-6 text-gray-900">
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 Kontakt
               </h6>
-              <ul role="list" class="mt-6 space-y-4">
+              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
                 <li v-for="item in navigation.company" :key="item.name">
                   <a
                     :href="item.href"
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900"
-                    >{{ item.name }}</a
-                  >
-                </li>
-              </ul>
-            </div>
-            <div class="mt-10 md:mt-0">
-              <h6 class="text-sm font-semibold leading-6 text-gray-900">
-                Data og person-politikker
-              </h6>
-              <ul role="list" class="mt-6 space-y-4">
-                <li v-for="item in navigation.legal" :key="item.name">
-                  <a
-                    :href="item.href"
-                    class="text-sm leading-6 text-gray-600 hover:text-gray-900"
+                    class="text-base leading-6 text-gray-600 hover:text-[#2a8447]"
                     >{{ item.name }}</a
                   >
                 </li>
@@ -72,7 +58,8 @@
           <p class="mt-2 text-sm leading-6 text-gray-600">
             Indtast email her - vi vender tilbage indenfor 24 timer alle hverdage.
           </p>
-          <form class="mt-6 sm:flex sm:max-w-md">
+        <form class="mt-6 sm:flex sm:max-w-md ml-[112px]">
+          <div class="flex flex-col gap-2 lg:">
             <label for="email-address" class="sr-only">Email adresse</label>
             <input
               type="email"
@@ -83,14 +70,38 @@
               class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
               placeholder="Skriv din email her"
             />
-            <div class="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
+            
+            <label for="phonenumber" class="sr-only">Telefon nummer</label>
+            <input
+              type="phone"
+              name="phonenumber"
+              id="phonenumber"
+              autocomplete="phonenumber"
+              required=""
+              class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+              placeholder="Skriv dit mobilnummer her"
+            />
+            <label for="name" class="sr-only">Navn</label>
+            <input
+              type="name"
+              name="firstname"
+              id="name"
+              autocomplete="name"
+              required=""
+              class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
+              placeholder="Skriv dit navn her"
+            />
+          
+            
+            <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
               <button
                 type="submit"
-                class="flex w-full items-center justify-center rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
                 Afsted
               </button>
             </div>
+          </div>
           </form>
         </div>
       </div>
@@ -126,15 +137,16 @@ const navigation = {
   solutions: [
     { name: "Forside", href: "#" },
     { name: "Grusveje", href: "#" },
+    { name: "Naturstier", href: "#" },
     { name: "Støvbekæmpelse", href: "#" },
+    { name: "Stabilisering af vejen", href: "#" },
     { name: "Maskineriet", href: "#" },
     { name: "Serviceaftaler", href: "#" },
   ],
   support: [
-    { name: "Hvad...", href: "#" },
-    { name: "Hvorfor...", href: "#" },
-    { name: "Hvordan...", href: "#" },
-    { name: "Hvornår...", href: "#" },
+    { name: "Politik for databehandling", href: "#" },
+    { name: "Vilkår", href: "#" },
+    { name: "Salgs- & leveringsbetingelser", href: "#" },
   ],
   company: [
     { name: "Kontakt Grusvej.dk", href: "#" },

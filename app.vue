@@ -16,6 +16,7 @@ import dotenv from "dotenv";
 .Header {
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: 700;
+  Font-size: 68px;
   @apply tracking-normal;
 }
 /* Store headers, normalvis en H1 */
@@ -24,8 +25,8 @@ h1 {
   @apply max-w-2xl text-4xl font-bold uppercase text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto;
 }
 /* Section Headers der skal være fremtrædende ved sektioner, normalvis en H2 / H3 */
-.SubHeader {
-  @apply text-5xl uppercase font-semibold;
+.SubHeader{
+  @apply text-4xl uppercase font-semibold;
 }
 /* For testing purpose */
 .TestHeader {
