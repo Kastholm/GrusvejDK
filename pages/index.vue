@@ -1,4 +1,5 @@
 <template>
+
   <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
@@ -313,7 +314,7 @@
           </div>
         </div>
       </div>
-      <Serviceaftaler/>
+      
       <!-- cards slut -->
 
       <!-- Content section -->
@@ -383,6 +384,23 @@
       </div> -->
     </main>
   </div>
+
+
+
+
+
+<!-- ====== Contact Section Start -->
+
+
+<Serviceaftaler/>
+
+<!-- ====== Contact Section End -->
+
+
+
+
+
+
 </template>
 
 <style scoped>

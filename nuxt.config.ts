@@ -1,4 +1,4 @@
- /* import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next'; */
+/* import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next'; */
 
 export default defineNuxtConfig({
   // Add the extendRoutes option for the loading screen
@@ -13,5 +13,11 @@ export default defineNuxtConfig({
   },*/
 
   // Load Tailwind CSS using the tailwindcss module
-  modules: ['@nuxtjs/tailwindcss'],
+  modules: ["@nuxtjs/tailwindcss"],
+
+  runtimeConfig: {
+    mailerUser: "",
+    mailerPass: "",
+    mailerLog: "",
+  },
 });
