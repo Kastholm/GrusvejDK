@@ -18,7 +18,7 @@
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
               <h1 class="Header mb-12">
-                Etablering - vedligehold og draft af grusveje
+                Etablering - vedligehold og drift af grusveje
               </h1>
               
 
@@ -27,7 +27,7 @@
                  Så enkelt er det – og vi er specialister i grusveje med det rigtige udstyr og viden på plads. 
               </p>
               <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
               <a
                 href="/serviceaftale"
@@ -245,7 +245,7 @@
                   class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://i.ibb.co/qBTrPY9/knuser.jpg"
+                    src="https://i.ibb.co/Z6ykkYF/billedet-8.webp"
                     alt=""
                     class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -447,7 +447,7 @@ let player = null;
 let isPlaying = ref(false);
 onMounted(async () => {
   player = new Player("vimeo-player", {
-    id: 864808340, // Video ID
+    id: 886106581, // Video ID
     width: 720,
     height: 515,
     controls: false,
@@ -469,7 +469,7 @@ const arbejdssteps = [
       "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale og større huller begynder at danne sig. ",
     date: "Bud 1",
     dateTime: "2021-08",
-    image: "https://i.ibb.co/WfqTBNC/IMG-0032.jpg",
+    image: "https://i.ibb.co/z8TdFp5/trin-1.webp",
   },
   {
     name: "Nedsivnings arealet",
@@ -477,7 +477,7 @@ const arbejdssteps = [
       "Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1.",
     date: "Bud 2",
     dateTime: "2021-12",
-    image: "https://i.ibb.co/TgK3rPY/IMG-0020.jpg",
+    image: "https://i.ibb.co/xC1G9Zx/trin-2.webp",
   },
   {
     name: "Bærelaget i grusvejen",
@@ -485,7 +485,7 @@ const arbejdssteps = [
       "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
     date: "Bud 3",
     dateTime: "2022-02",
-    image: "https://i.ibb.co/0XDX3nK/IMG-0058.jpg",
+    image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
   },
   {
     name: "Vandafledning",
@@ -493,7 +493,7 @@ const arbejdssteps = [
       "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille.",
     date: "Bud 4",
     dateTime: "2022-12",
-    image: "https://i.ibb.co/KGZZTKv/vej-efter-14-dage.jpg",
+    image: "https://i.ibb.co/5hB952R/billedet-10.webp",
   },
   {
     name: "Vejens slidlag",
@@ -501,7 +501,7 @@ const arbejdssteps = [
       "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
     date: "Bud 5",
     dateTime: "2022-12",
-    image: "https://i.ibb.co/4tXvDBD/grusvej-bredformat.jpg",
+    image: "https://i.ibb.co/FHP6FTZ/trin-5-opt.webp",
   },
 ];
 

@@ -74,7 +74,19 @@
                   Når vejmaterialerne er bearbejdet og nedlagt korrekt, stabiliserer vi bærelaget med lignin, der er et 100% biologisk materiale, med negativ CO2 værdi. <br><br> Lignin arbejdes ind i de eksisterende jordtyper, vi komprimerer jordlagene og udlægger leret stabil 0-18. Herefter afrettes stiens profil, så regnvand kan løbe korrekt af og vi opnår en stabil og blivende stioverflade. <br><br>
                   Lignin eller Dustex, som er navnet på produktet der er udviklet af et restprodukt fra norske grantræer, har desuden den positive egenskab, at den binder sundhedsskadeligt vejstøv på en bæredygtig måde. Ved at erstatte salt med Dustex i forbindelse med støvbinding, kan CO2-udslippet derfor reduceres med mere end 70%.
               </p>
-             
+              <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
+                >
+              <a
+                href="/kontakt"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+       
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Kontakt Grusvej.dk
+                  </button>
+              </a>
+            </div>
             </div>
           </div>
         </div>

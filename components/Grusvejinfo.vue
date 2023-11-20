@@ -56,6 +56,7 @@
                 </p>
               </blockquote>
             </figure>
+            
           </div>
         </div>
         <div>
@@ -74,31 +75,46 @@
                 Grusvej.dk har gennem mange år etableret og vedligeholdt grusveje i Danmark. Vores specialmaskiner har lagt bund for mange hundrede kilometer grusveje gennem årene. Med serviceaftaler forlænger vi levetiden på vejen, ligesom vi højner glæden ved at have en god og støvfri grusvej at færdes på.
 
               </p>
-              <div class="max-w-[334px]">
-            <h3 class="text-center font-bold text-4xl text-grey-900 uppercase Header w-full -translate-x-2 leading-[1]">Garanti på din grusvej</h3>
-          </div>
-            <p class="Text TextReadable text-grey-900">Når bærelaget har den tilstrækkelige bæreevne, vejprofilen får den rigtige facon og vandet kan afledes til rabat og nedsivningsarealet, så kan du få garanti på din grusvej ved indgåelse af en serviceaftale. <br><br>Vores service aftaler indgås individuelt, og tilbydes i forbindelse med, at vi fremsender tilbuddet på udbedring af din vej. <br><br> Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde. <br>(link til oversigtstabel)</p>
-          
             </div>
-          </div>
-          <dl
+          </div> 
+        </div> 
+      </div>
+      <div class="flex flex-col items-center">
+          <div class="max-w-[600]">
+              <h3 class="text-center m-0 font-bold text-4xl text-grey-900 uppercase Header w-full  leading-[1] mt-20 mb-14">Garanti på din grusvej</h3>
+             </div>
+             <p class="Text TextReadable text-grey-900 max-w-[1000px] text-center">Når bærelaget har den tilstrækkelige bæreevne, vejprofilen får den rigtige facon og vandet kan afledes til rabat og nedsivningsarealet, så kan du få garanti på din grusvej ved indgåelse af en serviceaftale.
+             <br><br>Vores service aftaler indgås individuelt, og tilbydes i forbindelse med, at vi fremsender tilbuddet på udbedring af din vej. <br><br> Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde. </p>
+             <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                >
+              <a
+                href="/serviceaftale"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+       
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Se serviceaftaler
+                  </button>
+              </a>
+            </div>
+             <dl
             class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4 trans-0 mb-20"
           >
             <div v-for="(stat, statIdx) in stats" :key="statIdx">
               <dt
-                class="text-4xl font-semibold leading-8 text-gray-900 fontfam tracking-wider p-4 text-center"
+                class="text-6xl font-semibold leading-8 text-gray-900 fontfam tracking-wider py-10 text-center"
               >
                 {{ stat.label }}
               </dt>
               <dd
-                class="mt-3 text-6xl font-bold leading-12 sm:leading-10 tracking-tight text-gray-900 fontfam text-center border-l-2 border-b-2 border-[#f9b039] p-3"
+                class="mt-3 text-7xl font-semibold leading-12 sm:leading-10 tracking-tight text-gray-900 fontfam text-center border-l-2 border-b-2 border-[#f9b039] p-3"
               >
                 {{ stat.value }}
               </dd>
             </div>
           </dl>
         </div>
-      </div>
     </div>
   </div>
 </template>

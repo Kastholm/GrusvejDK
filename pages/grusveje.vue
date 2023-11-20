@@ -35,7 +35,7 @@
               <p class="translate-y-0 sm:translate-y-16">{{ currentTab.text2 }}</p>
             </div>
             <div
-              class="img-div max-h-64 translate-y-4 sm:translate-y-0 sm:max-h-96"
+              class="img-div bg-cover max-h-64 translate-y-4 sm:translate-y-0 sm:max-h-96"
               :style="{ backgroundImage: 'url(' + currentTab.imgSrc + ')' }"
             ></div>
           </div>
@@ -95,7 +95,7 @@ const tabs = [
     id: 1,
     name: "Vandet",
     imgSrc:
-      "https://images.pexels.com/photos/12495785/pexels-photo-12495785.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://i.ibb.co/RB1hM7S/bud-1.webp",
     text: "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale yderligere og større huller begynder at danne sig. ",
     text2: "Slid på biler og dæk er også forbundet med vand, da vandet på ubehandlet veje vender småsten med den skarpe side op der resulterer i svær slid af bla. dæk på køretøjer.",
     manchet: "Bud 1",
@@ -104,7 +104,7 @@ const tabs = [
     id: 2,
     name: "Grøften & nedsivnings arealet",
     imgSrc:
-      "https://images.pexels.com/photos/4372184/pexels-photo-4372184.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://i.ibb.co/8bT1hnw/Frontal.webp",
     text: "For at vejen kan holde i flere år skal der altid være afledning væk fra vejen. Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1. ",
     manchet: "Bud 2",
   },
@@ -112,7 +112,7 @@ const tabs = [
     id: 3,
     name: "Bærelaget i grusvejen",
     imgSrc:
-      "https://images.pexels.com/photos/8938485/pexels-photo-8938485.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
     text: "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Hvilket kun vil øges fremover, så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
     manchet: "Bud 3",
   },
@@ -120,7 +120,7 @@ const tabs = [
     id: 4,
     name: "Vejens profil",
     imgSrc:
-      "https://images.pexels.com/photos/12932782/pexels-photo-12932782.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://i.ibb.co/sFTH7xS/grusvej-bredformat-1.webp",
     text: "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille. ",
     text2: "Det rette tempo på afledning af vandet er en vigtig faktor for, at vejen mister minimalt af grus og materiale over tid.",
     manchet: "Bud 4",
@@ -129,7 +129,7 @@ const tabs = [
     id: 5,
     name: "Vejens slidlag",
     imgSrc:
-      "https://images.pexels.com/photos/2933243/pexels-photo-2933243.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "https://i.ibb.co/fqv82CZ/bud-5.webp",
     text: "For at vejen opnår den bedst mulige holdbarhed skal slidlaget være vejgrus. ",
     text2: "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
     manchet: "Bud 5",

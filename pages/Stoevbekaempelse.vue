@@ -96,7 +96,7 @@
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Vejen behandles med Dustex</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Behandles med Dustex</div>
       <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
@@ -197,7 +197,7 @@ let isPlaying = ref(false);
 let playerContainer = ref(null);
 onMounted(async () => {
   player = new Player("vimeo-player", {
-    id: 832545609,
+    id: 886203979,
     width: playerContainer.value.offsetWidth * 0.8,
     controls: false,
   });

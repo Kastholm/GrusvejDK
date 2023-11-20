@@ -63,9 +63,9 @@
             class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-20"
           >
             <img
-              src="https://i.ibb.co/mDX8BS5/Stabilisering-header-grusvej.webp"
+              src="https://i.ibb.co/8bT1hnw/Frontal.webp"
               alt=""
-              class="object-cover object-center aspect-[3/2]"
+              class="object-cover object-top aspect-[3/2]"
             />
           </div>
         </div>
