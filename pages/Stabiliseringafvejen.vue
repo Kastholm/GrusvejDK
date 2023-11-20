@@ -48,8 +48,19 @@
               Hos Grusvej.dk har vi et grønt miljøfokus og ønsker at bidrage med bæredygtighed for genanvendelse af eksisterende vejopbygninger. Det gør vi med princippet om at anvende vejens egne materialer og stabilisere uden at tilføre nye materialer.
               I enkelte tilfælde kan det dog være påkrævet at supplere med ekstra materialer.
               Anvendelse af denne metode er særlig egnet til mindre private veje og fælles veje, hvor økonomien og bæredygtigheden har stor betydning.
-
             </p>
+            <a
+                href="/serviceaftale"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+               <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                >
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Få en serviceaftale hos Grusvej.dk
+                  </button>
+               </div>
+              </a>
           </div>
         </div>
       </div>

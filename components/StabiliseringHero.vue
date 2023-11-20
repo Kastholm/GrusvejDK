@@ -58,6 +58,18 @@
               Hos Grusvej.dk har vi i dag muligheden for støvfrit at stabilisere med kalk og cement. Vi kan derfor flytte stabilisering ind i områder, hvor vi tidligere ikke har kunne stabilisere pga. støvgener i byer, industriområder, langs veje og jernbaner.
               <br><br>Stabilisering af bærelag på vores veje skal anvendes i meget større omfang end det vi har gjort hidtil. I alle processer skal vi vurdere vores CO2 forbrug, og det er uomgængeligt, at vi kommer til at finde nye og utraditionelle metoder. 
             </p>
+            <a
+                href="/kontakt"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+            <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] -translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
+                > 
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Kontakt Grusvej.dk
+                  </button>
+            </div>
+            </a>
           </div>
           <div
             class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-20"

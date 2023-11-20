@@ -6,7 +6,7 @@
           <div class="sm:max-w-full">
             <!-- skal gøres til H1-->
             <h1
-              class="relative Header fontfam-NO-W sm:text-7xl text-5xl text-center max-w-full pb-6 pt-10"
+              class="relative sm:Header fontfam-NO-W sm:text-7xl text-5xl text-center max-w-full pb-6 pt-10"
             >
               Årlig service <br />
               - slip for at ærgre dig over din grusvej
@@ -18,7 +18,7 @@
     </div>
   </section>
   <!-- serviceaftaler start -->
-  <section class="bg-white pt-12 dark:bg-gray-800">
+  <section class="bg-white pt-12 dark:bg-gray-800 -translate-y-16">
     <div class="relative container px-6 py-8 mx-auto ">
       <div
         class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8 "
@@ -66,7 +66,7 @@
           </div>
 
           <button @click="selectServiceOption('Basis')"
-            class="translate-y-[96px] w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-blue-600"
+            class="sm:translate-y-[96px] w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-blue-600"
           >
             Vælg
           </button>
@@ -135,7 +135,7 @@
           </div>
 
           <button @click="selectServiceOption('Medium')"
-            class=" translate-y-28 w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:[#137733]"
+            class=" sm:translate-y-28 w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:[#137733]"
           >
             Vælg
           </button>
@@ -236,6 +236,21 @@
   </section>
   <!-- serviceaftaler slut -->
   <GrusvejForm v-if="isFormVisible" :selectedService="selectedOption" @close="isFormVisible = false"> </GrusvejForm>
+
+  <div class="flex flex-col items-center -translate-y-20 text-center">
+    <h2 class="Header uppercase">Har du spørgsmål?</h2>
+    <a
+                href="/kontakt"
+                class="text-white font-bold text-sm md:text-xl">
+                
+    <div class="h-14 w-fit rounded p-2 px-4 bg-[#2a8447] translate-y-2 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl">
+        
+                  <button class="translate-y-1 sm:translate-y-2 text-base block">
+                    Kontakt Grusvej.dk
+                  </button>
+            </div>
+          </a>
+  </div>
 </template>
 
 <script setup>

@@ -17,19 +17,18 @@
             <h1 class="tracking-tight text-gray-900 mb-16 MainHeader Header relative">Specialudstyr sikrer grusveje af højeste kvalitet</h1>
             <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative"></h2>
             <p class="mt-4 text-black relative leading-8 text-xl -translate-y-10">Grusvej.dk er en af de eneste vejentreprenører i Danmark, som råder over specialudstyr til opretning og stabilisering af grusveje. Det kraftige maskineri sikrer effektiv og korrekt behandling af vejen, så profil og form holdes i mange år.</p>
-            <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] -translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
-                >
-              <a
+            <a
                 href="/kontakt"
                 class="text-white font-bold text-sm md:text-xl"
               >
-       
+            <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] -translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
+                > 
                   <button class="translate-y-1 sm:translate-y-0 text-base block">
                     Kontakt Grusvej.dk
                   </button>
-              </a>
             </div>
+            </a>
           </div>
           <div class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-10 lg:-translate-y-20">
             <img src="https://i.ibb.co/v4nM5DF/Stenknuser-Grusvej.webp" alt="" class="object-cover object-center aspect-[3/2]" />

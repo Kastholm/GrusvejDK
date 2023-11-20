@@ -85,19 +85,18 @@
              </div>
              <p class="Text TextReadable text-grey-900 max-w-[1000px] text-center">Når bærelaget har den tilstrækkelige bæreevne, vejprofilen får den rigtige facon og vandet kan afledes til rabat og nedsivningsarealet, så kan du få garanti på din grusvej ved indgåelse af en serviceaftale.
              <br><br>Vores service aftaler indgås individuelt, og tilbydes i forbindelse med, at vi fremsender tilbuddet på udbedring af din vej. <br><br> Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde. </p>
-             <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
-                >
-              <a
+             <a
                 href="/serviceaftale"
                 class="text-white font-bold text-sm md:text-xl"
               >
-       
+               <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                >
                   <button class="translate-y-1 sm:translate-y-0 text-base block">
                     Se serviceaftaler
                   </button>
+               </div>
               </a>
-            </div>
              <dl
             class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4 trans-0 mb-20"
           >

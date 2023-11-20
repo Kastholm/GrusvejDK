@@ -88,6 +88,18 @@
                   STEHR er Tysk specialmaskineri af højeste kvalitet. <br>Hurtigt og effektivt med en stor grad af genbrug i processen.
                   Vi genbruger den gamle vejs eksisterende materialer til at skabe en ny og velanlagt kørebane, som holder i mange år med det rette vedligeholdelsesprogram. Det er omkostningsbevidst – både for økonomi og miljø.
                 </p>
+                <a
+                href="/serviceaftale"
+                class="text-white font-bold text-sm md:text-xl"
+              >
+               <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                >
+                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                    Få en serviceaftale hos Grusvej.dk
+                  </button>
+               </div>
+              </a>
               </div>
               <div
                 class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
@@ -261,19 +273,18 @@
           <div class="relative translate-y-7">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
             <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed max-w-[80%]">Vores STEHR maskineri er unikke og nogle af de eneste i Danmark, hvor det først er i de senere år, at vi er blevet opmærksomme på fordelene ved en god grusvej.  </p>
-            <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-2 my-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
-                >
-              <a
+            <a
                 href="/kontakt"
                 class="text-white font-bold text-sm md:text-xl"
               >
-       
+            <div
+                  class="h-11 w-fit rounded mb-4 p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
+                > 
                   <button class="translate-y-1 sm:translate-y-0 text-base block">
                     Kontakt Grusvej.dk
                   </button>
-              </a>
             </div>
+            </a>
           </div>
         
        <!-- Image section -->

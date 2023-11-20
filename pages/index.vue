@@ -26,19 +26,18 @@
                 En grusvej er ikke bare en grusvej. Er grusvejen fra starten konstrueret korrekt og rigtigt vedligeholdt kan den holde i mange år.
                  Så enkelt er det – og vi er specialister i grusveje med det rigtige udstyr og viden på plads. 
               </p>
-              <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
-                >
               <a
                 href="/serviceaftale"
                 class="text-white font-bold text-sm md:text-xl"
               >
-       
+               <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                >
                   <button class="translate-y-1 sm:translate-y-0 text-base block">
                     Få en serviceaftale hos Grusvej.dk
                   </button>
+               </div>
               </a>
-            </div>
             </div>
             <div class="relative overflow-hidden">
               <div
@@ -57,7 +56,7 @@
             </div>
           </div>
         </div>
-        <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-20">
+        <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-28">
           <center>
           <h2 class="mb-5 Header cursor-vertical-text pt-10">
             NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
@@ -203,19 +202,18 @@
                 I stedet for at fjerne dem i en tung og dyr proces, nedknuser vi materialerne så de virker som almindeligt stabilgrus.
                  Det sparer tid, indkøb af ny stabilunderlag, er miljørigtigt, hurtigt og effektivt.
               </p>
-              <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl "
-                >
               <a
-                href="/serviceaftale"
+                href="/kontakt"
                 class="text-white font-bold text-sm md:text-xl"
               >
-       
+            <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
+                > 
                   <button class="translate-y-1 sm:translate-y-0 text-base block">
-                    Få en serviceaftale hos Grusvej.dk
+                    Kontakt Grusvej.dk
                   </button>
-              </a>
             </div>
+            </a>
             </div>
             <div
               class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"
