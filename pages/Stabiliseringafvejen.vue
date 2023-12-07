@@ -37,8 +37,8 @@
         <div class="lg:pr-4">
           <div class="max-w-xl text-base leading-7 text-gray-900 lg:max-w-lg">
             <p>
-              Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt og indblanding i bærelaget
-              og efterfølgende indblanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
+              Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt og blanding i bærelaget
+              og efterfølgende blanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
             </p>
             
             <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 -translate-y-6">

@@ -17,7 +17,7 @@
             <div
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
-              <h1 class="Header mb-12">
+              <h1 class="fontfam mb-12 sm:text-7xl text-5xl ">
                 Etablering - vedligehold og drift af grusveje
               </h1>
               
@@ -31,9 +31,9 @@
                 class="text-white font-bold text-sm md:text-xl"
               >
                <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  class="sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                  <button class="text-base block">
                     Få en serviceaftale hos Grusvej.dk
                   </button>
                </div>
@@ -58,7 +58,7 @@
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-28">
           <center>
-          <h2 class="mb-5 Header cursor-vertical-text pt-10">
+          <h2 class="mb-5 fontfam font-[600] font text-5xl sm:text-7xl cursor-vertical-text pt-10">
             NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
           </h2>
           <p class="font-semibold text-3xl pb-10">
@@ -113,13 +113,13 @@
 
       <!-- Logo cloud -->
       <div
-        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-20 h-fit max-h-[51em] overflow-hidden"
+        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-22 h-fit max-h-[51em] overflow-hidden"
       >
         <div
           class="relative isolate overflow-hidden bg-[#137733a0] px-6 py-14 text-center shadow-2xl sm:rounded-3xl sm:px-16"
         >
           <h2
-            class="mx-auto max-w-5xl text-3xl font-bold Header tracking-tight text-gray-900 sm:text-6xl uppercase"
+            class="mx-auto max-w-5xl text-5xl font-bold fontfam tracking-tight leading-[1] text-gray-900 sm:text-6xl uppercase"
           >
             Se hvad der gør vores grusvej speciel
           </h2>
@@ -139,7 +139,7 @@
           <button
             @click="setNewImg"
             :class="{ active: activeButton === 'old' }"
-            class="bg-white bg-opacity-30 px-8 py-5 mt-12 mx-4"
+            class="bg-white bg-opacity-30 px-8 py-5 mt-12 mx-4 mb-10 sm:mb-0"
           >
             Standard Grusvej
           </button>
@@ -147,7 +147,7 @@
             <img
               :src="imgSrc"
               :key="imgSrc"
-              class="hoverRoad w-[70em] m-auto"
+              class="hoverRoad w-[70em] m-auto sm:scale-100 scale-110"
               alt=""
             />
           </transition>
@@ -190,7 +190,7 @@
           >
             <div class="lg:col-end-1 lg:w-full lg:max-w-lg lg:pb-8">
               <h2
-                class="text-5xl font-bold tracking-tight Header text-gray-900 sm:text-6xl uppercase"
+                class="tracking-tight font-[700] sm:text-[68px] leading-[40px] text-[40px] fontfam text-gray-900 sm:leading-[70px] uppercase text-center sm:text-start"
               >
               Stenknuseren retter op på gamle og bulede grusveje
               </h2>
@@ -267,7 +267,7 @@
       <div class="mx-auto mt-14 max-w-7xl px-6  lg:px-8">
         <div class="mx-auto lg:mx-0 max-w-full">
           <h2
-            class="text-3xl font-bold tracking-tight Header text-gray-900 sm:text-6xl text-center uppercase"
+            class="text-3xl font-bold tracking-tight Header leading-[1] text-gray-900 sm:text-6xl text-center uppercase"
           >
             +90.000 km grusvej er forkert lagt i danmark
           </h2>
@@ -414,6 +414,13 @@
 </template>
 
 <style scoped>
+
+.Header {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: 700;
+  Font-size: 68px;
+  @apply tracking-normal;
+}
 .fontfam {
   font-family: "futura-pt-condensed", sans-serif;
 }
@@ -475,7 +482,7 @@ const arbejdssteps = [
       "Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1.",
     date: "Bud 2",
     dateTime: "2021-12",
-    image: "https://i.ibb.co/xC1G9Zx/trin-2.webp",
+    image: "https://i.ibb.co/sPvjqMm/IMG-0954.webp",
   },
   {
     name: "Bærelaget i grusvejen",
@@ -483,7 +490,7 @@ const arbejdssteps = [
       "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
     date: "Bud 3",
     dateTime: "2022-02",
-    image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
+    image: "https://i.ibb.co/5hB952R/billedet-10.webp ",
   },
   {
     name: "Vandafledning",
@@ -491,7 +498,7 @@ const arbejdssteps = [
       "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille.",
     date: "Bud 4",
     dateTime: "2022-12",
-    image: "https://i.ibb.co/5hB952R/billedet-10.webp",
+    image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
   },
   {
     name: "Vejens slidlag",

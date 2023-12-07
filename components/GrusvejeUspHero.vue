@@ -14,7 +14,7 @@
             alt="Image Description"
           />
           <div class="-translate-y-10 lg:-translate-y-20">
-            <h1 class="tracking-tight text-gray-900 mb-16 MainHeader Header relative">Specialudstyr sikrer grusveje af højeste kvalitet</h1>
+            <h1 class="tracking-tight text-gray-900 mb-16 Header respons-header-grusvej relative">Specialudstyr sikrer grusveje af højeste kvalitet</h1>
             <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative"></h2>
             <p class="mt-4 text-black relative leading-8 text-xl -translate-y-10">Grusvej.dk er en af de eneste vejentreprenører i Danmark, som råder over specialudstyr til opretning og stabilisering af grusveje. Det kraftige maskineri sikrer effektiv og korrekt behandling af vejen, så profil og form holdes i mange år.</p>
             <a
@@ -54,4 +54,5 @@ clip-path: polygon(82% 0, 83% 0, 100% 89%, 100% 94%);
 clip-path: polygon(85% 0, 84% 0, 100% 85%, 100% 80%);
 
 }
+
 </style>

@@ -13,12 +13,24 @@ import dotenv from "dotenv";
 /* Henter fonts fra Adobe Typekit (https://fonts.adobe.com/fonts/futura-pt-condensed) og Open Sans (https://fonts.adobe.com/fonts/open-sans)  */
 @import url("https://use.typekit.net/rbp7ctt.css");
 /* Generel Header styling */
+
 .Header {
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: 700;
-  Font-size: 68px;
+  font-size: 68px;
   @apply tracking-normal;
 }
+
+@media only screen and (max-width: 767px) {
+      .Header {
+      line-height: 55px;
+      font-size: 45px;
+    }
+  }
+
+
+
+
 /* Store headers, normalvis en H1 */
 .MainHeader,
 h1 {

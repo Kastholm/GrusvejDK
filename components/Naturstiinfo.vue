@@ -62,14 +62,14 @@
         <div>
           <div class="leading-7 text-gray-700 lg:max-w-lg -translate-y-36">
             <h1
-              class="mt-2 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam  "
+              class="sm:mt-2 mt-16 text-5xl font-bold tracking-wide text-gray-900 sm:text-6xl fontfam  "
             >
               NATURSTIER
             </h1>
             <div class="max-w-xl">
               <p class="mt-6 Text TextReadable text-gray-900">
                 Hos grusvej.dk har vi udviklet en metode til direkte stabilisering af overfladematerialer som man traditionelt ikke har kunne binde sammen. Derfor kan vi tilbyde anlæg og vedligehold af naturstier med et minimum af CO2 udledning og plads til at biodiversiteten kan folde sig ud i fuldt flor. <br> <br> 
-                  En natursti falder harmonisk og umiddelbart ind i sine omgivelser. Bærelaget til en natursti etableres direkte i muld og råjord, uden at vi skal tilføres materialer udefra. Intet forbrug af udvundne råstoffer og ingen miljøbelastende lastbilstransporter.
+                  En natursti falder harmonisk og umiddelbart ind i sine omgivelser. Bærelaget til en natursti etableres direkte i muld og råjord, uden at vi skal tilføre materialer udefra. Intet forbrug af udvundne råstoffer og ingen miljøbelastende lastbilstransporter.
                   På toppen af bærelaget udlægges 5-7 cm leret stabil, 0-18, så er stien klar til drift.
                   Når vejmaterialerne er bearbejdet og nedlagt korrekt, stabiliserer vi bærelaget med lignin, der er et 100% biologisk materiale, med negativ CO2 værdi. <br><br> Lignin arbejdes ind i de eksisterende jordtyper, vi komprimerer jordlagene og udlægger leret stabil 0-18. Herefter afrettes stiens profil, så regnvand kan løbe korrekt af og vi opnår en stabil og blivende stioverflade. <br><br>
                   Lignin eller Dustex, som er navnet på produktet der er udviklet af et restprodukt fra norske grantræer, har desuden den positive egenskab, at den binder sundhedsskadeligt vejstøv på en bæredygtig måde. Ved at erstatte salt med Dustex i forbindelse med støvbinding, kan CO2-udslippet derfor reduceres med mere end 70%.

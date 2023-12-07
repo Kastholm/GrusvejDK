@@ -6,7 +6,7 @@
           <div class="sm:max-w-full">
             <!-- skal gøres til H1-->
             <h1
-              class="relative sm:Header fontfam-NO-W sm:text-7xl text-5xl text-center max-w-full pb-6 pt-10"
+              class="relative sm:Header fontfam-NO-W sm:text-7xl text-5xl mb-10 text-center max-w-full pb-6 pt-10"
             >
               Årlig service <br />
               - slip for at ærgre dig over din grusvej
@@ -18,7 +18,7 @@
     </div>
   </section>
   <!-- serviceaftaler start -->
-  <section class="bg-white pt-12 dark:bg-gray-800 -translate-y-16">
+  <section class="bg-white pt-12 dark:bg-gray-800 -translate-y-16 sm:text-start text-center">
     <div class="relative container px-6 py-8 mx-auto ">
       <div
         class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8 "
@@ -30,9 +30,9 @@
             Basis
           </p>
           <h4
-            class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100"
+            class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-800 dark:text-gray-100"
           >
-            25.- 
+            39.- 
             <span class="text-base font-normal text-gray-600 dark:text-gray-400"
               >/ pr.meter</span>
           </h4>
@@ -55,7 +55,7 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-700 dark:text-gray-300"
+              <span class="sm:mx-4 text-gray-700 dark:text-gray-300"
                 >1 årlig afretning med Grader/komprimering</span
               >
             </div>
@@ -79,7 +79,7 @@
             Medium
           </p>
           <h4
-            class="mt-2 text-4xl font-semibold text-gray-800 dark:text-gray-100"
+            class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-800 dark:text-gray-100"
           >
             69.-
             <span class="text-base font-normal text-gray-600 dark:text-gray-400"
@@ -106,7 +106,7 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-700 dark:text-gray-300"
+              <span class="sm:mx-4 text-gray-700 dark:text-gray-300"
                 >2 årlige afretninger med grader/komprimering</span
               >
             </div>
@@ -125,7 +125,7 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-700 dark:text-gray-300"
+              <span class=" mx-4 text-gray-700 dark:text-gray-300"
                 >1x lag Dustex (slip for støvgener)</span
               >
             </div>
@@ -147,7 +147,7 @@
           <p class="text-lg font-medium text-gray-100">
             Super
           </p>
-          <h4 class="mt-2 text-4xl font-semibold text-gray-100">
+          <h4 class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-100">
             99.-
             <span class="text-base font-normal text-gray-400">/ pr.meter</span>
           </h4>
@@ -170,7 +170,7 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-300">2 årlige afretninger med grader/komprimering & profiludlægger</span>
+              <span class=" text-gray-300 sm:mx-4">2 årlige afretninger med grader/komprimering & profiludlægger</span>
             </div>
 
             <div class="flex items-center">
@@ -240,14 +240,13 @@
   <div class="flex flex-col items-center -translate-y-20 text-center">
     <h2 class="Header uppercase">Har du spørgsmål?</h2>
     <a
-                href="/kontakt"
-                class="text-white font-bold text-sm md:text-xl">
-                
+      href="/kontakt"
+      class="text-white font-bold text-sm md:text-xl">
     <div class="h-14 w-fit rounded p-2 px-4 bg-[#2a8447] translate-y-2 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl">
         
-                  <button class="translate-y-1 sm:translate-y-2 text-base block">
-                    Kontakt Grusvej.dk
-                  </button>
+     <button class="translate-y-1 sm:translate-y-2 text-base block">
+      Kontakt Grusvej.dk
+     </button>
             </div>
           </a>
   </div>

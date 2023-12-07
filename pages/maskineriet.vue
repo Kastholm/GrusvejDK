@@ -205,7 +205,7 @@
         </div>
       </div> -->
 
-      <div class="tabBody -mt-36 mb-16">
+      <div class="tabBody -mt-20 sm:-mt-36 mb-16 sm:max-w-[100%] max-w-[350px]">
         <div class="tabs">
           <button
             v-for="tab in tabs"
@@ -217,15 +217,15 @@
           </button>
         </div>
         <transition name="fade" mode="out-in">
-          <div class="tab-content sm:ml-16" :key="currentTab.id">
-            <div class="px-2">
-              <h2 class="font-bold">{{ currentTab.name }}</h2>
-              <h3 class="translate-y-4">{{ currentTab.manchet }}</h3>
-              <p class="translate-y-10 max-w-[80%]">{{ currentTab.text }}</p>
+          <div class=" tab-content sm:ml-16" :key="currentTab.id">
+            <div class="sm:px-2">
+              <h2 class="font-bold sm:w-[100%] w-[300px]">{{ currentTab.name }}</h2>
+              <h3 class="sm:translate-y-4">{{ currentTab.manchet }}</h3>
+              <p class="sm:translate-y-10 sm:max-w-[80%]">{{ currentTab.text }}</p>
               
             </div>
             <div
-              class="img-div mt-16 max-h-[500px] max-w-[1000px] bg-cover"
+              class="img-div mt-16 max-h-[500px] sm:max-w-[1000px] bg-cover"
               :style="{ backgroundImage: 'url(' + currentTab.imgSrc + ')' }"
             ></div>
           </div>
@@ -348,17 +348,17 @@ const tabs = [
     id: 5,
     name: "Stehr SBF 24-6 ",
     imgSrc:
-      "https://i.ibb.co/9n1VG1Q/grusudlaegger.webp",
-    text: "Til neddeling af kalk og cement benytter vi en Stehr SBF 24-6 støvfri stabilisator og en traditionel kalkstabilisator med frontank.",
+      "https://i.ibb.co/TKZdwZG/IMG-5704.webp ",
+    text: "Til neddeling af kalk og cement benytter vi en Stehr SBF 24-6 støvfri stabilisator og en traditionel kalkstabilisator med fronttank.",
     manchet: "Kalk og cement",
   },
   {
     id: 6,
     name: "Stehr SBF 24",
     imgSrc:
-      "https://i.ibb.co/TKZdwZG/IMG-5704.webp",
+      "https://i.ibb.co/9n1VG1Q/grusudlaegger.webp",
     text: " Til lignin (Dustex) stabilisering benytter vi en SBF 24 med frontmonteret tank med trykanlæg som effektivt kan behandle store arealer.",
-    manchet: "Dustex stabilisering",
+    manchet: "Profiludlægger",
   },{
     id: 7,
     name: "Gravemaskiner & Gummiged",
@@ -436,6 +436,7 @@ function changeTab(tab) {
 .tabBody h2 {
   font-size: 4rem;
   line-height: 4rem;
+  font-family:"futura-pt-condensed", sans-serif;
 }
 .tabBody h3 {
   font-size: 1.4rem;

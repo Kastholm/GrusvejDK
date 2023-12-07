@@ -63,7 +63,7 @@
             "
           />
         </div>
-        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 -translate-y-">
+        <div class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28">
         <div class="mx-auto max-w-2xl lg:mx-0 inline">
           <h2
             class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
@@ -85,9 +85,9 @@
         </dl>
       </div>
       </div>
-      <div class="max-w-[100%] text-center">
+      <div class="max-w-[100%] text-center sm:-translate-y-0 -translate-y-16">
           <h3 class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center max-w-[100%] uppercase">Dustex er perfekt til at stabilisere veje</h3>
-          <p class="Text TextReadable max-w-[80%] m-auto">Hvis behovet er at stabilisere en vej med dårlig bæreevne, så er Dustex også ideel.<br> Dustex kan blandes i tilsat grus med en høvl, men det er bedst at knuse Dustex ned. Ved at bruge en fræser, der kan knuse sten, får vi brugt den eksisterende asfalt og underlag og forvandlet dette til en stærk "plade". <br> Dette er en meget ressourcebesparende metode og derfor en økonomisk fordelagtig metode.
+          <p class="Text TextReadable max-w-[80%] m-auto">Hvis behovet er at stabilisere en vej med dårlig bæreevne, så er Dustex også ideel.<br> Dustex kan fræses ned i vejens dårlige bærelag. Ved at bruge en fræser, der kan knuse sten, får vi brugt den eksisterende asfalt og underlag og forvandlet dette til en stærk "plade". <br> Dette er en meget ressourcebesparende metode og derfor en økonomisk fordelagtig metode.
           På veje med mindre trafik kan man beholde vejen som en "dustex stabiliseret grusvej". Dette stabiliserede underlag er også ideelt til at lægge asfalt ovenpå og asfaltering kan finde sted efter en hærdningsperiode på 4-8 uger eller efter nogle år.</p>
       </div>
       
@@ -96,12 +96,12 @@
    <div class="grid grid-cols-1 sm:grid-cols-2 gap-10 pt-16">
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Behandles med Dustex</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6 sm:text-start text-center">Behandles med Dustex</div>
       <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
     <div class="flex flex-col items-center">
-      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6">Hårdhed efter 14 dage</div>
+      <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6 sm:text-start text-center">Hårdhed efter 14 dage</div>
       <img class="rounded-lg" src="https://i.ibb.co/vd7FRhw/vej-efter-14-dage.jpg" alt="Image 2">
     </div>
   </div> 
@@ -138,7 +138,7 @@
                 </p>
               </div>
             </div>
-            <div class="lg:flex lg:flex-auto lg:justify-center flex-rows-reverse">
+            <div class="lg:flex lg:flex-auto lg:justify-center flex-rows-reverse sm:-translate-y-0 -translate-y-20">
               <dl class="w-64 space-y-8 xl:w-80 inline lg:block">
                 <div
                   v-for="stat in stats"
@@ -263,7 +263,7 @@ const values = [
   {
     name: "Lugtfrit naturprodukt",
     description:
-      "Dustex er baseret på naturens eget bindemiddel, ligning. Til forskel fra harpiks, er Dustex næsten lugtfri.",
+      "Dustex er baseret på naturens eget bindemiddel, lignin. Til forskel fra harpiks, er Dustex næsten lugtfri.",
   },
 ];
 

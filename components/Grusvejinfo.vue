@@ -10,7 +10,7 @@
           >
             <img
               class="absolute inset-0 h-full w-full object-cover "
-              src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
+              src="https://i.ibb.co/m8DkmQZ/IMG-0953.webp"
               alt=""
             />
             <div class="absolute inset-0 mix-blend-multiply" />
@@ -100,14 +100,14 @@
              <dl
             class="mt-10 grid grid-rows-2 border-t border-gray-900/10 sm:grid-rows-2 -translate-y-14 sm:order-none order-4 trans-0 mb-20"
           >
-            <div v-for="(stat, statIdx) in stats" :key="statIdx">
+            <div class="max-h-[280px]" v-for="(stat, statIdx) in stats" :key="statIdx">
               <dt
-                class="text-6xl font-semibold leading-8 text-gray-900 fontfam tracking-wider py-10 text-center"
+                class="text-6xl font-semibold leading-8 Header text-gray-900 fontfam tracking-wider py-10 text-center"
               >
                 {{ stat.label }}
               </dt>
               <dd
-                class="mt-3 text-7xl font-semibold leading-12 sm:leading-10 tracking-tight text-gray-900 fontfam text-center border-l-2 border-b-2 border-[#f9b039] p-3"
+                class="mt-3 text-7xl font-semibold leading-12 sm:leading-10 tracking-tight text-gray-900 fontfam text-center border-l-2 border-b-2 border-[#f9b039] p-3 rounded"
               >
                 {{ stat.value }}
               </dd>
@@ -121,7 +121,7 @@
 <script setup>
 const stats = [
   { value: "+4000 km anlagt" },
-  { label: "FOR PRIVATE OG VIRKSOMHEDER", value: "+250 Glade kunder" },
+  { value: "+4000 km anlagt", label: "FOR PRIVATE OG VIRKSOMHEDER", value: "+250 Glade kunder" },
 ];
 </script>
 

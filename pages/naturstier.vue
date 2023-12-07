@@ -34,14 +34,15 @@
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               stroke-width="0"
-              class="fill-SubColor2"
+              class="fill-SubColor2 "
             />
           </svg>
           <rect
-            width="100%"
-            height="100%"
+            
+            
             stroke-width="0"
             fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
+            class="sm:max-w-[100%] sm:max-h-[100%] max-w-[390px]"
           />
         </svg>
 
@@ -81,7 +82,7 @@
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
-                <h1 class="Header MainHeader">
+                <h1 class="Header">
                   PROFESSIONEL ANLÆGGELSE AF NATURSTIER
                 </h1>
                 <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
@@ -207,7 +208,7 @@
         <!-- pattern start -->
         <div class="mt-4">
           <svg
-            class="absolute h-[40rem] w-[80rem] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            class="absolute h-[40rem] w-[99%] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -232,10 +233,9 @@
               />
             </svg>
             <rect
-              width="100%"
-              height="100%"
               stroke-width="0"
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
+              class="sm:max-w-[100%] sm:max-h-[100%] max-w-[390px]"
             />
           </svg>
           
@@ -243,7 +243,7 @@
           <!-- pattern slut -->
           <div class="relative lg:-translate-y-44 -translate-y-32 ">
             <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%] ">Vores stenknuser er en af de eneste i Danmark - en maskine der er unik for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og betonstumper. </p>
+            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%]">Vores stenknuser er en af de eneste i Danmark - en maskine der er unik for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og betonstumper. </p>
           </div>
 
         
@@ -332,6 +332,7 @@ function changeTab(tab) {
   box-shadow: 0 0 20px rgba(0.2, 0, 0, 0.2);
   background: #f9f9f9;
 }
+
 @media (max-width: 1150px) {
   .tabs {
     display: flex;

@@ -11,7 +11,7 @@
       <Grusvejinfo> </Grusvejinfo>
 
     <div class=" -translate-y-16">
-     <h3 class="mt-2 text-5xl w-[43%] font-bold tracking-wide text-gray-900 sm:text-6xl fontfam">DE <span class=" text-SubColor2 sm:text-8xl">5</span> BUD <br> <span class="sm:text-5xl">- PÅ EN PERFEKT GRUSVEJ</span></h3>
+     <h3 class="mt-2 text-5xl margin sm:w-[43%] font-bold tracking-wide text-gray-900 sm:text-6xl fontfam">DE <span class=" text-SubColor2 sm:text-8xl">5</span> BUD <br> <span class="sm:text-5xl">- PÅ EN PERFEKT GRUSVEJ</span></h3>
      
     </div>
 
@@ -96,7 +96,7 @@ const tabs = [
     name: "Vandet",
     imgSrc:
       "https://i.ibb.co/RB1hM7S/bud-1.webp",
-    text: "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale yderligere og større huller begynder at danne sig. ",
+    text: "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samler sig i ujævnheder i vejen, fjernes grus og materiale yderligere og større huller begynder at danne sig. ",
     text2: "Slid på biler og dæk er også forbundet med vand, da vandet på ubehandlet veje vender småsten med den skarpe side op der resulterer i svær slid af bla. dæk på køretøjer.",
     manchet: "Bud 1",
   },
@@ -105,7 +105,7 @@ const tabs = [
     name: "Grøften & nedsivnings arealet",
     imgSrc:
       "https://i.ibb.co/8bT1hnw/Frontal.webp",
-    text: "For at vejen kan holde i flere år skal der altid være afledning væk fra vejen. Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1. ",
+    text: "For at vejen kan holde i flere år skal der altid være afledning væk fra vejen. Dette forhindrer dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1. ",
     manchet: "Bud 2",
   },
   {
@@ -131,7 +131,7 @@ const tabs = [
     imgSrc:
       "https://i.ibb.co/fqv82CZ/bud-5.webp",
     text: "For at vejen opnår den bedst mulige holdbarhed skal slidlaget være vejgrus. ",
-    text2: "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
+    text2: "Det rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
     manchet: "Bud 5",
   },
 ];
@@ -214,6 +214,7 @@ function changeTab(tab) {
 .tabBody h2 {
   font-size: 4rem;
   line-height: 4rem;
+  font-family:"futura-pt-condensed", sans-serif;
 }
 .tabBody h3 {
   font-size: 1.4rem;
@@ -234,5 +235,9 @@ function changeTab(tab) {
   .tab-content {
     grid-template-columns: 1fr;
   }
+}
+
+.margin {
+  margin: 70px auto;
 }
 </style>
