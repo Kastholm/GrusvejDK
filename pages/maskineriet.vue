@@ -15,7 +15,7 @@
       />
       <div class="relative isolate -z-10">
         <svg
-          class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+          class="absolute inset-x-0 mobile top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
         >
           <defs>
@@ -42,6 +42,7 @@
             height="100%"
             stroke-width="0"
             fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
+            class="mobile"
           />
         </svg>
 
@@ -238,7 +239,7 @@
         <!-- pattern start -->
         <div class="mt-4">
           <svg
-            class="absolute h-[40rem] w-[80rem] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            class="absolute h-[40rem] w-[80rem] mobile flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -266,6 +267,7 @@
               height="100%"
               stroke-width="0"
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
+              class="mobile"
             />
           </svg>
           </div>
@@ -377,6 +379,9 @@ function changeTab(tab) {
 </script>
 
 <style scoped>
+html {
+  overflow-x: hidden;
+}
 .tabs {
   @apply bg-opacity-60;
   margin-bottom: auto;
@@ -467,5 +472,11 @@ function changeTab(tab) {
 .fade-enter,
 .fade-leave-to {
   opacity: 0;
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile {
+     visibility: hidden;
+}
 }
 </style>

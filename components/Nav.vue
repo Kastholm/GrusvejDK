@@ -65,18 +65,7 @@
               leave-from-class="transform opacity-100 scale-100"
               leave-to-class="transform opacity-0 scale-95"
             >
-              <MenuItems
-                class="absolute right-0 z-10 mt-2 w-48 origin-top-right rounded-md bg-white py-1 shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none"
-              >
-                <MenuItem v-for="item in userNavigation" :key="item.name">
-                  <NuxtLink
-                    :to="item.href"
-                    :class="['block px-4 py-2 text-sm text-gray-700']"
-                    >{{ item.name }}</NuxtLink
-                  >
-                  <p>da</p>
-                </MenuItem>
-              </MenuItems>
+              
             </transition>
           </Menu>
       </div>
@@ -97,43 +86,31 @@
     </div>
 
     <DisclosurePanel as="nav" class="lg:hidden" aria-label="Global">
-      <div class="space-y-1 px-2 pb-3 pt-2">
-        <DisclosureButton
-          v-for="item in navigation"
-          :key="item.name"
-          as="a"
-          :to="item.href"
-          :class="[
-            'text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium',
-          ]"
-          :aria-current="item.current ? 'page' : undefined"
-          >{{ item.name }}</DisclosureButton
-        >
-      </div>
-      <div class="border-t border-gray-200 pb-3 pt-4">
-        <div class="flex items-center px-4">
-          
-          <div class="ml-3">
-            <div class="text-base font-medium text-gray-800">
-              {{ user.name }}
-            </div>
-            <div class="text-sm font-medium text-gray-500">
-              {{ user.email }}
-            </div>
-          </div>
-        </div>
-        <div class="mt-3 space-y-1 px-2">
-          <DisclosureButton
-            v-for="item in userNavigation"
-            :key="item.name"
-            as="a"
-            :href="item.href"
-            class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
-            >{{ item.name }}</DisclosureButton
-          >
-        </div>
-      </div>
-    </DisclosurePanel>
+  <div class="space-y-1 px-2 pb-3 pt-2">
+    <NuxtLink
+      v-for="item in navigation"
+      :key="item.name"
+      :to="item.href"
+      :class="[
+        'text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium',
+      ]"
+      :aria-current="item.current ? 'page' : undefined"
+    >{{ item.name }}</NuxtLink>
+  </div>
+  <div class="border-t border-gray-200 pb-3 pt-4">
+    <div class="flex items-center px-4">
+      <!-- ... (your existing user information code) ... -->
+    </div>
+    <div class="mt-3 space-y-1 px-2">
+      <NuxtLink
+        v-for="item in userNavigation"
+        :key="item.name"
+        :to="item.href"
+        class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
+      >{{ item.name }}</NuxtLink>
+    </div>
+  </div>
+</DisclosurePanel>
   </Disclosure>
 </template>
 
@@ -174,9 +151,5 @@ const navigation = [
   
   
 ];
-const userNavigation = [
-  { name: "tt", href: "#" },
-  { name: "dd", href: "#" },
-  { name: "cc", href: "#" },
-];
+
 </script>

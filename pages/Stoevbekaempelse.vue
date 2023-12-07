@@ -7,7 +7,7 @@
        </div>
       <div class="relative isolate -z-10">
         <svg
-          class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+          class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full mobile stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
         >
           <defs>
@@ -97,7 +97,7 @@
     <!-- First grid item (Image 1 with text) -->
     <div class="flex flex-col items-center">
       <div class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6 sm:text-start text-center">Behandles med Dustex</div>
-      <img class="rounded-lg" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
+      <img class="rounded-lg sm:mb-0 mb-10" src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg" alt="Image 1">
     </div>
     <!-- Second grid item (Image 2 with text) -->
     <div class="flex flex-col items-center">
@@ -116,7 +116,7 @@
 <div class="mx-auto max-w-7xl px-6 sm:mt-0 lg:px-8 translate-y-10 sm:-translate-y-10 ">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 pt-28 Header text-center"
+            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 pt-28 Header text-center sm:w-full  w-[320px] sm:-translate-x-0 -translate-x-6"
           >
             SLIP FOR STØVGENER I AL SLAGS VIND & VEJR 
           </h2>

@@ -208,7 +208,7 @@
         <!-- pattern start -->
         <div class="mt-4">
           <svg
-            class="absolute h-[40rem] w-[99%] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
+            class="absolute h-[40rem] w-[100%] mobile flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
             aria-hidden="true"
           >
             <defs>

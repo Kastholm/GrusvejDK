@@ -19,7 +19,7 @@
                 </li>
               </ul>
             </div>
-            <div class="mt-10 md:mt-0">
+            <!-- <div class="mt-10 md:mt-0">
               <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 FAQ
               </h6>
@@ -32,7 +32,7 @@
                   >
                 </li>
               </ul>
-            </div>
+            </div> -->
           </div>
           <div class="md:grid md:grid-cols-2 md:gap-8 lg:translate-x-16">
             <div>

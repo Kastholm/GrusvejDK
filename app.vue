@@ -32,6 +32,11 @@ import dotenv from "dotenv";
 
 
 /* Store headers, normalvis en H1 */
+@media only screen and (max-width: 767px) {
+  .mobile {
+     display: none;
+}
+}
 .MainHeader,
 h1 {
   @apply max-w-2xl text-4xl font-bold uppercase text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto;

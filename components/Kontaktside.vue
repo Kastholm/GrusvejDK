@@ -2,9 +2,9 @@
   <div class="overflow-hidden bg-white pt-24 sm:pt-20 h-fit">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 h-fit">
       <!-- pattern start -->
-        <div class="mt-4">
+        <div class="mt-4 mobile">
          <svg
-            class=" absolute h-[40rem] w-[80rem] flex-none stroke-gray-200  [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)] -translate-y-2 translate-x-24"
+            class=" absolute h-[40rem] sm:w-[80rem] w-[390px] flex-none stroke-gray-200  [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)] -translate-y-2 translate-x-24"
             aria-hidden="true"
           >
             <defs>
@@ -28,8 +28,7 @@
               />
             </svg>
             <rect
-              width="100%"
-              height="100%"
+              class="sm:max-w-[100%] max-w-[390px]"
               stroke-width="0"
               fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
             />
@@ -65,11 +64,18 @@
           </div>
         <div class="translate-y-10 sm:-translate-x-0 gap-6 grid grid-rows-2 w-fit m-auto mb-16">  
 
-          <a class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6" href="tel:+45 28 56 08 05">
+          <a class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6" href="tel:+45 21 84 14 10">
            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 inline mr-2 ">
             <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clip-rule="evenodd" />
            </svg>
             + 45 29 29 01 29
+          </a>
+
+          <a class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6" href="tel:+45 21 84 14 10">
+           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-5 h-5 inline mr-2 ">
+            <path fill-rule="evenodd" d="M2 3.5A1.5 1.5 0 013.5 2h1.148a1.5 1.5 0 011.465 1.175l.716 3.223a1.5 1.5 0 01-1.052 1.767l-.933.267c-.41.117-.643.555-.48.95a11.542 11.542 0 006.254 6.254c.395.163.833-.07.95-.48l.267-.933a1.5 1.5 0 011.767-1.052l3.223.716A1.5 1.5 0 0118 15.352V16.5a1.5 1.5 0 01-1.5 1.5H15c-1.149 0-2.263-.15-3.326-.43A13.022 13.022 0 012.43 8.326 13.019 13.019 0 012 5V3.5z" clip-rule="evenodd" />
+           </svg>
+            + 45 21 84 14 10
           </a>
 
           <a class="text-2xl sm:text-4xl text-center font-semibold border-b fontfam tracking-wide border-r-4 border-t-2 shadow-[#137733] shadow-sm shadow-b rounded p-4 border-[#137733] ml-6 whitespace-nowrap" href="mailto:Kontakt@grusvej.dk">
@@ -123,4 +129,6 @@ clip-path: polygon(85% 0, 84% 0, 100% 85%, 100% 80%);
 .fontfam {
     font-family: "futura-pt-condensed", sans-serif;
 }
+
+
 </style>
