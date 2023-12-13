@@ -23,7 +23,7 @@ async function onSubmit(values) {
   };
 
   try {
-    const response = await fetch("http://localhost:4000/send-email", {
+    const response = await fetch("http://grusvejmail.webtify.dk/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -75,6 +75,7 @@ const notificationMessage = ref("");
                 X
               </button>
               <div class="mb-6">
+                <p class="mb-8 text-lg">Vælg din grusvejs løsning her, <br> så vender vi tilbage til dig hurtigst muligt.</p>
                 <Field
                   v-model="selectedOption"
                   name="service"
@@ -82,7 +83,7 @@ const notificationMessage = ref("");
                   class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
                 >
                   <option value="" disabled>Vælg en mulighed</option>
-                  <option value="Basis">Basis</option>
+                  <option value="Basis ">Basis</option>
                   <option value="Medium">Medium</option>
                   <option value="Super">Super</option>
                 </Field>
@@ -100,7 +101,7 @@ const notificationMessage = ref("");
               <div class="mb-6">
                 <Field
                   class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-                  placeholder="Your Email"
+                  placeholder="Din Email"
                   name="email"
                   type="email"
                 />
@@ -110,7 +111,7 @@ const notificationMessage = ref("");
                 <Field
                   name="phone"
                   type="tel"
-                  placeholder="Dit Telefon Nr"
+                  placeholder="Dit tlf nr."
                   class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
                 />
               </div>

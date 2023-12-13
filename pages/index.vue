@@ -1,5 +1,4 @@
 <template>
-
   <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
@@ -17,26 +16,27 @@
             <div
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
-              <h1 class="fontfam mb-12 sm:text-7xl text-5xl ">
+              <h1 class="fontfam mb-12 sm:text-7xl text-5xl">
                 Etablering - vedligehold og drift af grusveje
               </h1>
-              
 
               <p class="Text TextReadable text-gray-600 pt-2">
-                En grusvej er ikke bare en grusvej. Er grusvejen fra starten konstrueret korrekt og rigtigt vedligeholdt kan den holde i mange år.
-                 Så enkelt er det – og vi er specialister i grusveje med det rigtige udstyr og viden på plads. 
+                En grusvej er ikke bare en grusvej. Er grusvejen fra starten
+                konstrueret korrekt og rigtigt vedligeholdt kan den holde i
+                mange år. Så enkelt er det – og vi er specialister i grusveje
+                med det rigtige udstyr og viden på plads.
               </p>
               <a
                 href="/serviceaftale"
                 class="text-white font-bold text-sm md:text-xl"
               >
-               <div
+                <div
                   class="sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
                   <button class="text-base block">
                     Få en serviceaftale hos Grusvej.dk
                   </button>
-               </div>
+                </div>
               </a>
             </div>
             <div class="relative overflow-hidden">
@@ -58,12 +58,15 @@
         </div>
         <div class="mx-auto max-w-7xl px-6 lg:px-8 -translate-y-28">
           <center>
-          <h2 class="mb-5 fontfam font-[600] font text-5xl sm:text-7xl cursor-vertical-text pt-10">
-            NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
-          </h2>
-          <p class="font-semibold text-3xl pb-10">
-            <span class="text-[#137733]"> Grusvej.dk </span> Giver dig 5 bud på en stærk grusvej
-          </p>
+            <h2
+              class="mb-5 fontfam font-[600] font text-5xl sm:text-7xl cursor-vertical-text pt-10"
+            >
+              NY GRUSVEJ ELLER VEDLIGEHOLD AF EKSISTERENDE?
+            </h2>
+            <p class="font-semibold text-3xl pb-10">
+              <span class="text-[#137733]"> Grusvej.dk </span> Giver dig 5 bud
+              på en stærk grusvej
+            </p>
           </center>
           <!-- arbejdssteps start -->
           <div
@@ -92,9 +95,7 @@
               >
                 {{ item.name }}
               </p>
-              <p
-                class="mt-1 text-base leading-7 text-gray-600  min-h-[11em]"
-              >
+              <p class="mt-1 text-base leading-7 text-gray-600 min-h-[11em]">
                 {{ item.description }}
               </p>
               <img
@@ -192,28 +193,37 @@
               <h2
                 class="tracking-tight font-[700] sm:text-[68px] leading-[40px] text-[40px] fontfam text-gray-900 sm:leading-[70px] uppercase text-center sm:text-start"
               >
-              Stenknuseren retter op på gamle og bulede grusveje
+                Stenknuseren retter op på gamle og bulede grusveje
               </h2>
-              <p class="mt-6 Text Textreadable text-base leading-8 text-gray-600">
-                Tidligere brugte man gammelt byggeaffald, beton- og
-                 teglbrokker til at understøtte grusveje. Disse løst nedgravede fraktioner skader efter mange års slid nu mere end de gavner. 
+              <p
+                class="mt-6 Text Textreadable text-base leading-8 text-gray-600"
+              >
+                Tidligere brugte man gammelt byggeaffald, beton- og teglbrokker
+                til at understøtte grusveje. Disse løst nedgravede fraktioner
+                skader efter mange års slid nu mere end de gavner.
               </p>
-              <p class="mt-6 Text Textreadable text-base leading-7 text-gray-600">
-                I stedet for at fjerne dem i en tung og dyr proces, nedknuser vi materialerne så de virker som almindeligt stabilgrus.
-                 Det sparer tid, indkøb af ny stabilunderlag, er miljørigtigt, hurtigt og effektivt.
+              <p
+                class="mt-6 Text Textreadable text-base leading-7 text-gray-600"
+              >
+                I stedet for at fjerne dem i en tung og dyr proces, nedknuser vi
+                materialerne så de virker som almindeligt stabilgrus. Det sparer
+                tid, indkøb af ny stabilunderlag, er miljørigtigt, hurtigt og
+                effektivt.
               </p>
               <a
                 href="/kontakt"
                 class="text-white font-bold text-sm md:text-xl"
               >
-            <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
-                > 
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
+                <div
+                  class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+                >
+                  <button
+                    class="translate-y-1 sm:translate-y-0 text-base block"
+                  >
                     Kontakt Grusvej.dk
                   </button>
-            </div>
-            </a>
+                </div>
+              </a>
             </div>
             <div
               class="flex flex-wrap items-start justify-end gap-6 sm:gap-8 lg:contents"
@@ -264,16 +274,20 @@
       </div>
 
       <!-- Stats -->
-      <div class="mx-auto mt-14 max-w-7xl px-6  lg:px-8">
+      <div class="mx-auto mt-14 max-w-7xl px-6 lg:px-8">
         <div class="mx-auto lg:mx-0 max-w-full">
           <h2
             class="text-3xl font-bold tracking-tight Header leading-[1] text-gray-900 sm:text-6xl text-center uppercase"
           >
             +90.000 km grusvej er forkert lagt i danmark
           </h2>
-          <p class="mt-6 text-base leading-7 text-gray-600 max-w-[80%] text-center m-auto ">
+          <p
+            class="mt-6 text-base leading-7 text-gray-600 max-w-[80%] text-center m-auto"
+          >
             Marker, skovarealer, sommerhusområder, naturarealer, stier og veje.
-            Der er masser af grusveje i Danmark som trænger til en kærlig hånd – og effektivt maskineri.</p>
+            Der er masser af grusveje i Danmark som trænger til en kærlig hånd –
+            og effektivt maskineri.
+          </p>
         </div>
         <!-- card 1 -->
         <div
@@ -288,9 +302,11 @@
               Minimum vedligeholdelse
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              
-              <p class="mt-2 text-base leading-7 text-[#fcf2ff] Text Textreadable">
-                En korrekt grusvej er en investering der rækker mange år frem. Med en Grusvej.dk serviceaftale nærmest evigt.
+              <p
+                class="mt-2 text-base leading-7 text-[#fcf2ff] Text Textreadable"
+              >
+                En korrekt grusvej er en investering der rækker mange år frem.
+                Med en Grusvej.dk serviceaftale nærmest evigt.
               </p>
             </div>
           </div>
@@ -316,15 +332,18 @@
               Vores grusvej holder i +1 år uden dannelse af huller
             </p>
             <div class="sm:w-80 sm:shrink lg:w-auto lg:flex-none">
-              
-              <p class="mt-2 text-base leading-7 text-[#fcf2ff] max-w-[90%] m-auto">
-                Uden løbende vedligehold holder vores grusveje i mere end 1 år uden at vandet danner nye huller. Med årlig service forlænges dette faktum.
+              <p
+                class="mt-2 text-base leading-7 text-[#fcf2ff] max-w-[90%] m-auto"
+              >
+                Uden løbende vedligehold holder vores grusveje i mere end 1 år
+                uden at vandet danner nye huller. Med årlig service forlænges
+                dette faktum.
               </p>
             </div>
           </div>
         </div>
       </div>
-      
+
       <!-- cards slut -->
 
       <!-- Content section -->
@@ -395,30 +414,18 @@
     </main>
   </div>
 
+  <!-- ====== Contact Section Start -->
 
+  <Serviceaftaler />
 
-
-
-<!-- ====== Contact Section Start -->
-
-
-<Serviceaftaler/>
-
-<!-- ====== Contact Section End -->
-
-
-
-
-
-
+  <!-- ====== Contact Section End -->
 </template>
 
 <style scoped>
-
 .Header {
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: 700;
-  Font-size: 68px;
+  font-size: 68px;
   @apply tracking-normal;
 }
 .fontfam {
@@ -456,6 +463,7 @@ onMounted(async () => {
     width: 720,
     height: 515,
     controls: false,
+    loop: true,
   });
   await player.setVolume(0.5); // Optionally set the volume to 50%
 });

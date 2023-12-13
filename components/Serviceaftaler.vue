@@ -18,10 +18,12 @@
     </div>
   </section>
   <!-- serviceaftaler start -->
-  <section class="bg-white pt-12 dark:bg-gray-800 -translate-y-16 sm:text-start text-center">
-    <div class="relative container px-6 py-8 mx-auto ">
+  <section
+    class="bg-white pt-12 dark:bg-gray-800 -translate-y-16 sm:text-start text-center"
+  >
+    <div class="relative container px-6 py-8 mx-auto">
       <div
-        class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8 "
+        class="grid gap-6 -mx-6 sm:gap-8 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 -translate-y-8"
       >
         <div
           class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700"
@@ -32,12 +34,14 @@
           <h4
             class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-800 dark:text-gray-100"
           >
-            39.- 
+            39.-
             <span class="text-base font-normal text-gray-600 dark:text-gray-400"
-              >/ pr.meter</span>
+              >/ pr.meter</span
+            >
           </h4>
           <p class="mt-4 text-gray-500 dark:text-gray-300">
-            Grusvejens længde er 100-300 meter. <br>(max. 3 meter bred)<br> Arealer ud over 300 meter – 20% rabat.
+            Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred)<br />
+            Arealer ud over 300 meter – 20% rabat.
           </p>
 
           <div class="mt-8 space-y-8">
@@ -60,12 +64,11 @@
               >
             </div>
 
-            
-
             <div class="flex items-center sm:pb-11"></div>
           </div>
 
-          <button @click="selectServiceOption('Basis')"
+          <button
+            @click="selectServiceOption('Basis')"
             class="sm:translate-y-[96px] w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-blue-600"
           >
             Vælg
@@ -87,8 +90,8 @@
             >
           </h4>
           <p class="mt-4 text-gray-500 dark:text-gray-300">
-            Grusvejens længde er 100-300 meter. <br>(max. 3 meter bred) <br> Arealer ud over 300 meter – 20% rabat. <br />
-            
+            Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred) <br />
+            Arealer ud over 300 meter – 20% rabat. <br />
           </p>
 
           <div class="mt-8 space-y-8">
@@ -125,17 +128,15 @@
                 />
               </svg>
 
-              <span class=" mx-4 text-gray-700 dark:text-gray-300"
+              <span class="mx-4 text-gray-700 dark:text-gray-300"
                 >1x lag Dustex (slip for støvgener)</span
               >
             </div>
-
-            
-
           </div>
 
-          <button @click="selectServiceOption('Medium')"
-            class=" sm:translate-y-28 w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:[#137733]"
+          <button
+            @click="selectServiceOption('Medium')"
+            class="sm:translate-y-28 w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:[#137733]"
           >
             Vælg
           </button>
@@ -144,15 +145,16 @@
         <div
           class="px-6 py-4 transition-colors duration-200 transform bg-gray-700 rounded-lg dark:bg-gray-600"
         >
-          <p class="text-lg font-medium text-gray-100">
-            Super
-          </p>
-          <h4 class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-100">
+          <p class="text-lg font-medium text-gray-100">Super</p>
+          <h4
+            class="mt-2 text-4xl font-semibold text-center sm:text-start text-gray-100"
+          >
             99.-
             <span class="text-base font-normal text-gray-400">/ pr.meter</span>
           </h4>
-          <p class="mt-4 text-gray-300 ">
-            Grusvejens længde er 100-300 meter. <br>(max. 3 meter bred)<br> Arealer ud over 300 meter – 20% rabat.
+          <p class="mt-4 text-gray-300">
+            Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred)<br />
+            Arealer ud over 300 meter – 20% rabat.
           </p>
 
           <div class="mt-8 space-y-8">
@@ -170,7 +172,10 @@
                 />
               </svg>
 
-              <span class=" text-gray-300 sm:mx-4">2 årlige afretninger med grader/komprimering & profiludlægger</span>
+              <span class="text-gray-300 sm:mx-4"
+                >2 årlige afretninger med grader/komprimering &
+                profiludlægger</span
+              >
             </div>
 
             <div class="flex items-center">
@@ -187,7 +192,9 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-300">Pasning af vejens nedsivning areal/grøft</span>
+              <span class="mx-4 text-gray-300"
+                >Pasning af vejens nedsivning areal/grøft</span
+              >
             </div>
 
             <div class="flex items-center">
@@ -204,7 +211,9 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-300">Tilførsel af det nødvendige vejgrus</span>
+              <span class="mx-4 text-gray-300"
+                >Tilførsel af det nødvendige vejgrus</span
+              >
             </div>
 
             <div class="flex items-center">
@@ -221,11 +230,14 @@
                 />
               </svg>
 
-              <span class="mx-4 text-gray-300">2x lag Dustex (slip for støvgener)</span>
+              <span class="mx-4 text-gray-300"
+                >2x lag Dustex (slip for støvgener)</span
+              >
             </div>
           </div>
 
-          <button @click="selectServiceOption('Super')"
+          <button
+            @click="selectServiceOption('Super')"
             class="w-full px-4 py-2 mt-10 font-medium tracking-wide text-white capitalize transition-colors duration-200 transform bg-[#137733] rounded-md hover:bg-[#f9b039] focus:outline-none focus:bg-[#137733]"
           >
             Vælg
@@ -235,34 +247,36 @@
     </div>
   </section>
   <!-- serviceaftaler slut -->
-  <GrusvejForm v-if="isFormVisible" :selectedService="selectedOption" @close="isFormVisible = false"> </GrusvejForm>
+  <GrusvejForm
+    v-if="isFormVisible"
+    :selectedService="selectedOption"
+    @close="isFormVisible = false"
+  >
+  </GrusvejForm>
 
   <div class="flex flex-col items-center -translate-y-20 text-center">
-    <h2 class="Header uppercase">Har du spørgsmål?</h2>
-    <a
-      href="/kontakt"
-      class="text-white font-bold text-sm md:text-xl">
-    <div class="h-14 w-fit rounded p-2 px-4 bg-[#2a8447] translate-y-2 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl">
-        
-     <button class="translate-y-1 sm:translate-y-2 text-base block">
-      Kontakt Grusvej.dk
-     </button>
-            </div>
-          </a>
+    <h2 class="Header uppercase pt-12">Har du spørgsmål?</h2>
+    <a href="/kontakt" class="text-white font-bold text-sm md:text-xl">
+      <div
+        class="h-14 w-fit rounded p-2 px-4 bg-[#2a8447] translate-y-2 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+      >
+        <button class="translate-y-1 sm:translate-y-2 text-base block">
+          Kontakt Grusvej.dk
+        </button>
+      </div>
+    </a>
   </div>
 </template>
 
 <script setup>
-
-const isFormVisible = ref(false); 
+const isFormVisible = ref(false);
 
 const selectedOption = ref("");
 
 function selectServiceOption(option) {
-
   selectedOption.value = option;
   isFormVisible.value = true;
-  console.log(selectedOption)
+  console.log(selectedOption);
 }
 </script>
 

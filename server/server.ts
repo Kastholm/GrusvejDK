@@ -29,6 +29,9 @@ app.post('/send-email', async (req, res) => {
         to: process.env.EMAIL_USER, // Dette vil sende e-mailen til dig
         subject: 'Form submission',
         text: `
+        Brugt grusvej formular
+
+        
          Navn: ${req.body.name},
         
          E-mail: ${req.body.email},
@@ -40,6 +43,43 @@ app.post('/send-email', async (req, res) => {
          Besked: 
          
          ${req.body.text}
+     `
+    };
+
+    transporter.sendMail(mailOptions, (error, info) => {
+        if (error) {
+            console.log(error);
+            res.status(500).send('Internal Server Error');
+        } else {
+            console.log('Email sent: ' + info.response);
+            res.status(200).send('Email sent successfully!');
+        }
+    });
+});
+
+app.post('/send-miniemail', async (req, res) => {
+    let transporter = nodemailer.createTransport({
+        service: 'outlook',
+        auth: {
+            user: 'Christiansen95@live.dk',
+            pass: 'K@stholm9fem'
+        }
+    });
+
+
+    let mailOptions = {
+        from: process.env.EMAIL_USER,
+        to: process.env.EMAIL_USER, // Dette vil sende e-mailen til dig
+        subject: 'Form submission',
+        text: `
+        Brugt Kontaktformular
+
+
+        E-mail: ${req.body.email},
+        
+        Telefon: ${req.body.phone},
+        
+        Navn: ${req.body.name},
      `
     };
 
