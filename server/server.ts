@@ -19,7 +19,7 @@ app.post('/send-email', async (req, res) => {
         service: 'outlook',
         auth: {
             user: 'Christiansen95@live.dk',
-            pass: 'K@stholm9fem'
+            pass: ''
         }
     });
 
