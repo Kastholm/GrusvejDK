@@ -34,7 +34,7 @@
                   class="sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
                   <button class="text-base block">
-                    Få en serviceaftale hos Grusvej.dk
+                    Få serviceaftale hos Grusvej.dk
                   </button>
                </div>
               </a>

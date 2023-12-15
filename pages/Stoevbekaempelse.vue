@@ -162,7 +162,7 @@
         </div>
       </div>
 
-      <div class="relative w-full rounded-md pt-24">
+      <div class="relative w-full rounded-md pt-">
         <div
           ref="playerContainer"
           id="vimeo-player"
