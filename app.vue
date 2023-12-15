@@ -37,6 +37,11 @@ import dotenv from "dotenv";
      display: none;
 }
 }
+@media only screen and (max-width: 767px) {
+  .respons-knap {
+     height: 65px;
+}
+}
 .MainHeader,
 h1 {
   @apply max-w-2xl text-4xl font-bold uppercase text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto;

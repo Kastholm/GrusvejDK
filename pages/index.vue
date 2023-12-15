@@ -31,7 +31,7 @@
                 class="text-white font-bold text-sm md:text-xl"
               >
                 <div
-                  class="sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  class="respons-knap sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
                   <button class="text-base block">
                     Få serviceaftale hos Grusvej.dk
