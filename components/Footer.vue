@@ -4,12 +4,15 @@
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-16 lg:px-8 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-0">
         <div class="grid grid-cols-2 gap-8 xl:col-span-2">
-          <div class="md:grid md:grid-cols-2 md:gap-8 lg:translate-x-16">
+          <div class="md:grid md:grid-cols-1 md:gap-8">
             <div>
               <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 Oversigt
               </h6>
-              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
+              <ul
+                role="list"
+                class="mt-6 space-y-4 hover:scale-110 transition-all"
+              >
                 <li v-for="item in navigation.solutions" :key="item.name">
                   <a
                     :href="item.href"
@@ -34,12 +37,15 @@
               </ul>
             </div> -->
           </div>
-          <div class="md:grid md:grid-cols-2 md:gap-8 lg:translate-x-16">
+          <div class="md:grid md:grid-cols-1 md:gap-8">
             <div>
               <h6 class="text-lg font-semibold leading-6 text-gray-900">
                 Kontakt
               </h6>
-              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
+              <ul
+                role="list"
+                class="mt-6 space-y-4 hover:scale-110 transition-all"
+              >
                 <li v-for="item in navigation.company" :key="item.name">
                   <a
                     :href="item.href"
@@ -56,53 +62,52 @@
             Skal vi kontakte dig?
           </h6>
           <p class="mt-2 text-sm leading-6 text-gray-600">
-            Indtast email her - vi vender tilbage indenfor 24 timer alle hverdage.
+            Indtast email her - vi vender tilbage indenfor 24 timer alle
+            hverdage.
           </p>
-        <form class="mt-6 sm:flex sm:max-w-md ml-[112px]">
-          <div class="flex flex-col gap-2 lg:">
-            <label for="email-address" class="sr-only">Email adresse</label>
-            <input
-              type="email"
-              name="email-address"
-              id="email-address"
-              autocomplete="email"
-              required=""
-              class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
-              placeholder="Skriv din email her"
-            />
-            
-            <label for="phonenumber" class="sr-only">Telefon nummer</label>
-            <input
-              type="phone"
-              name="phonenumber"
-              id="phonenumber"
-              autocomplete="phonenumber"
-              required=""
-              class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
-              placeholder="Skriv dit mobilnummer her"
-            />
-            <label for="name" class="sr-only">Navn</label>
-            <input
-              type="name"
-              name="firstname"
-              id="name"
-              autocomplete="name"
-              required=""
-              class="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:w-64 sm:text-sm sm:leading-6 xl:w-full"
-              placeholder="Skriv dit navn her"
-            />
-          
-            
-            <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
-              <button
-                type="submit"
-                class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          <Form
+            :validation-schema="schema"
+            @submit="onSubmit"
+            class="mt-6 text-center m-auto"
+          >
+            <div class="grid gap-2 place-content-center">
+              <Field
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Din e-mail"
+                name="email"
+                type="email"
+              />
+
+              <Field
+                name="phone"
+                type="tel"
+                placeholder="Dit telefon nr."
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+              />
+              <Field
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Dit navn"
+                name="name"
+                type="name"
+              />
+              <div
+                class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex"
               >
-                Afsted
-              </button>
+                <button
+                  v-if="!sentMail"
+                  class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                >
+                  Afsted
+                </button>
+                <p
+                  class="flex h-10 items-end justify-center rounded-md bg-[#f9b039] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  v-if="sentMail"
+                >
+                  Din E-mail blev sendt
+                </p>
+              </div>
             </div>
-          </div>
-          </form>
+          </Form>
         </div>
       </div>
       <div
@@ -122,8 +127,16 @@
         <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
           &copy; 2023 Grusvej.dk - alle rettigheder reserveret.
         </p>
-        <p class="mt-8 text-sm leading-5 text-gray-500 md:order-1 md:mt-0 border-b-2">
-          Design af <a href="" class=" text-blue-600 font-semibold"> Webtify.dk</a>
+        <p
+          class="mt-8 text-sm leading-5 text-gray-500 md:order-1 md:mt-0 border-b-2"
+        >
+          Design af
+          <NuxtLink
+            to="https://www.webtify.dk"
+            class="text-blue-600 font-semibold"
+          >
+            Webtify.dk</NuxtLink
+          >
         </p>
       </div>
     </div>
@@ -151,7 +164,6 @@ const navigation = {
   company: [
     { name: "Kontakt Grusvej.dk", href: "#" },
     { name: "Om virksomheden Grusvej.dk", href: "#" },
-    
   ],
   legal: [
     { name: "Politik for databehandling", href: "#" },
@@ -229,4 +241,66 @@ const navigation = {
     },
   ],
 };
+
+import { ref } from "vue";
+import { Field, Form, ErrorMessage } from "vee-validate";
+import * as yup from "yup";
+
+let sentMail = false;
+
+const schema = yup.object({
+  email: yup.string().email(),
+  phone: yup.string().required(),
+  name: yup.string().required(),
+});
+
+const selectedOption = ref(props.selectedService);
+
+async function onSubmit(values) {
+  console.log(values);
+  const formData = {
+    email: values.email,
+    phone: values.phone,
+    name: values.name,
+  };
+
+  try {
+    const response = await fetch(
+      "https://grusvejmail.webtify.dk/send-miniemail",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      }
+    );
+
+    if (response.ok) {
+      notificationMessage.value = "E-mail sendt!";
+      sentMail = true;
+      isNotificationVisible.value = true;
+    } else {
+      notificationMessage.value = "Fejl ved afsendelse af e-mail.";
+      isNotificationVisible.value = true;
+    }
+  } catch (error) {
+    console.error("There was an error sending the e-mail:", error);
+  }
+}
+
+import { defineProps } from "vue";
+
+const props = defineProps({
+  selectedService: String,
+});
+
+const emit = defineEmits(["close"]);
+
+function closeForm() {
+  emit("close");
+}
+
+const isNotificationVisible = ref(false);
+const notificationMessage = ref("");
 </script>
