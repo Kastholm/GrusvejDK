@@ -266,7 +266,7 @@ async function onSubmit(values) {
 
   try {
     const response = await fetch(
-      "http://grusvejmail.webtify.dk/send-miniemail",
+      "https://grusvejmail.webtify.dk/send-miniemail",
       {
         method: "POST",
         headers: {

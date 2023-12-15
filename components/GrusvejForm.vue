@@ -23,7 +23,7 @@ async function onSubmit(values) {
   };
 
   try {
-    const response = await fetch("http://grusvejmail.webtify.dk/send-email", {
+    const response = await fetch("https://grusvejmail.webtify.dk/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -75,7 +75,10 @@ const notificationMessage = ref("");
                 X
               </button>
               <div class="mb-6">
-                <p class="mb-8 text-lg">Vælg din grusvejs løsning her, <br> så vender vi tilbage til dig hurtigst muligt.</p>
+                <p class="mb-8 text-lg">
+                  Vælg din grusvejs løsning her, <br />
+                  så vender vi tilbage til dig hurtigst muligt.
+                </p>
                 <Field
                   v-model="selectedOption"
                   name="service"

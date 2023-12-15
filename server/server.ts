@@ -18,8 +18,8 @@ app.post('/send-email', async (req, res) => {
     let transporter = nodemailer.createTransport({
         service: 'outlook',
         auth: {
-            user: 'Christiansen95@live.dk',
-            pass: ''
+            user: 'kontakt@grusvej.dk',
+            pass: 'XaQCBAwAbXpLHmCK!'
         }
     });
 
