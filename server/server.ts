@@ -11,7 +11,7 @@ app.use(express.json());
 
 // Tillad specifikke domæner
 const corsOptions = {
-    origin: 'https://grusvej.dk', // Erstat med din Netlify-apps URL
+    origin: ['https://grusvej.dk', 'http://localhost:3000'], // Erstat med din Netlify-apps URL
 };
 app.use(cors(corsOptions));
 // Lav api end points
@@ -21,16 +21,16 @@ app.get('/', (req, res) => {
 
 app.post('/send-email', async (req, res) => {
     let transporter = nodemailer.createTransport({
-        service: 'outlook',
+        service: 'hotmail',
         auth: {
-            user: 'kontakt@grusvej.dk',
-            pass: 'XaQCBAwAbXpLHmCK!'
+            user: 'grusvej-linkedin@hotmail.com',
+            pass: 'Grusvejdk2023'
         }
     });
 
     let mailOptions = {
-        from: process.env.EMAIL_USER,
-        to: process.env.EMAIL_USER, // Dette vil sende e-mailen til dig
+        from: 'grusvej-linkedin@hotmail.com',
+        to: 'kontakt@grusvej.dk', // Dette vil sende e-mailen til dig
         subject: 'Form submission',
         text: `
         Brugt grusvej formular
@@ -65,15 +65,15 @@ app.post('/send-miniemail', async (req, res) => {
     let transporter = nodemailer.createTransport({
         service: 'outlook',
         auth: {
-            user: 'kontakt@grusvej.dk',
-            pass: 'XaQCBAwAbXpLHmCK!'
+            user: 'grusvej-linkedin@hotmail.com',
+            pass: 'Grusvejdk2023'
         }
     });
 
 
     let mailOptions = {
-        from: process.env.EMAIL_USER,
-        to: process.env.EMAIL_USER, // Dette vil sende e-mailen til dig
+        from: 'grusvej-linkedin@hotmail.com',
+        to: 'kontakt@grusvej.dk', // Dette vil sende e-mailen til dig
         subject: 'Form submission',
         text: `
         Brugt Kontaktformular
