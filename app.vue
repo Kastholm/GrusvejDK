@@ -39,7 +39,7 @@ import dotenv from "dotenv";
 }
 @media only screen and (max-width: 767px) {
   .respons-knap {
-     height: 65px;
+     height: 80px;
 }
 }
 .MainHeader,
