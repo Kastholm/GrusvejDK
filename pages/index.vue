@@ -297,7 +297,7 @@
             class="bg-[#f9b039] flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl p-8 sm:w-3/4 sm:max-w-md sm:flex-row-reverse sm:items-end lg:w-72 lg:max-w-none lg:flex-none lg:flex-col lg:items-start"
           >
             <p
-              class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff]"
+              class="flex-none text-3xl font-bold tracking-tight text-[#fcf2ff] min-w-[220px] sm:-translate-x-0 -translate-x-8"
             >
               Minimum vedligeholdelse
             </p>
