@@ -14,6 +14,7 @@
 /* ::-webkit-scrollbar {
   @apply w-2;
 }
+
 ::-webkit-scrollbar-track {
   @apply bg-gradient-to-t bg-Metric to-smooth;
 }
@@ -22,6 +23,9 @@
 } */
 /* Responsive tags der ændrer størrelse udfra skørmstørrelse */
 /* 640px smaller */
+p {
+  font-size: 40px;
+}
 @media screen and (max-width: 31em) {
   html {
     font-size: 4.2vw;
@@ -57,5 +61,6 @@
   font-style: normal;
   @apply text-[1.1rem];
 } */
+
 
 </style>
