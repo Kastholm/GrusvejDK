@@ -39,7 +39,7 @@
               >/ pr.meter</span
             >
           </h4>
-          <p class="mt-4 text-gray-500 dark:text-gray-300">
+          <p class="mt-4 text-gray-500 dark:text-gray-300 text-base">
             Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred)<br />
             Arealer ud over 300 meter – 20% rabat.
           </p>
@@ -59,7 +59,7 @@
                 />
               </svg>
 
-              <span class="sm:mx-4 text-gray-700 dark:text-gray-300"
+              <span class="sm:mx-4 text-gray-700 dark:text-gray-300 "
                 >1 årlig afretning med Grader/komprimering</span
               >
             </div>
@@ -89,7 +89,7 @@
               >/ pr.meter</span
             >
           </h4>
-          <p class="mt-4 text-gray-500 dark:text-gray-300">
+          <p class="mt-4 text-gray-500 dark:text-gray-300 text-base">
             Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred) <br />
             Arealer ud over 300 meter – 20% rabat. <br />
           </p>
@@ -152,7 +152,7 @@
             99.-
             <span class="text-base font-normal text-gray-400">/ pr.meter</span>
           </h4>
-          <p class="mt-4 text-gray-300">
+          <p class="mt-4 text-gray-300 text-base">
             Grusvejens længde er 100-300 meter. <br />(max. 3 meter bred)<br />
             Arealer ud over 300 meter – 20% rabat.
           </p>
