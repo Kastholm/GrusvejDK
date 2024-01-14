@@ -1,10 +1,11 @@
 <template>
-
   <div> 
   <head>
     <title> Etablering og vedligehold af grusveje og naturstier.</title>
     <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
+   
   </head>
+  
 </div>
   <div class="bg-white font-sans">
     <main class="isolate">
