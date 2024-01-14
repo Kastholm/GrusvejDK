@@ -2,7 +2,8 @@
 
   <div> 
   <head>
-    <title> Hos Grusvej.dk anlægger og vedligeholder vi grusveje i hele Danmark for både private og virksomheder. Vi garanterer en Grusvej i tiptop stand.</title>
+    <title> Etablering og vedligehold af grusveje og naturstier.</title>
+    <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private hustande og virksomheder. Vi garanterer en grusvej i tiptop stand.">
   </head>
 </div>
   <div class="bg-white font-sans">
