@@ -3,6 +3,7 @@
   <head>
     <title> Etablering og vedligehold af grusveje og naturstier</title>
     <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
+    <meta name="keywords" content="Grusveje, Naturstier, Cement, etablering, vedligehold">
   </head>
   
 </div>
