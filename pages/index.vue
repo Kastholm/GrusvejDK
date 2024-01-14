@@ -3,7 +3,7 @@
   <div> 
   <head>
     <title> Etablering og vedligehold af grusveje og naturstier.</title>
-    <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private hustande og virksomheder. Vi garanterer en grusvej i tiptop stand.">
+    <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
   </head>
 </div>
   <div class="bg-white font-sans">
@@ -486,9 +486,9 @@ const arbejdssteps = [
   {
     name: "Vandafledning",
     description:
-      "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samlet sig i ujævnheder i vejen, fjernes grus og materiale og større huller begynder at danne sig. ",
+      "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samler sig i ujævnheder i vejen, fjernes grus og materiale og større huller begynder at danne sig. ",
     date: "Bud 1",
-    dateTime: "2021-08",
+    
     image: "https://i.ibb.co/z8TdFp5/trin-1.webp",
   },
   {
@@ -496,7 +496,7 @@ const arbejdssteps = [
     description:
       "Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1.",
     date: "Bud 2",
-    dateTime: "2021-12",
+    
     image: "https://i.ibb.co/sPvjqMm/IMG-0954.webp",
   },
   {
@@ -504,7 +504,7 @@ const arbejdssteps = [
     description:
       "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
     date: "Bud 3",
-    dateTime: "2022-02",
+    
     image: "https://i.ibb.co/5hB952R/billedet-10.webp ",
   },
   {
@@ -512,7 +512,7 @@ const arbejdssteps = [
     description:
       "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille.",
     date: "Bud 4",
-    dateTime: "2022-12",
+    
     image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
   },
   {
@@ -520,7 +520,7 @@ const arbejdssteps = [
     description:
       "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
     date: "Bud 5",
-    dateTime: "2022-12",
+    
     image: "https://i.ibb.co/FHP6FTZ/trin-5-opt.webp",
   },
 ];
