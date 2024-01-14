@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Grusvej.dk - profesionelle naturstier i alt terræn</title>
+    <meta name="description" content="Den tyske maskinpark af skræddersyet Stehr maskiner er bygget til etablering og vedligehold af naturstier. Kontakt os - vi anlægger naturstier i hele Danmark.">
+  </head>
   <div class="bg-white">
     <main class="isolate">
       <!-- Hero section -->

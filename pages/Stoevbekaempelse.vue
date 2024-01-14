@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Slip for grusvejens støvgener med det naturvenlige Dustex</title>
+    <meta name="description" content="Sig farvel til støvskyer på grusvejen og støvgener i hjemmet. Vores naturvenlige bindingsmiddel, Dustex, sikrer dig en støvfri grusvej i op til 2 år.">
+  </head>
   <div class="bg-white">
     <main class="isolate">
       <!-- Hero section -->

@@ -1,9 +1,8 @@
 <template>
   <div> 
   <head>
-    <title> Etablering og vedligehold af grusveje og naturstier.</title>
+    <title> Etablering og vedligehold af grusveje og naturstier</title>
     <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
-   
   </head>
   
 </div>
@@ -122,7 +121,7 @@
 
       <!-- Logo cloud -->
       <div
-        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 lg:px-8 transition-all -translate-y-22 h-fit max-h-[51em] overflow-hidden"
+        class="hoverRoadBody mx-auto relative mt-32 max-w-7xl sm:mt-40 sm:px-6 mb-20 lg:px-8 transition-all -translate-y-24 h-fit max-h-[51em] overflow-hidden"
       >
         <div
           class="relative isolate overflow-hidden bg-[#137733a0] px-6 py-14 text-center shadow-2xl sm:rounded-3xl sm:px-16"
@@ -285,7 +284,7 @@
       <div class="mx-auto mt-14 max-w-7xl px-6 lg:px-8">
         <div class="mx-auto lg:mx-0 max-w-full">
           <h2
-            class="text-3xl font-bold tracking-tight Header leading-[1] text-gray-900 sm:text-6xl text-center uppercase"
+            class="text-3xl mt-5 font-bold tracking-tight Header leading-[1] text-gray-900 sm:text-6xl text-center uppercase"
           >
             +90.000 km grusvej er forkert lagt i danmark
           </h2>
@@ -423,8 +422,9 @@
   </div>
 
   <!-- ====== Contact Section Start -->
-
+<div class="mt-20">
   <Serviceaftaler />
+</div>
 
   <!-- ====== Contact Section End -->
 </template>

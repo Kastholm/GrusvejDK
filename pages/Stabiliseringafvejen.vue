@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title>Ekspertise i Jordstabilisering for holdbare Grusveje</title>
+    <meta name="description" content="Undgå besværet med vedligehold af grusvejen eller naturstien, Grusvej.dk tilbyder en fast serviceaftale der garanterer en solid grusvej hele året rundt. ">
+  </head>
   <StabiliseringHero />
   <div
     class="relative isolate overflow-hidden px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0 z-1"

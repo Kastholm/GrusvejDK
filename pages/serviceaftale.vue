@@ -1,4 +1,8 @@
 <template>
+  <head>
+    <title> Fast serviceaftale - grusvej af kvalitet hele året rundt. </title>
+    <meta name="description" content="Undgå besværet med vedligehold af grusvejen eller naturstien, Grusvej.dk tilbyder en fast serviceaftale der garanterer en solid grusvej hele året rundt. ">
+  </head>
   <div class="">
     <Serviceaftaler class="relative"/>
     <img
