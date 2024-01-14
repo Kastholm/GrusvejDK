@@ -1,4 +1,10 @@
 <template>
+
+  <div> 
+  <head>
+    <title> Hos Grusvej.dk anlægger og vedligeholder vi grusveje i hele Danmark for både private og virksomheder. Vi garanterer en Grusvej i tiptop stand.</title>
+  </head>
+</div>
   <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
