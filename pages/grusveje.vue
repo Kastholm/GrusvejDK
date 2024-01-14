@@ -1,7 +1,7 @@
 <template>
   <head>
     <title>Professionel etablering og vedligehold af grusveje</title>
-    <meta name="description" content="Ved hjælp af vores imponerende maskinpark har vi siden 2018 etableret og vedligeholdt grusveje i hele Danmark. En grusvej der holder i flere år uden støvgener.">
+    <meta name="description" content="Med vores imponerende maskinpark har vi siden 2018 etableret og vedligeholdt grusveje i hele Danmark. En grusvej der holder i flere år uden støvgener.">
   </head>
   <div class="bg-white">
     <main class="isolate">

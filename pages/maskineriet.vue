@@ -1,7 +1,7 @@
 <template>
   <head>
     <title>Grusvej.dk - Danmarks største maskinpark til grusveje</title>
-    <meta name="description" content="Grusvej tager stolthed i en maskinpark af tysk kvalitet, Stehr maskiner skræddersyet til etablering og vedligehold af grusveje og naturstier.">
+    <meta name="description" content="Grusvej.dk - en maskinpark af tysk kvalitet, Stehr maskiner skræddersyet til etablering og vedligehold af grusveje og naturstier. Kontakt os og hør mere.">
   </head>
   <div class="bg-white">
     <main class="isolate">
