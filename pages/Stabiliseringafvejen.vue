@@ -100,7 +100,7 @@ export default {
     return {
       title: 'Stabilisering af jord- og cementveje. Grusvej.dk sikrer din vej-kvalitet.',
       meta: [
-        { hid: 'Jord stabilisering', name: 'Stabilisering af veje', content: '"Professionel stabilisering af grus- og cementveje. Med over 4 års erfaring har vi succesfuldt stabiliseret utallige veje og skabt holdbare resultater.' }
+        { hid: 'jordstabilisering', name: 'description', content: 'Professionel stabilisering af grus- og cementveje. Med over 4 års erfaring har vi succesfuldt stabiliseret utallige veje og skabt holdbare resultater.' }
       ]
     };
   },
