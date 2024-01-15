@@ -19,18 +19,12 @@
             <span class="text-8xl text-[#199d43]">Dustex</span>
             </h1>
             <p class="mt-4 text-black relative text-xl -translate-y-10">Støvbinding er vejen frem, hvis du vil undgå belastende støvgener fra grusvej eller grusareal. Det fine grusstøv som svæver i vinden, er både generende og sundhedsskadeligt for mennesker og dyr. Til gengæld er løsningen på problemet enkelt - Dustex.</p>
-            <a
-                href="/serviceaftale"
-                class="text-white font-bold text-sm md:text-xl"
-              >
-            <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl"
-                >
+            <a href="/serviceaftale" class="text-white font-bold text-sm md:text-xl">
+            <div class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl">
               
-       
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
-                    Dustex-serviceaftale hos Grusvej.dk
-                  </button>
+              <button class="translate-y-1 sm:translate-y-0 text-base block">
+                Dustex-serviceaftale hos Grusvej.dk
+              </button>
               
             </div>
             </a>
