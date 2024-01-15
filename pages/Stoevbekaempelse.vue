@@ -166,7 +166,7 @@
                 Et eksempel fra de danske grusveje:
               </p>
               <div class="mt-10 max-w-xl text-xl leading-7 text-gray-700">
-                <p>
+                <p class="text-[1.125rem]">
                   Grundejere i sommerhusområder er nogle af dem som er mest
                   plaget af støvgener. På Tuse Næs i Nordvestsjælland valgte man
                   for år tilbage derfor at tage fat i problemet.
@@ -226,7 +226,7 @@
         >
           <button
             @click="toggleVideo"
-            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 translate-y-10 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-y-10 -translate-x-1/2  text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
           >
             <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
             <PauseIcon v-if="isPlaying" class="h-12 w-12" />

@@ -125,7 +125,7 @@
           </a>
         </div>
         <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
-          &copy; 2023 Grusvej.dk - alle rettigheder reserveret.
+          &copy; 2024 Grusvej.dk - alle rettigheder reserveret.
         </p>
         <p
           class="mt-8 text-sm leading-5 text-gray-500 md:order-1 md:mt-0 border-b-2"
@@ -162,8 +162,8 @@ const navigation = {
     { name: "Salgs- & leveringsbetingelser", href: "#" },
   ],
   company: [
-    { name: "Kontakt Grusvej.dk", href: "#" },
-    { name: "Om virksomheden Grusvej.dk", href: "#" },
+    { name: "Kontakt Grusvej.dk", href: "https://grusvej.dk/kontakt/" },
+    
   ],
   legal: [
     { name: "Politik for databehandling", href: "#" },
