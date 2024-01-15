@@ -98,11 +98,15 @@ Det er derfor vigtigt at indgå i en dialog om sikring af grusveje og stianlæg.
 export default {
   head() {
     return {
-      title: 'Stabilisering af jord- og cementveje. Grusvej.dk sikrer din vej-kvalitet.'
+      title: 'Stabilisering af jord- og cementveje. Grusvej.dk sikrer din vej-kvalitet.',
+      meta: [
+        { hid: 'Jord stabilisering', name: 'Stabilisering af veje', content: '"Professionel stabilisering af grus- og cementveje. Med over 4 års erfaring har vi succesfuldt stabiliseret utallige veje og skabt holdbare resultater.' }
+      ]
     };
   },
   // Other component options...
 };
+
 
 </script>
 
