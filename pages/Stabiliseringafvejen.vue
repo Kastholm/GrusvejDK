@@ -16,8 +16,8 @@
             >
               DUSTEX
             </h1>
-            <p class="mt-6 text-xl leading-8 text-gray-700">
-              Grusvej.dk kan i dag stabilisere med Dustex, et gammelkendt produkt, som både kan anvendes traditionelt og på alternative måder - og i materialer som traditionelt ikke har været stabiliseret, Med Dustex kan man tillige opnå en CO2 neutral stabilisering.
+            <p class="mt-6 text-xl leading-8 text-gray-700 text-[1.125rem]">
+              Grusvej.dk kan i dag stabilisere med Dustex, et gammelkendt produkt, som både kan anvendes traditionelt og på alternative måder - og i materialer som traditionelt ikke har været stabiliseret. Med Dustex kan man tillige opnå en CO2 neutral stabilisering.
             </p>
           </div>
         </div>
@@ -35,8 +35,8 @@
         class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8"
       >
         <div class="lg:pr-4">
-          <div class="max-w-xl text-base leading-7 text-gray-900 lg:max-w-lg">
-            <p>
+          <div class="max-w-xl text-base leading-7 text-gray-900 lg:max-w-lg ">
+            <p class="text-[1.125rem]">
               Fra vores samarbejdspartnere i Sverige og Norge har vi tilegnet os viden om stabilisering af bærelag i eksisterende veje med neddeling af overflader af asfalt og blanding i bærelaget
               og efterfølgende blanding af Dustex med 6-10 kg / kvm, hvilket giver en meget stor bæreevne og en besparelse på CO2 kontoen. Miljørigtigt og bæredygtigt.
             </p>
@@ -44,7 +44,7 @@
             <h2 class="mt-16 text-2xl font-bold tracking-tight text-gray-900 -translate-y-6">
               Grønt fokus
             </h2>
-            <p class="mt-6 -translate-y-6">
+            <p class="mt-6 -translate-y-6 text-[1.125rem]">
               Hos Grusvej.dk har vi et grønt miljøfokus og ønsker at bidrage med bæredygtighed for genanvendelse af eksisterende vejopbygninger. Det gør vi med princippet om at anvende vejens egne materialer og stabilisere uden at tilføre nye materialer.
               I enkelte tilfælde kan det dog være påkrævet at supplere med ekstra materialer.
               Anvendelse af denne metode er særlig egnet til mindre private veje og fælles veje, hvor økonomien og bæredygtigheden har stor betydning.
