@@ -6,7 +6,16 @@
   <Footer />
 </template>
 
-<script></script>
+<script>
+export default {
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ]
+  },
+  // other configurations...
+};
+</script>
 
 <style>
 @import url("https://use.typekit.net/rwl1ktr.css");
@@ -23,9 +32,7 @@
 } */
 /* Responsive tags der ændrer størrelse udfra skørmstørrelse */
 /* 640px smaller */
-p {
-  font-size: 40px;
-}
+
 @media screen and (max-width: 31em) {
   html {
     font-size: 4.2vw;
