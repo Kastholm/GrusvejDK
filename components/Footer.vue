@@ -107,12 +107,12 @@
                   Din E-mail blev sendt
                 </p>
               </div>
-              <!-- <p
+               <p
       v-if="isImmediateConfirmationVisible"
       class="text-base font-bold text-green-500 mt-2"
     >
       Din besked er blevet sendt! <br> Vi kontakter dig.
-    </p>-->
+    </p>
             </div>
           </Form>
         </div>
@@ -242,6 +242,16 @@ async function onSubmit(values) {
     console.error("There was an error sending the e-mail:", error);
   }
 }
+// Confirmation besked start 
+
+function showImmediateConfirmation() {
+  // Logic to show the immediate confirmation message
+  isImmediateConfirmationVisible.value = true;
+}
+
+const isImmediateConfirmationVisible = ref(false);
+
+// Confirmation besked slut
 
 import { defineProps } from "vue";
 
