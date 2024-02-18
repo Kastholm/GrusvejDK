@@ -107,12 +107,12 @@
                   Din E-mail blev sendt
                 </p>
               </div>
-              <p
+              <!-- <p
       v-if="isImmediateConfirmationVisible"
       class="text-base font-bold text-green-500 mt-2"
     >
       Din besked er blevet sendt! <br> Vi kontakter dig.
-    </p>
+    </p>-->
             </div>
           </Form>
         </div>
@@ -152,20 +152,16 @@
 
 <script setup>
 import { defineComponent, h } from "vue";
-import { ref } from "vue";
-import { Field, Form, ErrorMessage } from "vee-validate";
-import * as yup from "yup";
 
-// Define navigation constant
 const navigation = {
   solutions: [
-    { name: "Forside", href: "https://grusvej.dk/" },
-    { name: "Grusveje", href: "/grusveje" },
-    { name: "Naturstier", href: "/naturstier" },
-    { name: "Støvbekæmpelse", href: "/stoevbekaempelse" },
-    { name: "Stabilisering af vejen", href: "/stabiliseringafvejen" },
-    { name: "Maskineriet", href: "/maskineriet" },
-    { name: "Serviceaftaler", href: "/serviceaftale" },
+    { name: "Forside", href: "#" },
+    { name: "Grusveje", href: "#" },
+    { name: "Naturstier", href: "#" },
+    { name: "Støvbekæmpelse", href: "#" },
+    { name: "Stabilisering af vejen", href: "#" },
+    { name: "Maskineriet", href: "#" },
+    { name: "Serviceaftaler", href: "#" },
   ],
   support: [
     { name: "Politik for databehandling", href: "#" },
@@ -174,6 +170,7 @@ const navigation = {
   ],
   company: [
     { name: "Kontakt Grusvej.dk", href: "https://grusvej.dk/kontakt/" },
+    
   ],
   legal: [
     { name: "Politik for databehandling", href: "#" },
@@ -195,45 +192,69 @@ const navigation = {
           ]),
       }),
     },
+    
   ],
 };
 
-// Define the initial state for sentMail
+import { ref } from "vue";
+import { Field, Form, ErrorMessage } from "vee-validate";
+import * as yup from "yup";
+
 let sentMail = false;
 
-// Define the schema for form validation
 const schema = yup.object({
   email: yup.string().email(),
   phone: yup.string().required(),
   name: yup.string().required(),
 });
 
-// Define a method to show the immediate confirmation message
-function showImmediateConfirmation() {
-  // Logic to show the immediate confirmation message
-  isImmediateConfirmationVisible.value = true;
-}
-
-// Define the submit handler for the form
-async function onSubmit(values) {
-  // Logic for form submission
-}
-
-// Define props, emits, and other reactive properties
 const selectedOption = ref(props.selectedService);
-const isNotificationVisible = ref(false);
-const notificationMessage = ref("");
-const isImmediateConfirmationVisible = ref(false);
 
-// Define emits for closing form
-import { defineProps, defineEmits } from "vue";
+async function onSubmit(values) {
+  console.log(values);
+  const formData = {
+    email: values.email,
+    phone: values.phone,
+    name: values.name,
+  };
+
+  try {
+    const response = await fetch(
+      "https://grusvejmail.webtify.dk/send-miniemail",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      }
+    );
+
+    if (response.ok) {
+      notificationMessage.value = "E-mail sendt!";
+      sentMail = true;
+      isNotificationVisible.value = true;
+    } else {
+      notificationMessage.value = "Fejl ved afsendelse af e-mail.";
+      isNotificationVisible.value = true;
+    }
+  } catch (error) {
+    console.error("There was an error sending the e-mail:", error);
+  }
+}
+
+import { defineProps } from "vue";
+
 const props = defineProps({
   selectedService: String,
 });
+
 const emit = defineEmits(["close"]);
 
-// Define method to close form
 function closeForm() {
   emit("close");
 }
+
+const isNotificationVisible = ref(false);
+const notificationMessage = ref("");
 </script>
