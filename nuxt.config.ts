@@ -1,6 +1,6 @@
-/* import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next'; */
+//  import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next'; 
 
-export default defineNuxtConfig({
+// export default defineNuxtConfig({
   // Add the extendRoutes option for the loading screen
   /* router: {
     extendRoutes(routes, resolve) {
@@ -13,6 +13,18 @@ export default defineNuxtConfig({
   },*/
 
   // Load Tailwind CSS using the tailwindcss module
+  // modules: ["@nuxtjs/tailwindcss"],
+
+  // runtimeConfig: {
+  // mailerUser: "",
+  //  mailerPass: "",
+  //  mailerLog: "",
+  // },
+  
+// });
+
+export default {
+  // Load Tailwind CSS using the tailwindcss module
   modules: ["@nuxtjs/tailwindcss"],
 
   runtimeConfig: {
@@ -20,4 +32,11 @@ export default defineNuxtConfig({
     mailerPass: "",
     mailerLog: "",
   },
-});
+
+  // Define the head property to include the favicon
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ]
+  }
+};
