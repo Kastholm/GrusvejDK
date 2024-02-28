@@ -25,8 +25,12 @@
 
 export default {
   // Load Tailwind CSS using the tailwindcss module
-  modules: ["@nuxtjs/tailwindcss"],
+  modules: ["@nuxtjs/tailwindcss", 'nuxt-gtag'],
 
+  gtag: {
+   id: 'G-EKGCY9LVYF'
+  },
+  
   runtimeConfig: {
     mailerUser: "",
     mailerPass: "",
