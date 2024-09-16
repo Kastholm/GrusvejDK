@@ -76,7 +76,7 @@
           :to="item.href"
           :class="[
             'text-gray-900 hover:bg-gray-50 hover:text-gray-900',
-            'inline-flex items-center rounded-md py-2 px-3 text-sm font-medium',
+            'inline-flex items-center rounded-md py-2 px-[4px] text-sm font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
@@ -147,6 +147,7 @@ const navigation = [
   { name: "Stabilisering af vejen", href: "/stabiliseringafvejen", current: false },
   { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
+  { name: "Nyheder", href: "/nyheder", current: false },
   { name: "Kontakt", href: "/kontakt", current: false },
   
   
