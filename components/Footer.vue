@@ -63,7 +63,7 @@
           </h6>
           <p class="mt-2 text-sm leading-6 text-gray-600">
             Indtast email her - vi vender tilbage indenfor 24 timer alle
-            hverdage.
+            hverdage. (Du modtager INGEN spam beskeder)
           </p>
           <Form
             :validation-schema="schema"
@@ -90,6 +90,18 @@
                 name="name"
                 type="name"
               />
+              <Field
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Postnummer"
+                name="message"
+                type="message"
+              />
+              <textarea
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Fortæl os kort om opgaven"
+                name="message"
+                type="text"
+              ></textarea>
               <div
                 class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex"
               >

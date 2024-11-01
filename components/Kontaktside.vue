@@ -52,9 +52,9 @@
 
         <div class="lg:pr-8 lg:pt-4 -translate-y-8">
           <div class="lg:max-w-lg text-center">
-           <div class="rounded-sm border-4 border-r-[#f9b039] border-l-[#2a8447] flex flex-col p-6 ">
+           <div class="flex flex-col p-6">
             <h2 class="text-4xl font-bold leading-12 text-gray-900 Header sm:text-6xl uppercase">
-              Kontakt Grusvej idag
+              Kontakt Grusvej i dag
             </h2>
             <p
               class="mt-1 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl Header uppercase"
