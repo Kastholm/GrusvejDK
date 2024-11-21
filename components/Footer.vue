@@ -65,7 +65,7 @@
             Indtast email her - vi vender tilbage indenfor 24 timer alle
             hverdage.
           </p>
-          <Form
+<Form
   :validation-schema="schema"
   @submit.prevent="sendEmail"
   class="mt-6 text-center m-auto"
@@ -172,15 +172,20 @@ async function sendEmail() {
 
   try {
     // Send form data to the backend
+    console.log('eow')
     const response = await fetch('/api/send', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify(formData.value),
-    });
-
+    },
+  );
+    console.log('test', response)
+    console.log('eow2')
     const result = await response.json();
+
+    console.log('Footer send data',result)
 
     if (response.ok && result.success) {
       successMessage.value = 'Din besked blev sendt succesfuldt!';
@@ -190,6 +195,7 @@ async function sendEmail() {
     }
   } catch (error) {
     errorMessage.value = `Fejl: ${error.message}`;
+    console.error('Fejl ved afsendelse af email:', error);
   } finally {
     isLoading.value = false;
   }

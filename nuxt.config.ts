@@ -30,6 +30,10 @@ export default {
   gtag: {
    id: 'G-EKGCY9LVYF'
   },
+
+  nitro: {
+    preset: 'netlify',
+  },
   
   runtimeConfig: {
     mailerUser: "",

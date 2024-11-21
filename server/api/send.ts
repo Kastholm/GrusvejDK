@@ -1,22 +1,19 @@
 import { Resend } from 'resend';
 
-// Instantiate Resend with your API key
+
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default defineEventHandler(async (event) => {
-  // Parse the body sent from the frontend
+
   const { email, phone, name } = await readBody(event);
 
-  // Validate the inputs
-  /*if (!email || !phone || !name) {
-    return { success: false, error: 'All fields are required' };
-  }*/
+  console.log('frist data', email, phone, name )
 
   try {
     // Send the email via Resend
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
-      to: ['webbermanden@gmail.com'], // Update with your actual recipient
+      from: 'Grusvej <onboarding@resend.dev>',
+      to: ['webbermanden@gmail.com'], 
       subject: `New Contact Request from ${name}`,
       html: `
         <p><strong>New Contact Request:</strong></p>
@@ -25,6 +22,8 @@ export default defineEventHandler(async (event) => {
         <p><strong>Email:</strong> ${email}</p>
       `,
     });
+
+    console.log('received data send.ts', data)
 
     return { success: true, data };
   } catch (error) {
