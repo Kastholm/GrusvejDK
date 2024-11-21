@@ -181,7 +181,7 @@ const onSubmit = async () => {
 
   try {
     // Send a POST request to the backend API
-    const response = await fetch("/api/send-email", {
+    const response = await fetch("/api/server", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
