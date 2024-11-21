@@ -66,55 +66,55 @@
             hverdage.
           </p>
           <Form
-    :validation-schema="schema"
-    @submit="onSubmit"
-    class="mt-6 text-center m-auto"
-  >
-    <div class="grid gap-2 place-content-center">
-      <Field
-        class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-        placeholder="Din e-mail"
-        name="email"
-        type="email"
-        v-model="formData.email"
-      />
-      <Field
-        name="phone"
-        type="tel"
-        placeholder="Dit telefon nr."
-        class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-        v-model="formData.phone"
-      />
-      <Field
-        class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-        placeholder="Dit navn"
-        name="name"
-        type="text"
-        v-model="formData.name"
-      />
-      <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
-        <button
-          v-if="!sentMail"
-          type="submit"
-          class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
-          Afsted
-        </button>
-        <p
-          class="flex h-10 items-end justify-center rounded-md bg-[#f9b039] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          v-if="sentMail"
-        >
-          Din E-mail blev sendt
-        </p>
-      </div>
-      <p
-        v-if="isImmediateConfirmationVisible"
-        class="text-base font-bold text-green-500 mt-2"
+  :validation-schema="schema"
+  @submit.prevent="sendEmail"
+  class="mt-6 text-center m-auto"
+>
+  <div class="grid gap-2 place-content-center">
+    <Field
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+      placeholder="Din e-mail"
+      name="email"
+      type="email"
+      v-model="formData.email"
+    />
+    <Field
+      name="phone"
+      type="tel"
+      placeholder="Dit telefon nr."
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+      v-model="formData.phone"
+    />
+    <Field
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+      placeholder="Dit navn"
+      name="name"
+      type="text"
+      v-model="formData.name"
+    />
+    <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
+      <button
+        type="submit"
+        class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        :disabled="isLoading"
       >
-        Din besked er blevet sendt! <br /> Vi kontakter dig.
-      </p>
+        {{ isLoading ? 'Sending...' : 'Afsted' }}
+      </button>
     </div>
-  </Form>
+    <p
+      v-if="successMessage"
+      class="text-base font-bold text-green-500 mt-2"
+    >
+      {{ successMessage }}
+    </p>
+    <p
+      v-if="errorMessage"
+      class="text-base font-bold text-red-500 mt-2"
+    >
+      {{ errorMessage }}
+    </p>
+  </div>
+</Form>
         </div>
       </div>
       <div
@@ -152,56 +152,48 @@
 
 <script setup>
 
-import { ref } from "vue";
-import { Field, Form } from "vee-validate";
-import * as yup from "yup";
+import { ref } from 'vue';
 
-// Reactive state for form data and submission status
+// Reactive variables for form state
 const formData = ref({
-  email: "",
-  name: "",
-  phone: "",
+  email: '',
+  phone: '',
+  name: '',
 });
 
-const isImmediateConfirmationVisible = ref(false);
-const sentMail = ref(false);
+const isLoading = ref(false);
+const successMessage = ref('');
+const errorMessage = ref('');
 
-// Form validation schema with Yup
-const schema = yup.object({
-  email: yup.string().email().required("Email er påkrævet"),
-  phone: yup.string().required("Telefon er påkrævet"),
-  name: yup.string().required("Navn er påkrævet"),
-});
-
-// Form submission handler
-const onSubmit = async () => {
-  const { email, name, phone } = formData.value;
-
-  const formBody = { email, name, phone };
+async function sendEmail() {
+  isLoading.value = true;
+  successMessage.value = '';
+  errorMessage.value = '';
 
   try {
-    // Send a POST request to the backend API
-    const response = await fetch("/api/server", {
-      method: "POST",
+    // Send form data to the backend
+    const response = await fetch('/api/send', {
+      method: 'POST',
       headers: {
-        "Content-Type": "application/json",
+        'Content-Type': 'application/json',
       },
-      body: JSON.stringify(formBody),
+      body: JSON.stringify(formData.value),
     });
 
     const result = await response.json();
 
-    if (result.success) {
-      // On success, show confirmation
-      sentMail.value = true;
-      isImmediateConfirmationVisible.value = true;
+    if (response.ok && result.success) {
+      successMessage.value = 'Din besked blev sendt succesfuldt!';
+      formData.value = { email: '', phone: '', name: '' }; // Reset the form
     } else {
-      console.error("Error sending email:", result.error);
+      throw new Error(result.error || 'Failed to send email');
     }
   } catch (error) {
-    console.error("Network error:", error);
+    errorMessage.value = `Fejl: ${error.message}`;
+  } finally {
+    isLoading.value = false;
   }
-};
+}
 
 
 const navigation = {
