@@ -7,7 +7,5 @@ node_modules
 .env
 dist
 .DS_Store
-server
 # Local Netlify folder
 .netlify
-server.ts
