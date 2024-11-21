@@ -71,21 +71,21 @@
   class="mt-6 text-center m-auto"
 >
   <div class="grid gap-2 place-content-center">
-    <Field
+    <input
       class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
       placeholder="Din e-mail"
       name="email"
       type="email"
       v-model="formData.email"
     />
-    <Field
+    <input
       name="phone"
       type="tel"
       placeholder="Dit telefon nr."
       class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
       v-model="formData.phone"
     />
-    <Field
+    <input
       class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
       placeholder="Dit navn"
       name="name"
