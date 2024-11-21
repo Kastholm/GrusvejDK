@@ -66,55 +66,52 @@
             hverdage.
           </p>
           <Form
-            :validation-schema="schema"
-            @submit="onSubmit"
-            class="mt-6 text-center m-auto"
-          >
-            <div class="grid gap-2 place-content-center">
-              <Field
-                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-                placeholder="Din e-mail"
-                name="email"
-                type="email"
-              />
-
-              <Field
-                name="phone"
-                type="tel"
-                placeholder="Dit telefon nr."
-                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-              />
-              <Field
-                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-                placeholder="Dit navn"
-                name="name"
-                type="name"
-              />
-              <div
-                class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex"
-              >
-                <button
-                  v-if="!sentMail"
-                  @click="showImmediateConfirmation"
-                  class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                >
-                  Afsted
-                </button>
-                <p
-                  class="flex h-10 items-end justify-center rounded-md bg-[#f9b039] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  v-if="sentMail"
-                >
-                  Din E-mail blev sendt
-                </p>
-              </div>
-               <p
+  :validation-schema="schema"
+  @submit="onSubmit"
+  class="mt-6 text-center m-auto"
+>
+  <div class="grid gap-2 place-content-center">
+    <Field
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+      placeholder="Din e-mail"
+      name="email"
+      type="email"
+    />
+    <Field
+      name="phone"
+      type="tel"
+      placeholder="Dit telefon nr."
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+    />
+    <Field
+      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+      placeholder="Dit navn"
+      name="name"
+      type="text"
+    />
+    <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
+      <button
+        v-if="!sentMail"
+        type="submit"
+        class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+      >
+        Afsted
+      </button>
+      <p
+        class="flex h-10 items-end justify-center rounded-md bg-[#f9b039] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+        v-if="sentMail"
+      >
+        Din E-mail blev sendt
+      </p>
+    </div>
+    <p
       v-if="isImmediateConfirmationVisible"
       class="text-base font-bold text-green-500 mt-2"
     >
-      Din besked er blevet sendt! <br> Vi kontakter dig.
+      Din besked er blevet sendt! <br /> Vi kontakter dig.
     </p>
-            </div>
-          </Form>
+  </div>
+</Form>
         </div>
       </div>
       <div
@@ -152,6 +149,51 @@
 
 <script setup>
 import { defineComponent, h } from "vue";
+import { ref } from 'vue';
+import { Field, Form, ErrorMessage } from 'vee-validate';
+import * as yup from 'yup';
+import { Resend } from 'resend';
+
+// Initialize Resend with your API key
+const resend = new Resend('re_PnSQtRtc_NZ3xj39CFEzkQKpb9GFz8uLd');
+
+let sentMail = false;
+
+const schema = yup.object({
+  email: yup.string().email().required('Email er påkrævet'),
+  phone: yup.string().required('Telefon er påkrævet'),
+  name: yup.string().required('Navn er påkrævet'),
+});
+
+async function onSubmit(values) {
+  try {
+    // Sending email using Resend
+    const response = await resend.emails.send({
+      from: 'Kontakt@grusvej.dk', // Replace with your sender's email
+      to: 'webbermanden@gmail.com',
+      subject: `Kontaktforespørgsel fra ${values.name}`,
+      html: `
+        <p><strong>Ny kontaktforespørgsel:</strong></p>
+        <p><strong>Navn:</strong> ${values.name}</p>
+        <p><strong>Telefon:</strong> ${values.phone}</p>
+        <p><strong>E-mail:</strong> ${values.email}</p>
+      `,
+    });
+
+    console.log('Email sent successfully:', response);
+    sentMail = true;
+    isImmediateConfirmationVisible.value = true;
+  } catch (error) {
+    console.error('Error sending email:', error);
+  }
+}
+
+// Show confirmation message
+function showImmediateConfirmation() {
+  isImmediateConfirmationVisible.value = true;
+}
+
+const isImmediateConfirmationVisible = ref(false);
 
 const navigation = {
   solutions: [
@@ -195,63 +237,6 @@ const navigation = {
     
   ],
 };
-
-import { ref } from "vue";
-import { Field, Form, ErrorMessage } from "vee-validate";
-import * as yup from "yup";
-
-let sentMail = false;
-
-const schema = yup.object({
-  email: yup.string().email(),
-  phone: yup.string().required(),
-  name: yup.string().required(),
-});
-
-const selectedOption = ref(props.selectedService);
-
-async function onSubmit(values) {
-  console.log(values);
-  const formData = {
-    email: values.email,
-    phone: values.phone,
-    name: values.name,
-  };
-
-  try {
-    const response = await fetch(
-      "https://grusvejmail.webtify.dk/send-miniemail",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      }
-    );
-
-    if (response.ok) {
-      notificationMessage.value = "E-mail sendt!";
-      sentMail = true;
-      isNotificationVisible.value = true;
-    } else {
-      notificationMessage.value = "Fejl ved afsendelse af e-mail.";
-      isNotificationVisible.value = true;
-    }
-  } catch (error) {
-    console.error("There was an error sending the e-mail:", error);
-  }
-}
-// Confirmation besked start 
-
-function showImmediateConfirmation() {
-  // Logic to show the immediate confirmation message
-  isImmediateConfirmationVisible.value = true;
-}
-
-const isImmediateConfirmationVisible = ref(false);
-
-// Confirmation besked slut
 
 import { defineProps } from "vue";
 
