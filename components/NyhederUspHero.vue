@@ -14,9 +14,9 @@
             alt="Image Description"
           />
           <div class="-translate-y-10 lg:-translate-y-20">
-            <h1 class="tracking-tight text-gray-900 mb-16 Header respons-header-grusvej relative">Læs Nyheder fra Grusvej.dk</h1>
+            <h1 class="tracking-tight text-gray-900 mb-16 Header respons-header-grusvej relative">Læs her de nyeste nyheder fra Grusvej.dk</h1>
             <h2 class="text-7xl font-bold tracking-tight text-gray-900 mb-16 relative"></h2>
-            <p class="mt-4 text-black relative leading-8 text-xl -translate-y-10">Læs om de nyeste nyheder fra Grusvej.dk - igennem året oplever vores kunder forskellige problematikker ang. deres grusveje grundet vejrets skiftende tendenser. Læs om de forskellige problematikker og løsninger på årstidernes udfordringer.</p>
+            <p class="mt-4 text-black relative leading-8 text-xl -translate-y-10">Igennem året oplever vi forskellige problematikker med grus- og jordveje, hvor vi med anerkendte og velprøvede metoder, maskiner og særlige indsatser arbejder for at give vores kunder et så solidt, miljørigtigt og holdbart resultat som muligt. Det vil vi skrive om her.</p>
             <a
                 href="/kontakt"
                 class="text-white font-bold text-sm md:text-xl"
