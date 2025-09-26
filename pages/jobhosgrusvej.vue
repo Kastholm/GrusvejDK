@@ -1,6 +1,6 @@
 <template>
   <head>
-    <title>Ekspertise i Jordstabilisering for holdbare Grusveje</title>
+    <title>Bliv ansat som maskinfører hos grusvej.dk</title>
     <meta
       name="description"
       content="Grusvej.dk er eksperter i Jordstabilisering - et vigtigt punkt i processen, når en solid grusvej skal etableres og holde kvaliteten i flere år frem."
@@ -100,13 +100,13 @@ export default {
   head() {
     return {
       title:
-        "Stabilisering af jord- og cementveje. Grusvej.dk sikrer din vej-kvalitet.",
+        "Grusvej.dk leder efter en erfaren maskinfører til diverse opgaver",
       meta: [
         {
-          hid: "jordstabilisering",
+          hid: "Bliv maskinfører hos grusvej.dk",
           name: "description",
           content:
-            "Professionel stabilisering af grus- og cementveje. Med over 4 års erfaring har vi succesfuldt stabiliseret utallige veje og skabt holdbare resultater.",
+            "Bliv ansat som maskinfører hos grusvej.dk og få en hverdag fyldt med diversitet og forskellige maskinopgaver, der inkludere specialudstyr unikt af sin slags i Danmark",
         },
       ],
     };
