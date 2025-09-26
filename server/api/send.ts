@@ -1,19 +1,17 @@
-import { Resend } from 'resend';
-
+import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export default defineEventHandler(async (event) => {
-
   const { email, phone, name } = await readBody(event);
 
-  console.log('frist data', email, phone, name )
+  console.log("frist data", email, phone, name);
 
   try {
     // Send the email via Resend
     const data = await resend.emails.send({
-      from: 'Grusvej <onboarding@resend.dev>',
-      to: ['kontakt@grusvej.dk'], 
+      from: "Grusvej <onboarding@resend.dev>",
+      to: ["kontakt@grusvej.dk"],
       subject: `New Contact Request from ${name}`,
       html: `
         <p><strong>New Contact Request:</strong></p>
@@ -23,15 +21,14 @@ export default defineEventHandler(async (event) => {
       `,
     });
 
-    console.log('received data send.ts', data)
+    console.log("received data send.ts", data);
 
     return { success: true, data };
   } catch (error) {
-    console.error('Error sending email:', error);
-    return { success: false, error: error.message || 'Unknown error' };
+    console.error("Error sending email:", error);
+    return { success: false, error: error.message || "Unknown error" };
   }
 });
-
 
 /* import { Resend } from "resend";
 

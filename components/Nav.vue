@@ -48,26 +48,25 @@
             <XMarkIcon v-else class="block h-6 w-6" aria-hidden="true" />
           </DisclosureButton>
         </div>
-          <!-- Profile dropdown -->
-          <Menu as="div" class="relative ml-4 flex-shrink-0">
-            <div>
-              <MenuButton
-                class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
-              >
-                <span class="sr-only">Open user menu</span>
-              </MenuButton>
-            </div>
-            <transition
-              enter-active-class="transition ease-out duration-100"
-              enter-from-class="transform opacity-0 scale-95"
-              enter-to-class="transform opacity-100 scale-100"
-              leave-active-class="transition ease-in duration-75"
-              leave-from-class="transform opacity-100 scale-100"
-              leave-to-class="transform opacity-0 scale-95"
+        <!-- Profile dropdown -->
+        <Menu as="div" class="relative ml-4 flex-shrink-0">
+          <div>
+            <MenuButton
+              class="flex rounded-full bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
             >
-              
-            </transition>
-          </Menu>
+              <span class="sr-only">Open user menu</span>
+            </MenuButton>
+          </div>
+          <transition
+            enter-active-class="transition ease-out duration-100"
+            enter-from-class="transform opacity-0 scale-95"
+            enter-to-class="transform opacity-100 scale-100"
+            leave-active-class="transition ease-in duration-75"
+            leave-from-class="transform opacity-100 scale-100"
+            leave-to-class="transform opacity-0 scale-95"
+          >
+          </transition>
+        </Menu>
       </div>
       <nav class="hidden lg:flex lg:space-x-8 lg:py-2" aria-label="Global">
         <NuxtLink
@@ -81,36 +80,37 @@
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
         >
-        
       </nav>
     </div>
 
     <DisclosurePanel as="nav" class="lg:hidden" aria-label="Global">
-  <div class="space-y-1 px-2 pb-3 pt-2">
-    <NuxtLink
-      v-for="item in navigation"
-      :key="item.name"
-      :to="item.href"
-      :class="[
-        'text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium',
-      ]"
-      :aria-current="item.current ? 'page' : undefined"
-    >{{ item.name }}</NuxtLink>
-  </div>
-  <div class="border-t border-gray-200 pb-3 pt-4">
-    <div class="flex items-center px-4">
-      <!-- ... (your existing user information code) ... -->
-    </div>
-    <div class="mt-3 space-y-1 px-2">
-      <NuxtLink
-        v-for="item in userNavigation"
-        :key="item.name"
-        :to="item.href"
-        class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
-      >{{ item.name }}</NuxtLink>
-    </div>
-  </div>
-</DisclosurePanel>
+      <div class="space-y-1 px-2 pb-3 pt-2">
+        <NuxtLink
+          v-for="item in navigation"
+          :key="item.name"
+          :to="item.href"
+          :class="[
+            'text-gray-900 hover:bg-gray-50 hover:text-gray-900 block rounded-md py-2 px-3 text-base font-medium',
+          ]"
+          :aria-current="item.current ? 'page' : undefined"
+          >{{ item.name }}</NuxtLink
+        >
+      </div>
+      <div class="border-t border-gray-200 pb-3 pt-4">
+        <div class="flex items-center px-4">
+          <!-- ... (your existing user information code) ... -->
+        </div>
+        <div class="mt-3 space-y-1 px-2">
+          <NuxtLink
+            v-for="item in userNavigation"
+            :key="item.name"
+            :to="item.href"
+            class="block rounded-md px-3 py-2 text-base font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900"
+            >{{ item.name }}</NuxtLink
+          >
+        </div>
+      </div>
+    </DisclosurePanel>
   </Disclosure>
 </template>
 
@@ -136,21 +136,22 @@ import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/vue/24/outline";
 const user = {
   name: "",
   email: "",
-  imageUrl:
-    "",
+  imageUrl: "",
 };
 const navigation = [
   { name: "Forside", href: "/", current: true },
   { name: "Grusveje", href: "/grusveje", current: false },
   { name: "Naturstier", href: "/naturstier", current: false },
   { name: "Støvbekæmpelse", href: "/stoevbekaempelse", current: false },
-  { name: "Stabilisering af vejen", href: "/stabiliseringafvejen", current: false },
+  {
+    name: "Stabilisering af vejen",
+    href: "/stabiliseringafvejen",
+    current: false,
+  },
   { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
   { name: "Nyheder", href: "/nyheder", current: false },
+  { name: "Job hos grusvej", href: "/jobhosgrusvej", current: false },
   { name: "Kontakt", href: "/kontakt", current: false },
-  
-  
 ];
-
 </script>

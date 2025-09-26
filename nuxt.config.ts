@@ -1,8 +1,8 @@
-//  import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next'; 
+//  import { NuxtConfig, defineNuxtConfig } from '@nuxtjs/next';
 
 // export default defineNuxtConfig({
-  // Add the extendRoutes option for the loading screen
-  /* router: {
+// Add the extendRoutes option for the loading screen
+/* router: {
     extendRoutes(routes, resolve) {
       routes.push({
         name: 'loading',
@@ -12,35 +12,35 @@
     },
   },*/
 
-  // Load Tailwind CSS using the tailwindcss module
-  // modules: ["@nuxtjs/tailwindcss"],
+// Load Tailwind CSS using the tailwindcss module
+// modules: ["@nuxtjs/tailwindcss"],
 
-  // runtimeConfig: {
-  // mailerUser: "",
-  //  mailerPass: "",
-  //  mailerLog: "",
-  // },
-  
+// runtimeConfig: {
+// mailerUser: "",
+//  mailerPass: "",
+//  mailerLog: "",
+// },
+
 // });
 
 export default {
   // Load Tailwind CSS using the tailwindcss module
-  modules: ["@nuxtjs/tailwindcss", 'nuxt-gtag', '@nuxtjs/gtm'],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-gtag", ""],
 
   gtm: {
-    id: 'GTM-5BHQCZJF', 
-    enabled: true, 
-    debug: true,   
+    id: "GTM-5BHQCZJF",
+    enabled: true,
+    debug: true,
   },
 
   gtag: {
-   id: 'G-EKGCY9LVYF'
+    id: "G-EKGCY9LVYF",
   },
 
   nitro: {
-    preset: 'netlify',
+    preset: "netlify",
   },
-  
+
   runtimeConfig: {
     mailerUser: "",
     mailerPass: "",
@@ -49,8 +49,6 @@ export default {
 
   // Define the head property to include the favicon
   head: {
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-    ]
-  }
+    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+  },
 };
