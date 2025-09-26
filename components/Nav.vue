@@ -75,7 +75,7 @@
           :to="item.href"
           :class="[
             'text-gray-900 hover:bg-gray-50 hover:text-gray-900',
-            'inline-flex items-center rounded-md py-2 px-[4px] text-sm font-medium',
+            'inline-flex items-center rounded-md py-2 text-sm font-medium',
           ]"
           :aria-current="item.current ? 'page' : undefined"
           >{{ item.name }}</NuxtLink
