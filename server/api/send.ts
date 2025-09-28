@@ -1,7 +1,13 @@
 import { Resend } from "resend";
 
 // process.env.RESEND_API_KEY
-const resend = new Resend(process.env.RESEND_API_KEY);
+
+let resend: Resend;
+if (process.env.RESEND_API_KEY) {
+  resend = new Resend(process.env.RESEND_API_KEY);
+} else {
+  resend = new Resend("re_1234567890abcdef");
+}
 
 export default defineEventHandler(async (event) => {
   const { email, phone, name } = await readBody(event);
