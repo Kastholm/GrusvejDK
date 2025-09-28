@@ -6,7 +6,7 @@ let resend: Resend;
 if (process.env.RESEND_API_KEY) {
   resend = new Resend(process.env.RESEND_API_KEY);
 } else {
-  resend = new Resend("re_1234567890abcdef");
+  resend = new Resend("re_1234567890abcdefsda");
 }
 
 export default defineEventHandler(async (event) => {
