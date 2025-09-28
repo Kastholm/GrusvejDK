@@ -19,6 +19,7 @@ import dotenv from "dotenv";
   font-weight: 700;
   font-size: 68px;
   @apply tracking-normal;
+  
 }
 
 @media only screen and (max-width: 767px) {
