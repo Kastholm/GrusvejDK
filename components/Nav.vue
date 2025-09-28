@@ -148,6 +148,7 @@ const navigation = [
   { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
   { name: "Nyheder", href: "/nyheder", current: false },
+  { name: "Job hos grusvej", href: "/jobhosgrusvej", current: false },
   { name: "Kontakt", href: "/kontakt", current: false },
   
   
