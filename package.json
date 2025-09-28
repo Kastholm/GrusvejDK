@@ -1,6 +1,7 @@
 {
   "name": "nuxt-app",
   "private": true,
+  "type": "module",
   "scripts": {
     "default": "npm i dotenv && npm i --save-dev @nuxtjs/tailwindcss && npm i @headlessui/vue && npm i @heroicons/vue && npm i @nuxtjs/composition-api ",
     "preinit": "node commands/preinit.js",
