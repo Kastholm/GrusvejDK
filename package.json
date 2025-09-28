@@ -15,7 +15,6 @@
     "endWin": "node commands/end-push-commit.js && netlify build"
   },
   "devDependencies": {
-    "@nuxtjs/auth-next": "^5.0.0-1667386184.dfbbb54",
     "@nuxtjs/tailwindcss": "^6.6.6",
     "@types/node": "^18",
     "nuxt": "^4.1.2",
