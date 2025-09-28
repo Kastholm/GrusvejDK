@@ -25,13 +25,7 @@
 
 export default {
   // Load Tailwind CSS using the tailwindcss module
-  modules: ["@nuxtjs/tailwindcss", 'nuxt-gtag', '@nuxtjs/gtm'],
-
-  gtm: {
-    id: 'GTM-5BHQCZJF', 
-    enabled: true, 
-    debug: true,   
-  },
+  modules: ["@nuxtjs/tailwindcss", 'nuxt-gtag'],
 
   gtag: {
    id: 'G-EKGCY9LVYF'
