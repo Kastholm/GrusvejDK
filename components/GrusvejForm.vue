@@ -10,7 +10,7 @@ const schema = yup.object({
   service: yup.string().required(),
 });
 
-const selectedOption = ref(props.selectedService);
+const selectedOption = ref("Basis");
 
 async function onSubmit(values) {
   console.log(values);
@@ -18,12 +18,12 @@ async function onSubmit(values) {
     name: values.name,
     email: values.email,
     phone: values.phone,
-    grusvej: selectedOption.value,
+    grusvej: value,
     text: values.text,
   };
 
   try {
-    const response = await fetch("https://grusvejmail.webtify.dk/send-email", {
+    const response = await fetch("/api/send-grusvej", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -31,15 +31,19 @@ async function onSubmit(values) {
       body: JSON.stringify(formData),
     });
 
-    if (response.ok) {
+    const result = await response.json();
+
+    if (result.success) {
       notificationMessage.value = "E-mail sendt!";
       isNotificationVisible.value = true;
     } else {
-      notificationMessage.value = "Fejl ved afsendelse af e-mail.";
+      notificationMessage.value = "Fejl ved afsendelse af e-mail: " + result.error;
       isNotificationVisible.value = true;
     }
   } catch (error) {
     console.error("There was an error sending the e-mail:", error);
+    notificationMessage.value = "Fejl ved afsendelse af e-mail.";
+    isNotificationVisible.value = true;
   }
 }
 
@@ -62,7 +66,7 @@ const notificationMessage = ref("");
 <template >
   <Form :validation-schema="schema" @submit="onSubmit">
     <section
-      class="bg-gray-300 bg-opacity-60 grid py-20 lg:py-[120px] fixed right-0 left-0 top-0 bottom-0 z-50"
+      class="bg-gray-300 bg-opacity-60 grid py-10 lg:pb-[120px] fixed right-0 left-0 top-0 bottom-0 z-50"
     >
       <div class="container m-auto">
         <div class="">
@@ -79,18 +83,9 @@ const notificationMessage = ref("");
                   Vælg din grusvejs løsning her, <br />
                   så vender vi tilbage til dig hurtigst muligt.
                 </p>
-                <Field
-                  v-model="selectedOption"
-                  name="service"
-                  as="select"
-                  class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-                >
-                  <option value="" disabled>Vælg en mulighed</option>
-                  <option value="Basis ">Basis</option>
-                  <option value="Medium">Medium</option>
-                  <option value="Super">Super</option>
-                </Field>
-                <ErrorMessage name="grusvej" />
+                <div class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] bg-gray-100">
+                  Basis
+                </div>
               </div>
               <div class="mb-6">
                 <Field
@@ -122,7 +117,7 @@ const notificationMessage = ref("");
                 <Field
                   as="textarea"
                   name="text"
-                  placeholder="Din Besked"
+                  placeholder="Skal du have ekstra services?"
                   v-model="text"
                   class="w-full rounded py-3 px-[14px] text-body-color text-base border border-[f0f0f0] resize-none outline-none focus-visible:shadow-none focus:border-primary"
                   rows="4"

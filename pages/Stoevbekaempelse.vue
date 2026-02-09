@@ -68,27 +68,27 @@
           />
         </div>
         <div
-          class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
+          class="mx-auto lg:mt-32 mt-20 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
         >
           <div class="mx-auto max-w-2xl lg:mx-0 inline">
             <h2
               class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
             >
-              <span class="sm:text-9xl text-7xl rounded uppercase">
+              <span class="sm:text-9xl text-7xl text-[#199d43] rounded uppercase">
                 Dustex </span
-              >- <span> ET </span
-              ><span class="uppercase text-[#199d43]"> miljøvenligt </span>
-              PRODUKT
+              >- BASERET PÅ 
+              <span class="uppercase text-[#199d43]"> GRANTRÆ </span>
+             
             </h2>
             <p
               class="mt-6 text-lg leading-8 font-semibold text-black text-center"
             >
-              Du får mange fordele ved at vælge Dustex til behandling af din
-              grusvej eller grusarealer.
+              Dustex er et støvbindende middel udvundet af grantræ og har dermed en naturlig oprindelse.
             </p>
+            
           </div>
           <dl
-            class="mx-auto mt-16 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 text-base leading-7 sm:grid-cols-2 lg:mx-0 lg:max-w-none lg:grid-cols-3"
+            class="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 sm:grid-cols-2 lg:max-w-[65%] lg:grid-cols-2 lg:mb-10 lg:mx-auto"
           >
             <div v-for="value in values" :key="value.name">
               <dt class="font-semibold text-xl text-gray-900">
@@ -98,10 +98,51 @@
             </div>
           </dl>
         </div>
+        <p
+              class=" text-lg leading-8 font-semibold text-black text-center px-6"
+            >
+              Dustex er særligt velegnet til grusveje i naturområder, skove, stier, rekreative områder samt veje med let til moderat trafik.
+            </p>
+        <div
+          class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
+        >
+          <div class="mx-auto max-w-2xl lg:mx-0 inline">
+            <h2
+              class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
+            >
+              <span class="sm:text-9xl text-7xl text-[#199d43] rounded uppercase">
+                Inolig </span
+              >- BASERET PÅ 
+              <span class="uppercase text-[#199d43]"> RESTPRODUKTER </span>
+             
+            </h2>
+            <p
+              class="mt-6 text-lg leading-8 font-semibold text-black text-center mb-10"
+            >
+              Inolig er et støvbindende produkt, der udnytter restprodukter fra affalds- og genanvendelsesindustrien. Det gør løsningen både funktionel og cirkulær.
+            </p>
+            
+          </div>
+          <dl
+            class="mx-auto mt-1 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 sm:grid-cols-2 lg:max-w-[65%] lg:grid-cols-2 lg:mb-10 lg:mx-auto"
+          >
+            <div v-for="inoligvalue in inoligvalues" :key="inoligvalue.name">
+              <dt class="font-semibold text-xl text-gray-900">
+                {{ inoligvalue.name }}
+              </dt>
+              <dd class="mt-1 text-gray-600">{{ inoligvalue.description }}</dd>
+            </div>
+          </dl>
+        </div>
       </div>
+      <p
+              class=" text-lg leading-8 font-semibold text-black text-center lg:mb-16 mb-36 px-6"
+            >
+              Inolig anvendes typisk på landbrugsveje, i erhvervsområder, på adgangsveje til byggepladser samt på strækninger med tung trafik.
+            </p>
       <div class="max-w-[100%] text-center sm:-translate-y-0 -translate-y-16">
         <h3
-          class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center max-w-[100%] uppercase"
+          class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center max-w-[100%] uppercase mb-8"
         >
           Dustex er perfekt til at stabilisere veje
         </h3>
@@ -160,7 +201,7 @@
       >
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-            class="text-5xl sm:text-7xl font-bold tracking-tight text-gray-900 ml-3 pb-3 pt-28 Header text-center sm:w-full w-[320px] sm:-translate-x-0 -translate-x-6"
+            class="font-bold tracking-tight text-gray-900 ml-3 pb-3 lg:pt-28 Header text-center sm:w-full lg:w-[320px]"
           >
             SLIP FOR STØVGENER I AL SLAGS VIND & VEJR
           </h2>
@@ -308,36 +349,50 @@ const stats = [
 ];
 const values = [
   {
-    name: "Ufarligt",
+    name: "Bæredygtigt",
     description:
-      "Dustex er 100% naturprodukt udvundet af norske grantræer og er ufarligt for mennesker og dyr. Det er desuden 100% CO2-neutralt.",
+      "Udvundet af fornybart biologisk materiale.",
   },
   {
-    name: "Allergivenligt",
+    name: "Støvdæmpende",
     description:
-      "Dustex giver ingen luftvejsgener da bindemidlet er så stærkt at det ikke forekommer luftbårent.",
+      "Reducerer støv effektivt – også i tørre perioder.",
   },
   {
-    name: "Biologisk nedbrydeligt",
+    name: "Miljøvenligt",
     description:
-      "Dustex nedbrydes organisk fordi det stammer fra grantræer. Nedbrydningen er helt uskadelig for naturen.",
+      "Miljøvenligt valg, som ikke påvirker grundvand eller vegetation negativt.",
   },
   {
-    name: "Ingen rustpåvirkning af biler & maskiner",
+    name: "Holdbart",
     description:
-      "Dustex er ikke korrosivt og skader derfor ikke metaller eller lignende materialer vi anvender i vores køretøjer.",
-  },
-  {
-    name: "Helbredsmæssige fordele",
-    description:
-      "Fordi Dustex effektivt binder støvet i grusveje/arealer undgår mennesker og dyr negative luftvejs påvirkninger, der kan være sundhedsskadelige på sigt.",
-  },
-  {
-    name: "Lugtfrit naturprodukt",
-    description:
-      "Dustex er baseret på naturens eget bindemiddel, lignin. Til forskel fra harpiks, er Dustex næsten lugtfri.",
+      "Skaber en fleksibel og holdbar overflade.",
   },
 ];
+
+const inoligvalues = [
+  {
+    name: "Høj støvbindingseffekt",
+    description:
+      "Også på stærkt trafikerede grusveje.",
+  },
+  {
+    name: "Restmaterialer",
+    description:
+      "Udnytter restmaterialer og er derfor et mere bæredygtigt alternativ.",
+  },
+  {
+    name: "Minimal vedligehold",
+    description:
+      "Reducerer behovet for hyppig vanding og gentagne behandlinger.",
+  },
+  {
+    name: "Stabil vej",
+    description:
+      "Reducerer behovet for hyppig vanding og gentagne behandlinger.",
+  },
+];
+
 
 const mobileMenuOpen = ref(false);
 </script>

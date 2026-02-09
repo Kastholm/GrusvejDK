@@ -1,13 +1,48 @@
 <template>
-  <Nav />
-  <main>
-    <slot />
-  </main>
-  <Footer />
+  <div>
+    <div v-if="!isHome">
+      <NavPrivat v-if="isPrivat" />
+      <NavErhverv v-else-if="isErhverv" />
+      <Nav v-else /> <!-- fallback if no choice yet -->
+    </div>
+    <main>
+      <slot />
+    </main>
+    <Footer />
+  </div>
 </template>
 
 <script>
+import Nav from '~/components/Nav.vue'
+import NavPrivat from '~/components/NavPrivat.vue'
+import NavErhverv from '~/components/NavErhverv.vue'
+import Footer from '~/components/Footer.vue'
+import { useRoute, computed } from '#imports'
+
 export default {
+  components: { Nav, NavPrivat, NavErhverv, Footer },
+
+  setup() {
+    const route = useRoute()
+    const userType = useUserType()
+
+    const isHome = computed(function() {
+      return route.path === '/'
+    })
+    const isPrivat = computed(function() {
+      return userType.value === 'privat'
+    })
+    const isErhverv = computed(function() {
+      return userType.value === 'erhverv'
+    })
+    
+    return {
+      isHome,
+      isPrivat,
+      isErhverv
+    }
+  },
+
   head: {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }

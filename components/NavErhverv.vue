@@ -140,17 +140,15 @@ const user = {
     "",
 };
 const navigation = [
-  { name: "Forside", href: "/", current: true },
+  { name: "Forside", href: "/privat", current: true },
   { name: "Grusveje", href: "/grusveje", current: false },
   { name: "Naturstier", href: "/naturstier", current: false },
   { name: "Støvbekæmpelse", href: "/stoevbekaempelse", current: false },
   { name: "Stabilisering af vejen", href: "/stabiliseringafvejen", current: false },
-  { name: "Maskineriet", href: "/maskineriet", current: false },
   { name: "Serviceaftale", href: "/serviceaftale", current: false },
   { name: "Nyheder", href: "/nyheder", current: false },
   { name: "Kontakt", href: "/kontakt", current: false },
-  
-  
+  // { name: "Rabat", href: "/rabat", current: false },
 ];
 
 </script>

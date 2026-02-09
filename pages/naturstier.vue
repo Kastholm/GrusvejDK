@@ -87,17 +87,22 @@
             >
               <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
                 <h1 class="Header">
-                  PROFESSIONEL ANLÆGGELSE AF NATURSTIER
+                  <span class="text-[#199d43]"> Naturstier </span> – med det mindst mulige aftryk
                 </h1>
                 <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  I fremtiden skal vi udlede meget mindre CO2 og derfor er vi nødt til at tænke nyt. I 2030 skal vi være i mål med de klimamål verdenssamfundet har sat op. 
-                  Hos Grusvej.dk har vi udviklet en unik metode til etablering og vedligehold af naturstier som med et minimalt CO2 forbrug giver en natursti med høj bæreevne og langtidsholdbarhed. <br><br>
-                  Generelt anlægger vi i dag naturstier og småveje gennem terrænet, så vi kan færdes sikkert ude i de rekreative områder, der i de fleste kommuner udlægges i forbindelse med den almindelige arealudnyttelse. 
-                  Det være sig i naturområder, genoprettede grusgravsområder, nyanlagte skovområder. Områder med mangfoldighed, biodiversitet og plads til udeaktiviteter, vandre- og cykelruter, shelterpladser med overnatningsmuligheder. <br><br>
-                  Det er typisk kommuner, store virksomheder og kapitalfonde der står for gennemførelsen af disse naturprojekter, som viser at menneskelig aktivitet kan forenes med bæredygtighed og biodiversitet. De store arealer der udlægges i disse år, er samtidigt med til at minimere CO2-udledningerne, da vores skove opsuger CO2. For at kunne færdes i disse områder, skal der etableres stier og mindre veje som kan bære færdsel af mindre køretøjer.
-
-
+                  Udviklingen går i retning af, at flere produktive landbrugsarealer omdannes til natur- og biodiversitetsområder. Det øger behovet for, at vi kan bevæge os i landskabet – til fods, på cykel og med minimal påvirkning af naturen.<br><br>
+                  For at understøtte denne udvikling skal naturstier kunne etableres <strong> skånsomt, uden store indgreb i jordens biologi, uden brug af tunge maskiner </strong> og med <strong> lavere omkostninger </strong> samt et <strong> mindre CO₂-aftryk.</strong> <br><br>
+                  Hos Grusvej tilbyder vi en løsning, hvor grusmaterialet kan udlægges direkte på jorden <strong> uden at blande jord og grus.</strong> Det opnås ved samtidig udlægning af <strong> fiberdug eller geonet</strong>, som stabiliserer underlaget og skaber en robust, jævn sti – selv på blød bund.
+                  Dette giver en hurtig, naturvenlig og økonomisk løsning, der bevarer terrænets naturlige struktur.
                 </p>
+              <ul class="Text TextReadable">
+                <h3><strong>Løsningen anvendes til:</strong></h3>
+                <li>- Stisystemer gennem det åbne land</li>
+                <li>- Hurtigt etablerede stier på markeds- og koncertpladser</li>
+                <li>- Midlertidige stier i forbindelse med byggeprojekter</li>
+                <li>- Stier i rekreative områder, parker og naturgenopretninger</li>
+                <li>- Adgangsstier til observationsområder, shelters og udsigtspunkter</li>
+              </ul>
               </div>
               <div
                 class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 lg:-translate-y-32 -translate-y-0"

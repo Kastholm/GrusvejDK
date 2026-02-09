@@ -2,9 +2,9 @@ import { Resend } from 'resend';
 
 export default defineEventHandler(async (event) => {
 
-  const { email, phone, name } = await readBody(event);
+  const { email, phone, name, grusvej, text } = await readBody(event);
 
-  console.log('frist data', email, phone, name )
+  console.log('Grusvej form data received:', { email, phone, name, grusvej, text })
 
   // Check if API key exists
   const apiKey = process.env.RESEND_API_KEY;
@@ -21,16 +21,19 @@ export default defineEventHandler(async (event) => {
     const data = await resend.emails.send({
       from: 'Grusvej <onboarding@resend.dev>',
       to: ['kontakt@grusvej.dk'], 
-      subject: `New Contact Request from ${name}`,
+      subject: `Ny grusvejs forespørgsel fra ${name}`,
       html: `
-        <p><strong>New Contact Request:</strong></p>
-        <p><strong>Name:</strong> ${name}</p>
-        <p><strong>Phone:</strong> ${phone}</p>
+        <p><strong>Ny grusvejs forespørgsel:</strong></p>
+        <p><strong>Navn:</strong> ${name}</p>
+        <p><strong>Telefon:</strong> ${phone}</p>
         <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Service:</strong> ${grusvej}</p>
+        <p><strong>Besked:</strong></p>
+        <p>${text || 'Ingen besked givet'}</p>
       `,
     });
 
-    console.log('received data send.ts', data)
+    console.log('Grusvej email sent:', data)
 
     return { success: true, data };
   } catch (error) {

@@ -24,6 +24,8 @@
 // });
 
 export default {
+  compatibilityDate: '2026-01-14',
+  
   // Load Tailwind CSS using the tailwindcss module
   modules: ["@nuxtjs/tailwindcss", 'nuxt-gtag'],
 

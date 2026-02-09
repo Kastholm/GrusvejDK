@@ -15,15 +15,16 @@
           />
           <div class="w-full -translate-y-20">
             <h1 class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-7xl ">
-            Slip for støvgener med 
-            <span class="text-8xl text-[#199d43]">Dustex</span>
+              <span class="text-5xl lg:text-8xl text-[#199d43]">Støvbekæmpelse</span>
+             Effektive og bæredygtige løsninger
             </h1>
-            <p class="mt-4 text-black relative text-xl -translate-y-10">Støvbinding er vejen frem, hvis du vil undgå belastende støvgener fra grusvej eller grusareal. Det fine grusstøv som svæver i vinden, er både generende og sundhedsskadeligt for mennesker og dyr. Til gengæld er løsningen på problemet enkelt - Dustex.</p>
+            <p class="mt-4 text-black relative text-xl -translate-y-10">Støv fra grusveje kan være til gene for både trafikanter, beboere, maskiner og miljø. <br> Derfor tilbyder vi støvbekæmpelse med produkter, der er både effektive og mere skånsomme for naturen.
+              <br>På grusvej.dk arbejder vi primært med to løsninger: <strong>Dustex</strong> og <strong>Inolig</strong>.</p>
             <a href="/serviceaftale" class="text-white font-bold text-sm md:text-xl">
-            <div class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl">
+            <div class="h-fit w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl">
               
-              <button class="translate-y-1 sm:translate-y-0 text-base block">
-                Dustex-serviceaftale hos Grusvej.dk
+              <button class=" sm:translate-y-0 text-base block">
+                Få en serviceaftale hos Grusvej.dk
               </button>
               
             </div>

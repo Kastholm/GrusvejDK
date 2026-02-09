@@ -14,17 +14,20 @@ import dotenv from "dotenv";
 @import url("https://use.typekit.net/rbp7ctt.css");
 /* Generel Header styling */
 
+
+
 .Header {
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: 700;
   font-size: 68px;
+  line-height: 60px;
   @apply tracking-normal;
 }
 
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
       .Header {
       line-height: 55px;
-      font-size: 45px;
+      font-size: 40px;
     }
   }
 
