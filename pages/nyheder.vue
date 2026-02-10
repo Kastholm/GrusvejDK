@@ -99,22 +99,22 @@
           </div>
           <div class="w-full flex flex-col mt-10 lg:mt-0">
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/XkynTc9v/Billede-1-Udl-g-af-grus.jpg"
               alt=""
             />
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/G4bXzBw5/Billede-2-Afretning-af-vej.jpg"
               alt=""
             />
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/n96r2qs/Billed-4-Christopher.jpg"
               alt=""
             />
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/Zp8x43Qp/Billede-5-Knusning.jpg"
               alt=""
             />
@@ -197,7 +197,7 @@
             class="w-full flex flex-col mt-10 sm:gap-20 gap-10 -translate-y-9"
           >
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/TxRHdsyC/billede-3-Jordstabilisering.jpg"
               alt=""
             />
@@ -253,7 +253,7 @@
             class="w-full flex flex-col mt-10 sm:gap-20 gap-10 -translate-y-9"
           >
             <img
-              class="sm:h-auto w-auto scale-75"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/n05r7Wg/vej-planering-60.webp"
               alt=""
             />
