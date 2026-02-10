@@ -15,7 +15,7 @@
 
       <!-- Nyhedssektion start-->
 
-      <article class="flex flex-col mt-10 max-w-[90%] sm:ml-14 ml-5">
+      <article class="flex flex-col mt-10 max-w-[90%] mx-auto">
         <h3 class="text-left w-full m-[0px]">
           Nedklassificering af asfaltveje til grusveje
         </h3>
@@ -97,7 +97,7 @@
               <strong>21 84 14 10</strong>
             </p>
           </div>
-          <div class="w-full flex flex-col mt-10 lg:mt-0">
+          <div class="w-fit flex flex-col mt-10 lg:mt-0">
             <img
               class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/XkynTc9v/Billede-1-Udl-g-af-grus.jpg"
