@@ -99,7 +99,7 @@
           </div>
           <div class="w-fit flex flex-col mt-10 lg:mt-0">
             <img
-              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550 px] object-cover"
               src="https://i.ibb.co/XkynTc9v/Billede-1-Udl-g-af-grus.jpg"
               alt=""
             />
