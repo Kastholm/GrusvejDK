@@ -1,8 +1,11 @@
 # example netlify.toml
 [build]
-  command = "npm run generate"
-  functions = "netlify/functions"
-  publish = "dist"
+  # Use Nuxt's SSR build so Nitro can produce Netlify Functions for /api routes
+  # `npm run build` runs `nuxt build` (see package.json). The Nitro Netlify preset
+  # will output functions to `.netlify/functions` and the public site to `.output/public`.
+  command = "npm run build"
+  functions = ".netlify/functions"
+  publish = ".output/public"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
