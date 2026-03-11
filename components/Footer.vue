@@ -65,56 +65,58 @@
             Indtast email her - vi vender tilbage indenfor 24 timer alle
             hverdage.
           </p>
-<Form
-  :validation-schema="schema"
-  @submit.prevent="sendEmail"
-  class="mt-6 text-center m-auto"
->
-  <div class="grid gap-2 place-content-center">
-    <input
-      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-      placeholder="Din e-mail"
-      name="email"
-      type="email"
-      v-model="formData.email"
-    />
-    <input
-      name="phone"
-      type="tel"
-      placeholder="Dit telefon nr."
-      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-      v-model="formData.phone"
-    />
-    <input
-      class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
-      placeholder="Dit navn"
-      name="name"
-      type="text"
-      v-model="formData.name"
-    />
-    <div class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex">
-      <button
-        type="submit"
-        class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        :disabled="isLoading"
-      >
-        {{ isLoading ? 'Sending...' : 'Afsted' }}
-      </button>
-    </div>
-    <p
-      v-if="successMessage"
-      class="text-base font-bold text-green-500 mt-2"
-    >
-      {{ successMessage }}
-    </p>
-    <p
-      v-if="errorMessage"
-      class="text-base font-bold text-red-500 mt-2"
-    >
-      {{ errorMessage }}
-    </p>
-  </div>
-</Form>
+          <Form
+            :validation-schema="schema"
+            @submit.prevent="sendEmail"
+            class="mt-6 text-center m-auto"
+          >
+            <div class="grid gap-2 place-content-center">
+              <input
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Din e-mail"
+                name="email"
+                type="email"
+                v-model="formData.email"
+              />
+              <input
+                name="phone"
+                type="tel"
+                placeholder="Dit telefon nr."
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                v-model="formData.phone"
+              />
+              <input
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Dit navn"
+                name="name"
+                type="text"
+                v-model="formData.name"
+              />
+              <div
+                class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex"
+              >
+                <button
+                  type="submit"
+                  class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  :disabled="isLoading"
+                >
+                  {{ isLoading ? "Sending..." : "Afsted" }}
+                </button>
+              </div>
+              <p
+                v-if="successMessage"
+                class="text-base font-bold text-green-500 mt-2"
+              >
+                {{ successMessage }}
+              </p>
+              <p
+                v-if="errorMessage"
+                class="text-base font-bold text-red-500 mt-2"
+              >
+                {{ errorMessage }}
+              </p>
+            </div>
+          </Form>
         </div>
       </div>
       <div
@@ -151,56 +153,68 @@
 </template>
 
 <script setup>
-
-import { ref } from 'vue';
+import { ref } from "vue";
 
 // Reactive variables for form state
 const formData = ref({
-  email: '',
-  phone: '',
-  name: '',
+  email: "",
+  phone: "",
+  name: "",
 });
 
 const isLoading = ref(false);
-const successMessage = ref('');
-const errorMessage = ref('');
+const successMessage = ref("");
+const errorMessage = ref("");
 
 async function sendEmail() {
   isLoading.value = true;
-  successMessage.value = '';
-  errorMessage.value = '';
+  successMessage.value = "";
+  errorMessage.value = "";
 
   try {
     // Send form data to the backend
-    console.log('eow')
-    const response = await fetch('/api/send', {
-      method: 'POST',
+    console.log("eow");
+    const response = await fetch("/api/send", {
+      method: "POST",
       headers: {
-        'Content-Type': 'application/json',
+        "Content-Type": "application/json",
       },
       body: JSON.stringify(formData.value),
-    },
-  );
-    console.log('test', response)
-    console.log('eow2')
-    const result = await response.json();
+    });
+    console.log("test", response);
+    console.log("eow2");
+    // Try to read response as text first so we can surface HTML error pages from the server
+    const raw = await response.text();
+    let result;
+    try {
+      result = JSON.parse(raw);
+    } catch (parseErr) {
+      // Not JSON — likely an HTML error page. Log full body for debugging and throw a helpful error.
+      console.error(
+        "Failed to parse JSON from /api/send. Response status:",
+        response.status,
+      );
+      console.error("Response body (first 2000 chars):", raw.slice(0, 2000));
+      throw new Error(
+        `Server returned non-JSON response (status ${response.status}). Check server logs or the response body in the console.`,
+      );
+    }
 
-    console.log('Footer send data',result)
+    console.log("Footer send data", result);
 
     if (response.ok && result.success) {
-      successMessage.value = 'Din besked blev sendt succesfuldt!';
-      formData.value = { email: '', phone: '', name: '' }; // Reset the form
+      successMessage.value = "Din besked blev sendt succesfuldt!";
+      formData.value = { email: "", phone: "", name: "" }; // Reset the form
     } else {
-      throw new Error(result.error || 'Failed to send email');
+      throw new Error(result.error || "Failed to send email");
     }
   } catch (error) {
     errorMessage.value = `Fejl: ${error.message}`;
-    console.error('Fejl ved afsendelse af email:', error);
+    console.error("Fejl ved afsendelse af email:", error);
   } finally {
     isLoading.value = false;
   }
 }
-
 
 const navigation = {
   solutions: [
@@ -208,7 +222,10 @@ const navigation = {
     { name: "Grusveje", href: "https://grusvej.dk/grusveje" },
     { name: "Naturstier", href: "https://grusvej.dk/naturstier" },
     { name: "Støvbekæmpelse", href: "https://grusvej.dk/stoevbekaempelse" },
-    { name: "Stabilisering af vejen", href: "https://grusvej.dk/stabiliseringafvejen" },
+    {
+      name: "Stabilisering af vejen",
+      href: "https://grusvej.dk/stabiliseringafvejen",
+    },
     { name: "Maskineriet", href: "https://grusvej.dk/maskineriet" },
     { name: "Serviceaftaler", href: "https://grusvej.dk/serviceaftale" },
   ],
@@ -219,7 +236,6 @@ const navigation = {
   ],
   company: [
     { name: "Kontakt Grusvej.dk", href: "https://grusvej.dk/kontakt/" },
-    
   ],
   legal: [
     { name: "Politik for databehandling", href: "#" },
@@ -241,7 +257,6 @@ const navigation = {
           ]),
       }),
     },
-    
   ],
 };
 </script>
