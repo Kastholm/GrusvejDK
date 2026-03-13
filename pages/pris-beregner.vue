@@ -86,9 +86,14 @@
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
-              <VejBeregner />
+              <a
+                href="#stoevberegner"
+                class="mb-10 inline-block lg:hidden bg-[#199d43] text-white px-4 py-2 rounded text-base font-medium hover:opacity-90"
+                >Beregn kun støvbekæmpelse</a
+              >
+              <VejBeregner id="vejberegner" />
 
-              <StoevBeregner />
+              <div id="stoevberegner"><StoevBeregner /></div>
             </div>
           </div>
         </div>

@@ -1,12 +1,12 @@
 <template>
-  <div class="stoev-beregner p-6 bg-white rounded-lg shadow-md">
+  <div class="stoev-beregner p-6 bg-white rounded-lg shadow-md mt-10">
     <h3 class="text-lg font-semibold mb-3">Støvberegner</h3>
 
     <p class="mb-4 text-sm text-gray-600">
       Støvbehandling beregnes ud fra en standardbredde på 3 meter (uafhængig af
       den valgte vej-bredde). Hvis din vej/grusområde er bredere, kan du stadig
-      justere "Vejens bredde" for vej/område-prisberegningen, men
-      støvberegningen bruger altid 3m som standard.
+      justere "Vejens bredde" for vej/område-prisberegningen, da støvberegningen
+      altid regner efter 3 meters bredde som standard.
     </p>
 
     <div class="grid gap-3">
@@ -69,7 +69,8 @@
       </div>
 
       <div v-else class="mt-2 text-sm text-gray-500">
-        Indtast meter og vælg produkt for at se pris.
+        Indtast meter (og evt. områdets/vejens bredde) og vælg produkt for at se
+        pris.
       </div>
     </div>
     <div class="mt-3">

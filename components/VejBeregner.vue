@@ -1,8 +1,14 @@
 <template>
   <div class="calculator lg:translate-y-12">
-    <h2>Beregn pris på din grusvej</h2>
+    <h2 class="text-lg font-semibold vejberegnertekst">
+      Beregn pris på din grusvej <br />
+      (tilvalg af <Span class="text-[#137733]">støvbekæmpelse</Span>)
+    </h2>
 
     <p class="description">
+      Er der tale om areal +3 meters bredde- kontakt os for et skræddersyet
+      tilbud.<br />
+      <br />
       Indtast længden på din grusvej og vælg typen af behandling for at få en
       estimeret pris. (minimum 100 meter grusvej - maks bredde 3 meter)
       <br /><br />Ved +1000 meter grusvej vil du modtage yderligere
@@ -61,7 +67,7 @@
       </div>
 
       <!-- STØVSPØRGSMÅL -->
-      <div v-if="roadPrice !== 0" class="dust-question">
+      <div v-if="roadPrice > 0" class="dust-question">
         <p><strong>Skal vejen også støvbehandles?</strong></p>
 
         <div class="dust-buttons">
@@ -446,5 +452,10 @@ button {
   button {
     width: 100%;
   }
+}
+
+.vejberegnertekst {
+  color: #000000 !important;
+  font-size: 22px;
 }
 </style>
