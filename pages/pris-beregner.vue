@@ -87,6 +87,8 @@
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
               <VejBeregner />
+
+              <StoevBeregner />
             </div>
           </div>
         </div>
@@ -193,6 +195,7 @@
 
 <script setup>
 import VejBeregner from "@/components/VejBeregner.vue";
+import StoevBeregner from "~/components/StoevBeregner.vue";
 import { defineComponent, h, ref, computed } from "vue";
 
 const mobileMenuOpen = ref(false);

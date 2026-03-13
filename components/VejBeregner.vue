@@ -14,10 +14,16 @@
       <div class="field">
         <label>Vælg service</label>
 
-        <select v-model.number="selectedPrice">
+        <select v-model="selectedService">
           <option disabled value="">Vælg behandling</option>
-          <option :value="57">Opretning / vedligehold (57 kr/m)</option>
-          <option :value="249">Fuld renovering (249 kr/m)</option>
+          <option
+            v-for="s in services"
+            :key="s.id"
+            :value="s"
+            placeholder="Vælg behandling"
+          >
+            {{ s.name }} ({{ s.price }} kr/m)
+          </option>
         </select>
       </div>
 
@@ -27,6 +33,8 @@
 
         <input type="number" v-model.number="meters" placeholder="Fx 120" />
       </div>
+
+      <!-- width input removed; dust uses fixed 3 m and roadWidth defaults to 3 -->
 
       <!-- BEREGN -->
       <div class="actions">
@@ -45,6 +53,11 @@
             Du vil modtage yderligere rabat ved kontakt
           </div>
         </div>
+        <div v-if="roadPrice !== null" class="mt-3">
+          <button class="secondary" @click="showContactForm = true">
+            Kontakt mig
+          </button>
+        </div>
       </div>
 
       <!-- STØVSPØRGSMÅL -->
@@ -52,29 +65,27 @@
         <p><strong>Skal vejen også støvbehandles?</strong></p>
 
         <div class="dust-buttons">
-          <button class="secondary" @click="dustEnabled = true">Ja</button>
+          <button class="secondary" @click="enableDust">Ja</button>
 
-          <button class="secondary" @click="dustEnabled = false">Nej</button>
+          <button class="secondary" @click="disableDust">Nej</button>
         </div>
       </div>
 
       <!-- STØVBEREGNER -->
       <div v-if="dustEnabled" class="dust-section">
         <p class="info">
-          Støvbehandling beregnes ud fra en standardbredde på 2.75 meter.
+          Støvbehandling beregnes ud fra en standardbredde på 3 meter.
         </p>
 
         <div class="field">
           <label>Vælg støvprodukt</label>
 
-          <select v-model.number="selectedDust">
+          <select v-model="selectedDust">
             <option disabled value="">Vælg produkt</option>
-
-            <option :value="3.95">Dustex – 3,95 kr/m²</option>
-
-            <option :value="3.5">Innolig+ – 3,50 kr/m²</option>
-
-            <option :value="6.25">Dust-away – 6,25 kr/m²</option>
+            <option :value="null">Ingen (ingen støvprodukt)</option>
+            <option v-for="d in dusts" :key="d.id" :value="d">
+              {{ d.name }} – {{ d.price.toFixed(2) }} kr/m²
+            </option>
           </select>
         </div>
 
@@ -90,6 +101,73 @@
             <span>{{ format(totalPrice) }}</span>
           </div>
         </div>
+        <div v-if="dustPrice !== null" class="mt-3">
+          <button class="secondary" @click="showContactForm = true">
+            Kontakt mig
+          </button>
+        </div>
+      </div>
+
+      <!-- CONTACT FORM MODAL -->
+      <div
+        v-if="showContactForm"
+        class="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-40"
+      >
+        <div class="bg-white p-6 rounded max-w-md w-full">
+          <h3 class="text-lg font-semibold mb-3">Kontakt mig</h3>
+          <p class="text-sm text-gray-600 mb-4">
+            Indtast dine kontaktoplysninger, så kontakter vi dig med tilbuddet.
+          </p>
+
+          <div class="grid gap-3">
+            <div>
+              <label class="block text-sm font-medium mb-1">Navn</label>
+              <input
+                type="text"
+                v-model="contactName"
+                class="w-full p-2 border rounded"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1">Email</label>
+              <input
+                type="email"
+                v-model="contactEmail"
+                class="w-full p-2 border rounded"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium mb-1">Telefon</label>
+              <input
+                type="tel"
+                v-model="contactPhone"
+                class="w-full p-2 border rounded"
+              />
+            </div>
+            <div class="flex items-center gap-2 mt-4">
+              <button
+                class="bg-[#199d43] text-white px-4 py-2 rounded"
+                :disabled="contactLoading"
+                @click="sendEstimate"
+              >
+                {{ contactLoading ? "Sender..." : "Send" }}
+              </button>
+              <button
+                class="bg-gray-200 px-4 py-2 rounded"
+                @click="showContactForm = false"
+              >
+                Luk
+              </button>
+            </div>
+
+            <p v-if="contactSuccess" class="text-green-600 mt-2">
+              {{ contactSuccess }}
+            </p>
+            <p v-if="contactError" class="text-red-600 mt-2">
+              {{ contactError }}
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -99,35 +177,121 @@
 import { ref, computed } from "vue";
 
 const meters = ref(null);
-const selectedPrice = ref("");
+// service options (id, human readable name, price per meter)
+const services = [
+  { id: 1, name: "Opretning / vedligehold", price: 57 },
+  { id: 2, name: "Fuld renovering", price: 249 },
+];
+
+const selectedService = ref("");
 const roadPrice = ref(null);
 
 const dustEnabled = ref(false);
+// dust product options (name, price per m²)
+const dusts = [
+  { id: 1, name: "Dustex", price: 3.95 },
+  { id: 2, name: "Innolig+", price: 3.5 },
+  { id: 3, name: "Dust-away", price: 6.25 },
+];
 const selectedDust = ref("");
 
-const ROAD_WIDTH = 2.75;
+const showContactForm = ref(false);
+const contactName = ref("");
+const contactEmail = ref("");
+const contactPhone = ref("");
+const contactLoading = ref(false);
+const contactSuccess = ref("");
+const contactError = ref("");
+
+const sendEstimate = async () => {
+  contactLoading.value = true;
+  contactSuccess.value = "";
+  contactError.value = "";
+
+  try {
+    const payload = {
+      name: contactName.value || "",
+      email: contactEmail.value || "",
+      phone: contactPhone.value || "",
+      meters: meters.value || 0,
+      service: selectedService.value?.name || "",
+      roadPrice: roadPrice.value || 0,
+      roadWidth: width.value || 3,
+      dustSelected:
+        dustEnabled.value && selectedDust.value ? selectedDust.value.name : "",
+      dustPrice:
+        dustEnabled.value && typeof dustPrice.value === "number"
+          ? dustPrice.value
+          : 0,
+      totalPrice: totalPrice.value || 0,
+    };
+
+    const res = await fetch("/api/beregner", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+
+    const result = await res.json();
+    if (res.ok && result.success) {
+      contactSuccess.value =
+        "Din forespørgsel er sendt - vi vender tilbage hurtigst muligt.";
+      // reset form
+      contactName.value = "";
+      contactEmail.value = "";
+      contactPhone.value = "";
+      showContactForm.value = false;
+    } else {
+      throw new Error(result.error || "Failed to send estimate");
+    }
+  } catch (err) {
+    contactError.value = err.message || String(err);
+    console.error("Fejl ved at sende beregning:", err);
+  } finally {
+    contactLoading.value = false;
+  }
+};
+
+// default road width (meters) - kept for payload but width input removed from UI
+const width = ref(3);
+
+// dust enable/disable helpers so we can clear any selected dust when turning off
+const enableDust = () => {
+  dustEnabled.value = true;
+};
+
+const disableDust = () => {
+  dustEnabled.value = false;
+  selectedDust.value = null;
+};
 
 const calculateRoad = () => {
-  if (!meters.value || !selectedPrice.value) return;
+  if (!meters.value || !selectedService.value) return;
 
   if (meters.value < 100) {
     roadPrice.value = 0;
     return;
   }
 
-  roadPrice.value = meters.value * selectedPrice.value;
+  roadPrice.value = meters.value * selectedService.value.price;
 };
 
+// area used for road price uses user-specified width
 const squareMeters = computed(() => {
   if (!meters.value) return 0;
 
-  return meters.value * ROAD_WIDTH;
+  return meters.value * (width.value || 3);
+});
+
+// dust calculations always use a fixed 3 m width (standard)
+const dustSquareMeters = computed(() => {
+  if (!meters.value) return 0;
+  return meters.value * 3;
 });
 
 const dustPrice = computed(() => {
   if (!selectedDust.value) return null;
-
-  return squareMeters.value * Number(selectedDust.value);
+  return dustSquareMeters.value * Number(selectedDust.value.price);
 });
 
 const totalPrice = computed(() => {
