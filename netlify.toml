@@ -1,13 +1,8 @@
 # example netlify.toml
 [build]
-  # Use Nuxt's SSR build so Nitro can produce Netlify Functions for /api routes
-  # `npm run build` runs `nuxt build` (see package.json). The Nitro Netlify preset
-  # will output functions to `.netlify/functions` and the public site to `.output/public`.
-  command = "npm run build"
-  # Nitro (Netlify preset) produces functions under `.netlify/functions-internal`.
-  # Point Netlify to that folder so the generated server function is picked up.
-  functions = ".netlify/functions-internal"
-  publish = ".output/public"
+  command = "npm run generate"
+  functions = "netlify/functions"
+  publish = "dist"
 
   ## Uncomment to use this redirect for Single Page Applications like create-react-app.
   ## Not needed for static site generators.
@@ -24,13 +19,3 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://ntl.fyi/file-based-build-config
-
-[build.environment]
-# Ensure a recent Node version on Netlify (Nuxt 4 / Nitro require Node 18+)
-NODE_VERSION = "18"
-
-[[redirects]]
-  from = "/api/*"
-  to = "/.netlify/functions/server?path=/:splat"
-  status = 200
-  force = true
