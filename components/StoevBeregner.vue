@@ -151,8 +151,8 @@ import { ref, computed } from "vue";
 
 const meters = ref(null);
 const dusts = [
-  { id: 1, name: "Dustex", price: 3.95 },
-  { id: 2, name: "Innolig+", price: 3.5 },
+  { id: 1, name: "Dustex", price: 6.0 },
+  { id: 2, name: "Innolig+", price: 4.0 },
   { id: 3, name: "Dust-away", price: 6.25 },
 ];
 const selectedDust = ref("");
