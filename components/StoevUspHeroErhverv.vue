@@ -19,18 +19,15 @@
             <h1
               class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-7xl"
             >
+              Effektiv og bæredygtig
               <span class="text-5xl lg:text-8xl text-[#199d43]"
                 >Støvbekæmpelse</span
               >
-              Effektive og bæredygtige løsninger
             </h1>
             <p class="mt-4 text-black relative text-xl -translate-y-10">
               Støv fra grusveje kan være til gene for både trafikanter, beboere,
-              maskiner og miljø. <br />
-              Derfor tilbyder vi støvbekæmpelse med produkter, der er både
-              effektive og mere skånsomme for naturen. <br />På grusvej.dk
-              arbejder vi primært med to løsninger:
-              <strong>Gv støvbekæmpelse</strong> og <strong>Innolig+</strong>.
+              maskiner og miljø. <br />Derfor tilbyder vi støvbekæmpelse med
+              produkter, der er både effektive og mere skånsomme for naturen.
             </p>
             <a
               href="/serviceaftale"

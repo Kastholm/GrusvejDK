@@ -1,7 +1,10 @@
 <template>
   <head>
     <title>Grusvej.dk - profesionelle naturstier i alt terræn</title>
-    <meta name="description" content="Vores tyske maskinpark er af skræddersyet Stehr maskiner, bygget til etablering og vedligehold af naturstier. Vi anlægger naturstier i hele landet.">
+    <meta
+      name="description"
+      content="Vores tyske maskinpark er af skræddersyet Stehr maskiner, bygget til etablering og vedligehold af naturstier. Vi anlægger naturstier i hele landet."
+    />
   </head>
   <div class="bg-white">
     <main class="isolate">
@@ -17,7 +20,7 @@
         src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
         alt="Image Description"
       />
-      <div class="relative isolate -z-10 ">
+      <div class="relative isolate -z-10">
         <svg
           class="absolute inset-x-0 top-0 -z-10 h-[64rem] w-full stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
           aria-hidden="true"
@@ -38,12 +41,10 @@
             <path
               d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
               stroke-width="0"
-              class="fill-SubColor2 "
+              class="fill-SubColor2"
             />
           </svg>
           <rect
-            
-            
             stroke-width="0"
             fill="url(#1f932ae7-37de-4c0a-a8b0-a6e3b4d44b84)"
             class="sm:max-w-[100%] sm:max-h-[100%] max-w-[390px]"
@@ -80,35 +81,62 @@
         </div>
         <div class="overflow-hidden">
           <div
-            class="mx-auto max-w-7xl px-6 pb-20 pt-14 sm:pt-20 lg:px-8 lg:pt-0"
+            class="mx-auto max-w-7xl px-6 pt-14 sm:pt-20 lg:px-8 lg:pt-0 lg:mt-10"
           >
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
-              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 translate-y-10">
+              <div
+                class="w-full max-w-xl lg:shrink-0 xl:max-w-2xltranslate-y-10"
+              >
                 <h1 class="Header">
-                  <span class="text-[#199d43]"> Naturstier </span> – med det mindst mulige aftryk
+                  <span class="text-[#199d43]"> Naturstier </span> – med mindst
+                  mulige aftryk
                 </h1>
-                <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  Udviklingen går i retning af, at flere produktive landbrugsarealer omdannes til natur- og biodiversitetsområder. Det øger behovet for, at vi kan bevæge os i landskabet – til fods, på cykel og med minimal påvirkning af naturen.<br><br>
-                  For at understøtte denne udvikling skal naturstier kunne etableres <strong> skånsomt, uden store indgreb i jordens biologi, uden brug af tunge maskiner </strong> og med <strong> lavere omkostninger </strong> samt et <strong> mindre CO₂-aftryk.</strong> <br><br>
-                  Hos Grusvej tilbyder vi en løsning, hvor grusmaterialet kan udlægges direkte på jorden <strong> uden at blande jord og grus.</strong> Det opnås ved samtidig udlægning af <strong> fiberdug eller geonet</strong>, som stabiliserer underlaget og skaber en robust, jævn sti – selv på blød bund.
-                  Dette giver en hurtig, naturvenlig og økonomisk løsning, der bevarer terrænets naturlige struktur.
+                <p
+                  class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10"
+                >
+                  Udviklingen går i retning af, at flere produktive
+                  landbrugsarealer omdannes til natur- og biodiversitetsområder.
+                  Det øger behovet for, at vi kan bevæge os i landskabet – til
+                  fods, på cykel og med minimal påvirkning af naturen.<br /><br />
+                  For at understøtte denne udvikling skal naturstier kunne
+                  etableres
+                  <strong>
+                    skånsomt, uden store indgreb i jordens biologi, uden brug af
+                    tunge maskiner
+                  </strong>
+                  og med <strong> lavere omkostninger </strong> samt et
+                  <strong> mindre CO₂-aftryk.</strong> <br /><br />
+                  Hos Grusvej tilbyder vi en løsning, hvor grusmaterialet kan
+                  udlægges direkte på jorden
+                  <strong> uden at blande jord og grus.</strong> Det opnås ved
+                  samtidig udlægning af <strong> fiberdug eller geonet</strong>,
+                  som stabiliserer underlaget og skaber en robust, jævn sti –
+                  selv på blød bund. Dette giver en hurtig, naturvenlig og
+                  økonomisk løsning, der bevarer terrænets naturlige struktur.
                 </p>
-              <ul class="Text TextReadable">
-                <h3><strong>Løsningen anvendes til:</strong></h3>
-                <li>- Stisystemer gennem det åbne land</li>
-                <li>- Hurtigt etablerede stier på markeds- og koncertpladser</li>
-                <li>- Midlertidige stier i forbindelse med byggeprojekter</li>
-                <li>- Stier i rekreative områder, parker og naturgenopretninger</li>
-                <li>- Adgangsstier til observationsområder, shelters og udsigtspunkter</li>
-              </ul>
+                <ul class="Text TextReadable">
+                  <h3><strong>Løsningen anvendes til:</strong></h3>
+                  <li>- Stisystemer gennem det åbne land</li>
+                  <li>
+                    - Hurtigt etablerede stier på markeds- og koncertpladser
+                  </li>
+                  <li>- Midlertidige stier i forbindelse med byggeprojekter</li>
+                  <li>
+                    - Stier i rekreative områder, parker og naturgenopretninger
+                  </li>
+                  <li>
+                    - Adgangsstier til observationsområder, shelters og
+                    udsigtspunkter
+                  </li>
+                </ul>
               </div>
               <div
                 class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0 lg:-translate-y-32 -translate-y-0"
               >
                 <div
-                  class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80 "
+                  class="ml-auto w-60 flex-none space-y-8 pt-32 sm:ml-0 sm:pt-80 lg:order-last lg:pt-36 xl:order-none xl:pt-80"
                 >
                   <div class="relative -translate-y-20">
                     <img
@@ -124,7 +152,7 @@
                 <div
                   class="mr-auto w-60 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36 lg:-translate-y-0 -translate-y-20"
                 >
-                  <div class="relative  -translate-y-20">
+                  <div class="relative -translate-y-20">
                     <img
                       src="https://i.ibb.co/gtrs2bF/Naturstier2-Grusvej.webp"
                       alt=""
@@ -150,7 +178,6 @@
           </div>
         </div>
       </div>
-        <Naturstiinfo> </Naturstiinfo>
 
       <!-- Content section -->
       <!-- <div class="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
@@ -209,10 +236,8 @@
         </div>
       </div> -->
 
-      
-
       <!-- Logo cloud -->
-      
+
       <center class="">
         <!-- pattern start -->
         <div class="mt-4">
@@ -234,7 +259,6 @@
               </pattern>
             </defs>
             <svg x="50%" y="50%" class="overflow-visible fill-gray-50">
-              
               <path
                 d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
                 stroke-width="0"
@@ -247,23 +271,8 @@
               class="sm:max-w-[100%] sm:max-h-[100%] max-w-[390px]"
             />
           </svg>
-          
-          </div>
-          <!-- pattern slut -->
-          <div class="relative lg:-translate-y-44 -translate-y-32 ">
-            <h2 class="w-full  text-7xl font-bold ml-auto Header">SPECIAL MASKINER SKABER KVALITET</h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed sm:max-w-[80%]">Vores stenknuser er en af de eneste i Danmark - en maskine der er unik for det perfekte resultat hver gang der skal lægges nye grusveje med grove baser af større sten og betonstumper. </p>
-          </div>
-
-        
-       <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 -translate-y-28 ">
-         <img
-          src="https://i.ibb.co/bLBhZ9t/Naturstier-grusvej.webp"
-          alt=""
-          class="max-h-[500px] w-full object-cover xl:rounded-3xl"/>       
         </div>
-        
+        <!-- pattern slut -->
       </center>
     </main>
   </div>

@@ -1,12 +1,19 @@
 <template>
-  <div> 
-  <head>
-    <title> Etablering & vedligehold af grusveje & naturstier for private</title>
-    <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
-    <meta name="keywords" content="Grusveje, Naturstier, Cement, etablering, vedligehold">
-  </head>
-  
-</div>
+  <div>
+    <head>
+      <title>
+        Etablering & vedligehold af grusveje & naturstier for private
+      </title>
+      <meta
+        name="description"
+        content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand."
+      />
+      <meta
+        name="keywords"
+        content="Grusveje, Naturstier, Cement, etablering, vedligehold"
+      />
+    </head>
+  </div>
   <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
@@ -33,18 +40,46 @@
                 mange år. Så enkelt er det – og vi er specialister i grusveje
                 med det rigtige udstyr og viden på plads.
               </p>
-              <a
-                href="/serviceaftale"
-                class="text-white font-bold text-sm md:text-xl"
-              >
+              <div class="flex lg:flex-row flex-col gap-5">
                 <div
-                  class="respons-knap sm:h-11 h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  class="sm:h-11 h-11 w-fit lg:min-w-[291px] rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
                 >
-                  <button class="text-base block">
-                    Få en serviceaftale hos Grusvej.dk
-                  </button>
+                  <a
+                    href="/serviceaftale"
+                    class="text-white font-bold text-sm md:text-xl"
+                  >
+                    <button class="text-[16px] block">
+                      Få en serviceaftale hos Grusvej.dk
+                    </button>
+                  </a>
                 </div>
-              </a>
+
+                <a
+                  href="/pris-beregner"
+                  class="text-white font-bold text-sm md:text-xl"
+                >
+                  <div
+                    class="sm:h-11 h-11 w-fit lg:min-w-[168px] rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  >
+                    <button class="text-[16px] block">
+                      Beregn din grusvej
+                    </button>
+                  </div>
+                </a>
+
+                <a
+                  href="/pris-beregner"
+                  class="text-white font-bold text-sm md:text-xl"
+                >
+                  <div
+                    class="sm:h-11 h-11 w-fit lg:min-w-[174px] rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  >
+                    <button class="text-[16px] block">
+                      Beregn støvbinding
+                    </button>
+                  </div>
+                </a>
+              </div>
             </div>
             <div class="relative overflow-hidden">
               <div
@@ -321,7 +356,7 @@
           <div
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-2xl lg:flex-auto lg:flex-col lg:items-start lg:gap-y-80"
             style="
-              background-image: url('https://i.ibb.co/0ZwLm1f/Stabilisering-grusvej-cropped.webp');
+              background-image: url(&quot;https://i.ibb.co/0ZwLm1f/Stabilisering-grusvej-cropped.webp&quot;);
               background-size: cover;
               background-position: center;
             "
@@ -422,9 +457,9 @@
   </div>
 
   <!-- ====== Contact Section Start -->
-<div class="mt-20">
-  <Serviceaftaler />
-</div>
+  <div class="mt-20">
+    <Serviceaftaler />
+  </div>
 
   <!-- ====== Contact Section End -->
 </template>
@@ -489,7 +524,7 @@ const arbejdssteps = [
     description:
       "Vand er den største fjende for en grusvej. Når regnvand samler sig, skylles grus og bæremateriale væk, og der opstår huller. God vandafledning er afgørende for vejens kvalitet og levetid.",
     date: "Bud 1",
-    
+
     image: "https://i.ibb.co/z8TdFp5/trin-1.webp",
   },
   {
@@ -497,7 +532,7 @@ const arbejdssteps = [
     description:
       "Kraftig regn og tung trafik stiller store krav til grusvejen. Bærelaget skal have tilstrækkelig bæreevne og være korrekt komprimeret, så vejen ikke sætter sig eller deformeres.",
     date: "Bud 2",
-    
+
     image: "https://i.ibb.co/sPvjqMm/IMG-0954.webp",
   },
   {
@@ -505,7 +540,7 @@ const arbejdssteps = [
     description:
       "For at lede vandet effektivt væk skal vejens profil have et korrekt tværfald på 25–40 promille, så vandet ledes mod nedsivningsarealet og ikke samler sig på kørebanen.",
     date: "Bud 3",
-    
+
     image: "https://i.ibb.co/5hB952R/billedet-10.webp ",
   },
   {
@@ -513,7 +548,7 @@ const arbejdssteps = [
     description:
       "Det øverste gruslag er afgørende for vejens holdbarhed og funktion. Den rette grustype sikrer en slidstærk overflade og beskytter de underliggende lag.",
     date: "Bud 4",
-    
+
     image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
   },
   {
@@ -521,7 +556,7 @@ const arbejdssteps = [
     description:
       "En grusvej kræver løbende vedligeholdelse for at bevare form og styrke. Regelmæssig planering og nyt grus forhindrer huller og undgår større reparationer senere hen.",
     date: "Bud 5",
-    
+
     image: "https://i.ibb.co/FHP6FTZ/trin-5-opt.webp",
   },
 ];

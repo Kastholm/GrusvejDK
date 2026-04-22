@@ -3,7 +3,8 @@
     <div v-if="!isHome">
       <NavPrivat v-if="isPrivat" />
       <NavErhverv v-else-if="isErhverv" />
-      <Nav v-else /> <!-- fallback if no choice yet -->
+      <Nav v-else />
+      <!-- fallback if no choice yet -->
     </div>
     <main>
       <slot />
@@ -12,44 +13,20 @@
   </div>
 </template>
 
-<script>
-import Nav from '~/components/Nav.vue'
-import NavPrivat from '~/components/NavPrivat.vue'
-import NavErhverv from '~/components/NavErhverv.vue'
-import Footer from '~/components/Footer.vue'
-import { useRoute, computed } from '#imports'
+<script setup>
+import Nav from "~/components/Nav.vue";
+import NavPrivat from "~/components/NavPrivat.vue";
+import NavErhverv from "~/components/NavErhverv.vue";
+import Footer from "~/components/Footer.vue";
+import { useRoute, computed } from "#imports";
+import { useUserType } from "~/composables/useUserType";
 
-export default {
-  components: { Nav, NavPrivat, NavErhverv, Footer },
+const route = useRoute();
+const { userType } = useUserType();
 
-  setup() {
-    const route = useRoute()
-    const userType = useUserType()
-
-    const isHome = computed(function() {
-      return route.path === '/'
-    })
-    const isPrivat = computed(function() {
-      return userType.value === 'privat'
-    })
-    const isErhverv = computed(function() {
-      return userType.value === 'erhverv'
-    })
-    
-    return {
-      isHome,
-      isPrivat,
-      isErhverv
-    }
-  },
-
-  head: {
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
-  },
-  // other configurations...
-};
+const isHome = computed(() => route.path === "/");
+const isPrivat = computed(() => userType.value === "privat");
+const isErhverv = computed(() => userType.value === "erhverv");
 </script>
 
 <style>
@@ -103,6 +80,4 @@ export default {
   font-style: normal;
   @apply text-[1.1rem];
 } */
-
-
 </style>

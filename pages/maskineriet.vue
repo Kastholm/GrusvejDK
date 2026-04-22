@@ -1,7 +1,10 @@
 <template>
   <head>
     <title>Grusvej.dk - Danmarks største maskinpark til grusveje</title>
-    <meta name="description" content="Grusvej.dk - en maskinpark af tysk kvalitet, Stehr maskiner skræddersyet til etablering og vedligehold af grusveje og naturstier. Kontakt os og hør mere.">
+    <meta
+      name="description"
+      content="Grusvej.dk - en maskinpark af tysk kvalitet, Stehr maskiner skræddersyet til etablering og vedligehold af grusveje og naturstier. Kontakt os og hør mere."
+    />
   </head>
   <div class="bg-white">
     <main class="isolate">
@@ -85,26 +88,33 @@
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
-              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72 ">
-                <h1 class="Header ">
-                  SPECIALMASKINERI DER SIKRER DANMARKS BEDSTE GRUSVEJE
-                </h1>
-                <p class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10">
-                  STEHR er Tysk specialmaskineri af højeste kvalitet. <br>Hurtigt og effektivt med en stor grad af genbrug i processen.
-                  Vi genbruger den gamle vejs eksisterende materialer til at skabe en ny og velanlagt kørebane, som holder i mange år med det rette vedligeholdelsesprogram. Det er omkostningsbevidst – både for økonomi og miljø.
+              <div class="w-full max-w-xl lg:shrink-0 xl:max-w-2xl mb-72">
+                <h1 class="Header">MASKINERI</h1>
+                <p
+                  class="Text TextReadable sm:max-w-md lg:max-w-none pt-20 -translate-y-10"
+                >
+                  Grusvej.dk benytter, som en af de eneste i Danmark,
+                  specialmaskineri, hovedsageligt udviklet af den tyske
+                  producent STEHR. <br /><br />
+                  Filosofien i maskineriet er, at vi skal være agile og
+                  fleksible, med mulighed for at udføre arbejdet selv i
+                  vanskelige og snævre terræner med mindst mulig miljøpåvirkning
+                  til den bedst mulige pris.
                 </p>
                 <a
-                href="/serviceaftale"
-                class="text-white font-bold text-sm md:text-xl"
-              >
-               <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  href="/kontakt"
+                  class="text-white font-bold text-sm md:text-xl"
                 >
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
-                    Få en serviceaftale hos Grusvej.dk
-                  </button>
-               </div>
-              </a>
+                  <div
+                    class="h-11 w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center translate-y-5 border shadow-2xl"
+                  >
+                    <button
+                      class="translate-y-1 sm:translate-y-0 text-base block"
+                    >
+                      Kontakt Grusvej.dk
+                    </button>
+                  </div>
+                </a>
               </div>
               <div
                 class="mt-14 flex justify-end gap-8 sm:-mt-44 sm:justify-start sm:pl-20 lg:mt-0 lg:pl-0"
@@ -222,12 +232,15 @@
           </button>
         </div>
         <transition name="fade" mode="out-in">
-          <div class=" tab-content sm:ml-16" :key="currentTab.id">
+          <div class="tab-content sm:ml-16" :key="currentTab.id">
             <div class="sm:px-2">
-              <h2 class="font-bold sm:w-[100%] w-[300px]">{{ currentTab.name }}</h2>
+              <h2 class="font-bold sm:w-[100%] w-[300px]">
+                {{ currentTab.name }}
+              </h2>
               <h3 class="sm:translate-y-4">{{ currentTab.manchet }}</h3>
-              <p class="sm:translate-y-10 sm:max-w-[80%]">{{ currentTab.text }}</p>
-              
+              <p class="sm:translate-y-10 sm:max-w-[80%]">
+                {{ currentTab.text }}
+              </p>
             </div>
             <div
               class="img-div mt-16 max-h-[500px] sm:max-w-[1000px] bg-cover"
@@ -238,7 +251,7 @@
       </div>
 
       <!-- Logo cloud -->
-      
+
       <center class="">
         <!-- pattern start -->
         <div class="mt-4">
@@ -274,33 +287,40 @@
               class="mobile"
             />
           </svg>
-          </div>
-          <!-- pattern slut -->
-          <div class="relative translate-y-7">
-            <h2 class="w-full  text-7xl font-bold ml-auto Header">EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span></h2>
-            <p class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed max-w-[80%]">Vores STEHR maskineri er unikke og nogle af de eneste i Danmark, hvor det først er i de senere år, at vi er blevet opmærksomme på fordelene ved en god grusvej.  </p>
-            <a
-                href="/kontakt"
-                class="text-white font-bold text-sm md:text-xl"
-              >
-            <div
-                  class="h-11 w-fit rounded mb-4 p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
-                > 
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
-                    Kontakt Grusvej.dk
-                  </button>
-            </div>
-            </a>
-          </div>
-        
-       <!-- Image section -->
-        <div class=" relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-24">
-         <img
-          src="https://i.ibb.co/NVpxQ3z/Stenknuser-f-rste-i-Danmark-v3-1.webp"
-          alt=""
-          class="max-h-[500px] w-full object-cover xl:rounded-3xl"/>       
         </div>
-        
+        <!-- pattern slut -->
+        <div class="relative translate-y-7">
+          <h2 class="w-full text-7xl font-bold ml-auto Header">
+            EN AF DE ENESTE I <span class="text-[#199d43]">DANMARK</span>
+          </h2>
+          <p
+            class="mt-6 font-medium text-2xl sm:text-xl text-center leading-relaxed max-w-[80%]"
+          >
+            Vores STEHR maskineri er unikke og nogle af de eneste i Danmark,
+            hvor det først er i de senere år, at vi er blevet opmærksomme på
+            fordelene ved en god grusvej.
+          </p>
+          <a href="/kontakt" class="text-white font-bold text-sm md:text-xl">
+            <div
+              class="h-11 w-fit rounded mb-4 p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+            >
+              <button class="translate-y-1 sm:translate-y-0 text-base block">
+                Kontakt Grusvej.dk
+              </button>
+            </div>
+          </a>
+        </div>
+
+        <!-- Image section -->
+        <div
+          class="relative xl:mx-auto xl:max-w-7xl xl:px-8 translate-y-12 mb-24"
+        >
+          <img
+            src="https://i.ibb.co/NVpxQ3z/Stenknuser-f-rste-i-Danmark-v3-1.webp"
+            alt=""
+            class="max-h-[500px] w-full object-cover xl:rounded-3xl"
+          />
+        </div>
       </center>
     </main>
   </div>
@@ -309,67 +329,55 @@
 <script setup>
 import { defineComponent, h, ref } from "vue";
 
-const stats = [
-  { label: "Transactions every 24 hours", value: "44 million" },
-  { label: "Assets under holding", value: "$119 trillion" },
-  { label: "New users annually", value: "46,000" },
-];
-
 const mobileMenuOpen = ref(false);
 
 const tabs = [
   {
     id: 1,
     name: "Trykanlæg",
-    imgSrc:
-      "https://i.ibb.co/xq5tzdx/Dustex-traekanl-g.webp",
+    imgSrc: "https://i.ibb.co/xq5tzdx/Dustex-traekanl-g.webp",
     text: "Til håndtering og udlægning af lignin (Dustex) har vi diverse stationære trykanlæg opbygget på trailere med tankanlæg og pumper.",
     manchet: "Styr på støvet med Dustex",
   },
   {
     id: 2,
     name: "Stehr Grader sug35",
-    imgSrc:
-      "https://i.ibb.co/Yjy6RCK/grader-sug-35.webp",
+    imgSrc: "https://i.ibb.co/Yjy6RCK/grader-sug-35.webp",
     text: "STEHR bagmonteret grader fjerner overskudsjord, gammelt materiale og sten fra vejen. Et nødvendigt trin i processen for et solidt fundament til den nye grusvej. ",
     manchet: "Oprivning & sammentrækning af vejen",
   },
   {
     id: 3,
     name: "Stehr SBV 80 HC3",
-    imgSrc:
-      "https://i.ibb.co/G7V261w/trin-4.webp",
+    imgSrc: "https://i.ibb.co/G7V261w/trin-4.webp",
     text: "STEHR formonteret komprimeringsværktøj stabilisere jordlaget i den rette vinkel, så vejen ender med en profil der leder vandet væk. ",
     manchet: "Komprimering af vejen",
   },
   {
     id: 4,
     name: "Stehr Steinbrecher 240 ",
-    imgSrc:
-      "https://i.ibb.co/YpGTNQm/stehr-steinbrecher-240-1.webp",
+    imgSrc: "https://i.ibb.co/YpGTNQm/stehr-steinbrecher-240-1.webp",
     text: "Som en direkte forlængelse af vores bæredygtige tanker, kan stenbrækkeren knuse og neddele gamle veje, indbygningsegnet materialer fra nedrivning, belægninger m.m i en arbejdsgang. Det gøres med en Stehr Steinbrecher SSB 240 monteret på en af vores traktorer.",
     manchet: "Stenknuser",
   },
   {
     id: 5,
     name: "Stehr SBF 24-6 ",
-    imgSrc:
-      "https://i.ibb.co/TKZdwZG/IMG-5704.webp ",
+    imgSrc: "https://i.ibb.co/TKZdwZG/IMG-5704.webp ",
     text: "Til neddeling af kalk og cement benytter vi en Stehr SBF 24-6 støvfri stabilisator og en traditionel kalkstabilisator med fronttank.",
     manchet: "Kalk og cement",
   },
   {
     id: 6,
     name: "Stehr SBF 24",
-    imgSrc:
-      "https://i.ibb.co/9n1VG1Q/grusudlaegger.webp",
+    imgSrc: "https://i.ibb.co/9n1VG1Q/grusudlaegger.webp",
     text: " Til lignin (Dustex) stabilisering benytter vi en SBF 24 med frontmonteret tank med trykanlæg som effektivt kan behandle store arealer.",
     manchet: "Profiludlægger",
-  },{
+  },
+  {
     id: 7,
     name: "Gravemaskiner & Gummiged",
-    imgSrc:
-      "https://i.ibb.co/rf4GNJr/stor-gravemaskine.webp",
+    imgSrc: "https://i.ibb.co/rf4GNJr/stor-gravemaskine.webp",
     text: "Hos os er valget ikke tilfældigt, når vi indleder et samarbejde med en leverandør. Leverandøren er nøje valgt ud fra betragtninger om lang holdbarhed, serviceniveau og leverandørens stillingtagen til belastningen af vores miljø og totale økonomi, både den kontante og den grønne.",
     manchet: "Flere typer der rangere fra 1 til 10 tons ",
   },
@@ -445,7 +453,7 @@ html {
 .tabBody h2 {
   font-size: 4rem;
   line-height: 4rem;
-  font-family:"futura-pt-condensed", sans-serif;
+  font-family: "futura-pt-condensed", sans-serif;
 }
 .tabBody h3 {
   font-size: 1.4rem;
@@ -458,8 +466,6 @@ html {
 }
 
 .tab-content {
-  
-  
   padding: 2em;
 }
 @media (max-width: 950px) {
@@ -480,7 +486,7 @@ html {
 
 @media only screen and (max-width: 767px) {
   .mobile {
-     visibility: hidden;
-}
+    visibility: hidden;
+  }
 }
 </style>

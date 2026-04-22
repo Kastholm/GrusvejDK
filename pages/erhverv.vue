@@ -1,12 +1,17 @@
 <template>
-  <div> 
-  <head>
-    <title> Etablering og vedligehold af grusveje og naturstier</title>
-    <meta name="description" content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand.">
-    <meta name="keywords" content="Grusveje, Naturstier, Cement, etablering, vedligehold">
-  </head>
-  
-</div>
+  <div>
+    <head>
+      <title>Etablering og vedligehold af grusveje og naturstier</title>
+      <meta
+        name="description"
+        content="Hos Grusvej.dk etablerer og vedligeholder vi grusveje og naturstier i hele Danmark for private og virksomheder. Vi garanterer en grusvej i tiptop stand."
+      />
+      <meta
+        name="keywords"
+        content="Grusveje, Naturstier, Cement, etablering, vedligehold"
+      />
+    </head>
+  </div>
   <div class="bg-white font-sans">
     <main class="isolate">
       <!-- Hero section -->
@@ -17,15 +22,16 @@
           class="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] bg-white shadow-xl shadow-indigo-600/10 ring-1 ring-indigo-50 sm:-mr-80 lg:-mr-96"
           aria-hidden="true"
         />
-        <div class="mx-auto max-w-7xl px-6 pb-32 pt-12 sm:pb-40 lg:px-8">
+        <div class="mx-auto max-w-7xl px-6 pb-32 pt-12 sm:pb-20 lg:px-8">
           <div
             class="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none md:grid-cols-1 lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8"
           >
             <div
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
-              <h1 class="fontfam mb-12 sm:text-5xl text-5xl">
-                Specialister i grusveje, vedligehold & bæredygtige infrastruktur løsninger
+              <h1 class="fontfam mb-5 sm:text-5xl text-5xl">
+                Vi er specialister i grusveje, vedligehold &amp; bæredygtige
+                infrastruktur løsninger
               </h1>
 
               <p class="Text TextReadable text-gray-600 pt-2">
@@ -64,9 +70,9 @@
             </div>
           </div>
         </div>
-        </div>
+      </div>
 
-         <div class="mt-32 overflow-hidden sm:mt-40 -translate-y-20">
+      <div class="mt-32 overflow-hidden sm:mt-40 -translate-y-20">
         <div class="mx-auto max-w-7xl px-6 lg:flex lg:px-8">
           <div
             class="mx-auto grid max-w-2xl grid-cols-1 gap-x-12 gap-y-16 lg:mx-0 lg:min-w-full lg:max-w-none lg:flex-none lg:gap-y-8"
@@ -80,11 +86,29 @@
               <p
                 class="mt-6 Text Textreadable text-base leading-8 text-gray-600"
               >
-                Grusvej.dk er en dansk entreprenørvirksomhed med fokus på etablering, vedligeholdelse, genopretning og optimering af grusveje og naturstier – for private, erhverv, kommuner, staten og fonde. Vi arbejder med moderne, specialiseret udstyr og bæredygtige metoder for at skabe robuste, langtidsholdbare og klimavenlige vej- og arealløsninger. <br><br>
-Grusveje har – globalt og i Danmark – en vigtig rolle i infrastrukturen, særligt i landzone, skovområder, service- og adgangsveje. Samtidig kræver de regelmæssig vedligeholdelse: uden korrekt profilering, komprimering og afvanding kan ujævnheder, huller, washboarding og erosion hurtigt udvikle sig, hvilket fører til dårlig fremkommelighed og højere driftsomkostninger. <br><br>
-Vores tilgang er baseret på at vedligeholde og optimere frem for at udskifte unødigt – både for at spare på ressourcerne og for at reducere CO₂-belastningen. Vi genanvender eksisterende materialer, bruger miljøvenlige bindemidler som DUSTEX og arbejder med maskiner fra STEHR, der kombinerer knusning, udjævning og komprimering i én effektiv arbejdsgang. <br><br>
-Med hovedvægt på funktionalitet, økonomi og klimahensyn sikrer vi løsninger, der holder – uanset trafik, vejr eller fremtidige krav til infrastruktur.
-
+                Grusvej.dk er en dansk entreprenørvirksomhed med fokus på
+                etablering, vedligeholdelse, genopretning og optimering af
+                grusveje og naturstier – for private, erhverv, kommuner, staten
+                og fonde. Vi arbejder med moderne, specialiseret udstyr og
+                bæredygtige metoder for at skabe robuste, langtidsholdbare og
+                klimavenlige vej- og arealløsninger. <br /><br />
+                Grusveje har – globalt og i Danmark – en vigtig rolle i
+                infrastrukturen, særligt i landzone, skovområder, service- og
+                adgangsveje. Samtidig kræver de regelmæssig vedligeholdelse:
+                uden korrekt profilering, komprimering og afvanding kan
+                ujævnheder, huller, washboarding og erosion hurtigt udvikle sig,
+                hvilket fører til dårlig fremkommelighed og højere
+                driftsomkostninger. <br /><br />
+                Vores tilgang er baseret på at vedligeholde og optimere frem for
+                at udskifte unødigt – både for at spare på ressourcerne og for
+                at reducere CO₂-belastningen. Vi genanvender eksisterende
+                materialer, bruger miljøvenlige bindemidler som DUSTEX og
+                arbejder med maskiner fra STEHR, der kombinerer knusning,
+                udjævning og komprimering i én effektiv arbejdsgang.
+                <br /><br />
+                Med hovedvægt på funktionalitet, økonomi og klimahensyn sikrer
+                vi løsninger, der holder – uanset trafik, vejr eller fremtidige
+                krav til infrastruktur.
               </p>
               <a
                 href="/kontakt"
@@ -222,38 +246,80 @@ Med hovedvægt på funktionalitet, økonomi og klimahensyn sikrer vi løsninger,
       </div>
 
       <section class="w-full flex justify-center items-center">
-        <div class="flex flex-col items-center justify-center lg:max-w-[60%] gap-8 max-w-full px-6">
-        <h2
+        <div
+          class="flex flex-col items-center justify-center lg:max-w-[60%] gap-8 max-w-full px-6"
+        >
+          <h2
             class="lg:text-3xl lg:mt-5 font-bold tracking-tight Header text-xl leading-[1] text-gray-900 sm:text-2xl text-center uppercase"
           >
             Anlæg af grusveje til energisektoren
           </h2>
           <p>
-Vi leverer robuste og driftsikre grusveje til energisektoren – uanset om opgaven omfatter adgangsveje, serviceveje eller permanente befæstede områder ved tekniske installationer. Vi arbejder for både store og små aktører i branchen og skaber løsninger, der er nøje tilpasset <strong> terræn, belastning og fremtidige driftsbehov.</strong> <br><br>
-Vores tilgang bygger på effektiv materialeanvendelse, korrekt opbygning og fokus på bæredygtige løsninger, der sikrer lang levetid og lave samlede driftsomkostninger.
-
+            Vi leverer robuste og driftsikre grusveje til energisektoren –
+            uanset om opgaven omfatter adgangsveje, serviceveje eller permanente
+            befæstede områder ved tekniske installationer. Vi arbejder for både
+            store og små aktører i branchen og skaber løsninger, der er nøje
+            tilpasset <strong
+              >terræn, belastning og fremtidige driftsbehov.</strong
+            ><br /><br />
+            Vores tilgang bygger på effektiv materialeanvendelse, korrekt
+            opbygning og fokus på bæredygtige løsninger, der sikrer lang levetid
+            og lave samlede driftsomkostninger.
           </p>
           <div class="w-full bg-[#2a8447] h-1 rounded-lg"></div>
           <p>
-            <span class="text-xl font-bold">Solcelleparker</span> <br><br>
-Effektiv adgang og optimal logistik er afgørende ved både etablering og drift af solcelleanlæg. Vi anlægger grusveje, der kan håndtere <strong> tunge transporter, montagekøretøjer og løbende teknisk service</strong>. Samtidig sikrer vi korrekt profilering og afvanding, tilpasset de store, flade arealer som kendetegner solcelleparker.
+            <span class="text-xl font-bold">Solcelleparker</span> <br /><br />
+            Effektiv adgang og optimal logistik er afgørende ved både etablering
+            og drift af solcelleanlæg. Vi anlægger grusveje, der kan håndtere
+            <strong>
+              tunge transporter, montagekøretøjer og løbende teknisk
+              service</strong
+            >. Samtidig sikrer vi korrekt profilering og afvanding, tilpasset de
+            store, flade arealer som kendetegner solcelleparker.
           </p>
           <div class="w-full bg-[#F9B038] h-1 rounded-lg"></div>
           <p>
-            <span class="text-xl font-bold">Vindmøller</span> <br><br>
-Transport og montage af møllevinger, tårnsektioner og kranopstillinger stiller høje krav til <strong> bæreevne, vejens bredde og kurveradier</strong>. Vi anlægger grusveje, der kan modstå ekstreme belastninger og samtidig sikre stabil og sikker adgang for servicekøretøjer gennem hele vindmøllens levetid.
+            <span class="text-xl font-bold">Vindmøller</span> <br /><br />
+            Transport og montage af møllevinger, tårnsektioner og
+            kranopstillinger stiller høje krav til
+            <strong> bæreevne, vejens bredde og kurveradier</strong>. Vi
+            anlægger grusveje, der kan modstå ekstreme belastninger og samtidig
+            sikre stabil og sikker adgang for servicekøretøjer gennem hele
+            vindmøllens levetid.
           </p>
           <div class="w-full bg-[#2a8447] h-1 rounded-lg"></div>
           <p>
-            <span class="text-xl font-bold">Brint- og Power-to-X-anlæg</span> <br><br>
-Nye energiformer stiller krav til <strong>fleksible og fremtidssikrede infrastrukturløsninger</strong>. Vi etablerer grusveje til både midlertidige og permanente installationer med fokus på sikker adgang, effektiv logistik og anvendelse af bæredygtige materialer.
+            <span class="text-xl font-bold">Brint- og Power-to-X-anlæg</span>
+            <br /><br />
+            Nye energiformer stiller krav til
+            <strong>fleksible og fremtidssikrede infrastrukturløsninger</strong
+            >. Vi etablerer grusveje til både midlertidige og permanente
+            installationer med fokus på sikker adgang, effektiv logistik og
+            anvendelse af bæredygtige materialer.
           </p>
           <div class="w-full bg-[#F9B038] h-1 rounded-lg"></div>
           <p>
-            <span class="text-xl font-bold">Fjernvarmeprojekter</span> <br><br>
-Ved etablering af fjernvarmeinfrastruktur sørger vi for adgangsveje, der understøtter et <strong>effektivt og sikkert anlægsarbejde</strong>. Efterfølgende kan vi etablere permanente driftsveje, som sikrer nem adgang til service og inspektion – uden gener for omgivelserne.
+            <span class="text-xl font-bold">Fjernvarmeprojekter</span>
+            <br /><br />
+            Ved etablering af fjernvarmeinfrastruktur sørger vi for adgangsveje,
+            der understøtter et
+            <strong>effektivt og sikkert anlægsarbejde</strong>. Efterfølgende
+            kan vi etablere permanente driftsveje, som sikrer nem adgang til
+            service og inspektion – uden gener for omgivelserne.
           </p>
           <div class="w-full bg-[#2a8447] h-1 rounded-lg"></div>
+          <a
+            href="/kontakt"
+            class="text-white font-bold text-sm md:text-xl mb-10"
+          >
+            <div
+              class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+            >
+              <button class="translate-y-1 sm:translate-y-0 text-base block">
+                Kontakt Grusvej.dk
+              </button>
+            </div>
+          </a>
         </div>
       </section>
 
@@ -298,7 +364,7 @@ Ved etablering af fjernvarmeinfrastruktur sørger vi for adgangsveje, der unders
           <div
             class="flex flex-col-reverse justify-between gap-x-16 gap-y-8 rounded-2xl bg-gray-900 p-8 sm:flex-row-reverse sm:items-end lg:w-full lg:max-w-2xl lg:flex-auto lg:flex-col lg:items-start lg:gap-y-80"
             style="
-              background-image: url('https://i.ibb.co/0ZwLm1f/Stabilisering-grusvej-cropped.webp');
+              background-image: url(&quot;https://i.ibb.co/0ZwLm1f/Stabilisering-grusvej-cropped.webp&quot;);
               background-size: cover;
               background-position: center;
             "
@@ -399,9 +465,9 @@ Ved etablering af fjernvarmeinfrastruktur sørger vi for adgangsveje, der unders
   </div>
 
   <!-- ====== Contact Section Start -->
-<div class="mt-20">
-  <Serviceaftaler />
-</div>
+  <div class="mt-20">
+    <Serviceaftaler />
+  </div>
 
   <!-- ====== Contact Section End -->
 </template>
@@ -429,11 +495,11 @@ Ved etablering af fjernvarmeinfrastruktur sørger vi for adgangsveje, der unders
   @apply bg-yellow-vivid-200 text-black scale-110;
 }
 @media (max-width: 767px) {
-      .Header {
-      line-height: 55px;
-      font-size: 45px;
-    }
+  .Header {
+    line-height: 55px;
+    font-size: 45px;
   }
+}
 </style>
 
 <script setup>
@@ -472,7 +538,7 @@ const arbejdssteps = [
     description:
       "Det er i overvejende grad vand som ødelægger en grusvej. Når vand samler sig i ujævnheder i vejen, fjernes grus og materiale og større huller begynder at danne sig. ",
     date: "Bud 1",
-    
+
     image: "https://i.ibb.co/z8TdFp5/trin-1.webp",
   },
   {
@@ -480,7 +546,7 @@ const arbejdssteps = [
     description:
       "Dette forhindre dannelse af små vandhuller i vejens ujævnheder og den medførte slid nævnt i bud 1.",
     date: "Bud 2",
-    
+
     image: "https://i.ibb.co/sPvjqMm/IMG-0954.webp",
   },
   {
@@ -488,7 +554,7 @@ const arbejdssteps = [
     description:
       "Vi er allerede i en tid, hvor regnvand og store lastbiler belaster vores grusveje. Så vi skal sikre os at bærelaget i grusvejen har den nødvendige bæreevne.",
     date: "Bud 3",
-    
+
     image: "https://i.ibb.co/5hB952R/billedet-10.webp ",
   },
   {
@@ -496,7 +562,7 @@ const arbejdssteps = [
     description:
       "For at lede vandet væk fra veje i det rette tempo skal vejprofilen have et tværfald på 25-40 promille.",
     date: "Bud 4",
-    
+
     image: "https://i.ibb.co/W5sF0Z2/trin-3-vinkling.webp",
   },
   {
@@ -504,7 +570,7 @@ const arbejdssteps = [
     description:
       "Den rette grus er vigtigt for vejens holdbarhed, at anvende den forkerte type grus kan resultere i, at vejens profil aftager langt hurtigere.",
     date: "Bud 5",
-    
+
     image: "https://i.ibb.co/FHP6FTZ/trin-5-opt.webp",
   },
 ];

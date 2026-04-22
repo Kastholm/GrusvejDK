@@ -1,7 +1,10 @@
 <template>
   <head>
     <title>Slip for grusvejens støvgener med det naturvenlige Dustex</title>
-    <meta name="description" content="Sig farvel til støvskyer på grusvejen og støvgener i hjemmet. Vores naturvenlige bindingsmiddel, Dustex, sikrer dig en støvfri grusvej i op til 2 år.">
+    <meta
+      name="description"
+      content="Sig farvel til støvskyer på grusvejen og støvgener i hjemmet. Vores naturvenlige bindingsmiddel, Dustex, sikrer dig en støvfri grusvej i op til 2 år."
+    />
   </head>
   <div class="bg-white">
     <main class="isolate">
@@ -74,18 +77,19 @@
             <h2
               class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
             >
-              <span class="sm:text-9xl text-7xl text-[#199d43] rounded uppercase">
-                Dustex </span
-              >- BASERET PÅ 
+              <span
+                class="sm:text-8xl text-5xl text-[#199d43] rounded uppercase"
+              >
+                Gv støvbekæmper </span
+              >- BASERET PÅ
               <span class="uppercase text-[#199d43]"> GRANTRÆ </span>
-             
             </h2>
             <p
               class="mt-6 text-lg leading-8 font-semibold text-black text-center"
             >
-              Dustex er et støvbindende middel udvundet af grantræ og har dermed en naturlig oprindelse.
+              Dustex er et støvbindende middel udvundet af grantræ og har dermed
+              en naturlig oprindelse.
             </p>
-            
           </div>
           <dl
             class="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 sm:grid-cols-2 lg:max-w-[65%] lg:grid-cols-2 lg:mb-10 lg:mx-auto"
@@ -98,11 +102,10 @@
             </div>
           </dl>
         </div>
-        <p
-              class=" text-lg leading-8 font-semibold text-black text-center px-6"
-            >
-              Dustex er særligt velegnet til grusveje i naturområder, skove, stier, rekreative områder samt veje med let til moderat trafik.
-            </p>
+        <p class="text-lg leading-8 font-semibold text-black text-center px-6">
+          Dustex er særligt velegnet til grusveje i naturområder, skove, stier,
+          rekreative områder samt veje med let til moderat trafik.
+        </p>
         <div
           class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
         >
@@ -110,18 +113,20 @@
             <h2
               class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
             >
-              <span class="sm:text-9xl text-7xl text-[#199d43] rounded uppercase">
-                Inolig </span
-              >- BASERET PÅ 
-              <span class="uppercase text-[#199d43]"> RESTPRODUKTER </span>
-             
+              <span
+                class="sm:text-9xl text-7xl text-[#199d43] rounded uppercase"
+              >
+                Innolig+ </span
+              >- BASERET PÅ
+              <span class="uppercase text-[#199d43]"> HALM </span>
             </h2>
             <p
               class="mt-6 text-lg leading-8 font-semibold text-black text-center mb-10"
             >
-              Inolig er et støvbindende produkt, der udnytter restprodukter fra affalds- og genanvendelsesindustrien. Det gør løsningen både funktionel og cirkulær.
+              Inolig er et støvbindende produkt, der udnytter restprodukter fra
+              affalds- og genanvendelsesindustrien. Det gør løsningen både
+              funktionel og cirkulær.
             </p>
-            
           </div>
           <dl
             class="mx-auto mt-1 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 sm:grid-cols-2 lg:max-w-[65%] lg:grid-cols-2 lg:mb-10 lg:mx-auto"
@@ -136,22 +141,23 @@
         </div>
       </div>
       <p
-              class=" text-lg leading-8 font-semibold text-black text-center lg:mb-16 mb-36 px-6"
-            >
-              Inolig anvendes typisk på landbrugsveje, i erhvervsområder, på adgangsveje til byggepladser samt på strækninger med tung trafik.
-            </p>
+        class="text-lg leading-8 font-semibold text-black text-center lg:mb-16 mb-36 px-6"
+      >
+        Inolig anvendes typisk på landbrugsveje, i erhvervsområder, på
+        adgangsveje til byggepladser samt på strækninger med tung trafik.
+      </p>
       <div class="max-w-[100%] text-center sm:-translate-y-0 -translate-y-16">
         <h3
           class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center max-w-[100%] uppercase mb-8"
         >
-          Dustex er perfekt til at stabilisere veje
+          GV støvbekæmper er perfekt til at stabilisere veje
         </h3>
         <p class="Text TextReadable max-w-[80%] m-auto">
-          Hvis behovet er at stabilisere en vej med dårlig bæreevne, så er
-          Dustex også ideel.<br />
-          Dustex kan fræses ned i vejens dårlige bærelag. Ved at bruge en
-          fræser, der kan knuse sten, får vi brugt den eksisterende asfalt og
-          underlag og forvandlet dette til en stærk "plade". <br />
+          Hvis behovet er at stabilisere en vej med dårlig bæreevne, så er GV
+          også ideel.<br />
+          GV kan fræses ned i vejens dårlige bærelag. Ved at bruge en fræser,
+          der kan knuse sten, får vi brugt den eksisterende asfalt og underlag
+          og forvandlet dette til en stærk "plade". <br />
           Dette er en meget ressourcebesparende metode og derfor en økonomisk
           fordelagtig metode. På veje med mindre trafik kan man beholde vejen
           som en "dustex stabiliseret grusvej". Dette stabiliserede underlag er
@@ -167,7 +173,7 @@
           <div
             class="mb-2 Header uppercase text-gray-900 text-5xl font-bold pb-6 sm:text-start text-center"
           >
-            Behandles med Dustex
+            Behandles med GV
           </div>
           <img
             class="rounded-lg sm:mb-0 mb-10"
@@ -201,7 +207,7 @@
       >
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
           <h2
-            class="font-bold tracking-tight text-gray-900 ml-3 pb-3 lg:pt-28 Header text-center sm:w-full lg:w-[320px]"
+            class="font-bold tracking-tight text-gray-900 ml-3 pb-3 lg:pt-28 Header text-center sm:w-full"
           >
             SLIP FOR STØVGENER I AL SLAGS VIND & VEJR
           </h2>
@@ -237,7 +243,7 @@
               </div>
             </div>
             <div
-              class="lg:flex lg:flex-auto lg:justify-center flex-rows-reverse sm:-translate-y-0 -translate-y-20"
+              class="lg:flex lg:flex-auto lg:justify-center flex-rows-reverse sm:-translate-y-0 -translate-y-20 mb-10"
             >
               <dl class="w-64 space-y-8 xl:w-80 inline lg:block">
                 <div
@@ -271,7 +277,7 @@
         >
           <button
             @click="toggleVideo"
-            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-y-10 -translate-x-1/2  text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+            class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-y-10 -translate-x-1/2 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
           >
             <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
             <PauseIcon v-if="isPlaying" class="h-12 w-12" />
@@ -324,16 +330,10 @@ const toggleVideo = () => {
   }
 };
 
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Features", href: "#" },
-  { name: "Resources", href: "#" },
-  { name: "Company", href: "#" },
-];
 const stats = [
   {
     label:
-      "Dustex holder støvpartiklerne bundet i op til 1 år efter behandling af din grusvej.",
+      "GV afhjælper støv fra vejen  i op til 1 år efter behandling af din grusvej.",
     value: "Op til 1 års holdbarhed",
   },
   {
@@ -350,13 +350,11 @@ const stats = [
 const values = [
   {
     name: "Bæredygtigt",
-    description:
-      "Udvundet af fornybart biologisk materiale.",
+    description: "Udvundet af fornybart biologisk materiale.",
   },
   {
     name: "Støvdæmpende",
-    description:
-      "Reducerer støv effektivt – også i tørre perioder.",
+    description: "Reducerer støv effektivt – også i tørre perioder.",
   },
   {
     name: "Miljøvenligt",
@@ -365,16 +363,14 @@ const values = [
   },
   {
     name: "Holdbart",
-    description:
-      "Skaber en fleksibel og holdbar overflade.",
+    description: "Skaber en fleksibel og holdbar overflade.",
   },
 ];
 
 const inoligvalues = [
   {
     name: "Høj støvbindingseffekt",
-    description:
-      "Også på stærkt trafikerede grusveje.",
+    description: "Også på stærkt trafikerede grusveje.",
   },
   {
     name: "Restmaterialer",
@@ -393,10 +389,7 @@ const inoligvalues = [
   },
 ];
 
-
 const mobileMenuOpen = ref(false);
 </script>
 
-<style scoped>
-</style>
-
+<style scoped></style>

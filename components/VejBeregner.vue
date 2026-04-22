@@ -195,7 +195,7 @@ const roadPrice = ref(null);
 const dustEnabled = ref(false);
 // dust product options (name, price per m²)
 const dusts = [
-  { id: 1, name: "Dustex", price: 6.0 },
+  { id: 1, name: "GV støvbekæmper", price: 6.0 },
   { id: 2, name: "Innolig+", price: 4.0 },
   { id: 3, name: "Dust-away", price: 6.25 },
 ];

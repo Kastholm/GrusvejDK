@@ -63,26 +63,38 @@
         <div>
           <div class="leading-7 text-gray-700 lg:max-w-lg -translate-y-4">
             <h1
-              class="mt-2 text-4xl font-bold tracking-wide text-gray-900 sm:text-[3.60rem] sm:leading-[1] fontfam"
+              class="mt-2 text-2xl font-bold tracking-wide text-gray-900 sm:text-[2.5rem] sm:leading-[1] fontfam"
             >
-              GRUSVEJ.DK GIVER DIN GRUSVEJ DEN RETTE FORM – OG PLEJE
+              SPECIALUDSTYR SIKRER GRUSVEJE AF HØJESTE KVALITET
             </h1>
 
             <div class="max-w-xl lg:order-none">
               <p class="mt-6 Text TextReadable">
-                En korrekt anlagt grusvej holder i mange år. Med den rette pleje
-                i endnu flere. I Danmark er det regnvandet som udfordrer de
-                fleste grusveje. I kombination med forkert funderede underlag
-                resulterer det i årlige ærgrelser med tilbagevendende huller og
-                skred i vejprofilen. For ikke at tale om de omkostninger og
-                slitage på køretøjer en dårlig grusvej afstedkommer.
-                <br /><br />
-                Grusvej.dk har gennem mange år etableret og vedligeholdt
-                grusveje i Danmark. Vores specialmaskiner har lagt bund for
-                mange hundrede kilometer grusveje gennem årene. Med
-                serviceaftaler forlænger vi levetiden på vejen, ligesom vi
-                højner glæden ved at have en god og støvfri grusvej at færdes
-                på.
+                Grusvej.dk er en af de eneste vejentreprenører i Danmark, som
+                råder over specialudstyr til opretning og stabilisering af
+                grusveje. Det kraftige maskineri sikrer effektiv og korrekt
+                behandling af vejen, så profil og form holdes i mange år.
+              </p>
+            </div>
+          </div>
+          <div class="leading-7 text-gray-700 lg:max-w-lg -translate-y-4">
+            <h1
+              class="mt-5 text-2xl font-bold tracking-wide text-gray-900 sm:text-[2.5rem] sm:leading-[1] fontfam"
+            >
+              Stenknuseren retter op på gamle og bulede grusveje
+            </h1>
+
+            <div class="max-w-xl lg:order-none">
+              <p class="mt-6 Text TextReadable">
+                Tidligere brugte man gammelt byggeaffald, beton- og teglbrokker
+                til at understøtte grusveje. Disse løst nedgravede fraktioner
+                skader efter mange års slid nu mere end de gavner. I stedet for
+                at fjerne dem i en tung og dyr proces, nedknuser vi materialerne
+                så de virker som almindeligt stabilgrus. Det sparer tid, indkøb
+                af ny stabilunderlag, er miljørigtigt, hurtigt og effektivt.
+                Skal resultatet være helt perfekt, afsluttes opgaven med
+                effektiv støvbekæmpelse der binder luftbårne materialer til
+                vejen og sikrer en stabil og komfortabel vejoverflade.
               </p>
             </div>
           </div>
@@ -101,8 +113,7 @@
           rigtige facon og vandet kan afledes til rabat og nedsivningsarealet,
           så kan du få garanti på din grusvej ved indgåelse af en serviceaftale.
           <br /><br />Vores service aftaler indgås individuelt, og tilbydes i
-          forbindelse med, at vi fremsender tilbuddet på udbedring af din vej.
-          <br /><br />
+          forbindelse med, at vi fremsender tilbuddet på opgaven. <br /><br />
           Her kan du se hvad en serviceaftale med grusvej.dk kan indeholde.
         </p>
         <a

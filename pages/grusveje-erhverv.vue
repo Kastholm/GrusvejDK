@@ -10,11 +10,11 @@
     <main class="isolate">
       <!-- Hero section -->
       <div class="isolate -z-10">
-        <GrusvejeUspHero />
+        <GrusvejeUspHeroErhverv />
       </div>
 
       <!-- Content section -->
-      <Grusvejinfo> </Grusvejinfo>
+      <GrusvejinfoErhverv />
 
       <div class="-translate-y-16 m-auto text-center">
         <h3
@@ -63,7 +63,7 @@
       <div class="flex items-center justify-center">
         <div class="relative text-center">
           <h2 class="w-full text-7xl font-bold ml-auto Header">
-            SPECIAL MASKINER SKABER KVALITET
+            Etablering af grusveje og naturstier
           </h2>
           <p
             class="mt-6 font-medium text-2xl sm:text-xl m-auto leading-relaxed sm:max-w-[80%]"

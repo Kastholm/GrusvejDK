@@ -52,23 +52,23 @@
             <h1
               class="tracking-tight text-gray-900 mb-16 Header uppercase font-bold relative text-7xl"
             >
-            Jordstabilisering <br />
+              Jordstabilisering <br />
             </h1>
             <p class="mt-4 text-black relative text-xl -translate-y-10">
-              Hos Grusvej.dk har vi i dag muligheden for støvfrit at stabilisere med kalk og cement. Vi kan derfor flytte stabilisering ind i områder, hvor vi tidligere ikke har kunne stabilisere pga. støvgener i byer, industriområder, langs veje og jernbaner.
-              <br><br>Stabilisering af bærelag på vores veje skal anvendes i meget større omfang end det vi har gjort hidtil. I alle processer skal vi vurdere vores CO2 forbrug, og det er uomgængeligt, at vi kommer til at finde nye og utraditionelle metoder. 
+              Stabilisering af bærelag på vores veje skal anvendes i meget
+              større omfang end det vi har gjort hidtil. I alle processer skal
+              vi vurdere vores CO2 udledninger, da knivskarp fokus på dette
+              grønne område er en integreret del af licitationer og udbud, ikke
+              mindst fra offentlige myndigheder.
             </p>
-            <a
-                href="/kontakt"
-                class="text-white font-bold text-sm md:text-xl"
+            <a href="/kontakt" class="text-white font-bold text-sm md:text-xl">
+              <div
+                class="h-11 w-fit rounded p-2 bg-[#2a8447] -translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
               >
-            <div
-                  class="h-11 w-fit rounded p-2 bg-[#2a8447] -translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center  border shadow-2xl"
-                > 
-                  <button class="translate-y-1 sm:translate-y-0 text-base block">
-                    Kontakt Grusvej.dk
-                  </button>
-            </div>
+                <button class="translate-y-1 sm:translate-y-0 text-base block">
+                  Kontakt Grusvej.dk
+                </button>
+              </div>
             </a>
           </div>
           <div

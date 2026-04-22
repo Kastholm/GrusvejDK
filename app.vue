@@ -14,8 +14,6 @@ import dotenv from "dotenv";
 @import url("https://use.typekit.net/rbp7ctt.css");
 /* Generel Header styling */
 
-
-
 .Header {
   font-family: "futura-pt-condensed", sans-serif;
   font-weight: 700;
@@ -24,33 +22,46 @@ import dotenv from "dotenv";
   @apply tracking-normal;
 }
 
-@media (max-width: 767px) {
-      .Header {
-      line-height: 55px;
-      font-size: 40px;
-    }
+.smallHeader {
+  font-family: "futura-pt-condensed", sans-serif;
+  font-weight: 600;
+  line-height: 45px;
+  @apply tracking-normal;
+}
+
+@media only screen and (max-width: 767px) {
+  .smallHeader {
+    font-family: "futura-pt-condensed", sans-serif;
+    font-weight: 600;
+    line-height: 35px;
+    @apply tracking-normal;
   }
+}
 
-
-
+@media (max-width: 767px) {
+  .Header {
+    line-height: 55px;
+    font-size: 40px;
+  }
+}
 
 /* Store headers, normalvis en H1 */
 @media only screen and (max-width: 767px) {
   .mobile {
-     display: none;
-}
+    display: none;
+  }
 }
 @media only screen and (max-width: 767px) {
   .respons-knap {
-     height: 80px;
-}
+    height: 80px;
+  }
 }
 .MainHeader,
 h1 {
   @apply max-w-2xl text-4xl font-bold uppercase text-gray-900 sm:text-7xl lg:col-span-2 xl:col-auto;
 }
 /* Section Headers der skal være fremtrædende ved sektioner, normalvis en H2 / H3 */
-.SubHeader{
+.SubHeader {
   @apply text-4xl uppercase font-semibold;
 }
 /* For testing purpose */
@@ -66,7 +77,7 @@ a {
   font-weight: 400;
   font-style: normal;
 }
-html{
+html {
   overflow-x: hidden;
 }
 /* Læsbar skrift der skal læses af brugeren */

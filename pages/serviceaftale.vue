@@ -1,22 +1,34 @@
 <template>
   <head>
-    <title> Fast serviceaftale - grusvej af kvalitet hele året rundt. </title>
-    <meta name="description" content="Undgå besværet med vedligehold af grusvejen eller naturstien, Grusvej.dk tilbyder en fast serviceaftale der garanterer en solid grusvej hele året rundt. ">
+    <title>Fast serviceaftale - grusvej af kvalitet hele året rundt.</title>
+    <meta
+      name="description"
+      content="Undgå besværet med vedligehold af grusvejen eller naturstien, Grusvej.dk tilbyder en fast serviceaftale der garanterer en solid grusvej hele året rundt. "
+    />
   </head>
   <div class="">
-    <Serviceaftaler class="relative"/>
+    <Serviceaftaler v-if="isPrivat" />
+    <ServiceaftalerErhverv v-else-if="isErhverv" />
     <img
-        class=" opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
-        src="https://i.ibb.co/gtZq30x/Untitled-design.png"
-        alt="Image Description"
-      />
-      <img
-        class=" opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
-        src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
-        alt="Image Description"
-      />
+      class="opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+      src="https://i.ibb.co/gtZq30x/Untitled-design.png"
+      alt="Image Description"
+    />
+    <img
+      class="opacity-80 clippath2 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
+      src="https://i.ibb.co/p1253nF/Untitled-design-1.png"
+      alt="Image Description"
+    />
   </div>
 </template>
+
+<script setup lang="ts">
+import { useUserType } from "~/composables/useUserType";
+
+const { userType } = useUserType();
+const isPrivat = computed(() => userType.value === "privat");
+const isErhverv = computed(() => userType.value === "erhverv");
+</script>
 
 <style>
 .fontfam-NO-W {
