@@ -17,9 +17,9 @@
     </div>
   </section>
   <!-- serviceaftaler start -->
-  <section class="bg-white dark:bg-gray-800 sm:text-start text-center">
+  <section class="bg-white dark:bg-gray-800 sm:text-start text-center relative">
     <div
-      class="relative container px-6 py-8 mx-auto mb-10 flex items-center justify-center"
+      class="container px-6 py-8 mx-auto mb-10 flex items-center justify-center"
     >
       <div
         class="flex max-w-[1200px] justify-center lg:flex-row flex-col gap-10"
@@ -115,14 +115,15 @@
         </div>
       </div>
     </div>
+    <GrusvejForm
+      class="absolute inset-0 m-auto"
+      v-if="isFormVisible"
+      :selectedService="selectedOption"
+      @close="isFormVisible = false"
+    >
+    </GrusvejForm>
   </section>
   <!-- serviceaftaler slut -->
-  <GrusvejForm
-    v-if="isFormVisible"
-    :selectedService="selectedOption"
-    @close="isFormVisible = false"
-  >
-  </GrusvejForm>
 
   <div class="flex flex-col items-center text-center">
     <h2 class="Header uppercase">Har du spørgsmål?</h2>

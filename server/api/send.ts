@@ -22,7 +22,7 @@ export default defineEventHandler(async (event) => {
       // Send the email via Resend
       const data = await resend.emails.send({
         from: "Grusvej <onboarding@resend.dev>",
-        to: ["webbermanden@gmail.com"],
+        to: ["kontakt@grusvej.dk"],
         subject: `New Contact Request from ${name}`,
         html: `
           <p><strong>New Contact Request:</strong></p>

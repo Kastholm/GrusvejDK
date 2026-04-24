@@ -2,13 +2,12 @@ import { Resend } from "resend";
 
 export default defineEventHandler(async (event) => {
   try {
-    const { email, phone, name, grusvej, text } = await readBody(event);
+    const { email, phone, name, text } = await readBody(event);
 
     console.log("Grusvej form data received:", {
       email,
       phone,
       name,
-      grusvej,
       text,
     });
 
@@ -34,7 +33,6 @@ export default defineEventHandler(async (event) => {
           <p><strong>Navn:</strong> ${name}</p>
           <p><strong>Telefon:</strong> ${phone}</p>
           <p><strong>Email:</strong> ${email}</p>
-          <p><strong>Service:</strong> ${grusvej}</p>
           <p><strong>Besked:</strong></p>
           <p>${text || "Ingen besked givet"}</p>
         `,
