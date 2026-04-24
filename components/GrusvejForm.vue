@@ -52,32 +52,36 @@ async function onSubmit(values) {
       <button
         type="button"
         @click="emit('close')"
-        class="max-w-fit absolute lg:inset-[-190px] lg:left-60 lg:bottom-80 right-10 top-5 m-auto text-2xl font-semibold text-[#137733] hover:text-gray-700"
+        class="max-w-fit absolute lg:inset-[-190px] lg:left-[240px] lg:bottom-32 right-10 top-5 m-auto text-2xl font-semibold text-[#137733] hover:text-[#f9b039]"
       >
         X
       </button>
       <div>
         <label class="mr-10">Navn</label>
         <Field class="input-group" name="name" />
-        <ErrorMessage name="name" />
+        <ErrorMessage class="text-[#1b703c]" name="name" />
       </div>
       <div>
         <label class="mr-[41px]">Email</label>
         <Field class="input-group" name="email" />
-        <ErrorMessage name="email" />
+        <ErrorMessage class="text-[#1b703c]" name="email" />
       </div>
       <div>
         <label class="mr-5">Telefon</label>
         <Field class="input-group" name="phone" />
-        <ErrorMessage name="phone" />
+        <ErrorMessage class="text-[#1b703c]" name="phone" />
       </div>
       <div>
         <label class="mr-[23px]">Besked</label>
         <Field class="input-group" name="text" as="textarea" />
-        <ErrorMessage name="text" />
+        <ErrorMessage class="text-[#1b703c]" name="text" />
       </div>
     </div>
-    <button class="input-button" type="submit" :disabled="isLoading">
+    <button
+      class="input-button hover:bg-[#f9b039]"
+      type="submit"
+      :disabled="isLoading"
+    >
       {{ isLoading ? "Sender..." : "Send" }}
     </button>
   </Form>
@@ -109,7 +113,7 @@ async function onSubmit(values) {
 <style>
 .notification-modal {
   position: absolute;
-  inset: 0;
+  inset: 100px 0 0 0;
   margin: auto;
   background: rgb(255, 255, 255, 0.9);
   padding: 40px;
@@ -119,7 +123,17 @@ async function onSubmit(values) {
   z-index: 1001;
   min-width: 300px;
   text-align: center;
+  width: fit-content;
+  height: fit-content;
 }
+
+@media (max-width: 700px) {
+  .notification-modal {
+    inset: 500px 0 0 0;
+    padding: 40px 20px;
+  }
+}
+
 .notification-modal::before {
   content: "";
   position: fixed;
@@ -130,6 +144,7 @@ async function onSubmit(values) {
 
 .input-group {
   border-radius: 5px;
+  border: none;
 }
 
 .input-button {
