@@ -29,7 +29,7 @@
         >
           <img
             class="rounded-md"
-            src="https://i.ibb.co/8bT1hnw/Frontal.webp"
+            src="https://i.ibb.co/KxCnXyLc/Service-aftale-privat-pos23.webp"
             alt=""
           />
         </div>

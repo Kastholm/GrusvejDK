@@ -295,7 +295,7 @@
                   class="flex w-96 flex-auto justify-end lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://i.ibb.co/Z6ykkYF/billedet-8.webp"
+                    src="https://i.ibb.co/33Xr85Q/Privat-forside-pos-9-stenknuser.webp"
                     alt=""
                     class="aspect-[7/5] w-[37rem] max-w-none flex-none rounded-2xl bg-gray-50 object-cover"
                   />
@@ -304,7 +304,7 @@
                   class="hidden sm:block sm:w-0 sm:flex-auto lg:w-auto lg:flex-none"
                 >
                   <img
-                    src="https://i.ibb.co/x5SH8rk/Grusvej-grus.webp"
+                    src="https://i.ibb.co/R4PGpcDs/Privat-Grusveje-pos12-specialudstyr.webp"
                     alt=""
                     class="aspect-[4/3] w-[24rem] max-w-none rounded-2xl bg-gray-50 object-cover"
                   />

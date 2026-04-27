@@ -19,7 +19,7 @@
   <!-- serviceaftaler start -->
   <section class="bg-white dark:bg-gray-800 sm:text-start text-center">
     <div
-      class="relative container px-6 py-8 mx-auto mb-10 flex items-center justify-center"
+      class="relative container px-6 py-8 mx-auto flex items-center justify-center"
     >
       <div
         class="flex max-w-[1200px] justify-center lg:flex-row flex-col gap-10"
@@ -27,18 +27,11 @@
         <div
           class="lg:max-w-[50%] order-2 lg:order-1 flex flex-col gap-7 text-white"
         >
-          <p class="text-white">
-            <strong
-              >Basis vedligeholdelse <br />
-              - den nemme løsning for private</strong
-            ><br /><br />
-            En service- og vedligeholdelsesaftale med Grusvej.dk sikrer en altid
-            velfungerende grusvej, uden at man skal bruge tid og kræfter på
-            jævnligt at få ordnet vejen. <br /><br />
-            En service- og vedligeholdelsesaftale kan indgås, når vejen er
-            genoprettet og står i ordentlig stand. En aftale kan udformes på
-            flere måder, men en basisaftale dækker i hovedtræk indholdet.
-          </p>
+          <img
+            class="rounded-md"
+            src="https://i.ibb.co/KxCnXyLc/Service-aftale-privat-pos23.webp"
+            alt=""
+          />
         </div>
         <div
           class="px-6 py-4 transition-colors duration-200 transform rounded-lg hover:bg-gray-200 dark:hover:bg-gray-700 h-fit order-1 lg:order-2"
@@ -122,6 +115,11 @@
         </div>
       </div>
     </div>
+    <h1
+      class="relative lg:text-[35px] text-[1.6rem] text-white mb-10 text-center max-w-[80%] m-auto pb-6"
+    >
+      Vi besigtiger altid vejarealet inden endeligt tilbud gives
+    </h1>
   </section>
   <!-- serviceaftaler slut -->
   <GrusvejForm

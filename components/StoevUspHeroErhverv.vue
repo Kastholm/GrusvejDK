@@ -42,14 +42,20 @@
               </div>
             </a>
           </div>
-          <div
-            class="aspect-h-2 aspect-w-3 overflow-hidden rounded-lg bg-gray-100 relative -translate-y-20"
-          >
-            <img
-              src="https://i.ibb.co/xq5tzdx/Dustex-traekanl-g.webp"
-              alt=""
-              class="object-cover object-center aspect-[3/2]"
-            />
+          <div class="relative overflow-hidden">
+            <div
+              id="vimeo-player"
+              class="mt-10 aspect-[6/5] h-72 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 p-12 grid place-content-center"
+              style="height: 515px"
+            >
+              <button
+                @click="toggleVideo"
+                class="absolute lg:left-1/2 md:left-[19em] left-[50%] lg:top-[16.5em] top-[20em] transform -translate-x-1/2 -translate-y-1/2 text-white bg-grey-200 bg-opacity-50 rounded-full p-2"
+              >
+                <PlayIcon v-if="!isPlaying" class="h-12 w-12" />
+                <PauseIcon v-if="isPlaying" class="h-12 w-12" />
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -57,7 +63,35 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { Dialog, DialogPanel } from "@headlessui/vue";
+import {
+  Bars3Icon,
+  XMarkIcon,
+  PlayIcon,
+  PauseIcon,
+} from "@heroicons/vue/24/outline";
+import Player from "@vimeo/player";
+let player = null;
+let isPlaying = ref(false);
+onMounted(async () => {
+  player = new Player("vimeo-player", {
+    id: 1187068251, // Video ID
+    width: 720,
+    height: 515,
+    controls: false,
+    loop: true,
+  });
+  await player.setVolume(0.5); // Optionally set the volume to 50%
+});
+
+const toggleVideo = () => {
+  if (player) {
+    isPlaying.value ? player.pause() : player.play();
+    isPlaying.value = !isPlaying.value;
+  }
+};
+</script>
 
 <style>
 .clippath1 {

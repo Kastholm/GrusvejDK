@@ -71,14 +71,14 @@
               class="translate-y-10 sm:-translate-x-0 gap-6 grid grid-rows-2 w-fit m-auto mb-16"
             >
               <a
-                class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6"
+                class="text-2xl sm:text-5xl border-b border-l-[4px] font-semibold border-t-[4px] fontfam shadow-[#f9b039] shadow-sm rounded p-5 border-[#f9b039] ml-6"
                 href="tel:+45 21 84 14 10"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5 inline mr-2"
+                  class="w-9 h-9 inline mr-2 mb-2"
                 >
                   <path
                     fill-rule="evenodd"
@@ -90,14 +90,14 @@
               </a>
 
               <a
-                class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded p-4 border-[#f9b039] ml-6"
+                class="text-2xl sm:text-4xl border-b border-l-4 font-semibold border-t-2 fontfam shadow-[#f9b039] shadow-sm rounded pt-4 border-[#f9b039] ml-6 max-h-[79px]"
                 href="tel:+45 29 29 01 29"
               >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  class="w-5 h-5 inline mr-2"
+                  class="w-6 h-6 inline mr-2 mb-2"
                 >
                   <path
                     fill-rule="evenodd"

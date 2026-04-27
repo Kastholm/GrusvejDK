@@ -138,6 +138,24 @@
               </dd>
             </div>
           </dl>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:gap-10 lg:pt-16 pt-10">
+            <!-- First grid item (Image 1 with text) -->
+            <div class="flex flex-col items-center">
+              <img
+                class="rounded-lg sm:mb-0 mb-10"
+                src="https://i.ibb.co/vdJZpHF/vej-i-proces.jpg"
+                alt="Image 1"
+              />
+            </div>
+            <!-- Second grid item (Image 2 with text) -->
+            <div class="flex flex-col items-center">
+              <img
+                class="rounded-lg"
+                src="https://i.ibb.co/vd7FRhw/vej-efter-14-dage.jpg"
+                alt="Image 2"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </main>

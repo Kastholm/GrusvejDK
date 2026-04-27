@@ -82,9 +82,7 @@
           />
         </div>
         <div class="overflow-hidden">
-          <div
-            class="mx-auto max-w-7xl px-6 pb-32 pt-14 sm:pt-20 lg:px-8 lg:pt-0"
-          >
+          <div class="mx-auto max-w-7xl px-6 pt-14 sm:pt-20 lg:px-8 lg:pt-0">
             <div
               class="mx-auto max-w-2xl gap-x-14 lg:mx-0 lg:flex lg:max-w-none lg:items-center"
             >
@@ -219,7 +217,72 @@
           </div>
         </div>
       </div> -->
-
+      <section class="w-full flex justify-center items-center mt-10">
+        <div
+          class="flex flex-col items-start justify-center lg:max-w-[60%] gap-5 max-w-full px-6"
+        >
+          <h2
+            class="m-auto lg:text-3xl font-bold tracking-tight Header text-xl leading-[1] text-gray-900 sm:text-2xl text-center uppercase"
+          >
+            Vores maskinpark
+          </h2>
+          <div
+            class="w-full bg-[#2a8447] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">
+            - STEHR Mobil stenknuser / fræser forvandler eksisterende vej til
+            stabilgrus
+          </p>
+          <div
+            class="w-full bg-[#F9B038] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">
+            - STEHR Mobil Kalk- eller Cementstabilisator med nedfræsning
+          </p>
+          <div
+            class="w-full bg-[#2a8447] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">
+            - Frontmonterede pladevibratorer med tryk på op til 75 Newtonmeter
+          </p>
+          <div
+            class="w-full bg-[#F9B038] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">
+            - 4 stk. Valtra traktorer Direct 174, 175, 215 og 235
+          </p>
+          <div
+            class="w-full bg-[#2a8447] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">- 2 stk. Bobcat gravemaskiner Ec 60</p>
+          <div
+            class="w-full bg-[#F9B038] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">
+            - 2 udlæggervogne med slæbekasser fra arbejdsbredder fra 2.5 meter
+            til 4 meter
+          </p>
+          <div
+            class="w-full bg-[#2a8447] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <p class="font-semibold">- Div. Tipvogne</p>
+          <div
+            class="w-full bg-[#F9B038] max-h-[1.5px] min-h-[1.5px] rounded-lg"
+          ></div>
+          <a
+            href="/kontakt"
+            class="text-white font-bold text-sm md:text-xl mb-10"
+          >
+            <div
+              class="h-11 w-fit rounded p-2 bg-[#2a8447] translate-y-4 transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+            >
+              <button class="translate-y-1 sm:translate-y-0 text-base block">
+                Kontakt Grusvej.dk
+              </button>
+            </div>
+          </a>
+        </div>
+      </section>
       <!-- Tab section 
        
       <div class="tabBody -mt-20 sm:-mt-36 mb-16 sm:max-w-[100%] max-w-[350px]">
