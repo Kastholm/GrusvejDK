@@ -220,6 +220,8 @@
         </div>
       </div> -->
 
+      <!-- Tab section 
+       
       <div class="tabBody -mt-20 sm:-mt-36 mb-16 sm:max-w-[100%] max-w-[350px]">
         <div class="tabs">
           <button
@@ -249,6 +251,8 @@
           </div>
         </transition>
       </div>
+
+      Tab section -->
 
       <!-- Logo cloud -->
 
