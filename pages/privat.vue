@@ -525,7 +525,7 @@ const arbejdssteps = [
       "Vand er den største fjende for en grusvej. Når regnvand samler sig, skylles grus og bæremateriale væk, og der opstår huller. God vandafledning er afgørende for vejens kvalitet og levetid.",
     date: "Bud 1",
 
-    image: "https://i.ibb.co/z8TdFp5/trin-1.webp",
+    image: "https://i.ibb.co/nMVG7dwf/Privat-forside-pos2-vandafledning-2.webp",
   },
   {
     name: "Bærelaget i grusvejen",
@@ -533,7 +533,7 @@ const arbejdssteps = [
       "Kraftig regn og tung trafik stiller store krav til grusvejen. Bærelaget skal have tilstrækkelig bæreevne og være korrekt komprimeret, så vejen ikke sætter sig eller deformeres.",
     date: "Bud 2",
 
-    image: "https://i.ibb.co/sPvjqMm/IMG-0954.webp",
+    image: "https://i.ibb.co/6c7qyWrd/Privat-forside-pos-3-b-relaget.webp",
   },
   {
     name: "Vejens profil og fald",
@@ -541,7 +541,7 @@ const arbejdssteps = [
       "For at lede vandet effektivt væk skal vejens profil have et korrekt tværfald på 25–40 promille, så vandet ledes mod nedsivningsarealet og ikke samler sig på kørebanen.",
     date: "Bud 3",
 
-    image: "https://i.ibb.co/5hB952R/billedet-10.webp ",
+    image: "https://i.ibb.co/mryLqjYc/Privat-forside-pos4-vejens-profil.webp ",
   },
   {
     name: "Vejens slidlag",
@@ -557,7 +557,7 @@ const arbejdssteps = [
       "En grusvej kræver løbende vedligeholdelse for at bevare form og styrke. Regelmæssig planering og nyt grus forhindrer huller og undgår større reparationer senere hen.",
     date: "Bud 5",
 
-    image: "https://i.ibb.co/FHP6FTZ/trin-5-opt.webp",
+    image: "https://i.ibb.co/HDYkgT2h/Privat-forside-pos6-vedligeholdelse.webp",
   },
 ];
 

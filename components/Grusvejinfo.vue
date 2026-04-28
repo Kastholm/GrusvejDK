@@ -12,7 +12,7 @@
           >
             <img
               class="absolute inset-0 h-full w-full object-cover"
-              src="https://i.ibb.co/m8DkmQZ/IMG-0953.webp"
+              src="https://i.ibb.co/R4PGpcDs/Privat-Grusveje-pos12-specialudstyr.webp"
               alt=""
             />
             <div class="absolute inset-0 mix-blend-multiply" />
