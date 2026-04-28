@@ -9,7 +9,11 @@
     <main>
       <slot />
     </main>
-    <Footer />
+    <div v-if="!isHome">
+      <Footer v-if="isPrivat" />
+      <FooterErhverv v-else-if="isErhverv" />
+      <!-- fallback if no choice yet -->
+    </div>
   </div>
 </template>
 

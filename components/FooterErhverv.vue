@@ -219,13 +219,18 @@ async function sendEmail() {
 const navigation = {
   solutions: [
     { name: "Forside", href: "https://grusvej.dk/" },
-    { name: "Grusveje", href: "https://grusvej.dk/grusveje" },
+    { name: "Grusveje", href: "https://grusvej.dk/grusveje-erhverv" },
     { name: "Naturstier", href: "https://grusvej.dk/naturstier" },
-    { name: "Støvbekæmpelse", href: "https://grusvej.dk/stoevbekaempelse" },
     {
-      name: "Stabilisering af vejen",
+      name: "Støvbekæmpelse",
+      href: "https://grusvej.dk/stoevbekaempelse-erhverv",
+    },
+    {
+      name: "Jordstabilisering",
       href: "https://grusvej.dk/stabiliseringafvejen",
     },
+    { name: "Maskineriet", href: "https://grusvej.dk/maskineriet" },
+    { name: "Serviceaftaler", href: "https://grusvej.dk/serviceaftale" },
   ],
   support: [
     { name: "Politik for databehandling", href: "#" },
