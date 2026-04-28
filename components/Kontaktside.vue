@@ -2,42 +2,11 @@
   <div class="overflow-hidden bg-white pt-24 sm:pt-20 h-fit">
     <div class="mx-auto max-w-7xl px-6 lg:px-8 h-fit">
       <!-- pattern start -->
-      <div class="mt-4 mobile">
-        <svg
-          class="absolute h-[40rem] sm:w-[80rem] w-[390px] flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)] -translate-y-2 translate-x-24"
-          aria-hidden="true"
-        >
-          <defs>
-            <pattern
-              id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-              width="200"
-              height="200"
-              x="50%"
-              y="50%"
-              patternUnits="userSpaceOnUse"
-              patternTransform="translate(-100 0)"
-            >
-              <path d="M.5 200V.5H200" fill="none" />
-            </pattern>
-          </defs>
-          <svg x="50%" y="50%" class="overflow-visible fill-gray-50">
-            <path
-              d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
-              stroke-width="0"
-              class=""
-            />
-          </svg>
-          <rect
-            class="sm:max-w-[100%] max-w-[390px]"
-            stroke-width="0"
-            fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
-          />
-        </svg>
-      </div>
+      <div class="mt-4 mobile"></div>
       <!-- pattern slut -->
 
       <div
-        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
+        class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-0 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-2"
       >
         <img
           class="opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
@@ -71,7 +40,7 @@
               class="translate-y-10 sm:-translate-x-0 gap-6 grid grid-rows-2 w-fit m-auto mb-16"
             >
               <a
-                class="text-2xl sm:text-5xl border-b border-l-[4px] font-semibold border-t-[4px] fontfam shadow-[#f9b039] shadow-sm rounded p-5 border-[#f9b039] ml-6"
+                class="text-[29px] sm:text-5xl border-b border-l-[4px] font-semibold border-t-[4px] fontfam shadow-[#f9b039] shadow-sm rounded p-5 border-[#f9b039] ml-6"
                 href="tel:+45 21 84 14 10"
               >
                 <svg
@@ -138,25 +107,142 @@
               kontaktinformationer, så hører I hurtigt fra os.
             </p>
             <p
-              class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl translate-y-4 mb-16"
+              class="text-2xl font-bold tracking-tight text-gray-900 sm:text-2xl translate-y-4 lg:mb-16 mb-10"
             >
               Kontakt os alle hverdage / kl 08:00 - 16:00
             </p>
           </div>
         </div>
-        <img
-          src="https://i.ibb.co/DQvWVbV/Skilt.webp"
-          alt="Product screenshot"
-          class="relative w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-white/10 sm:w-[57rem] md:-ml-4 lg:-ml-6 hidden md:block"
-          width="2432"
-          height="1442"
-        />
+        <div class="lg:mt-0 m-auto z-40">
+          <h6 class="text-xl font-semibold leading-6 text-gray-900 text-center">
+            Skal vi kontakte dig?
+          </h6>
+          <p class="mt-2 text-sm leading-6 text-gray-600">
+            Indtast email her - vi vender tilbage indenfor 24 timer alle
+            hverdage.
+          </p>
+          <Form
+            :validation-schema="schema"
+            @submit.prevent="sendEmail"
+            class="mt-6 text-center m-auto"
+          >
+            <div class="grid gap-2 place-content-center">
+              <input
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Din e-mail"
+                name="email"
+                type="email"
+                v-model="formData.email"
+              />
+              <input
+                name="phone"
+                type="tel"
+                placeholder="Dit telefon nr."
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                v-model="formData.phone"
+              />
+              <input
+                class="w-full rounded py-2 px-[14px] text-body-color text-base border border-[f0f0f0] outline-none focus-visible:shadow-none focus:border-primary"
+                placeholder="Dit navn"
+                name="name"
+                type="text"
+                v-model="formData.name"
+              />
+              <div
+                class="mt-4 sm:mt-3 sm:flex-shrink-0 justify-center items-center flex"
+              >
+                <button
+                  type="submit"
+                  class="flex max-w-[90px] min-w-[90px] h-10 items-end justify-center rounded-md bg-[#2a8447] px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-[#f9b039] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                  :disabled="isLoading"
+                >
+                  {{ isLoading ? "Sending..." : "Afsted" }}
+                </button>
+              </div>
+              <p
+                v-if="successMessage"
+                class="text-base font-bold text-green-500 mt-2"
+              >
+                {{ successMessage }}
+              </p>
+              <p
+                v-if="errorMessage"
+                class="text-base font-bold text-red-500 mt-2"
+              >
+                {{ errorMessage }}
+              </p>
+            </div>
+          </Form>
+        </div>
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { ref } from "vue";
+
+// Reactive variables for form state
+const formData = ref({
+  email: "",
+  phone: "",
+  name: "",
+});
+
+const isLoading = ref(false);
+const successMessage = ref("");
+const errorMessage = ref("");
+
+async function sendEmail() {
+  isLoading.value = true;
+  successMessage.value = "";
+  errorMessage.value = "";
+
+  try {
+    // Send form data to the backend
+    console.log("eow");
+    const response = await fetch("/api/send", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(formData.value),
+    });
+    console.log("test", response);
+    console.log("eow2");
+    // Try to read response as text first so we can surface HTML error pages from the server
+    const raw = await response.text();
+    let result;
+    try {
+      result = JSON.parse(raw);
+    } catch (parseErr) {
+      // Not JSON — likely an HTML error page. Log full body for debugging and throw a helpful error.
+      console.error(
+        "Failed to parse JSON from /api/send. Response status:",
+        response.status,
+      );
+      console.error("Response body (first 2000 chars):", raw.slice(0, 2000));
+      throw new Error(
+        `Server returned non-JSON response (status ${response.status}). Check server logs or the response body in the console.`,
+      );
+    }
+
+    console.log("Footer send data", result);
+
+    if (response.ok && result.success) {
+      successMessage.value = "Din besked blev sendt succesfuldt!";
+      formData.value = { email: "", phone: "", name: "" }; // Reset the form
+    } else {
+      throw new Error(result.error || "Failed to send email");
+    }
+  } catch (error) {
+    errorMessage.value = `Fejl: ${error.message}`;
+    console.error("Fejl ved afsendelse af email:", error);
+  } finally {
+    isLoading.value = false;
+  }
+}
+</script>
 
 <style scoped>
 .clippath1 {
