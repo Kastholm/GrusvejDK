@@ -47,10 +47,10 @@
                 class="mt-6 space-y-4 hover:scale-110 transition-all"
               >
                 <li v-for="item in navigation.company" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                    :to="item.href"
                     class="text-base leading-6 text-gray-600 hover:text-[#2a8447]"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -218,13 +218,17 @@ async function sendEmail() {
 
 const navigation = {
   solutions: [
-    { name: "Forside", href: "https://grusvej.dk/" },
-    { name: "Grusveje", href: "https://grusvej.dk/grusveje" },
-    { name: "Naturstier", href: "https://grusvej.dk/naturstier" },
-    { name: "Støvbekæmpelse", href: "https://grusvej.dk/stoevbekaempelse" },
+    { name: "Forside", href: "/privat" },
+    { name: "Grusveje", href: "/grusveje" },
+    { name: "Naturstier", href: "/naturstier" },
+    { name: "Støvbekæmpelse", href: "/stoevbekaempelse" },
     {
       name: "Stabilisering af vejen",
-      href: "https://grusvej.dk/stabiliseringafvejen",
+      href: "/stabiliseringafvejen",
+    },
+    {
+      name: "Nyheder",
+      href: "/nyheder",
     },
   ],
   support: [
@@ -232,9 +236,7 @@ const navigation = {
     { name: "Vilkår", href: "#" },
     { name: "Salgs- & leveringsbetingelser", href: "#" },
   ],
-  company: [
-    { name: "Kontakt Grusvej.dk", href: "https://grusvej.dk/kontakt/" },
-  ],
+  company: [{ name: "Kontakt Grusvej.dk", href: "/kontakt/" }],
   legal: [
     { name: "Politik for databehandling", href: "#" },
     { name: "GDPR", href: "#" },

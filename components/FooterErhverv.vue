@@ -14,10 +14,10 @@
                 class="mt-6 space-y-4 hover:scale-110 transition-all"
               >
                 <li v-for="item in navigation.solutions" :key="item.name">
-                  <a
-                    :href="item.href"
+                  <NuxtLink
+                    :to="item.href"
                     class="text-base font-normal leading-6 text-gray-500 hover:text-[#2a8447]"
-                    >{{ item.name }}</a
+                    >{{ item.name }}</NuxtLink
                   >
                 </li>
               </ul>
@@ -218,28 +218,30 @@ async function sendEmail() {
 
 const navigation = {
   solutions: [
-    { name: "Forside", href: "https://grusvej.dk/" },
-    { name: "Grusveje", href: "https://grusvej.dk/grusveje-erhverv" },
-    { name: "Naturstier", href: "https://grusvej.dk/naturstier" },
+    { name: "Forside", href: "/erhverv" },
+    { name: "Grusveje", href: "/grusveje-erhverv" },
+    { name: "Naturstier", href: "/naturstier" },
     {
       name: "Støvbekæmpelse",
-      href: "https://grusvej.dk/stoevbekaempelse-erhverv",
+      href: "/stoevbekaempelse-erhverv",
     },
     {
       name: "Jordstabilisering",
-      href: "https://grusvej.dk/stabiliseringafvejen",
+      href: "/stabiliseringafvejen",
     },
-    { name: "Maskineriet", href: "https://grusvej.dk/maskineriet" },
-    { name: "Serviceaftaler", href: "https://grusvej.dk/serviceaftale" },
+    {
+      name: "Nyheder",
+      href: "/nyheder",
+    },
+    { name: "Maskineriet", href: "/maskineriet" },
+    { name: "Serviceaftaler", href: "/serviceaftale" },
   ],
   support: [
     { name: "Politik for databehandling", href: "#" },
     { name: "Vilkår", href: "#" },
     { name: "Salgs- & leveringsbetingelser", href: "#" },
   ],
-  company: [
-    { name: "Kontakt Grusvej.dk", href: "https://grusvej.dk/kontakt/" },
-  ],
+  company: [{ name: "Kontakt Grusvej.dk", href: "/kontakt/" }],
   legal: [
     { name: "Politik for databehandling", href: "#" },
     { name: "GDPR", href: "#" },

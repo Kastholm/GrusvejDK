@@ -240,38 +240,7 @@
 
       <center class="">
         <!-- pattern start -->
-        <div class="mt-4">
-          <svg
-            class="absolute h-[40rem] w-[100%] mobile flex-none stroke-gray-200 [mask-image:radial-gradient(32rem_32rem_at_center,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e9033f3e-f665-41a6-84ef-756f6778e6fe"
-                width="200"
-                height="200"
-                x="50%"
-                y="50%"
-                patternUnits="userSpaceOnUse"
-                patternTransform="translate(-100 0)"
-              >
-                <path d="M.5 200V.5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg x="50%" y="50%" class="overflow-visible fill-gray-50">
-              <path
-                d="M-300 0h201v201h-201Z M300 200h201v201h-201Z"
-                stroke-width="0"
-                class="fill-SubColor2"
-              />
-            </svg>
-            <rect
-              stroke-width="0"
-              fill="url(#e9033f3e-f665-41a6-84ef-756f6778e6fe)"
-              class="sm:max-w-[100%] sm:max-h-[100%] max-w-[390px]"
-            />
-          </svg>
-        </div>
+
         <!-- pattern slut -->
       </center>
     </main>
