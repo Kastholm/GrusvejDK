@@ -2,9 +2,7 @@
   <div class="bg-gray-50">
     <div class="mx-auto max-w-7xl pt-24 sm:px-2 sm:pt-32 lg:px-4">
       <div class="mx-auto max-w-2xl px-4 lg:max-w-none">
-        <div
-          class="grid grid-cols-1 items-center gap-x-12 gap-y-10 lg:grid-cols-2"
-        >
+        <div class="grid grid-cols-1 items-center gap-x-12 lg:grid-cols-2">
           <img
             class="opacity-80 clippath1 w-full h-full absolute top-0 left-0 object-cover transition-transform duration-500 ease-in-out rounded-xl border-cyangreen border-8"
             src="https://i.ibb.co/gtZq30x/Untitled-design.png"
@@ -42,7 +40,7 @@
               </div>
             </a>
           </div>
-          <div class="relative overflow-hidden">
+          <div class="relative overflow-hidden -translate-y-20">
             <div
               id="vimeo-player"
               class="mt-10 aspect-[6/5] h-72 w-full max-w-lg rounded-2xl sm:mt-16 lg:mt-0 lg:max-w-none xl:row-span-2 xl:row-end-2 p-12 grid place-content-center"

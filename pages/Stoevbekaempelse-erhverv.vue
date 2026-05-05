@@ -102,7 +102,7 @@
         </div>
 
         <div
-          class="mx-auto lg:mt-10 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
+          class="flex flex-col items-center mx-auto lg:mt-10 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
         >
           <div class="mx-auto max-w-2xl lg:mx-0 inline">
             <h2
@@ -115,7 +115,20 @@
                 Grusvej.dk </span
               >ARBEJDER VI PRIMÆRT MED:
             </h2>
+            <NuxtLink
+              to="/innolig-skema"
+              class="text-white font-bold max-w-[300px] text-sm md:text-xl m-auto"
+            >
+              <div
+                class="m-auto h-fit w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl"
+              >
+                <button class="sm:translate-y-0 text-base block">
+                  Se innolig-skema
+                </button>
+              </div>
+            </NuxtLink>
           </div>
+
           <dl
             class="mx-auto mt-10 grid grid-cols-1 gap-x-8 gap-y-5 text-base leading-7 sm:grid-cols-2 lg:max-w-[75%] lg:grid-cols-2 lg:mb-10 lg:mx-auto"
           >

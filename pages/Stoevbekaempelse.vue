@@ -71,8 +71,20 @@
           />
         </div>
         <div
-          class="mx-auto lg:mt-32 mt-20 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
+          class="mx-auto mt-20 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
         >
+          <NuxtLink
+            to="/innolig-skema"
+            class="text-white font-bold max-w-[300px] text-sm md:text-xl m-auto"
+          >
+            <div
+              class="m-auto h-fit w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl"
+            >
+              <button class="sm:translate-y-0 text-base block">
+                Se innolig-skema
+              </button>
+            </div>
+          </NuxtLink>
           <div class="mx-auto max-w-2xl lg:mx-0 inline">
             <h2
               class="font-bold tracking-tight text-gray-900 sm:text-7xl text-3xl Header text-center"
