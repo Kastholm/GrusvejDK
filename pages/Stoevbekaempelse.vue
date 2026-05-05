@@ -1,9 +1,11 @@
 <template>
   <head>
-    <title>Slip for grusvejens støvgener med det naturvenlige Dustex</title>
+    <title>
+      Slip for grusvejens støvgener med det naturvenlige støvprodukter
+    </title>
     <meta
       name="description"
-      content="Sig farvel til støvskyer på grusvejen og støvgener i hjemmet. Vores naturvenlige bindingsmiddel, Dustex, sikrer dig en støvfri grusvej i op til 2 år."
+      content="Sig farvel til støvskyer på grusvejen og støvgener i hjemmet. Vores naturvenlige støvbekæmper-midler, sikrer dig en støvfri grusvej i op til 2 år."
     />
   </head>
   <div class="bg-white">
@@ -115,8 +117,8 @@
           </dl>
         </div>
         <p class="text-lg leading-8 font-semibold text-black text-center px-6">
-          Støvebekæmpelse er særligt velegnet til grusveje i naturområder,
-          skove, stier, rekreative områder samt veje med let til moderat trafik.
+          Støvbekæmpelse er særligt velegnet til grusveje i naturområder, skove,
+          stier, rekreative områder samt veje med let til moderat trafik.
         </p>
         <div
           class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
@@ -242,10 +244,10 @@
                   samarbejdet med Grusvej.dk.
                 </p>
                 <p class="mt-10 text-xl">
-                  ”Det har givet en markant forbedring at få lagt Dustex på de
-                  tilhørende fælles veje. Vores biler er ikke konstant støvet
-                  til, og vi slipper for støvskyer drivende mellem og ind i
-                  husene.” <br /><br />
+                  ”Det har givet en markant forbedring på de tilhørende
+                  fællesveje på de tilhørende fælles veje. Vores biler er ikke
+                  konstant støvet til, og vi slipper for støvskyer drivende
+                  mellem og ind i husene.” <br /><br />
                   Hvor lang tid der skal gå mellem støvbehandlingerne, afhænger
                   af hvor længe og hvor tørt vejret er. I perioder med ustadigt
                   og fugtigt vejr er problemet med støv selvsagt ikke så stort,
