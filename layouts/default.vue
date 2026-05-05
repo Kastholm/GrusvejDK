@@ -1,22 +1,3 @@
-<template>
-  <div>
-    <div v-if="!isHome">
-      <NavPrivat v-if="isPrivat" />
-      <NavErhverv v-else-if="isErhverv" />
-      <Nav v-else />
-      <!-- fallback if no choice yet -->
-    </div>
-    <main>
-      <slot />
-    </main>
-    <div v-if="!isHome">
-      <Footer v-if="isPrivat" />
-      <FooterErhverv v-else-if="isErhverv" />
-      <!-- fallback if no choice yet -->
-    </div>
-  </div>
-</template>
-
 <script setup>
 import Nav from "~/components/Nav.vue";
 import NavPrivat from "~/components/NavPrivat.vue";
@@ -40,6 +21,25 @@ useHead({
   ],
 });
 </script>
+
+<template>
+  <div>
+    <div v-if="!isHome">
+      <NavPrivat v-if="isPrivat" />
+      <NavErhverv v-else-if="isErhverv" />
+      <Nav v-else />
+      <!-- fallback if no choice yet -->
+    </div>
+    <main>
+      <slot />
+    </main>
+    <div v-if="!isHome">
+      <Footer v-if="isPrivat" />
+      <FooterErhverv v-else-if="isErhverv" />
+      <!-- fallback if no choice yet -->
+    </div>
+  </div>
+</template>
 
 <style>
 @import url("https://use.typekit.net/rwl1ktr.css");
