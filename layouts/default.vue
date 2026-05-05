@@ -16,6 +16,7 @@ const isErhverv = computed(() => userType.value === "erhverv");
 useHead({
   script: [
     {
+      id: "mcjs",
       children: `!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/20978f5d4cff56cb21297d119/c1164c6c1c0a0b3af07dd0d23.js");`,
     },
   ],
