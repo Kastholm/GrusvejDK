@@ -3,6 +3,7 @@ import Nav from "~/components/Nav.vue";
 import NavPrivat from "~/components/NavPrivat.vue";
 import NavErhverv from "~/components/NavErhverv.vue";
 import Footer from "~/components/Footer.vue";
+import FooterErhverv from "~/components/FooterErhverv.vue";
 import { useRoute, computed } from "#imports";
 import { useUserType } from "~/composables/useUserType";
 

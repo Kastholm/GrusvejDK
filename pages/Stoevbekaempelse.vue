@@ -81,7 +81,7 @@
               class="m-auto h-fit w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center -translate-y-5 border shadow-2xl"
             >
               <button class="sm:translate-y-0 text-base block">
-                Se innolig-skema
+                Se sammenlignings-skema
               </button>
             </div>
           </NuxtLink>
@@ -99,8 +99,8 @@
             <p
               class="mt-6 text-lg leading-8 font-semibold text-black text-center"
             >
-              Dustex er et støvbindende middel udvundet af grantræ og har dermed
-              en naturlig oprindelse.
+              Et støvbindende middel udvundet af grantræ og har dermed naturlig
+              oprindelse.
             </p>
           </div>
           <dl
@@ -115,8 +115,8 @@
           </dl>
         </div>
         <p class="text-lg leading-8 font-semibold text-black text-center px-6">
-          Dustex er særligt velegnet til grusveje i naturområder, skove, stier,
-          rekreative områder samt veje med let til moderat trafik.
+          Støvebekæmpelse er særligt velegnet til grusveje i naturområder,
+          skove, stier, rekreative områder samt veje med let til moderat trafik.
         </p>
         <div
           class="mx-auto mt-32 max-w-7xl px-6 sm:mt-0 lg:px-8 pt-14 sm:-translate-y-0 -translate-y-28"
@@ -135,8 +135,8 @@
             <p
               class="mt-6 text-lg leading-8 font-semibold text-black text-center mb-10"
             >
-              Inolig er et støvbindende produkt, der udnytter restprodukter fra
-              affalds- og genanvendelsesindustrien. Det gør løsningen både
+              Innolig+ er et støvbindende produkt, der udnytter restprodukter
+              fra affalds- og genanvendelsesindustrien. Det gør løsningen både
               funktionel og cirkulær.
             </p>
           </div>
@@ -155,7 +155,7 @@
       <p
         class="text-lg leading-8 font-semibold text-black text-center lg:mb-16 mb-36 px-6"
       >
-        Inolig anvendes typisk på landbrugsveje, i erhvervsområder, på
+        Innolig+ anvendes typisk på landbrugsveje, i erhvervsområder, på
         adgangsveje til byggepladser samt på strækninger med tung trafik.
       </p>
       <div class="max-w-[100%] text-center sm:-translate-y-0 -translate-y-16">
@@ -172,9 +172,9 @@
           og forvandlet dette til en stærk "plade". <br />
           Dette er en meget ressourcebesparende metode og derfor en økonomisk
           fordelagtig metode. På veje med mindre trafik kan man beholde vejen
-          som en "dustex stabiliseret grusvej". Dette stabiliserede underlag er
-          også ideelt til at lægge asfalt ovenpå og asfaltering kan finde sted
-          efter en hærdningsperiode på 4-8 uger eller efter nogle år.
+          som en "GV støvbekæmper stabiliseret grusvej". Dette stabiliserede
+          underlag er også ideelt til at lægge asfalt ovenpå og asfaltering kan
+          finde sted efter en hærdningsperiode på 4-8 uger eller efter nogle år.
         </p>
       </div>
 
