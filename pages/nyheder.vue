@@ -14,6 +14,66 @@
       </div>
 
       <!-- Nyhedssektion start-->
+      <article class="flex flex-col mt-10 max-w-[90%] mx-auto">
+        <h3 class="text-left w-full m-[0px]">
+          Støvet er i højsædet – en grønnere løsning med dokumenteret effekt
+        </h3>
+        <a
+          href="https://www.youtube.com/watch?v=o9ol7AUbdyg &t=1s"
+          target="_blank"
+        >
+          <h5 class="text-[#2a8447]">Se videoen her →</h5>
+        </a>
+        <div class="w-full flex flex-col sm:flex-row mt-10 gap-10">
+          <div class="flex flex-col gap-5 sm:max-w-[55%]">
+            <p>
+              Det tørre vejr giver i øjeblikket store udfordringer med støv på
+              grusveje og udearealer. Støv er ikke kun et praktisk problem – det
+              påvirker også vores helbred og arbejdsmiljø, især ved daglig
+              færdsel. Hos grusvej.dk arbejder vi målrettet på at reducere
+              støvgener med løsninger, der både er effektive og tager hensyn til
+              miljøet.<br /><br />
+              Derfor har vi valgt at udfase Dustex og i stedet introducere
+              Innolig+ – et nyt og mere bæredygtigt støvbindingsprodukt.
+              Innolig+ produceres af Essity i Tyskland og er baseret på halm,
+              hvilket giver et lavere CO₂-aftryk og gør produktet til et
+              innovativt og miljøvenligt alternativ.<br /><br />
+              Samtidig afspejler den tyske dedikation og høje proceskontrol sig
+              i produktets kvalitet – med høj sejhed og elasticitet, som sikrer
+              en stærk og holdbar støvbinding. Sammenligninger viser, at
+              Innolig+ klarer sig blandt de bedste, både når det gælder
+              effektivitet, holdbarhed og miljøpåvirkning – og samtidig uden de
+              udfordringer, der kan være med mere traditionelle produkter.<br /><br />
+              Samtidig styrker vi samarbejdet mellem grusvej.dk, Essity og
+              Photocat. Det betyder, at vi kan tilbyde løsninger med fokus på
+              bæredygtighed, lavere miljøbelastning og en stærkere grøn profil.
+              Med Innolig+ reducerer vi støvet effektivt, og gennem samarbejdet
+              med Photocat kan vi også tilbyde udlægning og håndtering af det
+              Svanemærkede produkt Dust Away – så vi kan tilpasse løsningen til
+              den enkelte opgave.
+              <br /><br />
+              Vi arbejder desuden med at optimere profilerne på grusvejene, så
+              vandet ledes korrekt væk. Den rette opbygning og vedligeholdelse
+              er afgørende for både støvbinding, holdbarhed – og et bedre uderum
+              omkring vejene.
+            </p>
+          </div>
+          <div class="w-fit flex flex-col mt-10 lg:mt-0">
+            <img
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
+              src="https://i.ibb.co/tMyp02cC/St-v-st-v-atter-st-v.jpg"
+              alt=""
+            />
+            <img
+              class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
+              src="https://i.ibb.co/cKYKyVft/Intro-billede-til-Innolig-video.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+
+        <div class="w-full bg-[#F9B038] h-1 mt-20 rounded-lg"></div>
+      </article>
 
       <article class="flex flex-col mt-10 max-w-[90%] mx-auto">
         <h3 class="text-left w-full m-[0px]">
