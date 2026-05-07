@@ -7,14 +7,14 @@
         <div class="relative z-10 flex px-2 lg:px-0">
           <div class="flex flex-shrink-0 items-center mb-2">
             <!-- indsæt logo her -->
-            <a href="/">
+            <NuxtLink to="/">
               <!-- indsæt logo her -->
               <img
                 src="https://i.ibb.co/0KdRF98/Grusvej-logo-150x71px-1.png"
                 alt="Grusvej-logo-150x71px-1"
                 border="0"
               />
-            </a>
+            </NuxtLink>
           </div>
         </div>
         <!-- <div
