@@ -58,7 +58,7 @@
               omkring vejene.
             </p>
           </div>
-          <div class="w-fit flex flex-col mt-10 lg:mt-0">
+          <div class="flex flex-col mt-10 lg:mt-0">
             <img
               class="sm:h-auto w-auto scale-75 max-w-[800px] max-h-[550px] object-cover"
               src="https://i.ibb.co/tMyp02cC/St-v-st-v-atter-st-v.jpg"
@@ -326,63 +326,9 @@
   </div>
 </template>
 
-<script setup>
-import { defineComponent, h, ref, onMounted, onUnmounted } from "vue";
-import { Dialog, DialogPanel } from "@headlessui/vue";
-import {
-  Bars3Icon,
-  XMarkIcon,
-  PlayIcon,
-  PauseIcon,
-} from "@heroicons/vue/24/outline";
-import Player from "@vimeo/player";
-let player = null;
-let isPlaying = ref(false);
-let playerContainer = ref(null);
-onMounted(async () => {
-  player = new Player("vimeo-player", {
-    id: 832545609,
-    width: playerContainer.value.offsetWidth * 0.8,
-    controls: false,
-  });
-  await player.setVolume(0.5);
-
-  // Resize the player when the window is resized
-  const resizeHandler = () => {
-    player.setSize(playerContainer.value.offsetWidth);
-  };
-
-  window.addEventListener("resize", resizeHandler);
-
-  // Remove the event listener when the component is unmounted
-  onUnmounted(() => {
-    window.removeEventListener("resize", resizeHandler);
-  });
-});
-
-const toggleVideo = () => {
-  if (player) {
-    isPlaying.value ? player.pause() : player.play();
-    isPlaying.value = !isPlaying.value;
-  }
-};
-
-const mobileMenuOpen = ref(false);
-</script>
+<script setup></script>
 
 <style scoped>
-/* #player-wrapper {
-  position: relative;
-  width: 100%;
-  padding-bottom: 22.25%;
-  height: 0;
-}
-
-#vimeo-player {
-  width: 100%;
-  height: 100%;
-} */
-
 h3 {
   font-size: 65px;
   font-weight: bold;
