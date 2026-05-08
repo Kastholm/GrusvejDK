@@ -1,5 +1,5 @@
 <template>
-  <section class="lg:w-[35%] m-auto">
+  <section class="lg:w-[35%] m-auto lg:my-40">
     <div id="mc_embed_signup">
       <form
         action="https://grusvej.us12.list-manage.com/subscribe/post?u=20978f5d4cff56cb21297d119&amp;id=f89923efdb&amp;f_id=00130ee9f0"
