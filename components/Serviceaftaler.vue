@@ -125,7 +125,7 @@
   </section>
   <!-- serviceaftaler slut -->
 
-  <div class="flex flex-col items-center text-center">
+  <!-- <div class="flex flex-col items-center text-center">
     <h2 class="Header uppercase">Har du spørgsmål?</h2>
     <a href="/kontakt" class="text-white font-bold text-sm md:text-xl">
       <div
@@ -136,7 +136,7 @@
         </button>
       </div>
     </a>
-  </div>
+  </div>-->
 </template>
 
 <script setup>

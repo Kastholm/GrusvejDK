@@ -32,7 +32,7 @@
               class="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1 pt-5 sm:pt-6"
             >
               <h1 class="fontfam mb-12 sm:text-7xl text-5xl">
-                Etablering af grusveje og naturstier for private kunder
+                Etablering af grusveje og naturstier
               </h1>
               <p class="Text TextReadable text-gray-600 pt-2">
                 En grusvej er ikke bare en grusvej. Er grusvejen fra starten
