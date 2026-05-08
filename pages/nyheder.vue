@@ -8,10 +8,15 @@
   </head>
   <div class="bg-white">
     <main class="isolate">
-      <!-- Hero section -->
+      <!-- Hero section 
       <div class="isolate -z-10">
         <NyhederUspHero />
-      </div>
+      </div> -->
+      <h1
+        class="m-auto lg:mt-20 mt-10 tracking-tight text-center text-gray-900 mb-5 Header respons-header-grusvej relative"
+      >
+        NYHEDER FRA Grusvej.dk
+      </h1>
 
       <!-- Nyhedssektion start-->
       <article class="flex flex-col mt-10 max-w-[90%] mx-auto">

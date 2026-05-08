@@ -14,7 +14,13 @@ export default {
   },
   app: {
     head: {
-      link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+      link: [
+        { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
+        {
+          rel: "stylesheet",
+          href: "//cdn-images.mailchimp.com/embedcode/classic-061523.css",
+        },
+      ],
       script: [
         {
           id: "mcjs",

@@ -4,7 +4,9 @@
       class="mx-auto max-w-7xl px-2 sm:px-4 lg:divide-y lg:divide-gray-200 lg:px-8"
     >
       <div class="relative flex h-16 justify-between">
-        <div class="relative z-10 flex px-2 lg:px-0">
+        <div
+          class="relative z-10 flex w-full justify-between items-center px-2 lg:px-0"
+        >
           <div class="flex flex-shrink-0 items-center mb-2">
             <NuxtLink to="/">
               <!-- indsæt logo her -->
@@ -15,6 +17,20 @@
               />
             </NuxtLink>
           </div>
+          <NuxtLink
+            to="/serviceaftale"
+            class="text-white font-bold text-sm md:text-xl"
+          >
+            <div
+              class="respons-knap sm:h-9 h-9 flex justify-center items-center w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+            >
+              <NuxtLink
+                to="#mc_embed_signup_scroll"
+                class="text-base block font-semibold"
+                >Modtag informationsbrev</NuxtLink
+              >
+            </div>
+          </NuxtLink>
         </div>
         <!-- <div
           class="relative z-0 flex flex-1 items-center justify-center px-2 sm:absolute sm:inset-0"

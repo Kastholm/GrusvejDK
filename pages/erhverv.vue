@@ -42,8 +42,8 @@
                 mange år. Så enkelt er det – og vi er specialister i grusveje
                 med det rigtige udstyr og viden på plads.
               </p>
-              <a
-                href="/serviceaftale"
+              <NuxtLink
+                to="/serviceaftale"
                 class="text-white font-bold text-sm md:text-xl"
               >
                 <div
@@ -53,7 +53,7 @@
                     Få en serviceaftale hos Grusvej.dk
                   </button>
                 </div>
-              </a>
+              </NuxtLink>
             </div>
             <div class="relative overflow-hidden">
               <img
