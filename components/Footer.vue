@@ -3,6 +3,149 @@
     <h2 id="footer-heading" class="sr-only">Footer</h2>
     <div class="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-16 lg:px-8 lg:pt-16">
       <div class="xl:grid xl:grid-cols-3 xl:gap-0">
+        <div class="grid grid-cols-2 gap-8 xl:col-span-2">
+          <div class="md:grid md:grid-cols-1 md:gap-8">
+            <div>
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
+                Oversigt
+              </h6>
+              <ul
+                role="list"
+                class="mt-6 space-y-4 hover:scale-110 transition-all"
+              >
+                <li v-for="item in navigation.solutions" :key="item.name">
+                  <NuxtLink
+                    :to="item.href"
+                    class="text-base font-normal leading-6 text-gray-500 hover:text-[#2a8447]"
+                    >{{ item.name }}</NuxtLink
+                  >
+                </li>
+              </ul>
+            </div>
+            <!-- <div class="mt-10 md:mt-0">
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
+                FAQ
+              </h6>
+              <ul role="list" class="mt-6 space-y-4 hover:scale-110">
+                <li v-for="item in navigation.support" :key="item.name">
+                  <a
+                    :href="item.href"
+                    class="text-base font-normal leading-6 text-gray-500 hover:text-[#2a8447]"
+                    >{{ item.name }}</a
+                  >
+                </li>
+              </ul>
+            </div> -->
+          </div>
+          <div class="md:grid md:grid-cols-1 md:gap-8">
+            <div>
+              <h6 class="text-lg font-semibold leading-6 text-gray-900">
+                Kontakt
+              </h6>
+              <ul
+                role="list"
+                class="mt-6 space-y-4 hover:scale-110 transition-all"
+              >
+                <li v-for="item in navigation.company" :key="item.name">
+                  <a
+                    :href="item.href"
+                    class="text-base leading-6 text-gray-600 hover:text-[#2a8447]"
+                    >{{ item.name }}</a
+                  >
+                </li>
+              </ul>
+              <div id="mc_embed_signup" class="hidden lg:block">
+                <form
+                  action="https://grusvej.us12.list-manage.com/subscribe/post?u=20978f5d4cff56cb21297d119&amp;id=f89923efdb&amp;f_id=00130ee9f0"
+                  method="post"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                  class="validate"
+                  target="_blank"
+                  novalidate
+                >
+                  <div id="mc_embed_signup_scroll" class="mt-10">
+                    <h2>Modtag informationsbrev</h2>
+                    <h3 class="font-semibold">
+                      Ingen spam, ren information til pleje og vedligehold af
+                      din grusvej/grusområde
+                    </h3>
+                    <div class="mc-field-group">
+                      <label for="mce-EMAIL"
+                        >Email <span class="asterisk">*</span></label
+                      >
+                      <input
+                        type="email"
+                        value=""
+                        name="EMAIL"
+                        class="required email"
+                        id="mce-EMAIL"
+                        required
+                      />
+                    </div>
+                    <div
+                      id="mergeRow-gdpr"
+                      class="mergeRow gdpr-mergeRow content__gdprBlock mc-field-group"
+                    >
+                      <div class="content__gdpr">
+                        <p>Vi skal have lov at kontakte dig:</p>
+                        <fieldset
+                          class="mc_fieldset gdprRequired mc-field-group"
+                          name="interestgroup_field"
+                        >
+                          <label class="checkbox subfield" for="gdpr_94874">
+                            <div class="flex mt-3">
+                              <p>Email:</p>
+                              <input
+                                type="checkbox"
+                                id="gdpr_94874"
+                                name="gdpr[94874]"
+                                class="gdpr max-w-[80px]"
+                                value="Y"
+                              />
+                            </div>
+                          </label>
+                        </fieldset>
+                      </div>
+                    </div>
+                    <div id="mce-responses" class="clear">
+                      <div
+                        class="response"
+                        id="mce-error-response"
+                        style="display: none"
+                      ></div>
+                      <div
+                        class="response"
+                        id="mce-success-response"
+                        style="display: none"
+                      ></div>
+                    </div>
+                    <div
+                      aria-hidden="true"
+                      style="position: absolute; left: -5000px"
+                    >
+                      <input
+                        type="text"
+                        name="b_20978f5d4cff56cb21297d119_f89923efdb"
+                        tabindex="-1"
+                        value=""
+                      />
+                    </div>
+                    <div class="clear">
+                      <input
+                        type="submit"
+                        value="Tilmeld"
+                        name="subscribe"
+                        id="mc-embedded-subscribe"
+                        class="button bg"
+                      />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="mt-10 xl:mt-0">
           <h6 class="text-xl font-semibold leading-6 text-gray-900">
             Skal vi kontakte dig?
@@ -166,7 +309,7 @@
           </a>
         </div>
         <p class="mt-8 text-xs leading-5 text-gray-500 md:order-1 md:mt-0">
-          &copy; 2024 Grusvej.dk - alle rettigheder reserveret.
+          &copy; 2026 Grusvej.dk - alle rettigheder reserveret.
         </p>
         <p
           class="mt-8 text-sm leading-5 text-gray-500 md:order-1 md:mt-0 border-b-2"
