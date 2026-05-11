@@ -17,21 +17,16 @@
               />
             </NuxtLink>
           </div>
-          <NuxtLink
-            to="/serviceaftale"
-            class="text-white font-bold text-sm md:text-xl"
+          <div
+            class="lg:h-9 h-12 lg:py-7 max-w-[105px] lg:max-w-[100%] flex justify-center items-center w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
           >
-            <div
-              class="lg:h-9 h-12 max-w-[105px] lg:max-w-[100%] flex justify-center items-center w-fit rounded p-2 bg-[#2a8447] transition-transform md:duration-200 md:hover:scale-110 text-center border shadow-2xl"
+            <NuxtLink
+              to="#mc_embed_signup_scroll"
+              class="block font-semibold text-[16px] text-white"
+              >Modtag <span class="lg:hidden block">information</span>
+              <span class="lg:block hidden">informationsbrev</span></NuxtLink
             >
-              <NuxtLink
-                to="#mc_embed_signup_scroll"
-                class="block font-semibold text-[16px] text-white"
-                >Modtag information
-                <span class="lg:block hidden">sbrev</span></NuxtLink
-              >
-            </div>
-          </NuxtLink>
+          </div>
         </div>
         <!-- <div
           class="relative z-0 flex flex-1 items-center justify-center px-2 sm:absolute sm:inset-0"
