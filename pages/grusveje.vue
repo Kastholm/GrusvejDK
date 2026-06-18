@@ -96,39 +96,10 @@ import {
   PlayIcon,
   PauseIcon,
 } from "@heroicons/vue/24/outline";
-import Player from "@vimeo/player";
-let player = null;
-let isPlaying = ref(false);
-let playerContainer = ref(null);
-onMounted(async () => {
-  player = new Player("vimeo-player", {
-    id: 832545609,
-    width: playerContainer.value.offsetWidth * 0.8,
-    controls: false,
-  });
-  await player.setVolume(0.5);
 
-  // Resize the player when the window is resized
-  const resizeHandler = () => {
-    player.setSize(playerContainer.value.offsetWidth);
-  };
 
-  window.addEventListener("resize", resizeHandler);
 
-  // Remove the event listener when the component is unmounted
-  onUnmounted(() => {
-    window.removeEventListener("resize", resizeHandler);
-  });
-});
 
-const toggleVideo = () => {
-  if (player) {
-    isPlaying.value ? player.pause() : player.play();
-    isPlaying.value = !isPlaying.value;
-  }
-};
-
-const mobileMenuOpen = ref(false);
 
 const tabs = [
   {
